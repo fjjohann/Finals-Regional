@@ -1,0 +1,37 @@
+{
+  "year": 2026,
+  "baseUrl": "https://fpt.com.br/Ranking/BeachTennis",
+  "stateRanking": { "id": "estadual", "label": "Estadual", "path": "bt-estadual" },
+  "regionals": [
+    { "id": "41", "label": "Regional 41" },
+    { "id": "42", "label": "Regional 42" },
+    { "id": "43", "label": "Regional 43" },
+    { "id": "44", "label": "Regional 44" },
+    { "id": "45", "label": "Regional 45" },
+    { "id": "46", "label": "Regional 46" }
+  ],
+  "categories": [
+    { "group": "Subs", "gender": "Feminina", "label": "Sub 12", "code": "BTSUB12F", "rankingId": "406" },
+    { "group": "Subs", "gender": "Feminina", "label": "Sub 14", "code": "BTSUB14F", "rankingId": "389" },
+    { "group": "Subs", "gender": "Feminina", "label": "Sub 16", "code": "BTSUB16F", "rankingId": "409" },
+    { "group": "Subs", "gender": "Masculina", "label": "Sub 12", "code": "BTSUB12M", "rankingId": "407" },
+    { "group": "Subs", "gender": "Masculina", "label": "Sub 14", "code": "BTSUB14M", "rankingId": "388" },
+    { "group": "Subs", "gender": "Masculina", "label": "Sub 16", "code": "BTSUB16M", "rankingId": "408" },
+    { "group": "Idades", "gender": "Feminina", "label": "40+", "code": "BTF40", "rankingId": "367" },
+    { "group": "Idades", "gender": "Feminina", "label": "50+", "code": "BTF50", "rankingId": "359" },
+    { "group": "Idades", "gender": "Feminina", "label": "60+", "code": "BTF60", "rankingId": "384" },
+    { "group": "Idades", "gender": "Masculina", "label": "40+", "code": "BTM40", "rankingId": "366" },
+    { "group": "Idades", "gender": "Masculina", "label": "50+", "code": "BTM50", "rankingId": "323" },
+    { "group": "Idades", "gender": "Masculina", "label": "60+", "code": "BTM60", "rankingId": "385" },
+    { "group": "Tecnicas", "gender": "Feminina", "label": "A", "code": "BTFA", "rankingId": "295" },
+    { "group": "Tecnicas", "gender": "Feminina", "label": "B", "code": "BTFB", "rankingId": "296" },
+    { "group": "Tecnicas", "gender": "Feminina", "label": "C", "code": "BTFC", "rankingId": "297" },
+    { "group": "Tecnicas", "gender": "Feminina", "label": "D", "code": "BTFD", "rankingId": "353" },
+    { "group": "Tecnicas", "gender": "Feminina", "label": "E", "code": "BTFE", "rankingId": "377" },
+    { "group": "Tecnicas", "gender": "Masculina", "label": "A", "code": "BTMA", "rankingId": "290" },
+    { "group": "Tecnicas", "gender": "Masculina", "label": "B", "code": "BTMB", "rankingId": "291" },
+    { "group": "Tecnicas", "gender": "Masculina", "label": "C", "code": "BTMC", "rankingId": "292" },
+    { "group": "Tecnicas", "gender": "Masculina", "label": "D", "code": "BTMD", "rankingId": "351" },
+    { "group": "Tecnicas", "gender": "Masculina", "label": "E", "code": "BTME", "rankingId": "378" }
+  ]
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rankings Beach Tennis 2026</title>
+    <link rel="stylesheet" href="styles.css?v=20260609-1045">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Federação Paranaense de Tênis</p>
+        <h1>Rankings Beach Tennis 2026</h1>
+      </div>
+      <div class="header-meta">
+        <span id="updatedAt">Dados pendentes</span>
+        <a
+          class="update-rankings-button"
+          href="https://github.com/fjjohann/Finals-Regional/actions/workflows/update-rankings.yml"
+          target="_blank"
+          rel="noopener"
+        >Atualizar rankings</a>
+      </div>
+    </header>
+
+    <main class="layout">
+      <nav class="view-tabs" aria-label="Painéis">
+        <button class="view-tab is-active" type="button" data-view="regionals">Finals Regional</button>
+        <button class="view-tab" type="button" data-view="finals">Finals Copa</button>
+        <button class="view-tab" type="button" data-view="federation">Copa das Federações</button>
+        <button class="view-tab" type="button" data-view="circuit">O Circuito</button>
+      </nav>
+
+      <section class="toolbar" id="regionalToolbar" aria-label="Filtros">
+        <label>
+          <span>Categoria</span>
+          <select id="categoryFilter"></select>
+        </label>
+      </section>
+
+      <section class="comparison-section view-panel is-active" id="regionalsView" data-view-panel="regionals" aria-label="Rankings por regional">
+        <div class="section-title">
+          <div>
+            <p id="selectedMeta">Selecione uma categoria</p>
+            <h2 id="selectedTitle">Rankings regionais</h2>
+          </div>
+        </div>
+
+        <div id="regionalGrid" class="regional-grid"></div>
+        <div id="emptyState" class="empty-state" hidden>Nenhum atleta encontrado.</div>
+      </section>
+
+      <section class="comparison-section view-panel" id="federationView" data-view-panel="federation" aria-label="Copa das Federações">
+        <div class="section-title">
+          <div>
+            <p>Classificados pelo ranking estadual</p>
+            <h2>Copa das Federações</h2>
+          </div>
+        </div>
+        <div id="federationGrid" class="summary-category-grid"></div>
+      </section>
+
+      <section class="comparison-section view-panel" id="finalsView" data-view-panel="finals" aria-label="Finals Copa">
+        <div class="section-title">
+          <div>
+            <p>Classificados pelo ranking estadual e regional</p>
+            <h2>Finals Copa</h2>
+          </div>
+        </div>
+        <div id="finalsGrid" class="summary-category-grid"></div>
+      </section>
+
+      <section class="comparison-section view-panel" id="circuitView" data-view-panel="circuit" aria-label="O Circuito">
+        <div class="section-title">
+          <div>
+            <p>Circuito Beach Tennis 2026</p>
+            <h2>O Circuito</h2>
+          </div>
+        </div>
+
+        <div class="circuit-layout">
+          <figure class="circuit-diagram" aria-label="Fluxograma de classificação">
+            <img src="assets/circuito-fluxograma.png" alt="Fluxograma do circuito Beach Tennis 2026">
+          </figure>
+
+          <section class="circuit-info-grid" aria-label="Regras do circuito">
+            <article class="circuit-info-card ranking-card">
+              <h3>Ranking Regional</h3>
+              <p>Contabiliza os 10 melhores resultados do atleta. São válidos todos os torneios que acontecerem na respectiva regional: FPT 1000, 1500, 2000 e 2500.</p>
+            </article>
+
+            <article class="circuit-info-card ranking-card">
+              <h3>Ranking Estadual</h3>
+              <p>Contabiliza os 8 melhores resultados do atleta. São válidos todos os torneios FPT 2000 e FPT 2500.</p>
+            </article>
+
+            <article class="circuit-info-card finals-card">
+              <h3>Finals Regional</h3>
+              <p><strong>Data prévia:</strong> 03 a 06 de setembro, em todas as regionais.</p>
+              <p><strong>Quem joga:</strong> 12 atletas oriundos do Ranking Regional.</p>
+              <p><strong>Para que serve:</strong> dupla campeã classifica-se para o torneio Finals Copa.</p>
+              <p><strong>Categorias:</strong> feminino e masculino A, B, C, D, E; Sub 12, 14, 16; feminino e masculino 40+, 50+, 60+.</p>
+            </article>
+
+            <article class="circuit-info-card finals-card">
+              <h3>Finals Copa</h3>
+              <p><strong>Data prévia:</strong> 17 a 20 de setembro, em Curitiba.</p>
+              <p><strong>Quem joga:</strong> 2 primeiros dos rankings regionais nas categorias A, B, C, D, E; dupla campeã do Finals Regional em todas as categorias; oriundos do Ranking Estadual.</p>
+              <p><strong>Ranking Estadual:</strong> A, B, C, D, E entram 3º, 4º, 5º e 6º. Sub 12, 14, 16, 40+, 50+ e 60+ entram 3º e 4º.</p>
+              <p><strong>Critério técnico:</strong> A, B, C, D, E têm 4 atletas. Sub 12, 14, 16, 40+, 50+ e 60+ têm 2 atletas.</p>
+              <p><strong>Para que serve:</strong> dupla campeã classifica-se para a Copa das Federações.</p>
+            </article>
+
+            <article class="circuit-info-card federation-card wide">
+              <h3>Copa das Federações</h3>
+              <p><strong>Data prévia:</strong> 17 a 21 de novembro, em Vitória/ES.</p>
+              <p><strong>Quem joga:</strong> 4 atletas por categoria em feminino e masculino Pro, A, B, C, Sub 12, 14, 16, 18, 40+, 50+ e 60+.</p>
+              <p><strong>Como se classificar:</strong> categorias Profissional e Sub 18 têm 4 atletas oriundos do Ranking ITF. Nas demais categorias entram os 2 primeiros do Ranking Estadual e a dupla campeã do Finals Copa.</p>
+            </article>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260609-1045"></script>
+  </body>
+</html>

@@ -1030,16 +1030,16 @@ function render() {
   els.updatedAt.textContent = `Atualizado em ${formatDate(state.data?.generatedAt)}`;
 
   if (rankings.length === 0) {
-    els.selectedMeta.textContent = "Selecione uma categoria";
+    els.selectedMeta.textContent = "";
+    els.selectedMeta.hidden = true;
     els.selectedTitle.textContent = "Rankings regionais";
     els.regionalGrid.replaceChildren();
     els.emptyState.hidden = false;
     return;
   }
 
-  els.selectedMeta.textContent = isTechnicalRanking(rankings[0])
-    ? `${rankings[0].categoryGroup} · Estadual primeiro; depois top 2 regional libera vaga regional automaticamente`
-    : `${rankings[0].categoryGroup} · Estadual libera vaga regional automaticamente`;
+  els.selectedMeta.textContent = "";
+  els.selectedMeta.hidden = true;
   els.selectedTitle.textContent = categoryLabel(rankings[0]);
   els.regionalGrid.replaceChildren(
     statePanel(stateRanking, stateReleaseCodes),

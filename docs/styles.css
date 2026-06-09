@@ -86,28 +86,6 @@ h1 {
   text-align: right;
 }
 
-.update-rankings-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 34px;
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 800;
-  padding: 0 12px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.update-rankings-button:hover {
-  background: var(--accent-strong);
-  color: #fff;
-  text-decoration: none;
-}
-
 .layout {
   display: grid;
   gap: 18px;

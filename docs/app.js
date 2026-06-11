@@ -508,6 +508,7 @@ function athleteRow(
   const isAlreadyStateQualified = isStateQualified(athlete, stateCodes);
   const regionalFinalsSource = regionalFinalsRegionals.get(identity) || [];
   const isAlreadyRegionalFinalsQualified = !isAlreadyStateQualified && regionalFinalsCodes.has(identity);
+  const isRegionalFinalsHere = regionalFinalsSource.includes(ranking.regionalId);
   const stateLabelText = stateClassificationLabel(athlete, stateCodes, federationCodes);
   const isReleasedManually = isManuallyReleased(athlete, ranking, releases);
   const isConfirmedHere = !isAlreadyStateQualified && !isAlreadyRegionalFinalsQualified && confirmedRegional === ranking.regionalId;
@@ -534,7 +535,7 @@ function athleteRow(
     isConfirmedHere ? "is-confirmed" : "",
     isReleasedElsewhere ? "is-released" : "",
     isAlreadyStateQualified ? "is-state-qualified" : "",
-    isAlreadyRegionalFinalsQualified ? "is-regional-finals-qualified" : "",
+    isRegionalFinalsHere ? "is-regional-finals-qualified" : "",
     isReleasedManually ? "is-manual-release" : "",
   ].filter(Boolean).join(" ");
 

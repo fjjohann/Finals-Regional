@@ -21,6 +21,10 @@ jobs:
           python-version: "3.12"
 
       - name: Coletar rankings
+        env:
+          SCRAPER_WORKERS: "4"
+          SCRAPER_TIMEOUT: "45"
+          SCRAPER_RETRIES: "3"
         run: python scripts/scrape_rankings.py
 
       - name: Commit se houver alteração
@@ -28,4 +32,3 @@ jobs:
         with:
           commit_message: "Atualiza rankings"
           file_pattern: docs/data/rankings.json
-

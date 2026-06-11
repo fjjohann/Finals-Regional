@@ -169,44 +169,56 @@ def parse_athletes(html: str) -> list[dict[str, Any]]:
     return athletes
 
 
-def scrape_target(target: dict[str, Any], timeout: int) -> dict[str, Any]:
+def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[str, Any]:
     started = time.time()
-    try:
-        html = fetch_html(target["url"], timeout)
-        athletes = parse_athletes(html)
-        status = "ok"
-        error = None
-    except (HTTPError, URLError, TimeoutError, OSError) as exc:
-        athletes = []
-        status = "error"
-        error = str(exc)
+    error = None
+
+    for attempt in range(retries + 1):
+        try:
+            html = fetch_html(target["url"], timeout)
+            athletes = parse_athletes(html)
+            return {
+                **target,
+                "status": "ok",
+                "error": None,
+                "athleteCount": len(athletes),
+                "athletes": athletes,
+                "durationMs": round((time.time() - started) * 1000),
+                "attempts": attempt + 1,
+            }
+        except (HTTPError, URLError, TimeoutError, OSError) as exc:
+            error = f"{type(exc).__name__}: {exc}"
+            if attempt < retries:
+                time.sleep(min(2 ** attempt, 10))
 
     return {
         **target,
-        "status": status,
+        "status": "error",
         "error": error,
-        "athleteCount": len(athletes),
-        "athletes": athletes,
+        "athleteCount": 0,
+        "athletes": [],
         "durationMs": round((time.time() - started) * 1000),
+        "attempts": retries + 1,
     }
 
 
-def scrape_all(max_workers: int, timeout: int) -> dict[str, Any]:
+def scrape_all(max_workers: int, timeout: int, retries: int) -> dict[str, Any]:
     sources = load_sources()
     targets = build_targets(sources)
     rankings = []
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_target = {
-            executor.submit(scrape_target, target, timeout): target for target in targets
+            executor.submit(scrape_target, target, timeout, retries): target for target in targets
         }
         for future in as_completed(future_to_target):
             result = future.result()
             rankings.append(result)
             marker = "OK" if result["status"] == "ok" else "ERRO"
+            detail = f" após {result['attempts']} tentativas" if result.get("attempts", 1) > 1 else ""
             print(
                 f"{marker} {result['regionalLabel']} "
-                f"{result['categoryCode']} ({result['athleteCount']} atletas)",
+                f"{result['categoryCode']} ({result['athleteCount']} atletas){detail}",
                 file=sys.stderr,
             )
 
@@ -244,12 +256,18 @@ def main() -> int:
     parser.add_argument(
         "--timeout",
         type=int,
-        default=int(os.environ.get("SCRAPER_TIMEOUT", "20")),
+        default=int(os.environ.get("SCRAPER_TIMEOUT", "45")),
         help="Timeout por página em segundos.",
+    )
+    parser.add_argument(
+        "--retries",
+        type=int,
+        default=int(os.environ.get("SCRAPER_RETRIES", "3")),
+        help="Número de novas tentativas por página com erro.",
     )
     args = parser.parse_args()
 
-    data = scrape_all(max_workers=args.max_workers, timeout=args.timeout)
+    data = scrape_all(max_workers=args.max_workers, timeout=args.timeout, retries=args.retries)
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     tmp_path = output_path.with_suffix(output_path.suffix + ".tmp")
@@ -267,6 +285,11 @@ def main() -> int:
     )
     if failures:
         print(f"{len(failures)} páginas falharam.", file=sys.stderr)
+        for item in failures:
+            print(
+                f"- {item['regionalLabel']} {item['categoryCode']}: {item.get('error')}",
+                file=sys.stderr,
+            )
         return 1
     return 0
 

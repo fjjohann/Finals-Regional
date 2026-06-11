@@ -148,14 +148,33 @@ def fetch_html(url: str, timeout: int) -> str:
         raise
 
 
-def parse_athletes(html: str) -> list[dict[str, Any]]:
+def ranking_positions(athletes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    positioned = []
+    previous_points = None
+    previous_position = 0
+
+    for index, athlete in enumerate(athletes, start=1):
+        position = previous_position if athlete["points"] == previous_points else index
+        positioned.append({**athlete, "position": position})
+        previous_points = athlete["points"]
+        previous_position = position
+
+    return positioned
+
+
+def parse_athletes(html: str, category_code: str | None = None) -> list[dict[str, Any]]:
     parser = RankingTableParser()
     parser.feed(html)
     athletes = []
+    expected_category = normalize_text(category_code or "").upper()
+
     for cells in parser.rows:
         if len(cells) < 8:
             continue
         if not cells[0].isdigit() or not cells[1].isdigit():
+            continue
+        athlete_category = normalize_text(cells[5]).upper()
+        if expected_category and athlete_category != expected_category:
             continue
         points_text = re.sub(r"[^\d]", "", cells[7])
         athletes.append(
@@ -163,10 +182,12 @@ def parse_athletes(html: str) -> list[dict[str, Any]]:
                 "position": int(cells[0]),
                 "athleteCode": cells[1],
                 "name": cells[3],
+                "categoryCode": athlete_category,
+                "sourcePosition": int(cells[0]),
                 "points": int(points_text or "0"),
             }
         )
-    return athletes
+    return ranking_positions(athletes)
 
 
 def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[str, Any]:
@@ -176,7 +197,7 @@ def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[st
     for attempt in range(retries + 1):
         try:
             html = fetch_html(target["url"], timeout)
-            athletes = parse_athletes(html)
+            athletes = parse_athletes(html, target.get("categoryCode"))
             return {
                 **target,
                 "status": "ok",

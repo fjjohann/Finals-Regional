@@ -187,7 +187,7 @@ def parse_athletes(html: str, category_code: str | None = None) -> list[dict[str
                 "points": int(points_text or "0"),
             }
         )
-    return ranking_positions(athletes)
+    return ranking_positions(athletes) if expected_category else athletes
 
 
 def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[str, Any]:
@@ -197,7 +197,8 @@ def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[st
     for attempt in range(retries + 1):
         try:
             html = fetch_html(target["url"], timeout)
-            athletes = parse_athletes(html, target.get("categoryCode"))
+            category_code = target.get("categoryCode") if target.get("categoryGroup") == "Tecnicas" else None
+            athletes = parse_athletes(html, category_code)
             return {
                 **target,
                 "status": "ok",

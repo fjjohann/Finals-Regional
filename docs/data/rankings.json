@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-15T20:42:05.519997+00:00",
+  "generatedAt": "2026-06-16T20:26:37.078331+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
   "totalRankings": 154,
-  "totalAthletes": 7495,
+  "totalAthletes": 7497,
   "rankings": [
     {
       "rankingScope": "state",
@@ -990,7 +990,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2004,
+      "durationMs": 2693,
       "attempts": 1
     },
     {
@@ -1593,7 +1593,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1501,
+      "durationMs": 2064,
       "attempts": 1
     },
     {
@@ -1980,7 +1980,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1141,
+      "durationMs": 1714,
       "attempts": 1
     },
     {
@@ -2879,7 +2879,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1760,
+      "durationMs": 2161,
       "attempts": 1
     },
     {
@@ -3658,7 +3658,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1436,
+      "durationMs": 2478,
       "attempts": 1
     },
     {
@@ -4029,7 +4029,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1268,
+      "durationMs": 1703,
       "attempts": 1
     },
     {
@@ -4320,7 +4320,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1292,
+      "durationMs": 1735,
       "attempts": 1
     },
     {
@@ -4835,7 +4835,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1547,
+      "durationMs": 1695,
       "attempts": 1
     },
     {
@@ -5174,7 +5174,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1471,
+      "durationMs": 1725,
       "attempts": 1
     },
     {
@@ -5441,7 +5441,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1311,
+      "durationMs": 1479,
       "attempts": 1
     },
     {
@@ -5884,7 +5884,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1457,
+      "durationMs": 1707,
       "attempts": 1
     },
     {
@@ -6391,7 +6391,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1471,
+      "durationMs": 1952,
       "attempts": 1
     },
     {
@@ -6938,7 +6938,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1329,
+      "durationMs": 1712,
       "attempts": 1
     },
     {
@@ -7965,7 +7965,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2061,
+      "durationMs": 2328,
       "attempts": 1
     },
     {
@@ -10400,7 +10400,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2873,
+      "durationMs": 3655,
       "attempts": 1
     },
     {
@@ -12211,7 +12211,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2843,
+      "durationMs": 2962,
       "attempts": 1
     },
     {
@@ -12227,7 +12227,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFE/377",
       "status": "ok",
       "error": null,
-      "athleteCount": 140,
+      "athleteCount": 141,
       "athletes": [
         {
           "position": 1,
@@ -12326,7 +12326,15 @@
           "points": 2750
         },
         {
-          "position": 13,
+          "position": 12,
+          "athleteCode": "46226",
+          "name": "Monalisa Tazinasso",
+          "categoryCode": "BTFE",
+          "sourcePosition": 15,
+          "points": 2750
+        },
+        {
+          "position": 14,
           "athleteCode": "46435",
           "name": "Adriana Nascimento",
           "categoryCode": "BTFE",
@@ -12334,7 +12342,7 @@
           "points": 2740
         },
         {
-          "position": 14,
+          "position": 15,
           "athleteCode": "46410",
           "name": "Julia Matos",
           "categoryCode": "BTFE",
@@ -12342,7 +12350,7 @@
           "points": 2580
         },
         {
-          "position": 15,
+          "position": 16,
           "athleteCode": "46414",
           "name": "Carla Bender",
           "categoryCode": "BTFE",
@@ -12350,7 +12358,7 @@
           "points": 2548
         },
         {
-          "position": 16,
+          "position": 17,
           "athleteCode": "45814",
           "name": "Elisiane Brandini",
           "categoryCode": "BTFE",
@@ -12358,7 +12366,7 @@
           "points": 2495
         },
         {
-          "position": 17,
+          "position": 18,
           "athleteCode": "46646",
           "name": "Jessica Debastiani",
           "categoryCode": "BTFE",
@@ -12366,7 +12374,7 @@
           "points": 2426
         },
         {
-          "position": 17,
+          "position": 18,
           "athleteCode": "47438",
           "name": "Rubia Krause",
           "categoryCode": "BTFE",
@@ -12374,7 +12382,7 @@
           "points": 2426
         },
         {
-          "position": 19,
+          "position": 20,
           "athleteCode": "42433",
           "name": "Carol Feijó",
           "categoryCode": "BTFE",
@@ -12382,7 +12390,7 @@
           "points": 2400
         },
         {
-          "position": 20,
+          "position": 21,
           "athleteCode": "31119",
           "name": "Monia Azevedo",
           "categoryCode": "BTFE",
@@ -12390,7 +12398,7 @@
           "points": 2294
         },
         {
-          "position": 21,
+          "position": 22,
           "athleteCode": "45301",
           "name": "Andressa Silva",
           "categoryCode": "BTFE",
@@ -12398,7 +12406,7 @@
           "points": 2206
         },
         {
-          "position": 22,
+          "position": 23,
           "athleteCode": "52735",
           "name": "Juliana Morgan",
           "categoryCode": "BTFE",
@@ -12406,7 +12414,7 @@
           "points": 2200
         },
         {
-          "position": 23,
+          "position": 24,
           "athleteCode": "46594",
           "name": "Dayse Duarte",
           "categoryCode": "BTFE",
@@ -12414,7 +12422,7 @@
           "points": 2000
         },
         {
-          "position": 23,
+          "position": 24,
           "athleteCode": "53484",
           "name": "Isla Oliveira",
           "categoryCode": "BTFE",
@@ -12422,7 +12430,7 @@
           "points": 2000
         },
         {
-          "position": 23,
+          "position": 24,
           "athleteCode": "53938",
           "name": "Gislaine Santos",
           "categoryCode": "BTFE",
@@ -12430,7 +12438,7 @@
           "points": 2000
         },
         {
-          "position": 26,
+          "position": 27,
           "athleteCode": "49304",
           "name": "Aretha Filus",
           "categoryCode": "BTFE",
@@ -12438,7 +12446,7 @@
           "points": 1925
         },
         {
-          "position": 27,
+          "position": 28,
           "athleteCode": "47818",
           "name": "Kelli Stocki",
           "categoryCode": "BTFE",
@@ -12446,7 +12454,7 @@
           "points": 1886
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "39997",
           "name": "Vanessa Caster",
           "categoryCode": "BTFE",
@@ -12454,7 +12462,7 @@
           "points": 1880
         },
         {
-          "position": 29,
+          "position": 30,
           "athleteCode": "46239",
           "name": "Mayte Schwingel",
           "categoryCode": "BTFE",
@@ -12462,7 +12470,7 @@
           "points": 1786
         },
         {
-          "position": 30,
+          "position": 31,
           "athleteCode": "52752",
           "name": "Ana Guerra",
           "categoryCode": "BTFE",
@@ -12470,7 +12478,7 @@
           "points": 1680
         },
         {
-          "position": 31,
+          "position": 32,
           "athleteCode": "46070",
           "name": "Natacha França",
           "categoryCode": "BTFE",
@@ -12478,7 +12486,7 @@
           "points": 1658
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "46354",
           "name": "Maria Zavorotuk",
           "categoryCode": "BTFE",
@@ -12486,7 +12494,7 @@
           "points": 1576
         },
         {
-          "position": 33,
+          "position": 34,
           "athleteCode": "47233",
           "name": "Fernanda Dalazen",
           "categoryCode": "BTFE",
@@ -12494,7 +12502,7 @@
           "points": 1540
         },
         {
-          "position": 34,
+          "position": 35,
           "athleteCode": "47256",
           "name": "Isadora Rosa",
           "categoryCode": "BTFE",
@@ -12502,7 +12510,7 @@
           "points": 1510
         },
         {
-          "position": 34,
+          "position": 35,
           "athleteCode": "49163",
           "name": "Gilnete Braga",
           "categoryCode": "BTFE",
@@ -12510,7 +12518,7 @@
           "points": 1510
         },
         {
-          "position": 36,
+          "position": 37,
           "athleteCode": "47777",
           "name": "Camila Bernardon",
           "categoryCode": "BTFE",
@@ -12518,7 +12526,7 @@
           "points": 1476
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "47962",
           "name": "Andreia Ghiggi",
           "categoryCode": "BTFE",
@@ -12526,7 +12534,7 @@
           "points": 1472
         },
         {
-          "position": 38,
+          "position": 39,
           "athleteCode": "45861",
           "name": "Marcia Massari",
           "categoryCode": "BTFE",
@@ -12534,7 +12542,7 @@
           "points": 1470
         },
         {
-          "position": 38,
+          "position": 39,
           "athleteCode": "52407",
           "name": "Tatiane Ranssolin",
           "categoryCode": "BTFE",
@@ -12542,7 +12550,7 @@
           "points": 1470
         },
         {
-          "position": 38,
+          "position": 39,
           "athleteCode": "52410",
           "name": "Priscila Kokubu",
           "categoryCode": "BTFE",
@@ -12550,7 +12558,7 @@
           "points": 1470
         },
         {
-          "position": 41,
+          "position": 42,
           "athleteCode": "49714",
           "name": "Géssica Velozo",
           "categoryCode": "BTFE",
@@ -12558,7 +12566,7 @@
           "points": 1458
         },
         {
-          "position": 41,
+          "position": 42,
           "athleteCode": "50395",
           "name": "Eduarda Ávila",
           "categoryCode": "BTFE",
@@ -12566,7 +12574,7 @@
           "points": 1458
         },
         {
-          "position": 43,
+          "position": 44,
           "athleteCode": "44819",
           "name": "Imna Oliveira",
           "categoryCode": "BTFE",
@@ -12574,7 +12582,7 @@
           "points": 1400
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "46378",
           "name": "Oriana Brinski",
           "categoryCode": "BTFE",
@@ -12582,7 +12590,7 @@
           "points": 1332
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "52797",
           "name": "Camila Almeida",
           "categoryCode": "BTFE",
@@ -12590,7 +12598,7 @@
           "points": 1332
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "52798",
           "name": "Rafaela Almeida",
           "categoryCode": "BTFE",
@@ -12598,7 +12606,7 @@
           "points": 1332
         },
         {
-          "position": 47,
+          "position": 48,
           "athleteCode": "47428",
           "name": "Camila Neves",
           "categoryCode": "BTFE",
@@ -12606,7 +12614,7 @@
           "points": 1254
         },
         {
-          "position": 48,
+          "position": 49,
           "athleteCode": "43180",
           "name": "Lanna Morgado",
           "categoryCode": "BTFE",
@@ -12614,7 +12622,7 @@
           "points": 1248
         },
         {
-          "position": 49,
+          "position": 50,
           "athleteCode": "47484",
           "name": "Beatriz Yamazaki",
           "categoryCode": "BTFE",
@@ -12622,7 +12630,7 @@
           "points": 1179
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "34674",
           "name": "Talita Cordoba",
           "categoryCode": "BTFE",
@@ -12630,7 +12638,7 @@
           "points": 1176
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "53062",
           "name": "Nancy Morais",
           "categoryCode": "BTFE",
@@ -12638,7 +12646,7 @@
           "points": 1176
         },
         {
-          "position": 52,
+          "position": 53,
           "athleteCode": "48655",
           "name": "Gabriela Bossardi",
           "categoryCode": "BTFE",
@@ -12646,7 +12654,7 @@
           "points": 1123
         },
         {
-          "position": 53,
+          "position": 54,
           "athleteCode": "51892",
           "name": "Marcia Pires",
           "categoryCode": "BTFE",
@@ -12654,7 +12662,7 @@
           "points": 1080
         },
         {
-          "position": 54,
+          "position": 55,
           "athleteCode": "52429",
           "name": "Gabriela Sivek",
           "categoryCode": "BTFE",
@@ -12662,7 +12670,7 @@
           "points": 1078
         },
         {
-          "position": 54,
+          "position": 55,
           "athleteCode": "53362",
           "name": "Eliane Fabrini",
           "categoryCode": "BTFE",
@@ -12670,7 +12678,7 @@
           "points": 1078
         },
         {
-          "position": 56,
+          "position": 57,
           "athleteCode": "45834",
           "name": "Patricia Luz",
           "categoryCode": "BTFE",
@@ -12678,7 +12686,7 @@
           "points": 1032
         },
         {
-          "position": 57,
+          "position": 58,
           "athleteCode": "53210",
           "name": "Polyanna Fabris",
           "categoryCode": "BTFE",
@@ -12686,7 +12694,7 @@
           "points": 1030
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "44991",
           "name": "Jessica Jurack",
           "categoryCode": "BTFE",
@@ -12694,7 +12702,7 @@
           "points": 1020
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "51419",
           "name": "Ana Marianowski",
           "categoryCode": "BTFE",
@@ -12702,7 +12710,7 @@
           "points": 1020
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "52439",
           "name": "Vivian Maciel",
           "categoryCode": "BTFE",
@@ -12710,7 +12718,7 @@
           "points": 1020
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "52709",
           "name": "Claudineia Silva",
           "categoryCode": "BTFE",
@@ -12718,7 +12726,7 @@
           "points": 1020
         },
         {
-          "position": 62,
+          "position": 63,
           "athleteCode": "52746",
           "name": "Kaline Keiber",
           "categoryCode": "BTFE",
@@ -12726,7 +12734,7 @@
           "points": 980
         },
         {
-          "position": 63,
+          "position": 64,
           "athleteCode": "45437",
           "name": "Melyana dos Santos Debastiani",
           "categoryCode": "BTFE",
@@ -12734,7 +12742,7 @@
           "points": 944
         },
         {
-          "position": 64,
+          "position": 65,
           "athleteCode": "45358",
           "name": "Patrícia Wild",
           "categoryCode": "BTFE",
@@ -12742,7 +12750,7 @@
           "points": 830
         },
         {
-          "position": 65,
+          "position": 66,
           "athleteCode": "45918",
           "name": "Vívian Silva",
           "categoryCode": "BTFE",
@@ -12750,7 +12758,7 @@
           "points": 824
         },
         {
-          "position": 65,
+          "position": 66,
           "athleteCode": "46302",
           "name": "Daiane Martinelli",
           "categoryCode": "BTFE",
@@ -12758,7 +12766,7 @@
           "points": 824
         },
         {
-          "position": 65,
+          "position": 66,
           "athleteCode": "50784",
           "name": "Camila Leite",
           "categoryCode": "BTFE",
@@ -12766,7 +12774,7 @@
           "points": 824
         },
         {
-          "position": 68,
+          "position": 69,
           "athleteCode": "52623",
           "name": "Maria Staczuk",
           "categoryCode": "BTFE",
@@ -12774,7 +12782,7 @@
           "points": 802
         },
         {
-          "position": 69,
+          "position": 70,
           "athleteCode": "46411",
           "name": "Beatriz Leal",
           "categoryCode": "BTFE",
@@ -12782,7 +12790,7 @@
           "points": 797
         },
         {
-          "position": 70,
+          "position": 71,
           "athleteCode": "45408",
           "name": "Franciele Rothmund",
           "categoryCode": "BTFE",
@@ -12790,7 +12798,7 @@
           "points": 756
         },
         {
-          "position": 70,
+          "position": 71,
           "athleteCode": "51987",
           "name": "Samara Machado",
           "categoryCode": "BTFE",
@@ -12798,7 +12806,7 @@
           "points": 756
         },
         {
-          "position": 72,
+          "position": 73,
           "athleteCode": "48605",
           "name": "Andressa Mello",
           "categoryCode": "BTFE",
@@ -12806,7 +12814,7 @@
           "points": 726
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "40634",
           "name": "Camila Amaral",
           "categoryCode": "BTFE",
@@ -12814,7 +12822,7 @@
           "points": 720
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "43191",
           "name": "Rafaela Rodrigues",
           "categoryCode": "BTFE",
@@ -12822,7 +12830,7 @@
           "points": 720
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "44803",
           "name": "Maria Rodini",
           "categoryCode": "BTFE",
@@ -12830,7 +12838,7 @@
           "points": 720
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "49457",
           "name": "Telma Machado",
           "categoryCode": "BTFE",
@@ -12838,7 +12846,7 @@
           "points": 720
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "52324",
           "name": "Jessica Rocha",
           "categoryCode": "BTFE",
@@ -12846,7 +12854,7 @@
           "points": 720
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "52680",
           "name": "Isabela Orzenn",
           "categoryCode": "BTFE",
@@ -12854,7 +12862,7 @@
           "points": 720
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "46607",
           "name": "Inaihê Maia",
           "categoryCode": "BTFE",
@@ -12862,7 +12870,7 @@
           "points": 687
         },
         {
-          "position": 80,
+          "position": 81,
           "athleteCode": "46433",
           "name": "Barbara Rehbein",
           "categoryCode": "BTFE",
@@ -12870,7 +12878,7 @@
           "points": 652
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "47235",
           "name": "Laura Grellmann",
           "categoryCode": "BTFE",
@@ -12878,7 +12886,7 @@
           "points": 590
         },
         {
-          "position": 82,
+          "position": 83,
           "athleteCode": "45990",
           "name": "Luana Barczyszyn",
           "categoryCode": "BTFE",
@@ -12886,7 +12894,7 @@
           "points": 576
         },
         {
-          "position": 82,
+          "position": 83,
           "athleteCode": "47600",
           "name": "Perla Soteras",
           "categoryCode": "BTFE",
@@ -12894,7 +12902,7 @@
           "points": 576
         },
         {
-          "position": 82,
+          "position": 83,
           "athleteCode": "51178",
           "name": "Carolina Costa",
           "categoryCode": "BTFE",
@@ -12902,7 +12910,7 @@
           "points": 576
         },
         {
-          "position": 82,
+          "position": 83,
           "athleteCode": "51805",
           "name": "Lucélia Franco",
           "categoryCode": "BTFE",
@@ -12910,7 +12918,7 @@
           "points": 576
         },
         {
-          "position": 86,
+          "position": 87,
           "athleteCode": "52362",
           "name": "Vanessa Silva",
           "categoryCode": "BTFE",
@@ -12918,7 +12926,7 @@
           "points": 553
         },
         {
-          "position": 87,
+          "position": 88,
           "athleteCode": "44804",
           "name": "Andressa Winkler",
           "categoryCode": "BTFE",
@@ -12926,7 +12934,7 @@
           "points": 528
         },
         {
-          "position": 87,
+          "position": 88,
           "athleteCode": "50843",
           "name": "Manuela Romão",
           "categoryCode": "BTFE",
@@ -12934,7 +12942,7 @@
           "points": 528
         },
         {
-          "position": 89,
+          "position": 90,
           "athleteCode": "52748",
           "name": "Larissa Murakami",
           "categoryCode": "BTFE",
@@ -12942,7 +12950,7 @@
           "points": 513
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "34806",
           "name": "Rossana Hidalgo",
           "categoryCode": "BTFE",
@@ -12950,7 +12958,7 @@
           "points": 504
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "47830",
           "name": "Julia Kracke",
           "categoryCode": "BTFE",
@@ -12958,7 +12966,7 @@
           "points": 504
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "52148",
           "name": "Juliana Stumpf",
           "categoryCode": "BTFE",
@@ -12966,7 +12974,7 @@
           "points": 504
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "52624",
           "name": "Ana München",
           "categoryCode": "BTFE",
@@ -12974,7 +12982,7 @@
           "points": 504
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "40200",
           "name": "Luísa Esposito",
           "categoryCode": "BTFE",
@@ -12982,7 +12990,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "40259",
           "name": "Rafaela Tomazi",
           "categoryCode": "BTFE",
@@ -12990,7 +12998,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "40569",
           "name": "Erika Zachary",
           "categoryCode": "BTFE",
@@ -12998,7 +13006,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "43648",
           "name": "Nina Zambiassi",
           "categoryCode": "BTFE",
@@ -13006,7 +13014,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "43915",
           "name": "Ana Bronoski",
           "categoryCode": "BTFE",
@@ -13014,7 +13022,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "47369",
           "name": "Ana Oliveira",
           "categoryCode": "BTFE",
@@ -13022,7 +13030,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "48667",
           "name": "Juliana Ribeiro",
           "categoryCode": "BTFE",
@@ -13030,7 +13038,7 @@
           "points": 403
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "48785",
           "name": "Patricia Cruz",
           "categoryCode": "BTFE",
@@ -13038,7 +13046,7 @@
           "points": 403
         },
         {
-          "position": 102,
+          "position": 103,
           "athleteCode": "49526",
           "name": "Alessia Zacharczuk",
           "categoryCode": "BTFE",
@@ -13046,7 +13054,7 @@
           "points": 370
         },
         {
-          "position": 102,
+          "position": 103,
           "athleteCode": "53980",
           "name": "Catiane Oliveira",
           "categoryCode": "BTFE",
@@ -13054,7 +13062,7 @@
           "points": 370
         },
         {
-          "position": 104,
+          "position": 105,
           "athleteCode": "42991",
           "name": "Valentina Nunes",
           "categoryCode": "BTFE",
@@ -13062,7 +13070,7 @@
           "points": 353
         },
         {
-          "position": 105,
+          "position": 106,
           "athleteCode": "47612",
           "name": "Gisele Spancerski",
           "categoryCode": "BTFE",
@@ -13070,7 +13078,7 @@
           "points": 336
         },
         {
-          "position": 106,
+          "position": 107,
           "athleteCode": "47686",
           "name": "Ana Santos",
           "categoryCode": "BTFE",
@@ -13078,7 +13086,7 @@
           "points": 259
         },
         {
-          "position": 107,
+          "position": 108,
           "athleteCode": "47485",
           "name": "Milena Cunha",
           "categoryCode": "BTFE",
@@ -13086,7 +13094,7 @@
           "points": 235
         },
         {
-          "position": 108,
+          "position": 109,
           "athleteCode": "23809",
           "name": "Adriana Vidal",
           "categoryCode": "BTFE",
@@ -13094,7 +13102,7 @@
           "points": 230
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "32189",
           "name": "Gessica Sandrin",
           "categoryCode": "BTFE",
@@ -13102,7 +13110,7 @@
           "points": 150
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "44493",
           "name": "Barbara Maciel",
           "categoryCode": "BTFE",
@@ -13110,7 +13118,7 @@
           "points": 150
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "47778",
           "name": "Gabriela Machado",
           "categoryCode": "BTFE",
@@ -13118,7 +13126,7 @@
           "points": 150
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "51649",
           "name": "Elenice Aquino",
           "categoryCode": "BTFE",
@@ -13126,7 +13134,7 @@
           "points": 150
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "52584",
           "name": "Cleide Bruel",
           "categoryCode": "BTFE",
@@ -13134,7 +13142,7 @@
           "points": 150
         },
         {
-          "position": 114,
+          "position": 115,
           "athleteCode": "42153",
           "name": "Dayene Carneiro",
           "categoryCode": "BTFE",
@@ -13142,7 +13150,7 @@
           "points": 138
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "32382",
           "name": "Manoella Santiago",
           "categoryCode": "BTFE",
@@ -13150,7 +13158,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "37644",
           "name": "Erika Haussler",
           "categoryCode": "BTFE",
@@ -13158,7 +13166,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "38440",
           "name": "Iolanda Candido",
           "categoryCode": "BTFE",
@@ -13166,7 +13174,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "40145",
           "name": "Andrea Fauth",
           "categoryCode": "BTFE",
@@ -13174,7 +13182,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "40219",
           "name": "Luciana Souto",
           "categoryCode": "BTFE",
@@ -13182,7 +13190,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "41439",
           "name": "Angélica Amma",
           "categoryCode": "BTFE",
@@ -13190,7 +13198,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "41958",
           "name": "Beatriz Eragus",
           "categoryCode": "BTFE",
@@ -13198,7 +13206,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "41956",
           "name": "Roberta Dalligna",
           "categoryCode": "BTFE",
@@ -13206,7 +13214,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "42059",
           "name": "Luciana Yamamoto",
           "categoryCode": "BTFE",
@@ -13214,7 +13222,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "44059",
           "name": "Gabriela Kawamura",
           "categoryCode": "BTFE",
@@ -13222,7 +13230,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "49342",
           "name": "Adriana Wolpe",
           "categoryCode": "BTFE",
@@ -13230,7 +13238,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "47291",
           "name": "Caroline Brunetto",
           "categoryCode": "BTFE",
@@ -13238,7 +13246,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "48023",
           "name": "Isabel Moreira",
           "categoryCode": "BTFE",
@@ -13246,7 +13254,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "50916",
           "name": "Karina Soares",
           "categoryCode": "BTFE",
@@ -13254,7 +13262,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "51220",
           "name": "Mariana Santos",
           "categoryCode": "BTFE",
@@ -13262,7 +13270,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "51768",
           "name": "Ediene Lara",
           "categoryCode": "BTFE",
@@ -13270,7 +13278,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "51771",
           "name": "Eliziane Lara",
           "categoryCode": "BTFE",
@@ -13278,7 +13286,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "52574",
           "name": "Talita Fabene",
           "categoryCode": "BTFE",
@@ -13286,7 +13294,7 @@
           "points": 120
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "53153",
           "name": "Márcia Garcia",
           "categoryCode": "BTFE",
@@ -13294,7 +13302,7 @@
           "points": 120
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "45524",
           "name": "Cynthia Marques",
           "categoryCode": "BTFE",
@@ -13302,7 +13310,7 @@
           "points": 110
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "48044",
           "name": "Valentina Menegatti",
           "categoryCode": "BTFE",
@@ -13310,7 +13318,7 @@
           "points": 110
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "48029",
           "name": "Maria Koschinski",
           "categoryCode": "BTFE",
@@ -13318,7 +13326,7 @@
           "points": 110
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "49809",
           "name": "Thylara Moraes",
           "categoryCode": "BTFE",
@@ -13326,7 +13334,7 @@
           "points": 110
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "50993",
           "name": "Beatriz Nishii",
           "categoryCode": "BTFE",
@@ -13334,7 +13342,7 @@
           "points": 110
         },
         {
-          "position": 139,
+          "position": 140,
           "athleteCode": "42128",
           "name": "Rosemary Zillmer",
           "categoryCode": "BTFE",
@@ -13342,7 +13350,7 @@
           "points": 100
         },
         {
-          "position": 139,
+          "position": 140,
           "athleteCode": "47571",
           "name": "Tamires Marques",
           "categoryCode": "BTFE",
@@ -13350,7 +13358,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2268,
+      "durationMs": 2316,
       "attempts": 1
     },
     {
@@ -14041,7 +14049,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1436,
+      "durationMs": 1774,
       "attempts": 1
     },
     {
@@ -15260,7 +15268,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1805,
+      "durationMs": 2382,
       "attempts": 1
     },
     {
@@ -17751,7 +17759,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2649,
+      "durationMs": 3408,
       "attempts": 1
     },
     {
@@ -19338,7 +19346,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2261,
+      "durationMs": 3021,
       "attempts": 1
     },
     {
@@ -20181,7 +20189,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1738,
+      "durationMs": 2656,
       "attempts": 1
     },
     {
@@ -20936,7 +20944,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2957,
+      "durationMs": 1944,
       "attempts": 1
     },
     {
@@ -21379,7 +21387,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3210,
+      "durationMs": 1564,
       "attempts": 1
     },
     {
@@ -21678,7 +21686,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1900,
+      "durationMs": 1339,
       "attempts": 1
     },
     {
@@ -22281,7 +22289,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2345,
+      "durationMs": 1921,
       "attempts": 1
     },
     {
@@ -22868,7 +22876,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2940,
+      "durationMs": 1909,
       "attempts": 1
     },
     {
@@ -23103,7 +23111,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1642,
+      "durationMs": 1195,
       "attempts": 1
     },
     {
@@ -23298,7 +23306,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1615,
+      "durationMs": 1287,
       "attempts": 1
     },
     {
@@ -23629,7 +23637,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2153,
+      "durationMs": 1362,
       "attempts": 1
     },
     {
@@ -23800,7 +23808,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1579,
+      "durationMs": 981,
       "attempts": 1
     },
     {
@@ -23915,7 +23923,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1203,
+      "durationMs": 949,
       "attempts": 1
     },
     {
@@ -24166,7 +24174,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2089,
+      "durationMs": 1162,
       "attempts": 1
     },
     {
@@ -24417,7 +24425,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1742,
+      "durationMs": 1171,
       "attempts": 1
     },
     {
@@ -24884,7 +24892,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2201,
+      "durationMs": 1547,
       "attempts": 1
     },
     {
@@ -25463,7 +25471,7 @@
           "points": 83
         }
       ],
-      "durationMs": 5041,
+      "durationMs": 1748,
       "attempts": 1
     },
     {
@@ -27098,7 +27106,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7422,
+      "durationMs": 3480,
       "attempts": 1
     },
     {
@@ -28693,7 +28701,7 @@
           "points": 50
         }
       ],
-      "durationMs": 7914,
+      "durationMs": 3202,
       "attempts": 1
     },
     {
@@ -29872,7 +29880,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8818,
+      "durationMs": 2610,
       "attempts": 1
     },
     {
@@ -30275,7 +30283,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3448,
+      "durationMs": 1410,
       "attempts": 1
     },
     {
@@ -31070,7 +31078,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3691,
+      "durationMs": 1983,
       "attempts": 1
     },
     {
@@ -32537,7 +32545,7 @@
           "points": 83
         }
       ],
-      "durationMs": 11576,
+      "durationMs": 2253,
       "attempts": 1
     },
     {
@@ -33852,7 +33860,7 @@
           "points": 83
         }
       ],
-      "durationMs": 7445,
+      "durationMs": 2429,
       "attempts": 1
     },
     {
@@ -34495,7 +34503,7 @@
           "points": 83
         }
       ],
-      "durationMs": 9581,
+      "durationMs": 2147,
       "attempts": 1
     },
     {
@@ -34818,7 +34826,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3967,
+      "durationMs": 1164,
       "attempts": 1
     },
     {
@@ -34949,7 +34957,7 @@
           "points": 55
         }
       ],
-      "durationMs": 3706,
+      "durationMs": 966,
       "attempts": 1
     },
     {
@@ -35032,7 +35040,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2865,
+      "durationMs": 949,
       "attempts": 1
     },
     {
@@ -35259,7 +35267,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2039,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -35422,7 +35430,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3733,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -35505,7 +35513,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2826,
+      "durationMs": 957,
       "attempts": 1
     },
     {
@@ -35612,7 +35620,7 @@
           "points": 1400
         }
       ],
-      "durationMs": 1674,
+      "durationMs": 976,
       "attempts": 1
     },
     {
@@ -35767,7 +35775,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3450,
+      "durationMs": 1196,
       "attempts": 1
     },
     {
@@ -35938,7 +35946,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1906,
+      "durationMs": 968,
       "attempts": 1
     },
     {
@@ -36037,7 +36045,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1686,
+      "durationMs": 958,
       "attempts": 1
     },
     {
@@ -36160,7 +36168,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1968,
+      "durationMs": 952,
       "attempts": 1
     },
     {
@@ -36315,7 +36323,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1887,
+      "durationMs": 959,
       "attempts": 1
     },
     {
@@ -36398,7 +36406,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2851,
+      "durationMs": 959,
       "attempts": 1
     },
     {
@@ -36705,7 +36713,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2486,
+      "durationMs": 1343,
       "attempts": 1
     },
     {
@@ -37324,7 +37332,7 @@
           "points": 55
         }
       ],
-      "durationMs": 13223,
+      "durationMs": 1572,
       "attempts": 1
     },
     {
@@ -37839,7 +37847,7 @@
           "points": 75
         }
       ],
-      "durationMs": 13467,
+      "durationMs": 1537,
       "attempts": 1
     },
     {
@@ -38290,7 +38298,7 @@
           "points": 75
         }
       ],
-      "durationMs": 13932,
+      "durationMs": 1561,
       "attempts": 1
     },
     {
@@ -38469,7 +38477,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1879,
+      "durationMs": 1149,
       "attempts": 1
     },
     {
@@ -38816,7 +38824,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3426,
+      "durationMs": 1351,
       "attempts": 1
     },
     {
@@ -39531,7 +39539,7 @@
           "points": 55
         }
       ],
-      "durationMs": 6194,
+      "durationMs": 2127,
       "attempts": 1
     },
     {
@@ -40062,7 +40070,7 @@
           "points": 55
         }
       ],
-      "durationMs": 4387,
+      "durationMs": 1907,
       "attempts": 1
     },
     {
@@ -40425,7 +40433,7 @@
           "points": 55
         }
       ],
-      "durationMs": 8067,
+      "durationMs": 1525,
       "attempts": 1
     },
     {
@@ -40636,7 +40644,7 @@
           "points": 120
         }
       ],
-      "durationMs": 2240,
+      "durationMs": 1156,
       "attempts": 1
     },
     {
@@ -40855,7 +40863,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2199,
+      "durationMs": 1167,
       "attempts": 1
     },
     {
@@ -41010,7 +41018,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1437,
+      "durationMs": 979,
       "attempts": 1
     },
     {
@@ -41261,7 +41269,7 @@
           "points": 120
         }
       ],
-      "durationMs": 2066,
+      "durationMs": 1346,
       "attempts": 1
     },
     {
@@ -41576,7 +41584,7 @@
           "points": 120
         }
       ],
-      "durationMs": 2216,
+      "durationMs": 1363,
       "attempts": 1
     },
     {
@@ -41731,7 +41739,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2126,
+      "durationMs": 964,
       "attempts": 1
     },
     {
@@ -41902,7 +41910,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2389,
+      "durationMs": 1144,
       "attempts": 1
     },
     {
@@ -42105,7 +42113,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1672,
+      "durationMs": 1145,
       "attempts": 1
     },
     {
@@ -42316,7 +42324,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1770,
+      "durationMs": 1138,
       "attempts": 1
     },
     {
@@ -42463,7 +42471,7 @@
           "points": 120
         }
       ],
-      "durationMs": 965,
+      "durationMs": 963,
       "attempts": 1
     },
     {
@@ -42666,7 +42674,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1393,
+      "durationMs": 1143,
       "attempts": 1
     },
     {
@@ -42885,7 +42893,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2409,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -43088,7 +43096,7 @@
           "points": 82
         }
       ],
-      "durationMs": 1358,
+      "durationMs": 1161,
       "attempts": 1
     },
     {
@@ -43411,7 +43419,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2681,
+      "durationMs": 1162,
       "attempts": 1
     },
     {
@@ -44070,7 +44078,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5662,
+      "durationMs": 1951,
       "attempts": 1
     },
     {
@@ -44449,7 +44457,7 @@
           "points": 120
         }
       ],
-      "durationMs": 13927,
+      "durationMs": 1790,
       "attempts": 1
     },
     {
@@ -44604,7 +44612,7 @@
           "points": 824
         }
       ],
-      "durationMs": 7337,
+      "durationMs": 1227,
       "attempts": 1
     },
     {
@@ -44815,7 +44823,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2703,
+      "durationMs": 1191,
       "attempts": 1
     },
     {
@@ -45154,7 +45162,7 @@
           "points": 120
         }
       ],
-      "durationMs": 3401,
+      "durationMs": 1247,
       "attempts": 1
     },
     {
@@ -45813,7 +45821,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8961,
+      "durationMs": 1575,
       "attempts": 1
     },
     {
@@ -46056,7 +46064,7 @@
           "points": 120
         }
       ],
-      "durationMs": 4818,
+      "durationMs": 1338,
       "attempts": 1
     },
     {
@@ -46299,7 +46307,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6410,
+      "durationMs": 1340,
       "attempts": 1
     },
     {
@@ -46478,7 +46486,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2073,
+      "durationMs": 1175,
       "attempts": 1
     },
     {
@@ -46641,7 +46649,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2630,
+      "durationMs": 999,
       "attempts": 1
     },
     {
@@ -46756,7 +46764,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 2115,
+      "durationMs": 953,
       "attempts": 1
     },
     {
@@ -46975,7 +46983,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3189,
+      "durationMs": 1142,
       "attempts": 1
     },
     {
@@ -47082,7 +47090,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2432,
+      "durationMs": 964,
       "attempts": 1
     },
     {
@@ -47237,7 +47245,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1733,
+      "durationMs": 966,
       "attempts": 1
     },
     {
@@ -47384,7 +47392,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1597,
+      "durationMs": 1015,
       "attempts": 1
     },
     {
@@ -47587,7 +47595,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2119,
+      "durationMs": 1197,
       "attempts": 1
     },
     {
@@ -47742,7 +47750,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1159,
+      "durationMs": 1017,
       "attempts": 1
     },
     {
@@ -47865,7 +47873,7 @@
           "points": 944
         }
       ],
-      "durationMs": 1503,
+      "durationMs": 1004,
       "attempts": 1
     },
     {
@@ -48108,7 +48116,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1684,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -48407,7 +48415,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1543,
+      "durationMs": 1379,
       "attempts": 1
     },
     {
@@ -48538,7 +48546,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1348,
+      "durationMs": 954,
       "attempts": 1
     },
     {
@@ -48749,7 +48757,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2428,
+      "durationMs": 1226,
       "attempts": 1
     },
     {
@@ -49168,7 +49176,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9868,
+      "durationMs": 1378,
       "attempts": 1
     },
     {
@@ -49347,7 +49355,7 @@
           "points": 138
         }
       ],
-      "durationMs": 13372,
+      "durationMs": 1180,
       "attempts": 1
     },
     {
@@ -49470,7 +49478,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9810,
+      "durationMs": 1026,
       "attempts": 1
     },
     {
@@ -49609,7 +49617,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1705,
+      "durationMs": 1079,
       "attempts": 1
     },
     {
@@ -49804,7 +49812,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2996,
+      "durationMs": 1204,
       "attempts": 1
     },
     {
@@ -50343,7 +50351,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5262,
+      "durationMs": 1825,
       "attempts": 1
     },
     {
@@ -50474,7 +50482,7 @@
           "points": 138
         }
       ],
-      "durationMs": 8090,
+      "durationMs": 1151,
       "attempts": 1
     },
     {
@@ -50629,7 +50637,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7347,
+      "durationMs": 960,
       "attempts": 1
     },
     {
@@ -50864,7 +50872,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4039,
+      "durationMs": 1187,
       "attempts": 1
     },
     {
@@ -51139,7 +51147,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2975,
+      "durationMs": 1414,
       "attempts": 1
     },
     {
@@ -51262,7 +51270,7 @@
           "points": 1150
         }
       ],
-      "durationMs": 2058,
+      "durationMs": 999,
       "attempts": 1
     },
     {
@@ -51577,7 +51585,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3563,
+      "durationMs": 1412,
       "attempts": 1
     },
     {
@@ -51860,7 +51868,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3280,
+      "durationMs": 1409,
       "attempts": 1
     },
     {
@@ -51983,7 +51991,7 @@
           "points": 110
         }
       ],
-      "durationMs": 2335,
+      "durationMs": 959,
       "attempts": 1
     },
     {
@@ -52082,7 +52090,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2701,
+      "durationMs": 952,
       "attempts": 1
     },
     {
@@ -52261,7 +52269,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3275,
+      "durationMs": 1141,
       "attempts": 1
     },
     {
@@ -52432,7 +52440,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1978,
+      "durationMs": 1039,
       "attempts": 1
     },
     {
@@ -52491,7 +52499,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1135,
+      "durationMs": 833,
       "attempts": 1
     },
     {
@@ -52662,7 +52670,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2698,
+      "durationMs": 1051,
       "attempts": 1
     },
     {
@@ -52849,7 +52857,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1529,
+      "durationMs": 1210,
       "attempts": 1
     },
     {
@@ -52924,7 +52932,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2158,
+      "durationMs": 966,
       "attempts": 1
     },
     {
@@ -53311,7 +53319,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4589,
+      "durationMs": 1368,
       "attempts": 1
     },
     {
@@ -53890,7 +53898,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8123,
+      "durationMs": 1596,
       "attempts": 1
     },
     {
@@ -54501,7 +54509,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10302,
+      "durationMs": 1763,
       "attempts": 1
     },
     {
@@ -54800,7 +54808,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10280,
+      "durationMs": 1349,
       "attempts": 1
     },
     {
@@ -55019,7 +55027,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2663,
+      "durationMs": 1156,
       "attempts": 1
     },
     {
@@ -55390,7 +55398,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4511,
+      "durationMs": 1637,
       "attempts": 1
     },
     {
@@ -56225,7 +56233,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10251,
+      "durationMs": 2317,
       "attempts": 1
     },
     {
@@ -56540,7 +56548,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7681,
+      "durationMs": 1609,
       "attempts": 1
     },
     {
@@ -56847,7 +56855,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7322,
+      "durationMs": 1348,
       "attempts": 1
     },
     {
@@ -57210,7 +57218,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2950,
+      "durationMs": 1388,
       "attempts": 1
     },
     {
@@ -57293,7 +57301,7 @@
           "points": 1925
         }
       ],
-      "durationMs": 2831,
+      "durationMs": 998,
       "attempts": 1
     },
     {
@@ -57368,7 +57376,7 @@
           "points": 944
         }
       ],
-      "durationMs": 1668,
+      "durationMs": 945,
       "attempts": 1
     },
     {
@@ -57547,7 +57555,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2811,
+      "durationMs": 962,
       "attempts": 1
     },
     {
@@ -57734,7 +57742,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2274,
+      "durationMs": 1147,
       "attempts": 1
     },
     {
@@ -57857,7 +57865,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1755,
+      "durationMs": 953,
       "attempts": 1
     },
     {
@@ -57964,7 +57972,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2320,
+      "durationMs": 956,
       "attempts": 1
     },
     {
@@ -58239,7 +58247,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3181,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -58418,7 +58426,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1210,
+      "durationMs": 1142,
       "attempts": 1
     },
     {
@@ -58541,7 +58549,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1406,
+      "durationMs": 956,
       "attempts": 1
     },
     {
@@ -58736,7 +58744,7 @@
           "points": 98
         }
       ],
-      "durationMs": 1830,
+      "durationMs": 1138,
       "attempts": 1
     },
     {
@@ -58931,7 +58939,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1944,
+      "durationMs": 1149,
       "attempts": 1
     },
     {
@@ -58949,7 +58957,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 1415,
+      "durationMs": 765,
       "attempts": 1
     },
     {
@@ -59168,7 +59176,7 @@
           "points": 138
         }
       ],
-      "durationMs": 3232,
+      "durationMs": 1152,
       "attempts": 1
     },
     {
@@ -59939,7 +59947,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10941,
+      "durationMs": 1777,
       "attempts": 1
     },
     {
@@ -60678,7 +60686,7 @@
           "points": 83
         }
       ],
-      "durationMs": 10799,
+      "durationMs": 2441,
       "attempts": 1
     },
     {
@@ -60694,7 +60702,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFE/377",
       "status": "ok",
       "error": null,
-      "athleteCount": 44,
+      "athleteCount": 45,
       "athletes": [
         {
           "position": 1,
@@ -60761,7 +60769,15 @@
           "points": 3558
         },
         {
-          "position": 9,
+          "position": 8,
+          "athleteCode": "46226",
+          "name": "Monalisa Tazinasso",
+          "categoryCode": "BTFE",
+          "sourcePosition": 8,
+          "points": 3558
+        },
+        {
+          "position": 10,
           "athleteCode": "47233",
           "name": "Fernanda Dalazen",
           "categoryCode": "BTFE",
@@ -60769,7 +60785,7 @@
           "points": 3418
         },
         {
-          "position": 10,
+          "position": 11,
           "athleteCode": "51592",
           "name": "Luiza Alovisi",
           "categoryCode": "BTFE",
@@ -60777,7 +60793,7 @@
           "points": 2982
         },
         {
-          "position": 11,
+          "position": 12,
           "athleteCode": "51987",
           "name": "Samara Machado",
           "categoryCode": "BTFE",
@@ -60785,7 +60801,7 @@
           "points": 2898
         },
         {
-          "position": 12,
+          "position": 13,
           "athleteCode": "47962",
           "name": "Andreia Ghiggi",
           "categoryCode": "BTFE",
@@ -60793,7 +60809,7 @@
           "points": 2534
         },
         {
-          "position": 13,
+          "position": 14,
           "athleteCode": "47235",
           "name": "Laura Grellmann",
           "categoryCode": "BTFE",
@@ -60801,7 +60817,7 @@
           "points": 1980
         },
         {
-          "position": 14,
+          "position": 15,
           "athleteCode": "52389",
           "name": "Tatiana Daneluz",
           "categoryCode": "BTFE",
@@ -60809,7 +60825,7 @@
           "points": 1785
         },
         {
-          "position": 15,
+          "position": 16,
           "athleteCode": "43722",
           "name": "Emeli Pigosso",
           "categoryCode": "BTFE",
@@ -60817,7 +60833,7 @@
           "points": 1553
         },
         {
-          "position": 16,
+          "position": 17,
           "athleteCode": "52374",
           "name": "Bianca Souza",
           "categoryCode": "BTFE",
@@ -60825,7 +60841,7 @@
           "points": 1545
         },
         {
-          "position": 17,
+          "position": 18,
           "athleteCode": "49526",
           "name": "Alessia Zacharczuk",
           "categoryCode": "BTFE",
@@ -60833,7 +60849,7 @@
           "points": 1522
         },
         {
-          "position": 18,
+          "position": 19,
           "athleteCode": "45437",
           "name": "Melyana dos Santos Debastiani",
           "categoryCode": "BTFE",
@@ -60841,7 +60857,7 @@
           "points": 1502
         },
         {
-          "position": 19,
+          "position": 20,
           "athleteCode": "42153",
           "name": "Dayene Carneiro",
           "categoryCode": "BTFE",
@@ -60849,7 +60865,7 @@
           "points": 1171
         },
         {
-          "position": 20,
+          "position": 21,
           "athleteCode": "52742",
           "name": "Emanoeli Feltes",
           "categoryCode": "BTFE",
@@ -60857,7 +60873,7 @@
           "points": 1155
         },
         {
-          "position": 21,
+          "position": 22,
           "athleteCode": "47166",
           "name": "Djeini Leal",
           "categoryCode": "BTFE",
@@ -60865,7 +60881,7 @@
           "points": 1125
         },
         {
-          "position": 22,
+          "position": 23,
           "athleteCode": "43966",
           "name": "Devieli Echer",
           "categoryCode": "BTFE",
@@ -60873,7 +60889,7 @@
           "points": 1102
         },
         {
-          "position": 23,
+          "position": 24,
           "athleteCode": "51963",
           "name": "Aline Bif",
           "categoryCode": "BTFE",
@@ -60881,7 +60897,7 @@
           "points": 1050
         },
         {
-          "position": 24,
+          "position": 25,
           "athleteCode": "36587",
           "name": "Josiane Poyer",
           "categoryCode": "BTFE",
@@ -60889,7 +60905,7 @@
           "points": 900
         },
         {
-          "position": 24,
+          "position": 25,
           "athleteCode": "47401",
           "name": "Lenita Debastian",
           "categoryCode": "BTFE",
@@ -60897,7 +60913,7 @@
           "points": 900
         },
         {
-          "position": 26,
+          "position": 27,
           "athleteCode": "48433",
           "name": "Andriéli Precheski",
           "categoryCode": "BTFE",
@@ -60905,7 +60921,7 @@
           "points": 818
         },
         {
-          "position": 27,
+          "position": 28,
           "athleteCode": "49345",
           "name": "Bárbara Piacentini",
           "categoryCode": "BTFE",
@@ -60913,7 +60929,7 @@
           "points": 670
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "49310",
           "name": "Vanessa Guarnieri",
           "categoryCode": "BTFE",
@@ -60921,7 +60937,7 @@
           "points": 618
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "49323",
           "name": "Karen Roncatto",
           "categoryCode": "BTFE",
@@ -60929,7 +60945,7 @@
           "points": 618
         },
         {
-          "position": 30,
+          "position": 31,
           "athleteCode": "54143",
           "name": "Lia Cavejon",
           "categoryCode": "BTFE",
@@ -60937,7 +60953,7 @@
           "points": 515
         },
         {
-          "position": 31,
+          "position": 32,
           "athleteCode": "52522",
           "name": "Derick Assmann",
           "categoryCode": "BTFE",
@@ -60945,7 +60961,7 @@
           "points": 450
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "44845",
           "name": "Ana Zanella",
           "categoryCode": "BTFE",
@@ -60953,7 +60969,7 @@
           "points": 432
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "47462",
           "name": "Karine Rodrigues",
           "categoryCode": "BTFE",
@@ -60961,7 +60977,7 @@
           "points": 432
         },
         {
-          "position": 34,
+          "position": 35,
           "athleteCode": "53980",
           "name": "Catiane Oliveira",
           "categoryCode": "BTFE",
@@ -60969,7 +60985,7 @@
           "points": 370
         },
         {
-          "position": 35,
+          "position": 36,
           "athleteCode": "45416",
           "name": "Lara Mesnerovicz",
           "categoryCode": "BTFE",
@@ -60977,7 +60993,7 @@
           "points": 360
         },
         {
-          "position": 36,
+          "position": 37,
           "athleteCode": "47176",
           "name": "Renata Pessi",
           "categoryCode": "BTFE",
@@ -60985,7 +61001,7 @@
           "points": 188
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "36854",
           "name": "Suzel Moreira",
           "categoryCode": "BTFE",
@@ -60993,7 +61009,7 @@
           "points": 90
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "49119",
           "name": "Adriana Benedetti",
           "categoryCode": "BTFE",
@@ -61001,7 +61017,7 @@
           "points": 90
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "51099",
           "name": "Ana Silva",
           "categoryCode": "BTFE",
@@ -61009,7 +61025,7 @@
           "points": 90
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "52377",
           "name": "Alessandra Jacobsen",
           "categoryCode": "BTFE",
@@ -61017,7 +61033,7 @@
           "points": 90
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "53410",
           "name": "Julia Jacobsen",
           "categoryCode": "BTFE",
@@ -61025,7 +61041,7 @@
           "points": 90
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "53452",
           "name": "Manoella Morais",
           "categoryCode": "BTFE",
@@ -61033,7 +61049,7 @@
           "points": 90
         },
         {
-          "position": 43,
+          "position": 44,
           "athleteCode": "45604",
           "name": "Lívia Meurer",
           "categoryCode": "BTFE",
@@ -61041,7 +61057,7 @@
           "points": 83
         },
         {
-          "position": 43,
+          "position": 44,
           "athleteCode": "45667",
           "name": "Hellen Kroll",
           "categoryCode": "BTFE",
@@ -61049,7 +61065,7 @@
           "points": 83
         }
       ],
-      "durationMs": 10146,
+      "durationMs": 1723,
       "attempts": 1
     },
     {
@@ -61204,7 +61220,7 @@
           "points": 138
         }
       ],
-      "durationMs": 3364,
+      "durationMs": 1013,
       "attempts": 1
     },
     {
@@ -61495,7 +61511,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4625,
+      "durationMs": 1362,
       "attempts": 1
     },
     {
@@ -62162,7 +62178,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8823,
+      "durationMs": 2216,
       "attempts": 1
     },
     {
@@ -62685,7 +62701,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9768,
+      "durationMs": 1954,
       "attempts": 1
     },
     {
@@ -62888,7 +62904,7 @@
           "points": 90
         }
       ],
-      "durationMs": 7453,
+      "durationMs": 1220,
       "attempts": 1
     }
   ]

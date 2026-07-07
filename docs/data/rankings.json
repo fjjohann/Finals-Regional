@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-06T18:00:47.286866+00:00",
+  "generatedAt": "2026-07-07T17:28:33.840486+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
   "totalRankings": 154,
-  "totalAthletes": 8086,
+  "totalAthletes": 8083,
   "rankings": [
     {
       "rankingScope": "state",
@@ -1078,7 +1078,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2101,
+      "durationMs": 1572,
       "attempts": 1
     },
     {
@@ -1729,7 +1729,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1511,
+      "durationMs": 1381,
       "attempts": 1
     },
     {
@@ -2164,7 +2164,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1160,
+      "durationMs": 929,
       "attempts": 1
     },
     {
@@ -3127,7 +3127,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1633,
+      "durationMs": 1521,
       "attempts": 1
     },
     {
@@ -3954,7 +3954,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1472,
+      "durationMs": 1267,
       "attempts": 1
     },
     {
@@ -4349,7 +4349,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1340,
+      "durationMs": 1061,
       "attempts": 1
     },
     {
@@ -4379,7 +4379,7 @@
           "position": 2,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 2,
           "points": 16955
         },
@@ -4704,7 +4704,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1350,
+      "durationMs": 1154,
       "attempts": 1
     },
     {
@@ -5243,7 +5243,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1424,
+      "durationMs": 1210,
       "attempts": 1
     },
     {
@@ -5598,7 +5598,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1261,
+      "durationMs": 1171,
       "attempts": 1
     },
     {
@@ -5881,7 +5881,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1240,
+      "durationMs": 1022,
       "attempts": 1
     },
     {
@@ -6356,7 +6356,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1198,
+      "durationMs": 1390,
       "attempts": 1
     },
     {
@@ -6879,7 +6879,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1570,
+      "durationMs": 1166,
       "attempts": 1
     },
     {
@@ -7434,7 +7434,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1717,
+      "durationMs": 1213,
       "attempts": 1
     },
     {
@@ -8637,7 +8637,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1773,
+      "durationMs": 1313,
       "attempts": 1
     },
     {
@@ -11456,7 +11456,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2435,
+      "durationMs": 2202,
       "attempts": 1
     },
     {
@@ -13699,7 +13699,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2360,
+      "durationMs": 2015,
       "attempts": 1
     },
     {
@@ -13715,7 +13715,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFE/377",
       "status": "ok",
       "error": null,
-      "athleteCount": 167,
+      "athleteCount": 166,
       "athletes": [
         {
           "position": 1,
@@ -13959,14 +13959,6 @@
         },
         {
           "position": 31,
-          "athleteCode": "45301",
-          "name": "Andressa Silva",
-          "categoryCode": "BTFE",
-          "sourcePosition": 33,
-          "points": 2206
-        },
-        {
-          "position": 32,
           "athleteCode": "52735",
           "name": "Juliana Morgan",
           "categoryCode": "BTFE",
@@ -13974,7 +13966,7 @@
           "points": 2200
         },
         {
-          "position": 33,
+          "position": 32,
           "athleteCode": "52522",
           "name": "Derika Assmann",
           "categoryCode": "BTFE",
@@ -13982,7 +13974,7 @@
           "points": 2100
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "39997",
           "name": "Vanessa Caster",
           "categoryCode": "BTFE",
@@ -13990,7 +13982,7 @@
           "points": 2000
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "53484",
           "name": "Isla Oliveira",
           "categoryCode": "BTFE",
@@ -13998,7 +13990,7 @@
           "points": 2000
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "53938",
           "name": "Gislaine Santos",
           "categoryCode": "BTFE",
@@ -14006,7 +13998,7 @@
           "points": 2000
         },
         {
-          "position": 37,
+          "position": 36,
           "athleteCode": "49304",
           "name": "Aretha Filus",
           "categoryCode": "BTFE",
@@ -14014,7 +14006,7 @@
           "points": 1925
         },
         {
-          "position": 38,
+          "position": 37,
           "athleteCode": "51419",
           "name": "Ana Marianowski",
           "categoryCode": "BTFE",
@@ -14022,7 +14014,7 @@
           "points": 1844
         },
         {
-          "position": 39,
+          "position": 38,
           "athleteCode": "52607",
           "name": "Alexia Freitas",
           "categoryCode": "BTFE",
@@ -14030,7 +14022,7 @@
           "points": 1785
         },
         {
-          "position": 40,
+          "position": 39,
           "athleteCode": "51805",
           "name": "Lucélia Franco",
           "categoryCode": "BTFE",
@@ -14038,7 +14030,7 @@
           "points": 1752
         },
         {
-          "position": 41,
+          "position": 40,
           "athleteCode": "46354",
           "name": "Maria Zavorotuk",
           "categoryCode": "BTFE",
@@ -14046,7 +14038,7 @@
           "points": 1696
         },
         {
-          "position": 42,
+          "position": 41,
           "athleteCode": "52752",
           "name": "Ana Guerra",
           "categoryCode": "BTFE",
@@ -14054,7 +14046,7 @@
           "points": 1680
         },
         {
-          "position": 42,
+          "position": 41,
           "athleteCode": "53581",
           "name": "Zibia Kwiatkowski",
           "categoryCode": "BTFE",
@@ -14062,7 +14054,7 @@
           "points": 1680
         },
         {
-          "position": 42,
+          "position": 41,
           "athleteCode": "55717",
           "name": "Maria Muniz",
           "categoryCode": "BTFE",
@@ -14070,7 +14062,7 @@
           "points": 1680
         },
         {
-          "position": 45,
+          "position": 44,
           "athleteCode": "45834",
           "name": "Patricia Luz",
           "categoryCode": "BTFE",
@@ -14078,7 +14070,7 @@
           "points": 1608
         },
         {
-          "position": 46,
+          "position": 45,
           "athleteCode": "48605",
           "name": "Andressa Mello",
           "categoryCode": "BTFE",
@@ -14086,7 +14078,7 @@
           "points": 1550
         },
         {
-          "position": 47,
+          "position": 46,
           "athleteCode": "47233",
           "name": "Fernanda Dalazen",
           "categoryCode": "BTFE",
@@ -14094,7 +14086,7 @@
           "points": 1540
         },
         {
-          "position": 48,
+          "position": 47,
           "athleteCode": "47256",
           "name": "Isadora Rosa",
           "categoryCode": "BTFE",
@@ -14102,7 +14094,7 @@
           "points": 1510
         },
         {
-          "position": 48,
+          "position": 47,
           "athleteCode": "49163",
           "name": "Gilnete Braga",
           "categoryCode": "BTFE",
@@ -14110,7 +14102,7 @@
           "points": 1510
         },
         {
-          "position": 50,
+          "position": 49,
           "athleteCode": "47777",
           "name": "Camila Bernardon",
           "categoryCode": "BTFE",
@@ -14118,7 +14110,7 @@
           "points": 1476
         },
         {
-          "position": 51,
+          "position": 50,
           "athleteCode": "45861",
           "name": "Marcia Massari",
           "categoryCode": "BTFE",
@@ -14126,7 +14118,7 @@
           "points": 1470
         },
         {
-          "position": 51,
+          "position": 50,
           "athleteCode": "50284",
           "name": "Maria Souza",
           "categoryCode": "BTFE",
@@ -14134,7 +14126,7 @@
           "points": 1470
         },
         {
-          "position": 51,
+          "position": 50,
           "athleteCode": "52407",
           "name": "Tatiane Ranssolin",
           "categoryCode": "BTFE",
@@ -14142,7 +14134,7 @@
           "points": 1470
         },
         {
-          "position": 51,
+          "position": 50,
           "athleteCode": "52410",
           "name": "Priscila Kokubu",
           "categoryCode": "BTFE",
@@ -14150,7 +14142,7 @@
           "points": 1470
         },
         {
-          "position": 55,
+          "position": 54,
           "athleteCode": "50395",
           "name": "Eduarda Ávila",
           "categoryCode": "BTFE",
@@ -14158,7 +14150,7 @@
           "points": 1458
         },
         {
-          "position": 56,
+          "position": 55,
           "athleteCode": "44819",
           "name": "Imna Oliveira",
           "categoryCode": "BTFE",
@@ -14166,7 +14158,7 @@
           "points": 1400
         },
         {
-          "position": 57,
+          "position": 56,
           "athleteCode": "47428",
           "name": "Camila Neves",
           "categoryCode": "BTFE",
@@ -14174,7 +14166,7 @@
           "points": 1374
         },
         {
-          "position": 58,
+          "position": 57,
           "athleteCode": "44804",
           "name": "Andressa Winkler",
           "categoryCode": "BTFE",
@@ -14182,7 +14174,7 @@
           "points": 1352
         },
         {
-          "position": 59,
+          "position": 58,
           "athleteCode": "46378",
           "name": "Oriana Brinski",
           "categoryCode": "BTFE",
@@ -14190,7 +14182,7 @@
           "points": 1332
         },
         {
-          "position": 59,
+          "position": 58,
           "athleteCode": "52797",
           "name": "Camila Almeida",
           "categoryCode": "BTFE",
@@ -14198,7 +14190,7 @@
           "points": 1332
         },
         {
-          "position": 59,
+          "position": 58,
           "athleteCode": "52798",
           "name": "Rafaela Almeida",
           "categoryCode": "BTFE",
@@ -14206,7 +14198,7 @@
           "points": 1332
         },
         {
-          "position": 62,
+          "position": 61,
           "athleteCode": "47484",
           "name": "Beatriz Yamazaki",
           "categoryCode": "BTFE",
@@ -14214,7 +14206,7 @@
           "points": 1179
         },
         {
-          "position": 63,
+          "position": 62,
           "athleteCode": "34674",
           "name": "Talita Cordoba",
           "categoryCode": "BTFE",
@@ -14222,7 +14214,7 @@
           "points": 1176
         },
         {
-          "position": 63,
+          "position": 62,
           "athleteCode": "43661",
           "name": "Giovana Vida",
           "categoryCode": "BTFE",
@@ -14230,7 +14222,7 @@
           "points": 1176
         },
         {
-          "position": 63,
+          "position": 62,
           "athleteCode": "53062",
           "name": "Nancy Morais",
           "categoryCode": "BTFE",
@@ -14238,7 +14230,7 @@
           "points": 1176
         },
         {
-          "position": 66,
+          "position": 65,
           "athleteCode": "48655",
           "name": "Gabriela Bossardi",
           "categoryCode": "BTFE",
@@ -14246,7 +14238,7 @@
           "points": 1123
         },
         {
-          "position": 67,
+          "position": 66,
           "athleteCode": "51892",
           "name": "Marcia Pires",
           "categoryCode": "BTFE",
@@ -14254,7 +14246,7 @@
           "points": 1080
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "52429",
           "name": "Gabriela Sivek",
           "categoryCode": "BTFE",
@@ -14262,7 +14254,7 @@
           "points": 1078
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "55420",
           "name": "Alice Alves",
           "categoryCode": "BTFE",
@@ -14270,7 +14262,7 @@
           "points": 1078
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "55690",
           "name": "Franciele Silva",
           "categoryCode": "BTFE",
@@ -14278,7 +14270,7 @@
           "points": 1078
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "55778",
           "name": "Raquieli Kraemer",
           "categoryCode": "BTFE",
@@ -14286,7 +14278,7 @@
           "points": 1078
         },
         {
-          "position": 72,
+          "position": 71,
           "athleteCode": "45416",
           "name": "Lara Mesnerovicz",
           "categoryCode": "BTFE",
@@ -14294,7 +14286,7 @@
           "points": 1030
         },
         {
-          "position": 72,
+          "position": 71,
           "athleteCode": "52374",
           "name": "Bianca Souza",
           "categoryCode": "BTFE",
@@ -14302,7 +14294,7 @@
           "points": 1030
         },
         {
-          "position": 72,
+          "position": 71,
           "athleteCode": "53210",
           "name": "Polyanna Fabris",
           "categoryCode": "BTFE",
@@ -14310,7 +14302,7 @@
           "points": 1030
         },
         {
-          "position": 75,
+          "position": 74,
           "athleteCode": "44991",
           "name": "Jessica Jurack",
           "categoryCode": "BTFE",
@@ -14318,7 +14310,7 @@
           "points": 1020
         },
         {
-          "position": 75,
+          "position": 74,
           "athleteCode": "52439",
           "name": "Vivian Maciel",
           "categoryCode": "BTFE",
@@ -14326,7 +14318,7 @@
           "points": 1020
         },
         {
-          "position": 75,
+          "position": 74,
           "athleteCode": "52709",
           "name": "Claudineia Silva",
           "categoryCode": "BTFE",
@@ -14334,7 +14326,7 @@
           "points": 1020
         },
         {
-          "position": 78,
+          "position": 77,
           "athleteCode": "52746",
           "name": "Kaline Keiber",
           "categoryCode": "BTFE",
@@ -14342,7 +14334,7 @@
           "points": 980
         },
         {
-          "position": 79,
+          "position": 78,
           "athleteCode": "47686",
           "name": "Ana Santos",
           "categoryCode": "BTFE",
@@ -14350,7 +14342,7 @@
           "points": 979
         },
         {
-          "position": 80,
+          "position": 79,
           "athleteCode": "45358",
           "name": "Patrícia Wild",
           "categoryCode": "BTFE",
@@ -14358,7 +14350,7 @@
           "points": 950
         },
         {
-          "position": 81,
+          "position": 80,
           "athleteCode": "45437",
           "name": "Melyana dos Santos Debastiani",
           "categoryCode": "BTFE",
@@ -14366,7 +14358,7 @@
           "points": 944
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "39604",
           "name": "Tatiana Maran",
           "categoryCode": "BTFE",
@@ -14374,7 +14366,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "40045",
           "name": "Marina Nero",
           "categoryCode": "BTFE",
@@ -14382,7 +14374,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "45918",
           "name": "Vívian Silva",
           "categoryCode": "BTFE",
@@ -14390,7 +14382,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "46302",
           "name": "Daiane Martinelli",
           "categoryCode": "BTFE",
@@ -14398,7 +14390,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "48024",
           "name": "Adriana Barea",
           "categoryCode": "BTFE",
@@ -14406,7 +14398,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "50784",
           "name": "Camila Leite",
           "categoryCode": "BTFE",
@@ -14414,7 +14406,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "52941",
           "name": "Juliana Rodrigues",
           "categoryCode": "BTFE",
@@ -14422,7 +14414,7 @@
           "points": 824
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "55677",
           "name": "Isabella Prussak",
           "categoryCode": "BTFE",
@@ -14430,7 +14422,7 @@
           "points": 824
         },
         {
-          "position": 90,
+          "position": 89,
           "athleteCode": "52623",
           "name": "Maria Staczuk",
           "categoryCode": "BTFE",
@@ -14438,7 +14430,7 @@
           "points": 802
         },
         {
-          "position": 91,
+          "position": 90,
           "athleteCode": "46411",
           "name": "Beatriz Leal",
           "categoryCode": "BTFE",
@@ -14446,7 +14438,7 @@
           "points": 797
         },
         {
-          "position": 92,
+          "position": 91,
           "athleteCode": "45408",
           "name": "Franciele Rothmund",
           "categoryCode": "BTFE",
@@ -14454,7 +14446,7 @@
           "points": 756
         },
         {
-          "position": 92,
+          "position": 91,
           "athleteCode": "51987",
           "name": "Samara Machado",
           "categoryCode": "BTFE",
@@ -14462,7 +14454,7 @@
           "points": 756
         },
         {
-          "position": 94,
+          "position": 93,
           "athleteCode": "47778",
           "name": "Gabriela Machado",
           "categoryCode": "BTFE",
@@ -14470,7 +14462,7 @@
           "points": 726
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "40634",
           "name": "Camila Amaral",
           "categoryCode": "BTFE",
@@ -14478,7 +14470,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "43191",
           "name": "Rafaela Rodrigues",
           "categoryCode": "BTFE",
@@ -14486,7 +14478,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "44803",
           "name": "Maria Rodini",
           "categoryCode": "BTFE",
@@ -14494,7 +14486,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "49457",
           "name": "Telma Machado",
           "categoryCode": "BTFE",
@@ -14502,7 +14494,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "52324",
           "name": "Jessica Rocha",
           "categoryCode": "BTFE",
@@ -14510,7 +14502,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "52365",
           "name": "Vanessa Rocha",
           "categoryCode": "BTFE",
@@ -14518,7 +14510,7 @@
           "points": 720
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "52680",
           "name": "Isabela Orzenn",
           "categoryCode": "BTFE",
@@ -14526,7 +14518,7 @@
           "points": 720
         },
         {
-          "position": 102,
+          "position": 101,
           "athleteCode": "47600",
           "name": "Perla Soteras",
           "categoryCode": "BTFE",
@@ -14534,7 +14526,7 @@
           "points": 696
         },
         {
-          "position": 102,
+          "position": 101,
           "athleteCode": "51178",
           "name": "Carolina Costa",
           "categoryCode": "BTFE",
@@ -14542,7 +14534,7 @@
           "points": 696
         },
         {
-          "position": 104,
+          "position": 103,
           "athleteCode": "46607",
           "name": "Inaihê Maia",
           "categoryCode": "BTFE",
@@ -14550,7 +14542,7 @@
           "points": 687
         },
         {
-          "position": 105,
+          "position": 104,
           "athleteCode": "46433",
           "name": "Barbara Rehbein",
           "categoryCode": "BTFE",
@@ -14558,7 +14550,7 @@
           "points": 652
         },
         {
-          "position": 106,
+          "position": 105,
           "athleteCode": "50843",
           "name": "Manuela Romão",
           "categoryCode": "BTFE",
@@ -14566,7 +14558,7 @@
           "points": 648
         },
         {
-          "position": 107,
+          "position": 106,
           "athleteCode": "42153",
           "name": "Dayene Carneiro",
           "categoryCode": "BTFE",
@@ -14574,7 +14566,7 @@
           "points": 642
         },
         {
-          "position": 108,
+          "position": 107,
           "athleteCode": "47235",
           "name": "Laura Grellmann",
           "categoryCode": "BTFE",
@@ -14582,7 +14574,7 @@
           "points": 590
         },
         {
-          "position": 109,
+          "position": 108,
           "athleteCode": "36104",
           "name": "Elaine Anciutti",
           "categoryCode": "BTFE",
@@ -14590,7 +14582,7 @@
           "points": 576
         },
         {
-          "position": 109,
+          "position": 108,
           "athleteCode": "45486",
           "name": "Denise Bahls",
           "categoryCode": "BTFE",
@@ -14598,7 +14590,7 @@
           "points": 576
         },
         {
-          "position": 109,
+          "position": 108,
           "athleteCode": "45990",
           "name": "Luana Barczyszyn",
           "categoryCode": "BTFE",
@@ -14606,7 +14598,7 @@
           "points": 576
         },
         {
-          "position": 109,
+          "position": 108,
           "athleteCode": "46012",
           "name": "Roberta Barbosa",
           "categoryCode": "BTFE",
@@ -14614,7 +14606,7 @@
           "points": 576
         },
         {
-          "position": 109,
+          "position": 108,
           "athleteCode": "52710",
           "name": "Alana Koskodai",
           "categoryCode": "BTFE",
@@ -14622,7 +14614,7 @@
           "points": 576
         },
         {
-          "position": 114,
+          "position": 113,
           "athleteCode": "32189",
           "name": "Gessica Sandrin",
           "categoryCode": "BTFE",
@@ -14630,7 +14622,7 @@
           "points": 553
         },
         {
-          "position": 114,
+          "position": 113,
           "athleteCode": "52362",
           "name": "Vanessa Silva",
           "categoryCode": "BTFE",
@@ -14638,7 +14630,7 @@
           "points": 553
         },
         {
-          "position": 116,
+          "position": 115,
           "athleteCode": "54143",
           "name": "Lia Cavejon",
           "categoryCode": "BTFE",
@@ -14646,7 +14638,7 @@
           "points": 528
         },
         {
-          "position": 117,
+          "position": 116,
           "athleteCode": "40200",
           "name": "Luísa Esposito",
           "categoryCode": "BTFE",
@@ -14654,7 +14646,7 @@
           "points": 523
         },
         {
-          "position": 117,
+          "position": 116,
           "athleteCode": "40259",
           "name": "Rafaela Tomazi",
           "categoryCode": "BTFE",
@@ -14662,7 +14654,7 @@
           "points": 523
         },
         {
-          "position": 119,
+          "position": 118,
           "athleteCode": "52748",
           "name": "Larissa Murakami",
           "categoryCode": "BTFE",
@@ -14670,7 +14662,7 @@
           "points": 513
         },
         {
-          "position": 120,
+          "position": 119,
           "athleteCode": "34806",
           "name": "Rossana Hidalgo",
           "categoryCode": "BTFE",
@@ -14678,7 +14670,7 @@
           "points": 504
         },
         {
-          "position": 120,
+          "position": 119,
           "athleteCode": "47830",
           "name": "Julia Kracke",
           "categoryCode": "BTFE",
@@ -14686,7 +14678,7 @@
           "points": 504
         },
         {
-          "position": 120,
+          "position": 119,
           "athleteCode": "52148",
           "name": "Juliana Stumpf",
           "categoryCode": "BTFE",
@@ -14694,7 +14686,7 @@
           "points": 504
         },
         {
-          "position": 120,
+          "position": 119,
           "athleteCode": "52624",
           "name": "Ana München",
           "categoryCode": "BTFE",
@@ -14702,7 +14694,7 @@
           "points": 504
         },
         {
-          "position": 124,
+          "position": 123,
           "athleteCode": "40569",
           "name": "Erika Zachary",
           "categoryCode": "BTFE",
@@ -14710,7 +14702,7 @@
           "points": 403
         },
         {
-          "position": 124,
+          "position": 123,
           "athleteCode": "43915",
           "name": "Ana Bronoski",
           "categoryCode": "BTFE",
@@ -14718,7 +14710,7 @@
           "points": 403
         },
         {
-          "position": 124,
+          "position": 123,
           "athleteCode": "47369",
           "name": "Ana Oliveira",
           "categoryCode": "BTFE",
@@ -14726,7 +14718,7 @@
           "points": 403
         },
         {
-          "position": 124,
+          "position": 123,
           "athleteCode": "48667",
           "name": "Juliana Ribeiro",
           "categoryCode": "BTFE",
@@ -14734,7 +14726,7 @@
           "points": 403
         },
         {
-          "position": 124,
+          "position": 123,
           "athleteCode": "48785",
           "name": "Patricia Cruz",
           "categoryCode": "BTFE",
@@ -14742,7 +14734,7 @@
           "points": 403
         },
         {
-          "position": 129,
+          "position": 128,
           "athleteCode": "49526",
           "name": "Alessia Zacharczuk",
           "categoryCode": "BTFE",
@@ -14750,7 +14742,7 @@
           "points": 370
         },
         {
-          "position": 129,
+          "position": 128,
           "athleteCode": "53980",
           "name": "Catiane Oliveira",
           "categoryCode": "BTFE",
@@ -14758,7 +14750,7 @@
           "points": 370
         },
         {
-          "position": 131,
+          "position": 130,
           "athleteCode": "42991",
           "name": "Valentina Nunes",
           "categoryCode": "BTFE",
@@ -14766,7 +14758,7 @@
           "points": 353
         },
         {
-          "position": 132,
+          "position": 131,
           "athleteCode": "47612",
           "name": "Gisele Spancerski",
           "categoryCode": "BTFE",
@@ -14774,7 +14766,7 @@
           "points": 336
         },
         {
-          "position": 133,
+          "position": 132,
           "athleteCode": "47485",
           "name": "Milena Cunha",
           "categoryCode": "BTFE",
@@ -14782,7 +14774,7 @@
           "points": 235
         },
         {
-          "position": 134,
+          "position": 133,
           "athleteCode": "23809",
           "name": "Adriana Vidal",
           "categoryCode": "BTFE",
@@ -14790,7 +14782,7 @@
           "points": 230
         },
         {
-          "position": 135,
+          "position": 134,
           "athleteCode": "36854",
           "name": "Suzel Moreira",
           "categoryCode": "BTFE",
@@ -14798,7 +14790,7 @@
           "points": 150
         },
         {
-          "position": 135,
+          "position": 134,
           "athleteCode": "44493",
           "name": "Barbara Maciel",
           "categoryCode": "BTFE",
@@ -14806,7 +14798,7 @@
           "points": 150
         },
         {
-          "position": 135,
+          "position": 134,
           "athleteCode": "51649",
           "name": "Elenice Aquino",
           "categoryCode": "BTFE",
@@ -14814,7 +14806,7 @@
           "points": 150
         },
         {
-          "position": 135,
+          "position": 134,
           "athleteCode": "52584",
           "name": "Cleide Bruel",
           "categoryCode": "BTFE",
@@ -14822,7 +14814,7 @@
           "points": 150
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "32382",
           "name": "Manoella Santiago",
           "categoryCode": "BTFE",
@@ -14830,7 +14822,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "37644",
           "name": "Erika Haussler",
           "categoryCode": "BTFE",
@@ -14838,7 +14830,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "38440",
           "name": "Iolanda Candido",
           "categoryCode": "BTFE",
@@ -14846,7 +14838,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "40145",
           "name": "Andrea Fauth",
           "categoryCode": "BTFE",
@@ -14854,7 +14846,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "40219",
           "name": "Luciana Souto",
           "categoryCode": "BTFE",
@@ -14862,7 +14854,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "40838",
           "name": "Maria Nascimento",
           "categoryCode": "BTFE",
@@ -14870,7 +14862,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "41439",
           "name": "Angélica Amma",
           "categoryCode": "BTFE",
@@ -14878,7 +14870,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "41958",
           "name": "Beatriz Eragus",
           "categoryCode": "BTFE",
@@ -14886,7 +14878,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "41956",
           "name": "Roberta Dalligna",
           "categoryCode": "BTFE",
@@ -14894,7 +14886,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "43522",
           "name": "Camila Ruffino",
           "categoryCode": "BTFE",
@@ -14902,7 +14894,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "44059",
           "name": "Gabriela Kawamura",
           "categoryCode": "BTFE",
@@ -14910,7 +14902,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "49342",
           "name": "Adriana Wolpe",
           "categoryCode": "BTFE",
@@ -14918,7 +14910,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "45354",
           "name": "Mariele Tondo",
           "categoryCode": "BTFE",
@@ -14926,7 +14918,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "47291",
           "name": "Caroline Brunetto",
           "categoryCode": "BTFE",
@@ -14934,7 +14926,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "48023",
           "name": "Isabel Moreira",
           "categoryCode": "BTFE",
@@ -14942,7 +14934,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "50916",
           "name": "Karina Soares",
           "categoryCode": "BTFE",
@@ -14950,7 +14942,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "51220",
           "name": "Mariana Santos",
           "categoryCode": "BTFE",
@@ -14958,7 +14950,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "51768",
           "name": "Ediene Lara",
           "categoryCode": "BTFE",
@@ -14966,7 +14958,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "51771",
           "name": "Eliziane Lara",
           "categoryCode": "BTFE",
@@ -14974,7 +14966,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "52394",
           "name": "Fabíola Gubert",
           "categoryCode": "BTFE",
@@ -14982,7 +14974,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "52574",
           "name": "Talita Fabene",
           "categoryCode": "BTFE",
@@ -14990,7 +14982,7 @@
           "points": 120
         },
         {
-          "position": 139,
+          "position": 138,
           "athleteCode": "53153",
           "name": "Márcia Garcia",
           "categoryCode": "BTFE",
@@ -14998,7 +14990,7 @@
           "points": 120
         },
         {
-          "position": 161,
+          "position": 160,
           "athleteCode": "45524",
           "name": "Cynthia Marques",
           "categoryCode": "BTFE",
@@ -15006,7 +14998,7 @@
           "points": 110
         },
         {
-          "position": 161,
+          "position": 160,
           "athleteCode": "48044",
           "name": "Valentina Menegatti",
           "categoryCode": "BTFE",
@@ -15014,7 +15006,7 @@
           "points": 110
         },
         {
-          "position": 161,
+          "position": 160,
           "athleteCode": "48029",
           "name": "Maria Koschinski",
           "categoryCode": "BTFE",
@@ -15022,7 +15014,7 @@
           "points": 110
         },
         {
-          "position": 161,
+          "position": 160,
           "athleteCode": "49809",
           "name": "Thylara Moraes",
           "categoryCode": "BTFE",
@@ -15030,7 +15022,7 @@
           "points": 110
         },
         {
-          "position": 161,
+          "position": 160,
           "athleteCode": "50993",
           "name": "Beatriz Nishii",
           "categoryCode": "BTFE",
@@ -15038,7 +15030,7 @@
           "points": 110
         },
         {
-          "position": 166,
+          "position": 165,
           "athleteCode": "42128",
           "name": "Rosemary Zillmer",
           "categoryCode": "BTFE",
@@ -15046,7 +15038,7 @@
           "points": 100
         },
         {
-          "position": 166,
+          "position": 165,
           "athleteCode": "47571",
           "name": "Tamires Marques",
           "categoryCode": "BTFE",
@@ -15054,7 +15046,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2179,
+      "durationMs": 1831,
       "attempts": 1
     },
     {
@@ -15793,7 +15785,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1365,
+      "durationMs": 1292,
       "attempts": 1
     },
     {
@@ -17172,7 +17164,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1739,
+      "durationMs": 1672,
       "attempts": 1
     },
     {
@@ -19935,7 +19927,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2499,
+      "durationMs": 2379,
       "attempts": 1
     },
     {
@@ -19951,7 +19943,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMD/351",
       "status": "ok",
       "error": null,
-      "athleteCount": 232,
+      "athleteCount": 233,
       "athletes": [
         {
           "position": 1,
@@ -20243,6 +20235,14 @@
         },
         {
           "position": 37,
+          "athleteCode": "32913",
+          "name": "Alex Bahu",
+          "categoryCode": "BTMD",
+          "sourcePosition": 42,
+          "points": 2200
+        },
+        {
+          "position": 37,
           "athleteCode": "35832",
           "name": "Matheus Carvalho",
           "categoryCode": "BTMD",
@@ -20282,7 +20282,7 @@
           "points": 2200
         },
         {
-          "position": 42,
+          "position": 43,
           "athleteCode": "41979",
           "name": "Rafael Pitol",
           "categoryCode": "BTMD",
@@ -20290,7 +20290,7 @@
           "points": 2156
         },
         {
-          "position": 43,
+          "position": 44,
           "athleteCode": "49036",
           "name": "Robert Silva",
           "categoryCode": "BTMD",
@@ -20298,7 +20298,7 @@
           "points": 2001
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "43501",
           "name": "João Neut",
           "categoryCode": "BTMD",
@@ -20306,7 +20306,7 @@
           "points": 1928
         },
         {
-          "position": 45,
+          "position": 46,
           "athleteCode": "38079",
           "name": "Kaique Paetzold",
           "categoryCode": "BTMD",
@@ -20314,7 +20314,7 @@
           "points": 1925
         },
         {
-          "position": 46,
+          "position": 47,
           "athleteCode": "35562",
           "name": "Sandro Souza",
           "categoryCode": "BTMD",
@@ -20322,7 +20322,7 @@
           "points": 1896
         },
         {
-          "position": 47,
+          "position": 48,
           "athleteCode": "46088",
           "name": "Rodolfo Foristieri",
           "categoryCode": "BTMD",
@@ -20330,7 +20330,7 @@
           "points": 1854
         },
         {
-          "position": 48,
+          "position": 49,
           "athleteCode": "39560",
           "name": "Paulo Atibaia",
           "categoryCode": "BTMD",
@@ -20338,7 +20338,7 @@
           "points": 1830
         },
         {
-          "position": 49,
+          "position": 50,
           "athleteCode": "53954",
           "name": "João Bringmann",
           "categoryCode": "BTMD",
@@ -20346,7 +20346,7 @@
           "points": 1798
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "39209",
           "name": "Arley Nesello",
           "categoryCode": "BTMD",
@@ -20354,7 +20354,7 @@
           "points": 1765
         },
         {
-          "position": 51,
+          "position": 52,
           "athleteCode": "45912",
           "name": "Gabriel Ochi Cesco",
           "categoryCode": "BTMD",
@@ -20362,7 +20362,7 @@
           "points": 1750
         },
         {
-          "position": 52,
+          "position": 53,
           "athleteCode": "52912",
           "name": "Elton Junior",
           "categoryCode": "BTMD",
@@ -20370,7 +20370,7 @@
           "points": 1736
         },
         {
-          "position": 53,
+          "position": 54,
           "athleteCode": "45542",
           "name": "Gustavo Vivan",
           "categoryCode": "BTMD",
@@ -20378,7 +20378,7 @@
           "points": 1730
         },
         {
-          "position": 54,
+          "position": 55,
           "athleteCode": "48930",
           "name": "Lucas Cavalheiro",
           "categoryCode": "BTMD",
@@ -20386,7 +20386,7 @@
           "points": 1700
         },
         {
-          "position": 55,
+          "position": 56,
           "athleteCode": "44807",
           "name": "Rafael Silva",
           "categoryCode": "BTMD",
@@ -20394,7 +20394,7 @@
           "points": 1590
         },
         {
-          "position": 56,
+          "position": 57,
           "athleteCode": "46250",
           "name": "Guilherme Silva",
           "categoryCode": "BTMD",
@@ -20402,7 +20402,7 @@
           "points": 1579
         },
         {
-          "position": 56,
+          "position": 57,
           "athleteCode": "46683",
           "name": "Vinicius Chiba",
           "categoryCode": "BTMD",
@@ -20410,7 +20410,7 @@
           "points": 1579
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "46395",
           "name": "Jeferson Grellmann",
           "categoryCode": "BTMD",
@@ -20418,7 +20418,7 @@
           "points": 1558
         },
         {
-          "position": 59,
+          "position": 60,
           "athleteCode": "45467",
           "name": "Aldemir Junior",
           "categoryCode": "BTMD",
@@ -20426,7 +20426,7 @@
           "points": 1544
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "45621",
           "name": "Fernando Neves",
           "categoryCode": "BTMD",
@@ -20434,7 +20434,7 @@
           "points": 1540
         },
         {
-          "position": 61,
+          "position": 62,
           "athleteCode": "38519",
           "name": "Itamar Scalssavara",
           "categoryCode": "BTMD",
@@ -20442,7 +20442,7 @@
           "points": 1526
         },
         {
-          "position": 62,
+          "position": 63,
           "athleteCode": "49814",
           "name": "Guilherme Dorigo",
           "categoryCode": "BTMD",
@@ -20450,7 +20450,7 @@
           "points": 1470
         },
         {
-          "position": 62,
+          "position": 63,
           "athleteCode": "50421",
           "name": "Leandro Teixeira",
           "categoryCode": "BTMD",
@@ -20458,7 +20458,7 @@
           "points": 1470
         },
         {
-          "position": 62,
+          "position": 63,
           "athleteCode": "51433",
           "name": "Miguel Abrao",
           "categoryCode": "BTMD",
@@ -20466,7 +20466,7 @@
           "points": 1470
         },
         {
-          "position": 65,
+          "position": 66,
           "athleteCode": "51938",
           "name": "Reginaldo Loures",
           "categoryCode": "BTMD",
@@ -20474,7 +20474,7 @@
           "points": 1458
         },
         {
-          "position": 66,
+          "position": 67,
           "athleteCode": "43889",
           "name": "Bruno Wojcik",
           "categoryCode": "BTMD",
@@ -20482,7 +20482,7 @@
           "points": 1400
         },
         {
-          "position": 66,
+          "position": 67,
           "athleteCode": "48053",
           "name": "Felipe Monteiro",
           "categoryCode": "BTMD",
@@ -20490,7 +20490,7 @@
           "points": 1400
         },
         {
-          "position": 66,
+          "position": 67,
           "athleteCode": "52909",
           "name": "Joel Junior",
           "categoryCode": "BTMD",
@@ -20498,7 +20498,7 @@
           "points": 1400
         },
         {
-          "position": 69,
+          "position": 70,
           "athleteCode": "42203",
           "name": "João Sauer",
           "categoryCode": "BTMD",
@@ -20506,7 +20506,7 @@
           "points": 1380
         },
         {
-          "position": 70,
+          "position": 71,
           "athleteCode": "51084",
           "name": "Dione Peters",
           "categoryCode": "BTMD",
@@ -20514,7 +20514,7 @@
           "points": 1352
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "44842",
           "name": "Leandro Bloss",
           "categoryCode": "BTMD",
@@ -20522,7 +20522,7 @@
           "points": 1350
         },
         {
-          "position": 72,
+          "position": 73,
           "athleteCode": "47988",
           "name": "Leandro Pereira",
           "categoryCode": "BTMD",
@@ -20530,7 +20530,7 @@
           "points": 1348
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "46552",
           "name": "Felipe Piva",
           "categoryCode": "BTMD",
@@ -20538,7 +20538,7 @@
           "points": 1332
         },
         {
-          "position": 74,
+          "position": 75,
           "athleteCode": "45609",
           "name": "Rodrigo Ramalho",
           "categoryCode": "BTMD",
@@ -20546,7 +20546,7 @@
           "points": 1248
         },
         {
-          "position": 75,
+          "position": 76,
           "athleteCode": "44053",
           "name": "Leco Mainka",
           "categoryCode": "BTMD",
@@ -20554,7 +20554,7 @@
           "points": 1227
         },
         {
-          "position": 76,
+          "position": 77,
           "athleteCode": "50690",
           "name": "Julio Dalpizzol",
           "categoryCode": "BTMD",
@@ -20562,7 +20562,7 @@
           "points": 1204
         },
         {
-          "position": 77,
+          "position": 78,
           "athleteCode": "48640",
           "name": "Alexsander Stermer",
           "categoryCode": "BTMD",
@@ -20570,7 +20570,7 @@
           "points": 1188
         },
         {
-          "position": 78,
+          "position": 79,
           "athleteCode": "45237",
           "name": "Pedro Luz",
           "categoryCode": "BTMD",
@@ -20578,7 +20578,7 @@
           "points": 1178
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "42450",
           "name": "Lucas Vidal",
           "categoryCode": "BTMD",
@@ -20586,7 +20586,7 @@
           "points": 1176
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "47755",
           "name": "João Krapp",
           "categoryCode": "BTMD",
@@ -20594,7 +20594,7 @@
           "points": 1176
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "48129",
           "name": "HENRIQUE BOAS",
           "categoryCode": "BTMD",
@@ -20602,7 +20602,7 @@
           "points": 1176
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "48242",
           "name": "Diego Baldessari",
           "categoryCode": "BTMD",
@@ -20610,7 +20610,7 @@
           "points": 1176
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "48563",
           "name": "Josué Krapp",
           "categoryCode": "BTMD",
@@ -20618,7 +20618,7 @@
           "points": 1176
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "48994",
           "name": "Gilson Castro",
           "categoryCode": "BTMD",
@@ -20626,7 +20626,7 @@
           "points": 1176
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "50739",
           "name": "Alexandre Bida",
           "categoryCode": "BTMD",
@@ -20634,7 +20634,7 @@
           "points": 1159
         },
         {
-          "position": 86,
+          "position": 87,
           "athleteCode": "47295",
           "name": "Rodrigo Finatto",
           "categoryCode": "BTMD",
@@ -20642,7 +20642,7 @@
           "points": 1154
         },
         {
-          "position": 87,
+          "position": 88,
           "athleteCode": "35283",
           "name": "João Rodrigues",
           "categoryCode": "BTMD",
@@ -20650,7 +20650,7 @@
           "points": 1152
         },
         {
-          "position": 88,
+          "position": 89,
           "athleteCode": "49154",
           "name": "Kaetano Bordignon",
           "categoryCode": "BTMD",
@@ -20658,7 +20658,7 @@
           "points": 1140
         },
         {
-          "position": 89,
+          "position": 90,
           "athleteCode": "43836",
           "name": "João Furquim",
           "categoryCode": "BTMD",
@@ -20666,7 +20666,7 @@
           "points": 1130
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "42142",
           "name": "Miguel Putrick",
           "categoryCode": "BTMD",
@@ -20674,7 +20674,7 @@
           "points": 1094
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "32680",
           "name": "Matheus Silveira",
           "categoryCode": "BTMD",
@@ -20682,7 +20682,7 @@
           "points": 1078
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "38711",
           "name": "Danilo Carvalho",
           "categoryCode": "BTMD",
@@ -20690,7 +20690,7 @@
           "points": 1078
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "41765",
           "name": "Jean Rodrigues",
           "categoryCode": "BTMD",
@@ -20698,7 +20698,7 @@
           "points": 1078
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "46649",
           "name": "Danilo Junior",
           "categoryCode": "BTMD",
@@ -20706,7 +20706,7 @@
           "points": 1078
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "55681",
           "name": "Christian Assmann",
           "categoryCode": "BTMD",
@@ -20714,7 +20714,7 @@
           "points": 1078
         },
         {
-          "position": 96,
+          "position": 97,
           "athleteCode": "46842",
           "name": "Alysson Carcereri",
           "categoryCode": "BTMD",
@@ -20722,7 +20722,7 @@
           "points": 1066
         },
         {
-          "position": 97,
+          "position": 98,
           "athleteCode": "47382",
           "name": "Felipe Doarte",
           "categoryCode": "BTMD",
@@ -20730,7 +20730,7 @@
           "points": 1054
         },
         {
-          "position": 98,
+          "position": 99,
           "athleteCode": "42112",
           "name": "Cleison Cataneo",
           "categoryCode": "BTMD",
@@ -20738,7 +20738,7 @@
           "points": 1030
         },
         {
-          "position": 98,
+          "position": 99,
           "athleteCode": "49057",
           "name": "Leonardo Morselli",
           "categoryCode": "BTMD",
@@ -20746,7 +20746,7 @@
           "points": 1030
         },
         {
-          "position": 98,
+          "position": 99,
           "athleteCode": "53064",
           "name": "Carlos Cesco",
           "categoryCode": "BTMD",
@@ -20754,7 +20754,7 @@
           "points": 1030
         },
         {
-          "position": 101,
+          "position": 102,
           "athleteCode": "40911",
           "name": "João Victor Azevedo",
           "categoryCode": "BTMD",
@@ -20762,7 +20762,7 @@
           "points": 990
         },
         {
-          "position": 102,
+          "position": 103,
           "athleteCode": "43903",
           "name": "Jeferson Santos",
           "categoryCode": "BTMD",
@@ -20770,7 +20770,7 @@
           "points": 980
         },
         {
-          "position": 102,
+          "position": 103,
           "athleteCode": "46480",
           "name": "Cleiton Barbosa",
           "categoryCode": "BTMD",
@@ -20778,7 +20778,7 @@
           "points": 980
         },
         {
-          "position": 104,
+          "position": 105,
           "athleteCode": "49355",
           "name": "Alexandre Trento",
           "categoryCode": "BTMD",
@@ -20786,7 +20786,7 @@
           "points": 979
         },
         {
-          "position": 105,
+          "position": 106,
           "athleteCode": "52722",
           "name": "Gabriel Richter",
           "categoryCode": "BTMD",
@@ -20794,7 +20794,7 @@
           "points": 944
         },
         {
-          "position": 106,
+          "position": 107,
           "athleteCode": "43066",
           "name": "Guilherme Buffara",
           "categoryCode": "BTMD",
@@ -20802,7 +20802,7 @@
           "points": 931
         },
         {
-          "position": 106,
+          "position": 107,
           "athleteCode": "44775",
           "name": "Jean Bartol",
           "categoryCode": "BTMD",
@@ -20810,7 +20810,7 @@
           "points": 931
         },
         {
-          "position": 108,
+          "position": 109,
           "athleteCode": "45152",
           "name": "Tony Thimoteo",
           "categoryCode": "BTMD",
@@ -20818,7 +20818,7 @@
           "points": 840
         },
         {
-          "position": 108,
+          "position": 109,
           "athleteCode": "45311",
           "name": "Daniel Pavelec",
           "categoryCode": "BTMD",
@@ -20826,7 +20826,7 @@
           "points": 840
         },
         {
-          "position": 110,
+          "position": 111,
           "athleteCode": "44820",
           "name": "Marcos Ramos",
           "categoryCode": "BTMD",
@@ -20834,7 +20834,7 @@
           "points": 836
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "18339",
           "name": "Raphael Rosa",
           "categoryCode": "BTMD",
@@ -20842,7 +20842,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "22011",
           "name": "Michel Neves",
           "categoryCode": "BTMD",
@@ -20850,7 +20850,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "36950",
           "name": "Carlos da Silva",
           "categoryCode": "BTMD",
@@ -20858,7 +20858,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "37837",
           "name": "José Santos",
           "categoryCode": "BTMD",
@@ -20866,7 +20866,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "39596",
           "name": "Anderson Zanoni",
           "categoryCode": "BTMD",
@@ -20874,7 +20874,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "39666",
           "name": "Tarcisio Vieira",
           "categoryCode": "BTMD",
@@ -20882,7 +20882,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "39729",
           "name": "Ricardo Morais",
           "categoryCode": "BTMD",
@@ -20890,7 +20890,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "42165",
           "name": "Luciano Luca",
           "categoryCode": "BTMD",
@@ -20898,7 +20898,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "43531",
           "name": "Cesar Franceschi",
           "categoryCode": "BTMD",
@@ -20906,7 +20906,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "45334",
           "name": "Cassiano Loures",
           "categoryCode": "BTMD",
@@ -20914,7 +20914,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "47381",
           "name": "Andre Troc",
           "categoryCode": "BTMD",
@@ -20922,7 +20922,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "47819",
           "name": "Guilherme Geraldis",
           "categoryCode": "BTMD",
@@ -20930,7 +20930,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "48222",
           "name": "Marcelo Mendonça",
           "categoryCode": "BTMD",
@@ -20938,7 +20938,7 @@
           "points": 824
         },
         {
-          "position": 111,
+          "position": 112,
           "athleteCode": "49333",
           "name": "Guilherme Patricio",
           "categoryCode": "BTMD",
@@ -20946,7 +20946,7 @@
           "points": 824
         },
         {
-          "position": 125,
+          "position": 126,
           "athleteCode": "40562",
           "name": "Flaviano Matos",
           "categoryCode": "BTMD",
@@ -20954,7 +20954,7 @@
           "points": 820
         },
         {
-          "position": 126,
+          "position": 127,
           "athleteCode": "50999",
           "name": "Enzo Anater",
           "categoryCode": "BTMD",
@@ -20962,7 +20962,7 @@
           "points": 768
         },
         {
-          "position": 127,
+          "position": 128,
           "athleteCode": "20500",
           "name": "Matheus Petrycoski",
           "categoryCode": "BTMD",
@@ -20970,7 +20970,7 @@
           "points": 756
         },
         {
-          "position": 127,
+          "position": 128,
           "athleteCode": "37280",
           "name": "Eduardo Carboni",
           "categoryCode": "BTMD",
@@ -20978,7 +20978,7 @@
           "points": 756
         },
         {
-          "position": 127,
+          "position": 128,
           "athleteCode": "40918",
           "name": "Ricardo Turibio",
           "categoryCode": "BTMD",
@@ -20986,7 +20986,7 @@
           "points": 756
         },
         {
-          "position": 127,
+          "position": 128,
           "athleteCode": "46000",
           "name": "Emanuel Stefanes",
           "categoryCode": "BTMD",
@@ -20994,7 +20994,7 @@
           "points": 756
         },
         {
-          "position": 127,
+          "position": 128,
           "athleteCode": "50724",
           "name": "Pedro Geronimo",
           "categoryCode": "BTMD",
@@ -21002,7 +21002,7 @@
           "points": 756
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "37753",
           "name": "Adinan Kielb",
           "categoryCode": "BTMD",
@@ -21010,7 +21010,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "42579",
           "name": "Bruno Athanasio",
           "categoryCode": "BTMD",
@@ -21018,7 +21018,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "44604",
           "name": "Gabriel Lima",
           "categoryCode": "BTMD",
@@ -21026,7 +21026,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "44865",
           "name": "Paulo Oliveira",
           "categoryCode": "BTMD",
@@ -21034,7 +21034,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "45339",
           "name": "João Fontes",
           "categoryCode": "BTMD",
@@ -21042,7 +21042,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "51188",
           "name": "Nicolas Prates",
           "categoryCode": "BTMD",
@@ -21050,7 +21050,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "53403",
           "name": "José Tokuno",
           "categoryCode": "BTMD",
@@ -21058,7 +21058,7 @@
           "points": 720
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "53480",
           "name": "William Soares",
           "categoryCode": "BTMD",
@@ -21066,7 +21066,7 @@
           "points": 720
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "28150",
           "name": "Joaquim Lopes",
           "categoryCode": "BTMD",
@@ -21074,7 +21074,7 @@
           "points": 687
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "41132",
           "name": "Edyangelo Assunção",
           "categoryCode": "BTMD",
@@ -21082,7 +21082,7 @@
           "points": 687
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "46087",
           "name": "Leonardo Mantovani",
           "categoryCode": "BTMD",
@@ -21090,7 +21090,7 @@
           "points": 687
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "46798",
           "name": "Luiz Eckert",
           "categoryCode": "BTMD",
@@ -21098,7 +21098,7 @@
           "points": 687
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "47596",
           "name": "Bryan Bueno",
           "categoryCode": "BTMD",
@@ -21106,7 +21106,7 @@
           "points": 687
         },
         {
-          "position": 140,
+          "position": 141,
           "athleteCode": "49211",
           "name": "Enzo Marcirio",
           "categoryCode": "BTMD",
@@ -21114,7 +21114,7 @@
           "points": 687
         },
         {
-          "position": 146,
+          "position": 147,
           "athleteCode": "41229",
           "name": "Airton Mitsuyasu",
           "categoryCode": "BTMD",
@@ -21122,7 +21122,7 @@
           "points": 686
         },
         {
-          "position": 146,
+          "position": 147,
           "athleteCode": "41512",
           "name": "Paulo Gomes Junior",
           "categoryCode": "BTMD",
@@ -21130,7 +21130,7 @@
           "points": 686
         },
         {
-          "position": 148,
+          "position": 149,
           "athleteCode": "5466",
           "name": "Rafael P. Ferreira",
           "categoryCode": "BTMD",
@@ -21138,7 +21138,7 @@
           "points": 624
         },
         {
-          "position": 148,
+          "position": 149,
           "athleteCode": "35934",
           "name": "Igor Chimilovski",
           "categoryCode": "BTMD",
@@ -21146,7 +21146,7 @@
           "points": 624
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "35341",
           "name": "Marcelo Souza",
           "categoryCode": "BTMD",
@@ -21154,7 +21154,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "36867",
           "name": "Marcos Verfe",
           "categoryCode": "BTMD",
@@ -21162,7 +21162,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "41566",
           "name": "Luiz Martins",
           "categoryCode": "BTMD",
@@ -21170,7 +21170,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "46158",
           "name": "Luiz Dias",
           "categoryCode": "BTMD",
@@ -21178,7 +21178,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "47187",
           "name": "Carlos Rochitti",
           "categoryCode": "BTMD",
@@ -21186,7 +21186,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "47387",
           "name": "Theodocio Atherino",
           "categoryCode": "BTMD",
@@ -21194,7 +21194,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "52357",
           "name": "Leonardo Tavarnaro",
           "categoryCode": "BTMD",
@@ -21202,7 +21202,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "52514",
           "name": "Marcos Silva",
           "categoryCode": "BTMD",
@@ -21210,7 +21210,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "53036",
           "name": "Sammer Ceroni",
           "categoryCode": "BTMD",
@@ -21218,7 +21218,7 @@
           "points": 576
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "53469",
           "name": "Victor Walter",
           "categoryCode": "BTMD",
@@ -21226,7 +21226,7 @@
           "points": 576
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "26886",
           "name": "Juliano Franceschi",
           "categoryCode": "BTMD",
@@ -21234,7 +21234,7 @@
           "points": 528
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "32153",
           "name": "Thiago kredens",
           "categoryCode": "BTMD",
@@ -21242,7 +21242,7 @@
           "points": 528
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "44465",
           "name": "Marcos Segala",
           "categoryCode": "BTMD",
@@ -21250,7 +21250,7 @@
           "points": 528
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "48027",
           "name": "Alexandre Santos",
           "categoryCode": "BTMD",
@@ -21258,7 +21258,7 @@
           "points": 528
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "50394",
           "name": "Edeuclei Pizzol",
           "categoryCode": "BTMD",
@@ -21266,7 +21266,7 @@
           "points": 528
         },
         {
-          "position": 160,
+          "position": 161,
           "athleteCode": "51353",
           "name": "Ricardo Sanches",
           "categoryCode": "BTMD",
@@ -21274,7 +21274,7 @@
           "points": 528
         },
         {
-          "position": 166,
+          "position": 167,
           "athleteCode": "36773",
           "name": "Lucas Portela",
           "categoryCode": "BTMD",
@@ -21282,7 +21282,7 @@
           "points": 523
         },
         {
-          "position": 167,
+          "position": 168,
           "athleteCode": "48660",
           "name": "Jackson Silva",
           "categoryCode": "BTMD",
@@ -21290,7 +21290,7 @@
           "points": 513
         },
         {
-          "position": 168,
+          "position": 169,
           "athleteCode": "39289",
           "name": "Josimar Silva",
           "categoryCode": "BTMD",
@@ -21298,7 +21298,7 @@
           "points": 500
         },
         {
-          "position": 169,
+          "position": 170,
           "athleteCode": "43544",
           "name": "Cristiano Pinto",
           "categoryCode": "BTMD",
@@ -21306,7 +21306,7 @@
           "points": 490
         },
         {
-          "position": 170,
+          "position": 171,
           "athleteCode": "44007",
           "name": "Cleber Montagner",
           "categoryCode": "BTMD",
@@ -21314,7 +21314,7 @@
           "points": 480
         },
         {
-          "position": 171,
+          "position": 172,
           "athleteCode": "51840",
           "name": "Ryan Genovez",
           "categoryCode": "BTMD",
@@ -21322,7 +21322,7 @@
           "points": 426
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "41919",
           "name": "Eduardo Brunetto",
           "categoryCode": "BTMD",
@@ -21330,7 +21330,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "44880",
           "name": "Luiz Souza",
           "categoryCode": "BTMD",
@@ -21338,7 +21338,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "46705",
           "name": "Arthur Silva",
           "categoryCode": "BTMD",
@@ -21346,7 +21346,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "46769",
           "name": "Hericson Raimundo",
           "categoryCode": "BTMD",
@@ -21354,7 +21354,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "47297",
           "name": "Rodrigo Silva",
           "categoryCode": "BTMD",
@@ -21362,7 +21362,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "49912",
           "name": "Fernando Mello",
           "categoryCode": "BTMD",
@@ -21370,7 +21370,7 @@
           "points": 403
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "52438",
           "name": "Leandro Senchechem",
           "categoryCode": "BTMD",
@@ -21378,7 +21378,7 @@
           "points": 403
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "30942",
           "name": "Fabio Starke",
           "categoryCode": "BTMD",
@@ -21386,7 +21386,7 @@
           "points": 370
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "37676",
           "name": "Felipe Dutra",
           "categoryCode": "BTMD",
@@ -21394,7 +21394,7 @@
           "points": 370
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "44430",
           "name": "Aurélio Pinto",
           "categoryCode": "BTMD",
@@ -21402,7 +21402,7 @@
           "points": 370
         },
         {
-          "position": 182,
+          "position": 183,
           "athleteCode": "40639",
           "name": "Jeancarlo Beltrame",
           "categoryCode": "BTMD",
@@ -21410,7 +21410,7 @@
           "points": 336
         },
         {
-          "position": 182,
+          "position": 183,
           "athleteCode": "47102",
           "name": "Marlon Goss",
           "categoryCode": "BTMD",
@@ -21418,7 +21418,7 @@
           "points": 336
         },
         {
-          "position": 184,
+          "position": 185,
           "athleteCode": "40488",
           "name": "Edson Ricardo Junior",
           "categoryCode": "BTMD",
@@ -21426,7 +21426,7 @@
           "points": 282
         },
         {
-          "position": 184,
+          "position": 185,
           "athleteCode": "52380",
           "name": "Tadeu Santos",
           "categoryCode": "BTMD",
@@ -21434,7 +21434,7 @@
           "points": 282
         },
         {
-          "position": 184,
+          "position": 185,
           "athleteCode": "52550",
           "name": "Elcio Oesterreich",
           "categoryCode": "BTMD",
@@ -21442,7 +21442,7 @@
           "points": 282
         },
         {
-          "position": 184,
+          "position": 185,
           "athleteCode": "52949",
           "name": "João Jesus",
           "categoryCode": "BTMD",
@@ -21450,7 +21450,7 @@
           "points": 282
         },
         {
-          "position": 188,
+          "position": 189,
           "athleteCode": "44687",
           "name": "Alberto Filho",
           "categoryCode": "BTMD",
@@ -21458,7 +21458,7 @@
           "points": 270
         },
         {
-          "position": 189,
+          "position": 190,
           "athleteCode": "45943",
           "name": "Guilherme Silva",
           "categoryCode": "BTMD",
@@ -21466,7 +21466,7 @@
           "points": 260
         },
         {
-          "position": 190,
+          "position": 191,
           "athleteCode": "11441",
           "name": "Carlos Ramos",
           "categoryCode": "BTMD",
@@ -21474,7 +21474,7 @@
           "points": 240
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "41178",
           "name": "Alcimir Dallastella",
           "categoryCode": "BTMD",
@@ -21482,7 +21482,7 @@
           "points": 230
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "43913",
           "name": "Theo Garcia",
           "categoryCode": "BTMD",
@@ -21490,7 +21490,7 @@
           "points": 230
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "4102",
           "name": "Marcio Brito",
           "categoryCode": "BTMD",
@@ -21498,7 +21498,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "7773",
           "name": "Orlando Scremin F",
           "categoryCode": "BTMD",
@@ -21506,7 +21506,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "9098",
           "name": "Sergio Maluf",
           "categoryCode": "BTMD",
@@ -21514,7 +21514,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "22324",
           "name": "Luiz Bonsenhor",
           "categoryCode": "BTMD",
@@ -21522,7 +21522,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "40722",
           "name": "José Diniz",
           "categoryCode": "BTMD",
@@ -21530,7 +21530,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "43623",
           "name": "Diego Hernandez",
           "categoryCode": "BTMD",
@@ -21538,7 +21538,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "44869",
           "name": "Geovane Lima",
           "categoryCode": "BTMD",
@@ -21546,7 +21546,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "46090",
           "name": "Pedro Southier",
           "categoryCode": "BTMD",
@@ -21554,7 +21554,7 @@
           "points": 150
         },
         {
-          "position": 193,
+          "position": 194,
           "athleteCode": "46483",
           "name": "Rodrigo Rogato",
           "categoryCode": "BTMD",
@@ -21562,7 +21562,7 @@
           "points": 150
         },
         {
-          "position": 202,
+          "position": 203,
           "athleteCode": "34930",
           "name": "Matheus Faleiro",
           "categoryCode": "BTMD",
@@ -21570,7 +21570,7 @@
           "points": 138
         },
         {
-          "position": 202,
+          "position": 203,
           "athleteCode": "39937",
           "name": "Pedro Mariano",
           "categoryCode": "BTMD",
@@ -21578,7 +21578,7 @@
           "points": 138
         },
         {
-          "position": 202,
+          "position": 203,
           "athleteCode": "51775",
           "name": "Isaac Giaretta",
           "categoryCode": "BTMD",
@@ -21586,7 +21586,7 @@
           "points": 138
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "27737",
           "name": "Rogerio Françolin",
           "categoryCode": "BTMD",
@@ -21594,7 +21594,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "32158",
           "name": "Vinícius Leal",
           "categoryCode": "BTMD",
@@ -21602,7 +21602,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "33001",
           "name": "Henrique Pizzatto",
           "categoryCode": "BTMD",
@@ -21610,7 +21610,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "36504",
           "name": "Marcelo Ono",
           "categoryCode": "BTMD",
@@ -21618,7 +21618,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "39068",
           "name": "Marcus Oliveira Filho",
           "categoryCode": "BTMD",
@@ -21626,7 +21626,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "41867",
           "name": "Luiz Garofani",
           "categoryCode": "BTMD",
@@ -21634,7 +21634,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "45130",
           "name": "Geovane Santinni",
           "categoryCode": "BTMD",
@@ -21642,7 +21642,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "45468",
           "name": "Marcelo Monteiro",
           "categoryCode": "BTMD",
@@ -21650,7 +21650,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "45701",
           "name": "Dan Belem",
           "categoryCode": "BTMD",
@@ -21658,7 +21658,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "46980",
           "name": "Ricardo Pietrovicz",
           "categoryCode": "BTMD",
@@ -21666,7 +21666,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "47294",
           "name": "Vinicius Silveira",
           "categoryCode": "BTMD",
@@ -21674,7 +21674,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "48010",
           "name": "Alexandre Laska",
           "categoryCode": "BTMD",
@@ -21682,7 +21682,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "50963",
           "name": "Gabriel Maguetas",
           "categoryCode": "BTMD",
@@ -21690,7 +21690,7 @@
           "points": 120
         },
         {
-          "position": 205,
+          "position": 206,
           "athleteCode": "53061",
           "name": "Rafael Santos",
           "categoryCode": "BTMD",
@@ -21698,7 +21698,7 @@
           "points": 120
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "31032",
           "name": "Arthur Malvaso",
           "categoryCode": "BTMD",
@@ -21706,7 +21706,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "34708",
           "name": "Edson Pereira Filho",
           "categoryCode": "BTMD",
@@ -21714,7 +21714,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "38824",
           "name": "Murilo Bandeira",
           "categoryCode": "BTMD",
@@ -21722,7 +21722,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "48033",
           "name": "Marcos Andrade",
           "categoryCode": "BTMD",
@@ -21730,7 +21730,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "49110",
           "name": "Vinicius Souza",
           "categoryCode": "BTMD",
@@ -21738,7 +21738,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "50145",
           "name": "Leonardo Alves",
           "categoryCode": "BTMD",
@@ -21746,7 +21746,7 @@
           "points": 110
         },
         {
-          "position": 219,
+          "position": 220,
           "athleteCode": "50164",
           "name": "Gustavo Hermann",
           "categoryCode": "BTMD",
@@ -21754,7 +21754,7 @@
           "points": 110
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "40483",
           "name": "Jackson Chitolina",
           "categoryCode": "BTMD",
@@ -21762,7 +21762,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "40984",
           "name": "Carlos Estivalet Junior",
           "categoryCode": "BTMD",
@@ -21770,7 +21770,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "41361",
           "name": "Romulo Jandrey",
           "categoryCode": "BTMD",
@@ -21778,7 +21778,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "42164",
           "name": "Airom Miola",
           "categoryCode": "BTMD",
@@ -21786,7 +21786,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "45544",
           "name": "André Ribeiro",
           "categoryCode": "BTMD",
@@ -21794,7 +21794,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "45648",
           "name": "Rudinei Latenik",
           "categoryCode": "BTMD",
@@ -21802,7 +21802,7 @@
           "points": 100
         },
         {
-          "position": 226,
+          "position": 227,
           "athleteCode": "52990",
           "name": "Gabriel Sato",
           "categoryCode": "BTMD",
@@ -21810,7 +21810,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2728,
+      "durationMs": 2066,
       "attempts": 1
     },
     {
@@ -21826,7 +21826,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTME/378",
       "status": "ok",
       "error": null,
-      "athleteCount": 117,
+      "athleteCount": 116,
       "athletes": [
         {
           "position": 1,
@@ -22038,14 +22038,6 @@
         },
         {
           "position": 27,
-          "athleteCode": "46856",
-          "name": "Marco Nicaretta",
-          "categoryCode": "BTME",
-          "sourcePosition": 33,
-          "points": 2200
-        },
-        {
-          "position": 28,
           "athleteCode": "33499",
           "name": "Luis Pelek",
           "categoryCode": "BTME",
@@ -22053,7 +22045,7 @@
           "points": 2108
         },
         {
-          "position": 29,
+          "position": 28,
           "athleteCode": "52957",
           "name": "Rodrigo Souza",
           "categoryCode": "BTME",
@@ -22061,7 +22053,7 @@
           "points": 2058
         },
         {
-          "position": 30,
+          "position": 29,
           "athleteCode": "52662",
           "name": "Leandro Gluszczak",
           "categoryCode": "BTME",
@@ -22069,7 +22061,7 @@
           "points": 2052
         },
         {
-          "position": 31,
+          "position": 30,
           "athleteCode": "53286",
           "name": "Danriel Mundt",
           "categoryCode": "BTME",
@@ -22077,7 +22069,7 @@
           "points": 2000
         },
         {
-          "position": 32,
+          "position": 31,
           "athleteCode": "46867",
           "name": "Rafael Krupiniski",
           "categoryCode": "BTME",
@@ -22085,7 +22077,7 @@
           "points": 1972
         },
         {
-          "position": 33,
+          "position": 32,
           "athleteCode": "52335",
           "name": "Lucas Leite",
           "categoryCode": "BTME",
@@ -22093,7 +22085,7 @@
           "points": 1962
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "46231",
           "name": "Kawã Brambilla",
           "categoryCode": "BTME",
@@ -22101,7 +22093,7 @@
           "points": 1925
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "46995",
           "name": "Luiz Garcia",
           "categoryCode": "BTME",
@@ -22109,7 +22101,7 @@
           "points": 1925
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "41275",
           "name": "Eduardo Campana",
           "categoryCode": "BTME",
@@ -22117,7 +22109,7 @@
           "points": 1830
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "41461",
           "name": "Jose Piornedo",
           "categoryCode": "BTME",
@@ -22125,7 +22117,7 @@
           "points": 1830
         },
         {
-          "position": 38,
+          "position": 37,
           "athleteCode": "42497",
           "name": "Jeferson Moreno",
           "categoryCode": "BTME",
@@ -22133,7 +22125,7 @@
           "points": 1818
         },
         {
-          "position": 39,
+          "position": 38,
           "athleteCode": "53173",
           "name": "Gabriel Pires",
           "categoryCode": "BTME",
@@ -22141,7 +22133,7 @@
           "points": 1804
         },
         {
-          "position": 40,
+          "position": 39,
           "athleteCode": "52437",
           "name": "Yury Machado",
           "categoryCode": "BTME",
@@ -22149,7 +22141,7 @@
           "points": 1800
         },
         {
-          "position": 41,
+          "position": 40,
           "athleteCode": "52749",
           "name": "Julio Ragasson",
           "categoryCode": "BTME",
@@ -22157,7 +22149,7 @@
           "points": 1765
         },
         {
-          "position": 42,
+          "position": 41,
           "athleteCode": "46496",
           "name": "Douglas Veiga",
           "categoryCode": "BTME",
@@ -22165,7 +22157,7 @@
           "points": 1680
         },
         {
-          "position": 43,
+          "position": 42,
           "athleteCode": "29778",
           "name": "Enzo Turoni",
           "categoryCode": "BTME",
@@ -22173,7 +22165,7 @@
           "points": 1540
         },
         {
-          "position": 43,
+          "position": 42,
           "athleteCode": "52773",
           "name": "Gustavo Kenski",
           "categoryCode": "BTME",
@@ -22181,7 +22173,7 @@
           "points": 1540
         },
         {
-          "position": 45,
+          "position": 44,
           "athleteCode": "40870",
           "name": "Rogério Ferro",
           "categoryCode": "BTME",
@@ -22189,7 +22181,7 @@
           "points": 1470
         },
         {
-          "position": 46,
+          "position": 45,
           "athleteCode": "49411",
           "name": "Odenir Ghiggi",
           "categoryCode": "BTME",
@@ -22197,7 +22189,7 @@
           "points": 1458
         },
         {
-          "position": 47,
+          "position": 46,
           "athleteCode": "45176",
           "name": "Mauricio Garcia",
           "categoryCode": "BTME",
@@ -22205,7 +22197,7 @@
           "points": 1400
         },
         {
-          "position": 48,
+          "position": 47,
           "athleteCode": "50687",
           "name": "Everton Nishii",
           "categoryCode": "BTME",
@@ -22213,7 +22205,7 @@
           "points": 1332
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "42199",
           "name": "Gustavo Lawin",
           "categoryCode": "BTME",
@@ -22221,7 +22213,7 @@
           "points": 1326
         },
         {
-          "position": 50,
+          "position": 49,
           "athleteCode": "43022",
           "name": "Fábio Brinhoni",
           "categoryCode": "BTME",
@@ -22229,7 +22221,7 @@
           "points": 1296
         },
         {
-          "position": 50,
+          "position": 49,
           "athleteCode": "52564",
           "name": "Gleison Pires",
           "categoryCode": "BTME",
@@ -22237,7 +22229,7 @@
           "points": 1296
         },
         {
-          "position": 52,
+          "position": 51,
           "athleteCode": "45700",
           "name": "Leanderson Silva",
           "categoryCode": "BTME",
@@ -22245,7 +22237,7 @@
           "points": 1227
         },
         {
-          "position": 53,
+          "position": 52,
           "athleteCode": "43306",
           "name": "Jean Dias",
           "categoryCode": "BTME",
@@ -22253,7 +22245,7 @@
           "points": 1176
         },
         {
-          "position": 53,
+          "position": 52,
           "athleteCode": "46298",
           "name": "Osmar Junior",
           "categoryCode": "BTME",
@@ -22261,7 +22253,7 @@
           "points": 1176
         },
         {
-          "position": 53,
+          "position": 52,
           "athleteCode": "48045",
           "name": "Felipe Carminhola",
           "categoryCode": "BTME",
@@ -22269,7 +22261,7 @@
           "points": 1176
         },
         {
-          "position": 53,
+          "position": 52,
           "athleteCode": "52560",
           "name": "Rodrigo Soares",
           "categoryCode": "BTME",
@@ -22277,7 +22269,7 @@
           "points": 1176
         },
         {
-          "position": 57,
+          "position": 56,
           "athleteCode": "52655",
           "name": "Marcos Perin",
           "categoryCode": "BTME",
@@ -22285,7 +22277,7 @@
           "points": 1123
         },
         {
-          "position": 58,
+          "position": 57,
           "athleteCode": "52800",
           "name": "Gabriel Hupalo",
           "categoryCode": "BTME",
@@ -22293,7 +22285,7 @@
           "points": 1106
         },
         {
-          "position": 59,
+          "position": 58,
           "athleteCode": "53640",
           "name": "Erick Abreu",
           "categoryCode": "BTME",
@@ -22301,7 +22293,7 @@
           "points": 1078
         },
         {
-          "position": 60,
+          "position": 59,
           "athleteCode": "47514",
           "name": "Ellyan Fin",
           "categoryCode": "BTME",
@@ -22309,7 +22301,7 @@
           "points": 1030
         },
         {
-          "position": 60,
+          "position": 59,
           "athleteCode": "51881",
           "name": "Vinicius Koga",
           "categoryCode": "BTME",
@@ -22317,7 +22309,7 @@
           "points": 1030
         },
         {
-          "position": 62,
+          "position": 61,
           "athleteCode": "44866",
           "name": "Thiago Feil",
           "categoryCode": "BTME",
@@ -22325,7 +22317,7 @@
           "points": 1020
         },
         {
-          "position": 62,
+          "position": 61,
           "athleteCode": "51650",
           "name": "Ademar Aquino",
           "categoryCode": "BTME",
@@ -22333,7 +22325,7 @@
           "points": 1020
         },
         {
-          "position": 62,
+          "position": 61,
           "athleteCode": "52415",
           "name": "Rafael Fahd",
           "categoryCode": "BTME",
@@ -22341,7 +22333,7 @@
           "points": 1020
         },
         {
-          "position": 65,
+          "position": 64,
           "athleteCode": "50897",
           "name": "Eric Silva",
           "categoryCode": "BTME",
@@ -22349,7 +22341,7 @@
           "points": 980
         },
         {
-          "position": 65,
+          "position": 64,
           "athleteCode": "52158",
           "name": "Nicolas Keiber",
           "categoryCode": "BTME",
@@ -22357,7 +22349,7 @@
           "points": 980
         },
         {
-          "position": 67,
+          "position": 66,
           "athleteCode": "49678",
           "name": "Mateus Levandoschi",
           "categoryCode": "BTME",
@@ -22365,7 +22357,7 @@
           "points": 876
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "25941",
           "name": "Dante Tremonte",
           "categoryCode": "BTME",
@@ -22373,7 +22365,7 @@
           "points": 824
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "30746",
           "name": "Sergio Azevedo",
           "categoryCode": "BTME",
@@ -22381,7 +22373,7 @@
           "points": 824
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "32167",
           "name": "Leonardo Alexandrino",
           "categoryCode": "BTME",
@@ -22389,7 +22381,7 @@
           "points": 824
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "51815",
           "name": "André Lemos",
           "categoryCode": "BTME",
@@ -22397,7 +22389,7 @@
           "points": 824
         },
         {
-          "position": 68,
+          "position": 67,
           "athleteCode": "52489",
           "name": "Marco Juswiack",
           "categoryCode": "BTME",
@@ -22405,7 +22397,7 @@
           "points": 824
         },
         {
-          "position": 73,
+          "position": 72,
           "athleteCode": "46372",
           "name": "Edson França",
           "categoryCode": "BTME",
@@ -22413,7 +22405,7 @@
           "points": 807
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "45441",
           "name": "Frederico Berger",
           "categoryCode": "BTME",
@@ -22421,7 +22413,7 @@
           "points": 756
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "53019",
           "name": "Valdir Siqueira",
           "categoryCode": "BTME",
@@ -22429,7 +22421,7 @@
           "points": 756
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "53248",
           "name": "Enzo Ferreira",
           "categoryCode": "BTME",
@@ -22437,7 +22429,7 @@
           "points": 756
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "53300",
           "name": "Hudson Ferreira",
           "categoryCode": "BTME",
@@ -22445,7 +22437,7 @@
           "points": 756
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "53748",
           "name": "Cassio Missio",
           "categoryCode": "BTME",
@@ -22453,7 +22445,7 @@
           "points": 756
         },
         {
-          "position": 74,
+          "position": 73,
           "athleteCode": "53749",
           "name": "Marcelo Pinheiro",
           "categoryCode": "BTME",
@@ -22461,7 +22453,7 @@
           "points": 756
         },
         {
-          "position": 80,
+          "position": 79,
           "athleteCode": "45400",
           "name": "Marcelo Dutra",
           "categoryCode": "BTME",
@@ -22469,7 +22461,7 @@
           "points": 720
         },
         {
-          "position": 80,
+          "position": 79,
           "athleteCode": "52149",
           "name": "Cleomar Herther",
           "categoryCode": "BTME",
@@ -22477,7 +22469,7 @@
           "points": 720
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "49068",
           "name": "Mateus Yamazaki",
           "categoryCode": "BTME",
@@ -22485,7 +22477,7 @@
           "points": 687
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "49702",
           "name": "Sidemar Cezar",
           "categoryCode": "BTME",
@@ -22493,7 +22485,7 @@
           "points": 687
         },
         {
-          "position": 82,
+          "position": 81,
           "athleteCode": "53115",
           "name": "Kauan Mroczkoski",
           "categoryCode": "BTME",
@@ -22501,7 +22493,7 @@
           "points": 687
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "46356",
           "name": "Alexandre Panceri",
           "categoryCode": "BTME",
@@ -22509,7 +22501,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "46845",
           "name": "Filipe Gonzalez",
           "categoryCode": "BTME",
@@ -22517,7 +22509,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "47080",
           "name": "Alexandre Longhini",
           "categoryCode": "BTME",
@@ -22525,7 +22517,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "47981",
           "name": "Vinicius Muller",
           "categoryCode": "BTME",
@@ -22533,7 +22525,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "49623",
           "name": "João Muller",
           "categoryCode": "BTME",
@@ -22541,7 +22533,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "50505",
           "name": "Mauro Gemelli",
           "categoryCode": "BTME",
@@ -22549,7 +22541,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "52605",
           "name": "Jefferson Oliveira",
           "categoryCode": "BTME",
@@ -22557,7 +22549,7 @@
           "points": 576
         },
         {
-          "position": 85,
+          "position": 84,
           "athleteCode": "52631",
           "name": "Livio Rodrigues",
           "categoryCode": "BTME",
@@ -22565,7 +22557,7 @@
           "points": 576
         },
         {
-          "position": 93,
+          "position": 92,
           "athleteCode": "51807",
           "name": "Thiago Batista",
           "categoryCode": "BTME",
@@ -22573,7 +22565,7 @@
           "points": 270
         },
         {
-          "position": 94,
+          "position": 93,
           "athleteCode": "49563",
           "name": "Vanderlei Trento",
           "categoryCode": "BTME",
@@ -22581,7 +22573,7 @@
           "points": 250
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "11115",
           "name": "Zenaldo Rodrigues",
           "categoryCode": "BTME",
@@ -22589,7 +22581,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "44910",
           "name": "Henrique Borges",
           "categoryCode": "BTME",
@@ -22597,7 +22589,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "46407",
           "name": "Jeancarlos Lieber Araujo",
           "categoryCode": "BTME",
@@ -22605,7 +22597,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "47263",
           "name": "Mario Neto",
           "categoryCode": "BTME",
@@ -22613,7 +22605,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "48621",
           "name": "Gilmar Junior",
           "categoryCode": "BTME",
@@ -22621,7 +22613,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "48746",
           "name": "Thiago Ferreira",
           "categoryCode": "BTME",
@@ -22629,7 +22621,7 @@
           "points": 150
         },
         {
-          "position": 95,
+          "position": 94,
           "athleteCode": "52181",
           "name": "Julison Mendonça",
           "categoryCode": "BTME",
@@ -22637,7 +22629,7 @@
           "points": 150
         },
         {
-          "position": 102,
+          "position": 101,
           "athleteCode": "51287",
           "name": "Francisco Wagner",
           "categoryCode": "BTME",
@@ -22645,7 +22637,7 @@
           "points": 138
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "39988",
           "name": "Guilherme Portela",
           "categoryCode": "BTME",
@@ -22653,7 +22645,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "46729",
           "name": "Fabio Jeremias",
           "categoryCode": "BTME",
@@ -22661,7 +22653,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "47205",
           "name": "Douglas Gavinho",
           "categoryCode": "BTME",
@@ -22669,7 +22661,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "52418",
           "name": "Antônio Lopes",
           "categoryCode": "BTME",
@@ -22677,7 +22669,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "52801",
           "name": "João Costa",
           "categoryCode": "BTME",
@@ -22685,7 +22677,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "52810",
           "name": "Marlon Brito",
           "categoryCode": "BTME",
@@ -22693,7 +22685,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "53105",
           "name": "Giacomo Souza",
           "categoryCode": "BTME",
@@ -22701,7 +22693,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "53106",
           "name": "Leonardo Graça",
           "categoryCode": "BTME",
@@ -22709,7 +22701,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "53792",
           "name": "Sheann Palmas",
           "categoryCode": "BTME",
@@ -22717,7 +22709,7 @@
           "points": 120
         },
         {
-          "position": 103,
+          "position": 102,
           "athleteCode": "54355",
           "name": "André Martins",
           "categoryCode": "BTME",
@@ -22725,7 +22717,7 @@
           "points": 120
         },
         {
-          "position": 113,
+          "position": 112,
           "athleteCode": "45639",
           "name": "Luiz França",
           "categoryCode": "BTME",
@@ -22733,7 +22725,7 @@
           "points": 110
         },
         {
-          "position": 113,
+          "position": 112,
           "athleteCode": "54295",
           "name": "Saimon Felipe",
           "categoryCode": "BTME",
@@ -22741,7 +22733,7 @@
           "points": 110
         },
         {
-          "position": 115,
+          "position": 114,
           "athleteCode": "47386",
           "name": "Matheus Peluso",
           "categoryCode": "BTME",
@@ -22749,7 +22741,7 @@
           "points": 100
         },
         {
-          "position": 115,
+          "position": 114,
           "athleteCode": "50301",
           "name": "Celso Slobodjan",
           "categoryCode": "BTME",
@@ -22757,7 +22749,7 @@
           "points": 100
         },
         {
-          "position": 115,
+          "position": 114,
           "athleteCode": "52475",
           "name": "Robson Nascimento",
           "categoryCode": "BTME",
@@ -22765,7 +22757,7 @@
           "points": 100
         }
       ],
-      "durationMs": 1813,
+      "durationMs": 1574,
       "attempts": 1
     },
     {
@@ -23520,7 +23512,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2910,
+      "durationMs": 2594,
       "attempts": 1
     },
     {
@@ -23979,7 +23971,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2199,
+      "durationMs": 2228,
       "attempts": 1
     },
     {
@@ -24310,7 +24302,7 @@
           "points": 90
         }
       ],
-      "durationMs": 2100,
+      "durationMs": 1725,
       "attempts": 1
     },
     {
@@ -24937,7 +24929,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2411,
+      "durationMs": 1817,
       "attempts": 1
     },
     {
@@ -25556,7 +25548,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3642,
+      "durationMs": 2378,
       "attempts": 1
     },
     {
@@ -25807,7 +25799,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2145,
+      "durationMs": 1441,
       "attempts": 1
     },
     {
@@ -25925,7 +25917,7 @@
           "position": 12,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 12,
           "points": 2100
         },
@@ -26002,7 +25994,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1214,
+      "durationMs": 1139,
       "attempts": 1
     },
     {
@@ -26333,7 +26325,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2227,
+      "durationMs": 1668,
       "attempts": 1
     },
     {
@@ -26520,7 +26512,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1386,
+      "durationMs": 1344,
       "attempts": 1
     },
     {
@@ -26635,7 +26627,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1347,
+      "durationMs": 934,
       "attempts": 1
     },
     {
@@ -26886,7 +26878,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1435,
+      "durationMs": 1408,
       "attempts": 1
     },
     {
@@ -27137,7 +27129,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1299,
+      "durationMs": 1536,
       "attempts": 1
     },
     {
@@ -27612,7 +27604,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2076,
+      "durationMs": 1756,
       "attempts": 1
     },
     {
@@ -28255,7 +28247,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3095,
+      "durationMs": 3289,
       "attempts": 1
     },
     {
@@ -29962,7 +29954,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10970,
+      "durationMs": 7298,
       "attempts": 1
     },
     {
@@ -31621,7 +31613,7 @@
           "points": 50
         }
       ],
-      "durationMs": 8436,
+      "durationMs": 8815,
       "attempts": 1
     },
     {
@@ -32840,7 +32832,7 @@
           "points": 75
         }
       ],
-      "durationMs": 14350,
+      "durationMs": 12460,
       "attempts": 1
     },
     {
@@ -33251,7 +33243,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2138,
+      "durationMs": 2746,
       "attempts": 1
     },
     {
@@ -34070,7 +34062,7 @@
           "points": 83
         }
       ],
-      "durationMs": 4877,
+      "durationMs": 8130,
       "attempts": 1
     },
     {
@@ -35593,7 +35585,7 @@
           "points": 75
         }
       ],
-      "durationMs": 14148,
+      "durationMs": 13647,
       "attempts": 1
     },
     {
@@ -36948,7 +36940,7 @@
           "points": 83
         }
       ],
-      "durationMs": 13586,
+      "durationMs": 11895,
       "attempts": 1
     },
     {
@@ -37631,7 +37623,7 @@
           "points": 83
         }
       ],
-      "durationMs": 14442,
+      "durationMs": 9021,
       "attempts": 1
     },
     {
@@ -37978,7 +37970,7 @@
           "points": 150
         }
       ],
-      "durationMs": 4139,
+      "durationMs": 1960,
       "attempts": 1
     },
     {
@@ -38109,7 +38101,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1938,
+      "durationMs": 2991,
       "attempts": 1
     },
     {
@@ -38192,7 +38184,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1825,
+      "durationMs": 1459,
       "attempts": 1
     },
     {
@@ -38443,7 +38435,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1890,
+      "durationMs": 2007,
       "attempts": 1
     },
     {
@@ -38606,7 +38598,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2080,
+      "durationMs": 4124,
       "attempts": 1
     },
     {
@@ -38689,7 +38681,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1536,
+      "durationMs": 2201,
       "attempts": 1
     },
     {
@@ -38743,7 +38735,7 @@
           "position": 3,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 3,
           "points": 2100
         },
@@ -38804,7 +38796,7 @@
           "points": 567
         }
       ],
-      "durationMs": 3162,
+      "durationMs": 1667,
       "attempts": 1
     },
     {
@@ -38959,7 +38951,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3435,
+      "durationMs": 1720,
       "attempts": 1
     },
     {
@@ -39130,7 +39122,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1042,
+      "durationMs": 1232,
       "attempts": 1
     },
     {
@@ -39229,7 +39221,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1579,
+      "durationMs": 1071,
       "attempts": 1
     },
     {
@@ -39515,7 +39507,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2037,
+      "durationMs": 1571,
       "attempts": 1
     },
     {
@@ -39598,7 +39590,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2163,
+      "durationMs": 2213,
       "attempts": 1
     },
     {
@@ -39913,7 +39905,7 @@
           "points": 150
         }
       ],
-      "durationMs": 5656,
+      "durationMs": 2829,
       "attempts": 1
     },
     {
@@ -40556,7 +40548,7 @@
           "points": 55
         }
       ],
-      "durationMs": 9537,
+      "durationMs": 14460,
       "attempts": 1
     },
     {
@@ -41159,7 +41151,7 @@
           "points": 83
         }
       ],
-      "durationMs": 9831,
+      "durationMs": 14399,
       "attempts": 1
     },
     {
@@ -41658,7 +41650,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10199,
+      "durationMs": 10471,
       "attempts": 1
     },
     {
@@ -41853,7 +41845,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1789,
+      "durationMs": 3461,
       "attempts": 1
     },
     {
@@ -42224,7 +42216,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5035,
+      "durationMs": 9100,
       "attempts": 1
     },
     {
@@ -42971,7 +42963,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6764,
+      "durationMs": 11911,
       "attempts": 1
     },
     {
@@ -43526,7 +43518,7 @@
           "points": 55
         }
       ],
-      "durationMs": 5583,
+      "durationMs": 8440,
       "attempts": 1
     },
     {
@@ -43937,7 +43929,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5468,
+      "durationMs": 12185,
       "attempts": 1
     },
     {
@@ -44164,7 +44156,7 @@
           "points": 110
         }
       ],
-      "durationMs": 2583,
+      "durationMs": 2390,
       "attempts": 1
     },
     {
@@ -44391,7 +44383,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2032,
+      "durationMs": 4187,
       "attempts": 1
     },
     {
@@ -44546,7 +44538,7 @@
           "points": 185
         }
       ],
-      "durationMs": 1665,
+      "durationMs": 3060,
       "attempts": 1
     },
     {
@@ -44813,7 +44805,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1952,
+      "durationMs": 4779,
       "attempts": 1
     },
     {
@@ -45128,7 +45120,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1977,
+      "durationMs": 2738,
       "attempts": 1
     },
     {
@@ -45283,7 +45275,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1690,
+      "durationMs": 2910,
       "attempts": 1
     },
     {
@@ -45329,7 +45321,7 @@
           "position": 4,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 4,
           "points": 3000
         },
@@ -45454,7 +45446,7 @@
           "points": 185
         }
       ],
-      "durationMs": 2546,
+      "durationMs": 2013,
       "attempts": 1
     },
     {
@@ -45657,7 +45649,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1619,
+      "durationMs": 4601,
       "attempts": 1
     },
     {
@@ -45868,7 +45860,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1141,
+      "durationMs": 1180,
       "attempts": 1
     },
     {
@@ -46023,7 +46015,7 @@
           "points": 110
         }
       ],
-      "durationMs": 927,
+      "durationMs": 962,
       "attempts": 1
     },
     {
@@ -46226,7 +46218,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1349,
+      "durationMs": 1706,
       "attempts": 1
     },
     {
@@ -46453,7 +46445,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1730,
+      "durationMs": 3191,
       "attempts": 1
     },
     {
@@ -46656,7 +46648,7 @@
           "points": 82
         }
       ],
-      "durationMs": 1868,
+      "durationMs": 2482,
       "attempts": 1
     },
     {
@@ -46987,7 +46979,7 @@
           "points": 83
         }
       ],
-      "durationMs": 4573,
+      "durationMs": 6829,
       "attempts": 1
     },
     {
@@ -47702,7 +47694,7 @@
           "points": 75
         }
       ],
-      "durationMs": 11641,
+      "durationMs": 14254,
       "attempts": 1
     },
     {
@@ -48097,7 +48089,7 @@
           "points": 110
         }
       ],
-      "durationMs": 8640,
+      "durationMs": 14088,
       "attempts": 1
     },
     {
@@ -48113,7 +48105,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFE/377",
       "status": "ok",
       "error": null,
-      "athleteCount": 17,
+      "athleteCount": 16,
       "athletes": [
         {
           "position": 1,
@@ -48133,14 +48125,6 @@
         },
         {
           "position": 3,
-          "athleteCode": "45301",
-          "name": "Andressa Silva",
-          "categoryCode": "BTFE",
-          "sourcePosition": 2,
-          "points": 3856
-        },
-        {
-          "position": 4,
           "athleteCode": "46120",
           "name": "Gabi Rodrigues",
           "categoryCode": "BTFE",
@@ -48148,7 +48132,7 @@
           "points": 3150
         },
         {
-          "position": 5,
+          "position": 4,
           "athleteCode": "42433",
           "name": "Carol Feijó",
           "categoryCode": "BTFE",
@@ -48156,7 +48140,7 @@
           "points": 2400
         },
         {
-          "position": 6,
+          "position": 5,
           "athleteCode": "31119",
           "name": "Monia Azevedo",
           "categoryCode": "BTFE",
@@ -48164,7 +48148,7 @@
           "points": 2294
         },
         {
-          "position": 7,
+          "position": 6,
           "athleteCode": "45861",
           "name": "Marcia Massari",
           "categoryCode": "BTFE",
@@ -48172,7 +48156,7 @@
           "points": 1470
         },
         {
-          "position": 8,
+          "position": 7,
           "athleteCode": "34674",
           "name": "Talita Cordoba",
           "categoryCode": "BTFE",
@@ -48180,7 +48164,7 @@
           "points": 1176
         },
         {
-          "position": 8,
+          "position": 7,
           "athleteCode": "53062",
           "name": "Nancy Morais",
           "categoryCode": "BTFE",
@@ -48188,7 +48172,7 @@
           "points": 1176
         },
         {
-          "position": 10,
+          "position": 9,
           "athleteCode": "43824",
           "name": "Jessica Meschini",
           "categoryCode": "BTFE",
@@ -48196,7 +48180,7 @@
           "points": 1155
         },
         {
-          "position": 10,
+          "position": 9,
           "athleteCode": "51480",
           "name": "Manuela Daccache",
           "categoryCode": "BTFE",
@@ -48204,7 +48188,7 @@
           "points": 1155
         },
         {
-          "position": 12,
+          "position": 11,
           "athleteCode": "53210",
           "name": "Polyanna Fabris",
           "categoryCode": "BTFE",
@@ -48212,7 +48196,7 @@
           "points": 1030
         },
         {
-          "position": 13,
+          "position": 12,
           "athleteCode": "37644",
           "name": "Erika Haussler",
           "categoryCode": "BTFE",
@@ -48220,7 +48204,7 @@
           "points": 929
         },
         {
-          "position": 13,
+          "position": 12,
           "athleteCode": "53153",
           "name": "Márcia Garcia",
           "categoryCode": "BTFE",
@@ -48228,7 +48212,7 @@
           "points": 929
         },
         {
-          "position": 15,
+          "position": 14,
           "athleteCode": "45918",
           "name": "Vívian Silva",
           "categoryCode": "BTFE",
@@ -48236,7 +48220,7 @@
           "points": 824
         },
         {
-          "position": 15,
+          "position": 14,
           "athleteCode": "46302",
           "name": "Daiane Martinelli",
           "categoryCode": "BTFE",
@@ -48244,7 +48228,7 @@
           "points": 824
         },
         {
-          "position": 15,
+          "position": 14,
           "athleteCode": "50784",
           "name": "Camila Leite",
           "categoryCode": "BTFE",
@@ -48252,7 +48236,7 @@
           "points": 824
         }
       ],
-      "durationMs": 11125,
+      "durationMs": 19526,
       "attempts": 1
     },
     {
@@ -48463,7 +48447,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3756,
+      "durationMs": 5938,
       "attempts": 1
     },
     {
@@ -48818,7 +48802,7 @@
           "points": 110
         }
       ],
-      "durationMs": 5938,
+      "durationMs": 4470,
       "attempts": 1
     },
     {
@@ -49501,7 +49485,7 @@
           "points": 75
         }
       ],
-      "durationMs": 16754,
+      "durationMs": 7694,
       "attempts": 1
     },
     {
@@ -49744,7 +49728,7 @@
           "points": 120
         }
       ],
-      "durationMs": 10700,
+      "durationMs": 8706,
       "attempts": 1
     },
     {
@@ -49987,7 +49971,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9353,
+      "durationMs": 7584,
       "attempts": 1
     },
     {
@@ -50166,7 +50150,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7257,
+      "durationMs": 2734,
       "attempts": 1
     },
     {
@@ -50337,7 +50321,7 @@
           "points": 138
         }
       ],
-      "durationMs": 5361,
+      "durationMs": 2974,
       "attempts": 1
     },
     {
@@ -50452,7 +50436,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 4413,
+      "durationMs": 2221,
       "attempts": 1
     },
     {
@@ -50671,7 +50655,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4660,
+      "durationMs": 2154,
       "attempts": 1
     },
     {
@@ -50794,7 +50778,7 @@
           "points": 100
         }
       ],
-      "durationMs": 4341,
+      "durationMs": 2741,
       "attempts": 1
     },
     {
@@ -50949,7 +50933,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2348,
+      "durationMs": 1633,
       "attempts": 1
     },
     {
@@ -51027,7 +51011,7 @@
           "position": 6,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 6,
           "points": 1925
         },
@@ -51096,7 +51080,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2249,
+      "durationMs": 1545,
       "attempts": 1
     },
     {
@@ -51299,7 +51283,7 @@
           "points": 100
         }
       ],
-      "durationMs": 4562,
+      "durationMs": 1714,
       "attempts": 1
     },
     {
@@ -51454,7 +51438,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1543,
+      "durationMs": 1002,
       "attempts": 1
     },
     {
@@ -51577,7 +51561,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 1235,
+      "durationMs": 962,
       "attempts": 1
     },
     {
@@ -51836,7 +51820,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2305,
+      "durationMs": 2553,
       "attempts": 1
     },
     {
@@ -52135,7 +52119,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2263,
+      "durationMs": 2126,
       "attempts": 1
     },
     {
@@ -52266,7 +52250,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3404,
+      "durationMs": 1861,
       "attempts": 1
     },
     {
@@ -52485,7 +52469,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4276,
+      "durationMs": 3710,
       "attempts": 1
     },
     {
@@ -52920,7 +52904,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7747,
+      "durationMs": 8803,
       "attempts": 1
     },
     {
@@ -53099,7 +53083,7 @@
           "points": 138
         }
       ],
-      "durationMs": 12116,
+      "durationMs": 6958,
       "attempts": 1
     },
     {
@@ -53115,7 +53099,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFE/377",
       "status": "ok",
       "error": null,
-      "athleteCount": 12,
+      "athleteCount": 11,
       "athletes": [
         {
           "position": 1,
@@ -53167,14 +53151,6 @@
         },
         {
           "position": 6,
-          "athleteCode": "43341",
-          "name": "Bruna Barroca",
-          "categoryCode": "BTFE",
-          "sourcePosition": 4,
-          "points": 735
-        },
-        {
-          "position": 6,
           "athleteCode": "51393",
           "name": "Luiza Silva",
           "categoryCode": "BTFE",
@@ -53182,7 +53158,7 @@
           "points": 735
         },
         {
-          "position": 9,
+          "position": 8,
           "athleteCode": "27540",
           "name": "Daniele Capoia",
           "categoryCode": "BTFE",
@@ -53190,7 +53166,7 @@
           "points": 75
         },
         {
-          "position": 9,
+          "position": 8,
           "athleteCode": "44859",
           "name": "Deise Moura",
           "categoryCode": "BTFE",
@@ -53198,7 +53174,7 @@
           "points": 75
         },
         {
-          "position": 9,
+          "position": 8,
           "athleteCode": "51019",
           "name": "Rebecca Silva",
           "categoryCode": "BTFE",
@@ -53206,7 +53182,7 @@
           "points": 75
         },
         {
-          "position": 9,
+          "position": 8,
           "athleteCode": "52231",
           "name": "Nadine Nepel",
           "categoryCode": "BTFE",
@@ -53214,7 +53190,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10554,
+      "durationMs": 9724,
       "attempts": 1
     },
     {
@@ -53353,7 +53329,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3456,
+      "durationMs": 1589,
       "attempts": 1
     },
     {
@@ -53572,7 +53548,7 @@
           "points": 138
         }
       ],
-      "durationMs": 7147,
+      "durationMs": 3041,
       "attempts": 1
     },
     {
@@ -54111,7 +54087,7 @@
           "points": 75
         }
       ],
-      "durationMs": 12210,
+      "durationMs": 7707,
       "attempts": 1
     },
     {
@@ -54127,7 +54103,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMD/351",
       "status": "ok",
       "error": null,
-      "athleteCount": 15,
+      "athleteCount": 16,
       "athletes": [
         {
           "position": 1,
@@ -54187,6 +54163,14 @@
         },
         {
           "position": 8,
+          "athleteCode": "32913",
+          "name": "Alex Bahu",
+          "categoryCode": "BTMD",
+          "sourcePosition": 8,
+          "points": 2200
+        },
+        {
+          "position": 8,
           "athleteCode": "49633",
           "name": "Gabriel Crus",
           "categoryCode": "BTMD",
@@ -54194,7 +54178,7 @@
           "points": 2200
         },
         {
-          "position": 9,
+          "position": 10,
           "athleteCode": "48789",
           "name": "Rodrigo Pereira",
           "categoryCode": "BTMD",
@@ -54202,7 +54186,7 @@
           "points": 1500
         },
         {
-          "position": 10,
+          "position": 11,
           "athleteCode": "41361",
           "name": "Romulo Jandrey",
           "categoryCode": "BTMD",
@@ -54210,7 +54194,7 @@
           "points": 835
         },
         {
-          "position": 11,
+          "position": 12,
           "athleteCode": "49934",
           "name": "Eudes Silva",
           "categoryCode": "BTMD",
@@ -54218,7 +54202,7 @@
           "points": 735
         },
         {
-          "position": 12,
+          "position": 13,
           "athleteCode": "28150",
           "name": "Joaquim Lopes",
           "categoryCode": "BTMD",
@@ -54226,7 +54210,7 @@
           "points": 687
         },
         {
-          "position": 13,
+          "position": 14,
           "athleteCode": "34930",
           "name": "Matheus Faleiro",
           "categoryCode": "BTMD",
@@ -54234,7 +54218,7 @@
           "points": 138
         },
         {
-          "position": 13,
+          "position": 14,
           "athleteCode": "51775",
           "name": "Isaac Giaretta",
           "categoryCode": "BTMD",
@@ -54242,7 +54226,7 @@
           "points": 138
         },
         {
-          "position": 13,
+          "position": 14,
           "athleteCode": "51840",
           "name": "Ryan Genovez",
           "categoryCode": "BTMD",
@@ -54250,7 +54234,7 @@
           "points": 138
         }
       ],
-      "durationMs": 4918,
+      "durationMs": 7799,
       "attempts": 1
     },
     {
@@ -54405,7 +54389,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8487,
+      "durationMs": 7205,
       "attempts": 1
     },
     {
@@ -54640,7 +54624,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2261,
+      "durationMs": 2350,
       "attempts": 1
     },
     {
@@ -54915,7 +54899,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4327,
+      "durationMs": 1664,
       "attempts": 1
     },
     {
@@ -55038,7 +55022,7 @@
           "points": 1150
         }
       ],
-      "durationMs": 1453,
+      "durationMs": 1807,
       "attempts": 1
     },
     {
@@ -55393,7 +55377,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3895,
+      "durationMs": 1762,
       "attempts": 1
     },
     {
@@ -55684,7 +55668,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3146,
+      "durationMs": 2303,
       "attempts": 1
     },
     {
@@ -55807,7 +55791,7 @@
           "points": 110
         }
       ],
-      "durationMs": 2378,
+      "durationMs": 1154,
       "attempts": 1
     },
     {
@@ -55837,7 +55821,7 @@
           "position": 2,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 2,
           "points": 11880
         },
@@ -55930,7 +55914,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2810,
+      "durationMs": 1629,
       "attempts": 1
     },
     {
@@ -56109,7 +56093,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2862,
+      "durationMs": 2365,
       "attempts": 1
     },
     {
@@ -56280,7 +56264,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1062,
+      "durationMs": 1043,
       "attempts": 1
     },
     {
@@ -56339,7 +56323,7 @@
           "points": 138
         }
       ],
-      "durationMs": 837,
+      "durationMs": 1041,
       "attempts": 1
     },
     {
@@ -56518,7 +56502,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2724,
+      "durationMs": 1254,
       "attempts": 1
     },
     {
@@ -56705,7 +56689,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2676,
+      "durationMs": 1685,
       "attempts": 1
     },
     {
@@ -56780,7 +56764,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1324,
+      "durationMs": 1500,
       "attempts": 1
     },
     {
@@ -57175,7 +57159,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5234,
+      "durationMs": 2675,
       "attempts": 1
     },
     {
@@ -57810,7 +57794,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10931,
+      "durationMs": 9539,
       "attempts": 1
     },
     {
@@ -58477,7 +58461,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6449,
+      "durationMs": 10162,
       "attempts": 1
     },
     {
@@ -58800,7 +58784,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6532,
+      "durationMs": 5624,
       "attempts": 1
     },
     {
@@ -59019,7 +59003,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3605,
+      "durationMs": 1521,
       "attempts": 1
     },
     {
@@ -59398,7 +59382,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3395,
+      "durationMs": 3522,
       "attempts": 1
     },
     {
@@ -60273,7 +60257,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7440,
+      "durationMs": 10628,
       "attempts": 1
     },
     {
@@ -60652,7 +60636,7 @@
           "points": 75
         }
       ],
-      "durationMs": 11095,
+      "durationMs": 5608,
       "attempts": 1
     },
     {
@@ -60668,7 +60652,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTME/378",
       "status": "ok",
       "error": null,
-      "athleteCount": 39,
+      "athleteCount": 38,
       "athletes": [
         {
           "position": 1,
@@ -60680,14 +60664,6 @@
         },
         {
           "position": 2,
-          "athleteCode": "46856",
-          "name": "Marco Nicaretta",
-          "categoryCode": "BTME",
-          "sourcePosition": 2,
-          "points": 5935
-        },
-        {
-          "position": 3,
           "athleteCode": "52749",
           "name": "Julio Ragasson",
           "categoryCode": "BTME",
@@ -60695,7 +60671,7 @@
           "points": 5797
         },
         {
-          "position": 4,
+          "position": 3,
           "athleteCode": "46995",
           "name": "Luiz Garcia",
           "categoryCode": "BTME",
@@ -60703,7 +60679,7 @@
           "points": 5735
         },
         {
-          "position": 5,
+          "position": 4,
           "athleteCode": "52957",
           "name": "Rodrigo Souza",
           "categoryCode": "BTME",
@@ -60711,7 +60687,7 @@
           "points": 4758
         },
         {
-          "position": 6,
+          "position": 5,
           "athleteCode": "46231",
           "name": "Kawã Brambilla",
           "categoryCode": "BTME",
@@ -60719,7 +60695,7 @@
           "points": 4550
         },
         {
-          "position": 7,
+          "position": 6,
           "athleteCode": "53748",
           "name": "Cassio Missio",
           "categoryCode": "BTME",
@@ -60727,7 +60703,7 @@
           "points": 4041
         },
         {
-          "position": 7,
+          "position": 6,
           "athleteCode": "53749",
           "name": "Marcelo Pinheiro",
           "categoryCode": "BTME",
@@ -60735,7 +60711,7 @@
           "points": 4041
         },
         {
-          "position": 9,
+          "position": 8,
           "athleteCode": "52359",
           "name": "Alexandre Maculan",
           "categoryCode": "BTME",
@@ -60743,7 +60719,7 @@
           "points": 3600
         },
         {
-          "position": 10,
+          "position": 9,
           "athleteCode": "49045",
           "name": "Felipe Silva",
           "categoryCode": "BTME",
@@ -60751,7 +60727,7 @@
           "points": 3285
         },
         {
-          "position": 11,
+          "position": 10,
           "athleteCode": "46609",
           "name": "Cleberson Arantes",
           "categoryCode": "BTME",
@@ -60759,7 +60735,7 @@
           "points": 3150
         },
         {
-          "position": 12,
+          "position": 11,
           "athleteCode": "49702",
           "name": "Sidemar Cezar",
           "categoryCode": "BTME",
@@ -60767,7 +60743,7 @@
           "points": 3069
         },
         {
-          "position": 13,
+          "position": 12,
           "athleteCode": "50232",
           "name": "Junior Pereira",
           "categoryCode": "BTME",
@@ -60775,7 +60751,7 @@
           "points": 2750
         },
         {
-          "position": 13,
+          "position": 12,
           "athleteCode": "53216",
           "name": "Sidnei Júnior",
           "categoryCode": "BTME",
@@ -60783,7 +60759,7 @@
           "points": 2750
         },
         {
-          "position": 15,
+          "position": 14,
           "athleteCode": "53286",
           "name": "Danriel Mundt",
           "categoryCode": "BTME",
@@ -60791,7 +60767,7 @@
           "points": 2735
         },
         {
-          "position": 16,
+          "position": 15,
           "athleteCode": "45176",
           "name": "Mauricio Garcia",
           "categoryCode": "BTME",
@@ -60799,7 +60775,7 @@
           "points": 2450
         },
         {
-          "position": 17,
+          "position": 16,
           "athleteCode": "52158",
           "name": "Nicolas Keiber",
           "categoryCode": "BTME",
@@ -60807,7 +60783,7 @@
           "points": 2030
         },
         {
-          "position": 18,
+          "position": 17,
           "athleteCode": "46867",
           "name": "Rafael Krupiniski",
           "categoryCode": "BTME",
@@ -60815,7 +60791,7 @@
           "points": 1972
         },
         {
-          "position": 19,
+          "position": 18,
           "athleteCode": "46091",
           "name": "Wellington Silva",
           "categoryCode": "BTME",
@@ -60823,7 +60799,7 @@
           "points": 1860
         },
         {
-          "position": 20,
+          "position": 19,
           "athleteCode": "52984",
           "name": "Guilherme Barbosa",
           "categoryCode": "BTME",
@@ -60831,7 +60807,7 @@
           "points": 1765
         },
         {
-          "position": 21,
+          "position": 20,
           "athleteCode": "29778",
           "name": "Enzo Turoni",
           "categoryCode": "BTME",
@@ -60839,7 +60815,7 @@
           "points": 1540
         },
         {
-          "position": 22,
+          "position": 21,
           "athleteCode": "35252",
           "name": "Edwin Fabbro",
           "categoryCode": "BTME",
@@ -60847,7 +60823,7 @@
           "points": 1500
         },
         {
-          "position": 22,
+          "position": 21,
           "athleteCode": "51750",
           "name": "Mateus Wurfel",
           "categoryCode": "BTME",
@@ -60855,7 +60831,7 @@
           "points": 1500
         },
         {
-          "position": 24,
+          "position": 23,
           "athleteCode": "47308",
           "name": "Celito Junior",
           "categoryCode": "BTME",
@@ -60863,7 +60839,7 @@
           "points": 1348
         },
         {
-          "position": 25,
+          "position": 24,
           "athleteCode": "55356",
           "name": "Juliano Gehlen",
           "categoryCode": "BTME",
@@ -60871,7 +60847,7 @@
           "points": 1155
         },
         {
-          "position": 26,
+          "position": 25,
           "athleteCode": "45852",
           "name": "Diogo Balzan",
           "categoryCode": "BTME",
@@ -60879,7 +60855,7 @@
           "points": 1050
         },
         {
-          "position": 27,
+          "position": 26,
           "athleteCode": "41817",
           "name": "Heuber Queiroz",
           "categoryCode": "BTME",
@@ -60887,7 +60863,7 @@
           "points": 809
         },
         {
-          "position": 28,
+          "position": 27,
           "athleteCode": "27637",
           "name": "Enzo Dias",
           "categoryCode": "BTME",
@@ -60895,7 +60871,7 @@
           "points": 735
         },
         {
-          "position": 28,
+          "position": 27,
           "athleteCode": "45118",
           "name": "Rodrigo Ghellere",
           "categoryCode": "BTME",
@@ -60903,7 +60879,7 @@
           "points": 735
         },
         {
-          "position": 28,
+          "position": 27,
           "athleteCode": "53251",
           "name": "Cassiano Johanns",
           "categoryCode": "BTME",
@@ -60911,7 +60887,7 @@
           "points": 735
         },
         {
-          "position": 31,
+          "position": 30,
           "athleteCode": "51148",
           "name": "Douglas Luft",
           "categoryCode": "BTME",
@@ -60919,7 +60895,7 @@
           "points": 590
         },
         {
-          "position": 32,
+          "position": 31,
           "athleteCode": "46023",
           "name": "Fernando Bernart",
           "categoryCode": "BTME",
@@ -60927,7 +60903,7 @@
           "points": 515
         },
         {
-          "position": 33,
+          "position": 32,
           "athleteCode": "46234",
           "name": "Lorenzo Bernart",
           "categoryCode": "BTME",
@@ -60935,7 +60911,7 @@
           "points": 360
         },
         {
-          "position": 34,
+          "position": 33,
           "athleteCode": "47319",
           "name": "Henrique Neto",
           "categoryCode": "BTME",
@@ -60943,7 +60919,7 @@
           "points": 225
         },
         {
-          "position": 35,
+          "position": 34,
           "athleteCode": "45841",
           "name": "Fernando Araujo",
           "categoryCode": "BTME",
@@ -60951,7 +60927,7 @@
           "points": 150
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "34607",
           "name": "Ronaldo Costa",
           "categoryCode": "BTME",
@@ -60959,7 +60935,7 @@
           "points": 75
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "46786",
           "name": "Enor Oliveira",
           "categoryCode": "BTME",
@@ -60967,7 +60943,7 @@
           "points": 75
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "51650",
           "name": "Ademar Aquino",
           "categoryCode": "BTME",
@@ -60975,7 +60951,7 @@
           "points": 75
         },
         {
-          "position": 36,
+          "position": 35,
           "athleteCode": "52674",
           "name": "Genuir Ternus",
           "categoryCode": "BTME",
@@ -60983,7 +60959,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9921,
+      "durationMs": 5923,
       "attempts": 1
     },
     {
@@ -61410,7 +61386,7 @@
           "points": 90
         }
       ],
-      "durationMs": 2690,
+      "durationMs": 1803,
       "attempts": 1
     },
     {
@@ -61517,7 +61493,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2710,
+      "durationMs": 2054,
       "attempts": 1
     },
     {
@@ -61616,7 +61592,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1561,
+      "durationMs": 1340,
       "attempts": 1
     },
     {
@@ -61827,7 +61803,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1702,
+      "durationMs": 2197,
       "attempts": 1
     },
     {
@@ -62038,7 +62014,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2827,
+      "durationMs": 2020,
       "attempts": 1
     },
     {
@@ -62161,7 +62137,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1846,
+      "durationMs": 1642,
       "attempts": 1
     },
     {
@@ -62255,7 +62231,7 @@
           "position": 9,
           "athleteCode": "39296",
           "name": "Lara Luz",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 9,
           "points": 1348
         },
@@ -62276,7 +62252,7 @@
           "points": 138
         }
       ],
-      "durationMs": 3120,
+      "durationMs": 2401,
       "attempts": 1
     },
     {
@@ -62575,7 +62551,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3438,
+      "durationMs": 2751,
       "attempts": 1
     },
     {
@@ -62770,7 +62746,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2677,
+      "durationMs": 1726,
       "attempts": 1
     },
     {
@@ -62893,7 +62869,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1669,
+      "durationMs": 1198,
       "attempts": 1
     },
     {
@@ -63104,7 +63080,7 @@
           "points": 98
         }
       ],
-      "durationMs": 1550,
+      "durationMs": 1814,
       "attempts": 1
     },
     {
@@ -63331,7 +63307,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1763,
+      "durationMs": 1724,
       "attempts": 1
     },
     {
@@ -63349,7 +63325,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 1181,
+      "durationMs": 1407,
       "attempts": 1
     },
     {
@@ -63616,7 +63592,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2612,
+      "durationMs": 2512,
       "attempts": 1
     },
     {
@@ -64435,7 +64411,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10044,
+      "durationMs": 9511,
       "attempts": 1
     },
     {
@@ -65206,7 +65182,7 @@
           "points": 83
         }
       ],
-      "durationMs": 7524,
+      "durationMs": 9424,
       "attempts": 1
     },
     {
@@ -65601,7 +65577,7 @@
           "points": 83
         }
       ],
-      "durationMs": 9553,
+      "durationMs": 8056,
       "attempts": 1
     },
     {
@@ -65788,7 +65764,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2652,
+      "durationMs": 2349,
       "attempts": 1
     },
     {
@@ -66127,7 +66103,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5391,
+      "durationMs": 4318,
       "attempts": 1
     },
     {
@@ -66874,7 +66850,7 @@
           "points": 75
         }
       ],
-      "durationMs": 7823,
+      "durationMs": 9259,
       "attempts": 1
     },
     {
@@ -67405,7 +67381,7 @@
           "points": 83
         }
       ],
-      "durationMs": 6761,
+      "durationMs": 8496,
       "attempts": 1
     },
     {
@@ -67616,7 +67592,7 @@
           "points": 90
         }
       ],
-      "durationMs": 6388,
+      "durationMs": 4606,
       "attempts": 1
     }
   ]

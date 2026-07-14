@@ -906,6 +906,7 @@ input:focus {
 }
 
 .compact-athlete-row {
+  position: relative;
   display: grid;
   grid-template-columns: 26px 22px minmax(0, 1fr) 56px;
   gap: 7px;
@@ -917,6 +918,13 @@ input:focus {
 
 .compact-athlete-row:last-child {
   border-bottom: 0;
+}
+
+.compact-athlete-row .compact-dot {
+  top: 4px;
+  right: 4px;
+  width: 6px;
+  height: 6px;
 }
 
 .compact-federation {

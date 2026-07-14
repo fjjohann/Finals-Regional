@@ -1185,8 +1185,14 @@ function stateRankingFor(group, label, gender) {
 
 function compactAthleteRow(athlete, gender, tone = "federation") {
   const row = document.createElement("div");
-  row.className = `compact-athlete-row compact-${tone}`;
+  const isGuaranteedFederation = Boolean(athlete.stateTop2Guaranteed);
+  row.className = [
+    "compact-athlete-row",
+    `compact-${tone}`,
+    isGuaranteedFederation ? "is-guaranteed-federation" : "",
+  ].filter(Boolean).join(" ");
   row.innerHTML = `
+    ${isGuaranteedFederation ? `<span class="guaranteed-federation-dot compact-dot" title="Vaga matematicamente garantida na Copa das Federações"></span>` : ""}
     <span class="compact-position">${athlete.position}</span>
     <span class="compact-gender ${genderClass(gender)}">${genderInitial(gender)}</span>
     <span class="compact-athlete-name">${athlete.name}</span>

@@ -1001,6 +1001,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
   const isQualified = stateCodes.has(identity);
   const isFederation = isQualified && federationCodes.has(identity);
   const isFinalsState = isQualified && !isFederation;
+  const isGuaranteedFederation = Boolean(athlete.stateTop2Guaranteed);
   const canRelease = isQualified || isReleased;
   row.className = [
     "athlete-row",
@@ -1008,6 +1009,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
     isFederation ? "is-federation-cup" : "",
     isFinalsState ? "is-finals-cup" : "",
     isReleased ? "is-manual-release" : "",
+    isGuaranteedFederation ? "is-guaranteed-federation" : "",
   ].filter(Boolean).join(" ");
   const label = isFederation ? "Copa Federações" : isFinalsState ? "Finals Copa - via Estadual" : "";
   const status = label
@@ -1031,6 +1033,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
     `
     : "";
   row.innerHTML = `
+    ${isGuaranteedFederation ? `<span class="guaranteed-federation-dot" title="Vaga matematicamente garantida na Copa das Federações"></span>` : ""}
     <span class="rank-cell">
       ${controls}
       <span class="rank-position">${athlete.position}</span>

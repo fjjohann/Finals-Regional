@@ -425,6 +425,7 @@ input:focus {
 }
 
 .athlete-row {
+  position: relative;
   display: grid;
   grid-template-columns: 56px minmax(0, 1fr) 42px;
   gap: 5px;
@@ -483,6 +484,17 @@ input:focus {
 .athlete-row.is-manual-release {
   background: #fff;
   border-bottom-color: var(--release-line);
+}
+
+.guaranteed-federation-dot {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #2563eb;
+  box-shadow: 0 0 0 1px #fff;
 }
 
 .rank-cell {

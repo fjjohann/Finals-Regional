@@ -21,6 +21,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
+STATE_RESULT_LIMIT = 8
+REMAINING_STATE_EVENTS = 2
+FUTURE_STATE_EVENT_POINTS = 3000
 
 
 class RankingTableParser(HTMLParser):
@@ -72,6 +75,39 @@ class RankingTableParser(HTMLParser):
             self._table_depth -= 1
             if self._table_depth == 0:
                 self._in_ranking_table = False
+
+
+class PointsCompositionParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.rows: list[list[str]] = []
+        self._in_row = False
+        self._in_cell = False
+        self._current_row: list[str] = []
+        self._current_cell: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "tr":
+            self._in_row = True
+            self._current_row = []
+        elif tag == "td" and self._in_row:
+            self._in_cell = True
+            self._current_cell = []
+
+    def handle_data(self, data: str) -> None:
+        if self._in_cell:
+            self._current_cell.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "td" and self._in_cell:
+            self._current_row.append(normalize_text("".join(self._current_cell)))
+            self._current_cell = []
+            self._in_cell = False
+        elif tag == "tr" and self._in_row:
+            if self._current_row:
+                self.rows.append(self._current_row)
+            self._current_row = []
+            self._in_row = False
 
 
 def normalize_text(value: str) -> str:
@@ -190,6 +226,106 @@ def parse_athletes(html: str, category_code: str | None = None) -> list[dict[str
     return ranking_positions(athletes) if expected_category else athletes
 
 
+def parse_tennis_ids(html: str) -> list[str]:
+    return re.findall(r"Pontos\((\d+), 'div\d+', 'ic\d+', 'pt\d+', 'estId\d+'\);", html)
+
+
+def parse_points_endpoint_suffix(html: str) -> str:
+    match = re.search(r"PontosPartial/' \+ 2026 \+ '/' \+ 'bt-estadual' \+ '/' \+ '[^']+' \+ '/' \+ idTenista \+ '(/[^']+)'", html)
+    return match.group(1) if match else "/5/34"
+
+
+def parse_point_components(html: str, current_total: int) -> list[int]:
+    parser = PointsCompositionParser()
+    parser.feed(html)
+    points = []
+
+    for row in parser.rows:
+        if len(row) < 4:
+            continue
+        points_text = re.sub(r"[^\d]", "", row[-1])
+        if points_text:
+            points.append(int(points_text))
+
+    if points and points[-1] == current_total:
+        points = points[:-1]
+    return points
+
+
+def projected_state_points(components: list[int]) -> int:
+    future_points = [FUTURE_STATE_EVENT_POINTS] * REMAINING_STATE_EVENTS
+    return sum(sorted([*components, *future_points], reverse=True)[:STATE_RESULT_LIMIT])
+
+
+def enrich_state_guarantees(
+    target: dict[str, Any],
+    html: str,
+    athletes: list[dict[str, Any]],
+    timeout: int,
+) -> list[dict[str, Any]]:
+    if target.get("rankingScope") != "state" or not athletes:
+        return athletes
+
+    tennis_ids = parse_tennis_ids(html)
+    if len(tennis_ids) < len(athletes):
+        return athletes
+
+    suffix = parse_points_endpoint_suffix(html)
+    ranking_id = target["rankingId"]
+    base_url = "/".join(target["url"].split("/")[:3])
+    projected_max_by_code: dict[str, int] = {}
+    components_by_code: dict[str, list[int]] = {}
+    top_two = athletes[:2]
+    thresholds = [athlete["points"] for athlete in top_two]
+    contenders = {
+        index
+        for threshold in thresholds
+        for index, athlete in enumerate(athletes)
+        if athlete["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS) >= threshold
+    }
+
+    for index in sorted(contenders):
+        athlete = athletes[index]
+        tennis_id = tennis_ids[index]
+        points_url = f"{base_url}/Ranking/PontosPartial/{target['url'].split('/')[-4]}/bt-estadual/{ranking_id}/{tennis_id}{suffix}"
+        try:
+            point_html = fetch_html(points_url, timeout)
+            components = parse_point_components(point_html, athlete["points"])
+            components_by_code[athlete["athleteCode"]] = components
+            projected_max_by_code[athlete["athleteCode"]] = projected_state_points(components)
+        except (HTTPError, URLError, TimeoutError, OSError):
+            projected_max_by_code[athlete["athleteCode"]] = athlete["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS)
+
+    enriched = []
+    for athlete in athletes:
+        code = athlete["athleteCode"]
+        projected_max = projected_max_by_code.get(code)
+        guaranteed = False
+
+        if athlete in top_two:
+            threats = 0
+            for other in athletes:
+                if other["athleteCode"] == code:
+                    continue
+                other_max = projected_max_by_code.get(other["athleteCode"])
+                if other_max is None:
+                    upper_bound = other["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS)
+                    other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
+                if other_max >= athlete["points"]:
+                    threats += 1
+            guaranteed = threats <= 1
+
+        enriched.append(
+            {
+                **athlete,
+                **({"stateProjectionMax": projected_max} if projected_max is not None else {}),
+                **({"statePointComponents": components_by_code[code]} if code in components_by_code else {}),
+                "stateTop2Guaranteed": guaranteed,
+            }
+        )
+    return enriched
+
+
 def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[str, Any]:
     started = time.time()
     error = None
@@ -199,6 +335,7 @@ def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[st
             html = fetch_html(target["url"], timeout)
             category_code = target.get("categoryCode") if target.get("categoryGroup") == "Tecnicas" else None
             athletes = parse_athletes(html, category_code)
+            athletes = enrich_state_guarantees(target, html, athletes, timeout)
             return {
                 **target,
                 "status": "ok",

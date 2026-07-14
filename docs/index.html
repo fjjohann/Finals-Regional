@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rankings Beach Tennis 2026</title>
     <link rel="stylesheet" href="styles.css?v=20260609-1045">
+    <script src="admin-config.js?v=20260714-1400"></script>
   </head>
   <body>
     <header class="app-header">
@@ -14,8 +15,32 @@
       </div>
       <div class="header-meta">
         <span id="updatedAt">Dados pendentes</span>
+        <span id="adminStatus" class="admin-status" hidden></span>
+        <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
       </div>
     </header>
+
+    <dialog class="admin-dialog" id="adminDialog">
+      <form class="admin-login" id="adminLoginForm" method="dialog">
+        <div>
+          <p class="eyebrow">Área restrita</p>
+          <h2>Administrador</h2>
+        </div>
+        <label>
+          <span>E-mail</span>
+          <input id="adminEmail" name="email" type="email" autocomplete="username" required>
+        </label>
+        <label>
+          <span>Senha</span>
+          <input id="adminPassword" name="password" type="password" autocomplete="current-password" required>
+        </label>
+        <p id="adminMessage" class="admin-message" role="status"></p>
+        <div class="admin-actions">
+          <button class="secondary-button" id="adminCancel" type="button">Cancelar</button>
+          <button class="primary-button" type="submit">Entrar</button>
+        </div>
+      </form>
+    </dialog>
 
     <main class="layout">
       <nav class="view-tabs" aria-label="Painéis">
@@ -116,6 +141,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=20260611-1905"></script>
+    <script src="app.js?v=20260714-1400"></script>
   </body>
 </html>

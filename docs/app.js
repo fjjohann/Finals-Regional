@@ -2,6 +2,10 @@ const QUALIFIED_LIMIT = 12;
 const STORAGE_KEY = "finalsRegional.confirmations.v1";
 const RELEASE_STORAGE_KEY = "finalsRegional.releases.v1";
 const STATE_RELEASE_STORAGE_KEY = "finalsRegional.stateReleases.v1";
+const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
+const REMOTE_STATE_ID = "global";
+const ADMIN_CONFIG = window.FINALS_ADMIN_CONFIG || {};
+const hasRemoteAdminConfig = Boolean(ADMIN_CONFIG.supabaseUrl && ADMIN_CONFIG.supabaseAnonKey);
 
 const state = {
   data: null,
@@ -11,10 +15,25 @@ const state = {
   confirmations: loadConfirmations(),
   releases: loadReleases(),
   stateReleases: loadStateReleases(),
+  admin: {
+    configured: hasRemoteAdminConfig,
+    session: loadAdminSession(),
+    saving: false,
+  },
 };
+
+let persistTimer = null;
 
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
+  adminStatus: document.querySelector("#adminStatus"),
+  adminToggle: document.querySelector("#adminToggle"),
+  adminDialog: document.querySelector("#adminDialog"),
+  adminLoginForm: document.querySelector("#adminLoginForm"),
+  adminEmail: document.querySelector("#adminEmail"),
+  adminPassword: document.querySelector("#adminPassword"),
+  adminMessage: document.querySelector("#adminMessage"),
+  adminCancel: document.querySelector("#adminCancel"),
   viewTabs: Array.from(document.querySelectorAll(".view-tab")),
   viewPanels: Array.from(document.querySelectorAll("[data-view-panel]")),
   regionalToolbar: document.querySelector("#regionalToolbar"),
@@ -95,16 +114,183 @@ function loadStateReleases() {
   }
 }
 
+function loadAdminSession() {
+  try {
+    const session = JSON.parse(localStorage.getItem(ADMIN_SESSION_KEY) || "null");
+    if (!session?.access_token) return null;
+    if (session.expires_at && session.expires_at * 1000 < Date.now() + 60000) {
+      localStorage.removeItem(ADMIN_SESSION_KEY);
+      return null;
+    }
+    return session;
+  } catch {
+    return null;
+  }
+}
+
 function saveConfirmations() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.confirmations));
+  schedulePersistRemoteState();
 }
 
 function saveReleases() {
   localStorage.setItem(RELEASE_STORAGE_KEY, JSON.stringify(state.releases));
+  schedulePersistRemoteState();
 }
 
 function saveStateReleases() {
   localStorage.setItem(STATE_RELEASE_STORAGE_KEY, JSON.stringify(state.stateReleases));
+  schedulePersistRemoteState();
+}
+
+function remotePayload() {
+  return {
+    confirmations: state.confirmations,
+    releases: state.releases,
+    stateReleases: state.stateReleases,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+function normalizeRemotePayload(payload) {
+  return {
+    confirmations: payload?.confirmations && typeof payload.confirmations === "object" ? payload.confirmations : {},
+    releases: payload?.releases && typeof payload.releases === "object" ? payload.releases : {},
+    stateReleases: payload?.stateReleases && typeof payload.stateReleases === "object" ? payload.stateReleases : {},
+  };
+}
+
+function applyRemotePayload(payload) {
+  const normalized = normalizeRemotePayload(payload);
+  state.confirmations = normalized.confirmations;
+  state.releases = normalized.releases;
+  state.stateReleases = normalized.stateReleases;
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.confirmations));
+  localStorage.setItem(RELEASE_STORAGE_KEY, JSON.stringify(state.releases));
+  localStorage.setItem(STATE_RELEASE_STORAGE_KEY, JSON.stringify(state.stateReleases));
+}
+
+function remoteUrl(path) {
+  return `${ADMIN_CONFIG.supabaseUrl.replace(/\/$/, "")}${path}`;
+}
+
+async function remoteRequest(path, options = {}) {
+  const token = options.authenticated ? state.admin.session?.access_token : ADMIN_CONFIG.supabaseAnonKey;
+  const headers = {
+    apikey: ADMIN_CONFIG.supabaseAnonKey,
+    Authorization: `Bearer ${token || ADMIN_CONFIG.supabaseAnonKey}`,
+    ...(options.body ? { "Content-Type": "application/json" } : {}),
+    ...(options.headers || {}),
+  };
+
+  const response = await fetch(remoteUrl(path), {
+    ...options,
+    headers,
+  });
+
+  if (!response.ok) {
+    const message = await response.text();
+    throw new Error(message || `HTTP ${response.status}`);
+  }
+
+  return response;
+}
+
+async function loadRemoteState() {
+  if (!state.admin.configured) return;
+  try {
+    const query = `/rest/v1/panel_state?id=eq.${encodeURIComponent(REMOTE_STATE_ID)}&select=payload`;
+    const response = await remoteRequest(query);
+    const rows = await response.json();
+    if (rows[0]?.payload) {
+      applyRemotePayload(rows[0].payload);
+    }
+  } catch (error) {
+    console.warn("Nao foi possivel carregar o estado remoto.", error);
+  }
+}
+
+function schedulePersistRemoteState() {
+  if (!state.admin.configured || !state.admin.session) return;
+  clearTimeout(persistTimer);
+  persistTimer = setTimeout(() => {
+    persistRemoteState();
+  }, 300);
+}
+
+async function persistRemoteState() {
+  if (!state.admin.configured || !state.admin.session) return;
+  state.admin.saving = true;
+  renderAdminStatus("Salvando...");
+  try {
+    await remoteRequest("/rest/v1/panel_state?id=eq.global", {
+      authenticated: true,
+      method: "PATCH",
+      headers: { Prefer: "return=minimal" },
+      body: JSON.stringify({
+        payload: remotePayload(),
+        updated_at: new Date().toISOString(),
+      }),
+    });
+    state.admin.saving = false;
+    renderAdminStatus("Salvo");
+  } catch (error) {
+    state.admin.saving = false;
+    if (String(error.message).includes("JWT") || String(error.message).includes("401")) {
+      logoutAdmin();
+      renderAdminStatus("Sessão expirada");
+      return;
+    }
+    renderAdminStatus("Falha ao salvar");
+  }
+}
+
+async function loginAdmin(email, password) {
+  const response = await remoteRequest("/auth/v1/token?grant_type=password", {
+    method: "POST",
+    body: JSON.stringify({ email, password }),
+  });
+  const session = await response.json();
+  state.admin.session = session;
+  localStorage.setItem(ADMIN_SESSION_KEY, JSON.stringify(session));
+  await loadRemoteState();
+  render();
+}
+
+function logoutAdmin() {
+  state.admin.session = null;
+  localStorage.removeItem(ADMIN_SESSION_KEY);
+  render();
+}
+
+function showAdminDialog() {
+  els.adminMessage.textContent = state.admin.configured
+    ? ""
+    : "Login ainda não configurado no ambiente online.";
+  if (typeof els.adminDialog.showModal === "function") {
+    els.adminDialog.showModal();
+  } else {
+    els.adminDialog.setAttribute("open", "");
+  }
+}
+
+function hideAdminDialog() {
+  if (typeof els.adminDialog.close === "function") {
+    els.adminDialog.close();
+  } else {
+    els.adminDialog.removeAttribute("open");
+  }
+}
+
+function isAdminActive() {
+  return Boolean(state.admin.session);
+}
+
+function renderAdminStatus(message = "") {
+  document.body.classList.toggle("is-admin", isAdminActive());
+  els.adminToggle.textContent = isAdminActive() ? "Sair" : "Entrar";
+  els.adminStatus.hidden = !isAdminActive() && !message;
+  els.adminStatus.textContent = message || (isAdminActive() ? "Admin ativo" : "");
 }
 
 function categoryConfirmations() {
@@ -557,8 +743,10 @@ function athleteRow(
   const manualReleaseLabel = isReleasedManually
     ? `<span class="manual-release-badge" title="Vaga liberada manualmente nesta categoria">Vaga liberada</span>`
     : "";
-  const controls = isAlreadyStateQualified
-    ? `
+  const controls = !isAdminActive()
+    ? ""
+    : isAlreadyStateQualified
+      ? `
       <button
         class="release-button"
         type="button"
@@ -569,8 +757,8 @@ function athleteRow(
       >×</button>
       <span class="state-lock" title="Classificado pelo ranking estadual">E</span>
     `
-    : isAlreadyRegionalFinalsQualified
-      ? `
+      : isAlreadyRegionalFinalsQualified
+        ? `
         <button
           class="release-button"
           type="button"
@@ -581,7 +769,7 @@ function athleteRow(
         >×</button>
         <span class="regional-finals-lock" title="Classificado para Finals Copa pelo ranking regional">FC</span>
       `
-      : `
+        : `
         <button
           class="confirm-button"
           type="button"
@@ -705,8 +893,8 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
   const releasedLabel = isReleased
     ? `<span class="manual-release-badge" title="Vaga liberada no ranking estadual">Vaga liberada</span>`
     : "";
-  row.innerHTML = `
-    <span class="rank-cell">
+  const controls = isAdminActive()
+    ? `
       <button
         class="release-button state-release-button"
         type="button"
@@ -716,6 +904,11 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
         ${canRelease ? "" : "disabled"}
       >×</button>
       ${isQualified ? `<span class="state-lock" title="Classificado pelo ranking estadual">E</span>` : ""}
+    `
+    : "";
+  row.innerHTML = `
+    <span class="rank-cell">
+      ${controls}
       <span class="rank-position">${athlete.position}</span>
     </span>
     <span class="athlete-main">
@@ -1036,6 +1229,7 @@ function render() {
     els.selectedTitle.textContent = "Rankings regionais";
     els.regionalGrid.replaceChildren();
     els.emptyState.hidden = false;
+    renderAdminStatus();
     return;
   }
 
@@ -1060,6 +1254,7 @@ function render() {
   els.emptyState.hidden = true;
   renderFederationView();
   renderFinalsView();
+  renderAdminStatus();
 }
 
 function bindEvents() {
@@ -1072,7 +1267,37 @@ function bindEvents() {
     tab.addEventListener("click", () => setActiveView(tab.dataset.view));
   });
 
+  els.adminToggle.addEventListener("click", () => {
+    if (isAdminActive()) {
+      logoutAdmin();
+    } else {
+      showAdminDialog();
+    }
+  });
+
+  els.adminCancel.addEventListener("click", hideAdminDialog);
+
+  els.adminLoginForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (!state.admin.configured) {
+      els.adminMessage.textContent = "Login ainda não configurado no ambiente online.";
+      return;
+    }
+
+    els.adminMessage.textContent = "Entrando...";
+    try {
+      await loginAdmin(els.adminEmail.value, els.adminPassword.value);
+      els.adminPassword.value = "";
+      hideAdminDialog();
+      renderAdminStatus("Admin ativo");
+    } catch {
+      els.adminMessage.textContent = "E-mail ou senha inválidos.";
+    }
+  });
+
   els.regionalGrid.addEventListener("click", (event) => {
+    if (!isAdminActive()) return;
+
     const stateReleaseButton = event.target.closest(".state-release-button");
     if (stateReleaseButton && !stateReleaseButton.disabled) {
       toggleStateRelease(stateReleaseButton.dataset.athleteCode);
@@ -1098,9 +1323,11 @@ async function boot() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     state.rankings = state.data.rankings || [];
+    await loadRemoteState();
     fillFilters();
     bindEvents();
     render();
+    renderAdminStatus();
   } catch (error) {
     els.updatedAt.textContent = "Falha ao carregar dados";
     els.updatedAt.classList.add("error");

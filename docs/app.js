@@ -4,6 +4,7 @@ const SIMULATION_RELEASE_STORAGE_KEY = "finalsRegional.simulation.releases.v1";
 const SIMULATION_STATE_RELEASE_STORAGE_KEY = "finalsRegional.simulation.stateReleases.v1";
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
 const REMOTE_STATE_ID = "global";
+const REMOTE_REFRESH_INTERVAL_MS = 8000;
 const ADMIN_CONFIG = window.FINALS_ADMIN_CONFIG || {};
 const SUPABASE_PUBLIC_KEY = ADMIN_CONFIG.supabaseAnonKey || ADMIN_CONFIG.supabasePublishableKey || "";
 const hasRemoteAdminConfig = Boolean(ADMIN_CONFIG.supabaseUrl && SUPABASE_PUBLIC_KEY);
@@ -19,6 +20,7 @@ const state = {
   remoteConfirmations: {},
   remoteReleases: {},
   remoteStateReleases: {},
+  remoteStateSignature: "",
   simulationConfirmations: loadConfirmations(),
   simulationReleases: loadReleases(),
   simulationStateReleases: loadStateReleases(),
@@ -30,6 +32,7 @@ const state = {
 };
 
 let persistTimer = null;
+let remoteRefreshTimer = null;
 
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
@@ -178,10 +181,14 @@ function normalizeRemotePayload(payload) {
 
 function applyRemotePayload(payload) {
   const normalized = normalizeRemotePayload(payload);
+  const signature = JSON.stringify(normalized);
+  const changed = signature !== state.remoteStateSignature;
+  state.remoteStateSignature = signature;
   state.remoteConfirmations = normalized.confirmations;
   state.remoteReleases = normalized.releases;
   state.remoteStateReleases = normalized.stateReleases;
   syncEffectiveDecisionState();
+  return changed;
 }
 
 function cloneDecisionMap(value) {
@@ -308,11 +315,21 @@ async function loadRemoteState() {
     const response = await remoteRequest(query);
     const rows = await response.json();
     if (rows[0]?.payload) {
-      applyRemotePayload(rows[0].payload);
+      return applyRemotePayload(rows[0].payload);
     }
   } catch (error) {
     console.warn("Nao foi possivel carregar o estado remoto.", error);
   }
+  return false;
+}
+
+function startRemoteStateRefresh() {
+  if (!state.admin.configured || remoteRefreshTimer) return;
+  remoteRefreshTimer = setInterval(async () => {
+    if (isAdminActive() || document.hidden) return;
+    const changed = await loadRemoteState();
+    if (changed) render();
+  }, REMOTE_REFRESH_INTERVAL_MS);
 }
 
 function schedulePersistRemoteState() {
@@ -1421,6 +1438,12 @@ function bindEvents() {
       toggleRelease(releaseButton.dataset.regionalId, releaseButton.dataset.athleteCode);
     }
   });
+
+  document.addEventListener("visibilitychange", async () => {
+    if (document.hidden || isAdminActive()) return;
+    const changed = await loadRemoteState();
+    if (changed) render();
+  });
 }
 
 async function boot() {
@@ -1433,6 +1456,7 @@ async function boot() {
     fillFilters();
     bindEvents();
     render();
+    startRemoteStateRefresh();
     renderAdminStatus();
   } catch (error) {
     els.updatedAt.textContent = "Falha ao carregar dados";

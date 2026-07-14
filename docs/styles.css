@@ -932,6 +932,11 @@ input:focus {
   border-bottom-color: #d8cdfb;
 }
 
+.compact-federation.is-guaranteed-federation {
+  background: #f8fafc;
+  border-bottom-color: var(--line);
+}
+
 .compact-position,
 .compact-points {
   color: var(--muted);

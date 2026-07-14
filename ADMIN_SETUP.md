@@ -27,11 +27,11 @@ Depois preencha o arquivo `docs/admin-config.js`:
 ```js
 window.FINALS_ADMIN_CONFIG = {
   supabaseUrl: "PROJECT_URL_AQUI",
-  supabaseAnonKey: "ANON_PUBLIC_KEY_AQUI",
+  supabasePublishableKey: "PUBLISHABLE_KEY_AQUI",
 };
 ```
 
-A chave anon public pode ficar publicada no GitHub Pages porque as regras de seguranca ficam no Row Level Security do Supabase.
+A chave publishable pode ficar publicada no GitHub Pages porque as regras de seguranca ficam no Row Level Security do Supabase.
 
 ## 3. Uso
 

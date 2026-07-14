@@ -5,7 +5,8 @@ const STATE_RELEASE_STORAGE_KEY = "finalsRegional.stateReleases.v1";
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
 const REMOTE_STATE_ID = "global";
 const ADMIN_CONFIG = window.FINALS_ADMIN_CONFIG || {};
-const hasRemoteAdminConfig = Boolean(ADMIN_CONFIG.supabaseUrl && ADMIN_CONFIG.supabaseAnonKey);
+const SUPABASE_PUBLIC_KEY = ADMIN_CONFIG.supabaseAnonKey || ADMIN_CONFIG.supabasePublishableKey || "";
+const hasRemoteAdminConfig = Boolean(ADMIN_CONFIG.supabaseUrl && SUPABASE_PUBLIC_KEY);
 
 const state = {
   data: null,
@@ -175,10 +176,10 @@ function remoteUrl(path) {
 }
 
 async function remoteRequest(path, options = {}) {
-  const token = options.authenticated ? state.admin.session?.access_token : ADMIN_CONFIG.supabaseAnonKey;
+  const token = options.authenticated ? state.admin.session?.access_token : SUPABASE_PUBLIC_KEY;
   const headers = {
-    apikey: ADMIN_CONFIG.supabaseAnonKey,
-    Authorization: `Bearer ${token || ADMIN_CONFIG.supabaseAnonKey}`,
+    apikey: SUPABASE_PUBLIC_KEY,
+    Authorization: `Bearer ${token || SUPABASE_PUBLIC_KEY}`,
     ...(options.body ? { "Content-Type": "application/json" } : {}),
     ...(options.headers || {}),
   };

@@ -585,11 +585,16 @@ function athleteIdentity(athlete) {
 }
 
 function stateLimitForCategory(ranking) {
+  if (isTechnicalFinalsOnly(ranking)) return 4;
   return ranking?.categoryGroup === "Tecnicas" ? 6 : 4;
 }
 
 function isTechnicalRanking(ranking) {
   return ranking?.categoryGroup === "Tecnicas";
+}
+
+function isTechnicalFinalsOnly(ranking) {
+  return isTechnicalRanking(ranking) && ["D", "E"].includes(ranking?.categoryLabel);
 }
 
 function athletesThroughCutoff(athletes, limit) {
@@ -628,6 +633,7 @@ function stateQualifiedAthletes(stateRanking, releaseCodes = new Set()) {
 
 function stateFederationAthletes(stateRanking, releaseCodes = new Set()) {
   if (!stateRanking) return [];
+  if (isTechnicalFinalsOnly(stateRanking)) return [];
   const candidates = stateRanking.athletes.filter((athlete) => !releaseCodes.has(athleteIdentity(athlete)));
   return athletesByListLimit(candidates, 2);
 }
@@ -1001,7 +1007,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
   const isQualified = stateCodes.has(identity);
   const isFederation = isQualified && federationCodes.has(identity);
   const isFinalsState = isQualified && !isFederation;
-  const isGuaranteedFederation = Boolean(athlete.stateTop2Guaranteed);
+  const isGuaranteedFederation = isFederation && Boolean(athlete.stateTop2Guaranteed);
   const canRelease = isQualified || isReleased;
   row.className = [
     "athlete-row",
@@ -1185,7 +1191,7 @@ function stateRankingFor(group, label, gender) {
 
 function compactAthleteRow(athlete, gender, tone = "federation") {
   const row = document.createElement("div");
-  const isGuaranteedFederation = Boolean(athlete.stateTop2Guaranteed);
+  const isGuaranteedFederation = tone === "federation" && Boolean(athlete.stateTop2Guaranteed);
   row.className = [
     "compact-athlete-row",
     `compact-${tone}`,
@@ -1298,10 +1304,6 @@ function renderFederationView() {
       { group: "Tecnicas", label: "A" },
       { group: "Tecnicas", label: "B" },
       { group: "Tecnicas", label: "C" },
-    ]),
-    compactSummarySection("Técnicas D+E", [
-      { group: "Tecnicas", label: "D" },
-      { group: "Tecnicas", label: "E" },
     ]),
   ];
   els.federationGrid.replaceChildren(...sections);

@@ -24,6 +24,7 @@ USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regiona
 STATE_RESULT_LIMIT = 8
 REMAINING_STATE_EVENTS = 2
 FUTURE_STATE_EVENT_POINTS = 3000
+FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
 
 
 class RankingTableParser(HTMLParser):
@@ -257,6 +258,12 @@ def projected_state_points(components: list[int]) -> int:
     return sum(sorted([*components, *future_points], reverse=True)[:STATE_RESULT_LIMIT])
 
 
+def has_federation_spots(target: dict[str, Any]) -> bool:
+    if target.get("categoryGroup") != "Tecnicas":
+        return True
+    return target.get("categoryLabel") in FEDERATION_TECHNICAL_LABELS
+
+
 def enrich_state_guarantees(
     target: dict[str, Any],
     html: str,
@@ -265,6 +272,8 @@ def enrich_state_guarantees(
 ) -> list[dict[str, Any]]:
     if target.get("rankingScope") != "state" or not athletes:
         return athletes
+    if not has_federation_spots(target):
+        return [{**athlete, "stateTop2Guaranteed": False} for athlete in athletes]
 
     tennis_ids = parse_tennis_ids(html)
     if len(tennis_ids) < len(athletes):

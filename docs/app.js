@@ -50,6 +50,7 @@ const els = {
   categoryFilter: document.querySelector("#categoryFilter"),
   selectedMeta: document.querySelector("#selectedMeta"),
   selectedTitle: document.querySelector("#selectedTitle"),
+  federationGuaranteeLegend: document.querySelector("#federationGuaranteeLegend"),
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
@@ -682,6 +683,10 @@ function stateQualifiedCodes(stateRanking, releaseCodes = new Set()) {
 
 function stateFederationCodes(stateRanking, releaseCodes = new Set()) {
   return new Set(stateFederationAthletes(stateRanking, releaseCodes).map(athleteIdentity));
+}
+
+function hasVisibleFederationGuarantee(stateRanking, releaseCodes = new Set()) {
+  return stateFederationAthletes(stateRanking, releaseCodes).some((athlete) => athlete.stateTop2Guaranteed);
 }
 
 function stateClassificationLabel(athlete, stateCodes, federationCodes) {
@@ -1363,6 +1368,7 @@ function render() {
     els.selectedMeta.textContent = "";
     els.selectedMeta.hidden = true;
     els.selectedTitle.textContent = "Rankings regionais";
+    els.federationGuaranteeLegend.hidden = true;
     els.regionalGrid.replaceChildren();
     els.emptyState.hidden = false;
     renderAdminStatus();
@@ -1372,6 +1378,7 @@ function render() {
   els.selectedMeta.textContent = "";
   els.selectedMeta.hidden = true;
   els.selectedTitle.textContent = categoryLabel(rankings[0]);
+  els.federationGuaranteeLegend.hidden = !hasVisibleFederationGuarantee(stateRanking, stateReleaseCodes);
   els.regionalGrid.replaceChildren(
     statePanel(stateRanking, stateReleaseCodes),
     ...rankings.map((ranking) =>

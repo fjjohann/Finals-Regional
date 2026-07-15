@@ -329,6 +329,33 @@ input:focus {
   font-size: 22px;
 }
 
+.selected-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.federation-guarantee-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.legend-guarantee-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #2563eb;
+  box-shadow: 0 0 0 1px #fff;
+  flex: 0 0 auto;
+}
+
 .legend {
   display: flex;
   align-items: center;

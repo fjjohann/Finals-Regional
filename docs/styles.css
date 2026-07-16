@@ -119,6 +119,32 @@ h1 {
   font-weight: 700;
 }
 
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 0 clamp(18px, 4vw, 48px) 24px;
+  color: var(--muted);
+}
+
+.app-footer .admin-toggle {
+  min-height: 28px;
+  border-color: transparent;
+  background: transparent;
+  color: #94a3b8;
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.58;
+  padding: 0 4px;
+}
+
+.app-footer .admin-toggle:hover,
+.app-footer .admin-toggle:focus-visible {
+  color: var(--accent-strong);
+  opacity: 1;
+}
+
 .admin-dialog {
   width: min(380px, calc(100vw - 32px));
   border: 1px solid var(--line);

@@ -33,8 +33,6 @@ const state = {
 
 let persistTimer = null;
 let remoteRefreshTimer = null;
-let isSyncingRegionalScroll = false;
-
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
   adminStatus: document.querySelector("#adminStatus"),
@@ -52,8 +50,8 @@ const els = {
   selectedMeta: document.querySelector("#selectedMeta"),
   selectedTitle: document.querySelector("#selectedTitle"),
   federationGuaranteeLegend: document.querySelector("#federationGuaranteeLegend"),
-  regionalTopScroll: document.querySelector("#regionalTopScroll"),
-  regionalTopScrollContent: document.querySelector("#regionalTopScrollContent"),
+  regionalScrollControl: document.querySelector("#regionalScrollControl"),
+  regionalScrollRange: document.querySelector("#regionalScrollRange"),
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
@@ -76,26 +74,28 @@ function option(value, label) {
   return item;
 }
 
-function syncRegionalScrollWidth() {
-  if (!els.regionalTopScroll || !els.regionalTopScrollContent || !els.regionalGrid) return;
+function syncRegionalScrollControl() {
+  if (!els.regionalScrollControl || !els.regionalScrollRange || !els.regionalGrid) return;
 
-  const scrollWidth = els.regionalGrid.scrollWidth;
-  const clientWidth = els.regionalGrid.clientWidth;
-  const shouldShow = state.activeView === "regionals" && scrollWidth > clientWidth + 1;
+  const maxScroll = Math.max(0, els.regionalGrid.scrollWidth - els.regionalGrid.clientWidth);
+  const shouldShow = state.activeView === "regionals" && maxScroll > 1;
+  const value = Math.min(els.regionalGrid.scrollLeft, maxScroll);
 
-  els.regionalTopScroll.hidden = !shouldShow;
-  els.regionalTopScrollContent.style.width = `${scrollWidth}px`;
-  els.regionalTopScroll.scrollLeft = els.regionalGrid.scrollLeft;
+  els.regionalScrollControl.hidden = !shouldShow;
+  els.regionalScrollRange.disabled = !shouldShow;
+  els.regionalScrollRange.max = String(Math.round(maxScroll));
+  els.regionalScrollRange.value = String(Math.round(value));
 }
 
-function syncRegionalScroll(source, target) {
-  if (!source || !target || isSyncingRegionalScroll) return;
+function setRegionalScrollFromControl() {
+  if (!els.regionalScrollRange || !els.regionalGrid) return;
+  els.regionalGrid.scrollLeft = Number(els.regionalScrollRange.value || 0);
+}
 
-  isSyncingRegionalScroll = true;
-  target.scrollLeft = source.scrollLeft;
-  window.requestAnimationFrame(() => {
-    isSyncingRegionalScroll = false;
-  });
+function updateRegionalScrollControlValue() {
+  if (!els.regionalScrollRange || !els.regionalGrid) return;
+  const maxScroll = Number(els.regionalScrollRange.max || 0);
+  els.regionalScrollRange.value = String(Math.round(Math.min(els.regionalGrid.scrollLeft, maxScroll)));
 }
 
 function categoryLabel(ranking) {
@@ -1395,7 +1395,7 @@ function render() {
     els.selectedTitle.textContent = "Rankings regionais";
     els.federationGuaranteeLegend.hidden = true;
     els.regionalGrid.replaceChildren();
-    syncRegionalScrollWidth();
+    syncRegionalScrollControl();
     els.emptyState.hidden = false;
     renderAdminStatus();
     return;
@@ -1420,7 +1420,7 @@ function render() {
       ),
     ),
   );
-  window.requestAnimationFrame(syncRegionalScrollWidth);
+  window.requestAnimationFrame(syncRegionalScrollControl);
   els.emptyState.hidden = true;
   renderFederationView();
   renderFinalsView();
@@ -1437,16 +1437,16 @@ function bindEvents() {
     tab.addEventListener("click", () => setActiveView(tab.dataset.view));
   });
 
-  els.regionalTopScroll.addEventListener("scroll", () => {
-    syncRegionalScroll(els.regionalTopScroll, els.regionalGrid);
+  els.regionalGrid.addEventListener("scroll", () => {
+    updateRegionalScrollControlValue();
   });
 
-  els.regionalGrid.addEventListener("scroll", () => {
-    syncRegionalScroll(els.regionalGrid, els.regionalTopScroll);
+  els.regionalScrollRange.addEventListener("input", () => {
+    setRegionalScrollFromControl();
   });
 
   window.addEventListener("resize", () => {
-    window.requestAnimationFrame(syncRegionalScrollWidth);
+    window.requestAnimationFrame(syncRegionalScrollControl);
   });
 
   els.adminToggle.addEventListener("click", () => {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:01:20.492114+00:00",
+  "generatedAt": "2026-07-16T11:08:12.170774+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
@@ -1329,7 +1329,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 7661,
+      "durationMs": 8111,
       "attempts": 1
     },
     {
@@ -2136,7 +2136,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4164,
+      "durationMs": 4621,
       "attempts": 1
     },
     {
@@ -2689,7 +2689,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4970,
+      "durationMs": 4925,
       "attempts": 1
     },
     {
@@ -3897,7 +3897,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 6250,
+      "durationMs": 5701,
       "attempts": 1
     },
     {
@@ -4887,7 +4887,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4237,
+      "durationMs": 4148,
       "attempts": 1
     },
     {
@@ -5373,7 +5373,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 3553,
+      "durationMs": 3381,
       "attempts": 1
     },
     {
@@ -5845,7 +5845,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 5478,
+      "durationMs": 5188,
       "attempts": 1
     },
     {
@@ -6504,7 +6504,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 5251,
+      "durationMs": 5254,
       "attempts": 1
     },
     {
@@ -6954,7 +6954,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4184,
+      "durationMs": 4142,
       "attempts": 1
     },
     {
@@ -7322,7 +7322,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4259,
+      "durationMs": 3953,
       "attempts": 1
     },
     {
@@ -7898,7 +7898,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 3780,
+      "durationMs": 4554,
       "attempts": 1
     },
     {
@@ -8579,7 +8579,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 6219,
+      "durationMs": 6186,
       "attempts": 1
     },
     {
@@ -9223,7 +9223,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 2638,
+      "durationMs": 2387,
       "attempts": 1
     },
     {
@@ -10737,7 +10737,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 7660,
+      "durationMs": 8131,
       "attempts": 1
     },
     {
@@ -14001,7 +14001,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 7132,
+      "durationMs": 6721,
       "attempts": 1
     },
     {
@@ -14026,18 +14026,7 @@
           "categoryCode": "BTFD",
           "sourcePosition": 1,
           "points": 18405,
-          "stateProjectionMax": 21450,
-          "statePointComponents": [
-            3000,
-            2750,
-            2750,
-            2750,
-            2200,
-            2000,
-            1925,
-            1030
-          ],
-          "stateTop2Guaranteed": true
+          "stateTop2Guaranteed": false
         },
         {
           "position": 1,
@@ -14046,18 +14035,7 @@
           "categoryCode": "BTFD",
           "sourcePosition": 1,
           "points": 18405,
-          "stateProjectionMax": 21450,
-          "statePointComponents": [
-            3000,
-            2750,
-            2750,
-            2750,
-            2200,
-            2000,
-            1925,
-            1030
-          ],
-          "stateTop2Guaranteed": true
+          "stateTop2Guaranteed": false
         },
         {
           "position": 3,
@@ -16607,7 +16585,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 4626,
+      "durationMs": 3789,
       "attempts": 1
     },
     {
@@ -16632,12 +16610,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 1,
           "points": 8150,
-          "stateProjectionMax": 14150,
-          "statePointComponents": [
-            3000,
-            2750,
-            2400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16647,12 +16619,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 1,
           "points": 8150,
-          "stateProjectionMax": 14150,
-          "statePointComponents": [
-            3000,
-            2750,
-            2400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16662,13 +16628,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 2,
           "points": 6836,
-          "stateProjectionMax": 12836,
-          "statePointComponents": [
-            3000,
-            1680,
-            1400,
-            756
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16678,13 +16637,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 3,
           "points": 5671,
-          "stateProjectionMax": 11671,
-          "statePointComponents": [
-            3000,
-            1680,
-            756,
-            235
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16694,13 +16646,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 4,
           "points": 5420,
-          "stateProjectionMax": 11420,
-          "statePointComponents": [
-            2400,
-            2200,
-            720,
-            100
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16710,12 +16655,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 6,
           "points": 5128,
-          "stateProjectionMax": 16800,
-          "statePointComponents": [
-            3000,
-            2400,
-            5400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16725,14 +16664,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 9,
           "points": 4446,
-          "stateProjectionMax": 16256,
-          "statePointComponents": [
-            2200,
-            1470,
-            1348,
-            110,
-            5128
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16742,13 +16673,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 9,
           "points": 4446,
-          "stateProjectionMax": 16248,
-          "statePointComponents": [
-            2200,
-            2100,
-            824,
-            5124
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16758,13 +16682,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 10,
           "points": 4400,
-          "stateProjectionMax": 16248,
-          "statePointComponents": [
-            2200,
-            2100,
-            824,
-            5124
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16774,13 +16691,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 11,
           "points": 4206,
-          "stateProjectionMax": 15616,
-          "statePointComponents": [
-            2750,
-            1078,
-            980,
-            4808
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16790,13 +16700,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 12,
           "points": 4196,
-          "stateProjectionMax": 15616,
-          "statePointComponents": [
-            2750,
-            1078,
-            980,
-            4808
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16806,14 +16709,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 14,
           "points": 3150,
-          "stateProjectionMax": 14892,
-          "statePointComponents": [
-            1925,
-            1078,
-            756,
-            687,
-            4446
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16823,14 +16718,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 15,
           "points": 3124,
-          "stateProjectionMax": 14892,
-          "statePointComponents": [
-            1925,
-            1078,
-            756,
-            687,
-            4446
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16840,12 +16727,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 17,
           "points": 3000,
-          "stateProjectionMax": 14800,
-          "statePointComponents": [
-            2400,
-            2000,
-            4400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16855,13 +16736,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 17,
           "points": 3000,
-          "stateProjectionMax": 14412,
-          "statePointComponents": [
-            2000,
-            1176,
-            1030,
-            4206
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16871,14 +16745,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 18,
           "points": 2897,
-          "stateProjectionMax": 14392,
-          "statePointComponents": [
-            2200,
-            1176,
-            720,
-            100,
-            4196
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16888,13 +16754,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 19,
           "points": 2860,
-          "stateProjectionMax": 12804,
-          "statePointComponents": [
-            1470,
-            1176,
-            756,
-            3402
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16904,12 +16763,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 20,
           "points": 2710,
-          "stateProjectionMax": 12300,
-          "statePointComponents": [
-            1680,
-            1470,
-            3150
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16919,13 +16772,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 22,
           "points": 2615,
-          "stateProjectionMax": 12248,
-          "statePointComponents": [
-            1470,
-            1078,
-            576,
-            3124
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16935,13 +16781,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 23,
           "points": 2610,
-          "stateProjectionMax": 12168,
-          "statePointComponents": [
-            1540,
-            824,
-            720,
-            3084
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16951,11 +16790,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 24,
           "points": 2580,
-          "stateProjectionMax": 12000,
-          "statePointComponents": [
-            3000,
-            3000
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16965,11 +16799,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 26,
           "points": 2520,
-          "stateProjectionMax": 12000,
-          "statePointComponents": [
-            3000,
-            3000
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16979,11 +16808,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 27,
           "points": 2502,
-          "stateProjectionMax": 12000,
-          "statePointComponents": [
-            3000,
-            3000
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -16993,13 +16817,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 28,
           "points": 2426,
-          "stateProjectionMax": 11794,
-          "statePointComponents": [
-            2100,
-            687,
-            110,
-            2897
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17009,14 +16826,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 28,
           "points": 2426,
-          "stateProjectionMax": 11720,
-          "statePointComponents": [
-            1540,
-            720,
-            480,
-            120,
-            2860
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17026,14 +16835,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 29,
           "points": 2424,
-          "stateProjectionMax": 11420,
-          "statePointComponents": [
-            1030,
-            824,
-            756,
-            100,
-            2710
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17043,12 +16844,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 30,
           "points": 2400,
-          "stateProjectionMax": 11292,
-          "statePointComponents": [
-            1470,
-            1176,
-            2646
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17058,14 +16853,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 30,
           "points": 2400,
-          "stateProjectionMax": 11230,
-          "statePointComponents": [
-            1540,
-            720,
-            235,
-            120,
-            2615
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17075,13 +16862,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 31,
           "points": 2294,
-          "stateProjectionMax": 11220,
-          "statePointComponents": [
-            1030,
-            824,
-            756,
-            2610
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17091,12 +16871,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 32,
           "points": 2234,
-          "stateProjectionMax": 11160,
-          "statePointComponents": [
-            2100,
-            480,
-            2580
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -17106,12 +16880,6 @@
           "categoryCode": "BTFE",
           "sourcePosition": 34,
           "points": 2200,
-          "stateProjectionMax": 11096,
-          "statePointComponents": [
-            1470,
-            1078,
-            2548
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -18393,7 +18161,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 20759,
+      "durationMs": 2181,
       "attempts": 1
     },
     {
@@ -19275,7 +19043,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 3992,
+      "durationMs": 4386,
       "attempts": 1
     },
     {
@@ -20846,7 +20614,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 3853,
+      "durationMs": 3299,
       "attempts": 1
     },
     {
@@ -24074,7 +23842,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 7459,
+      "durationMs": 6892,
       "attempts": 1
     },
     {
@@ -24099,14 +23867,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 1,
           "points": 10850,
-          "stateProjectionMax": 16850,
-          "statePointComponents": [
-            2750,
-            2400,
-            2200,
-            2100,
-            1400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24116,14 +23876,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 2,
           "points": 9426,
-          "stateProjectionMax": 15426,
-          "statePointComponents": [
-            3000,
-            2200,
-            2000,
-            1470,
-            756
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24133,14 +23885,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 3,
           "points": 8351,
-          "stateProjectionMax": 14351,
-          "statePointComponents": [
-            2200,
-            2000,
-            1925,
-            1470,
-            756
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24150,14 +23894,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 4,
           "points": 7674,
-          "stateProjectionMax": 13674,
-          "statePointComponents": [
-            3000,
-            1540,
-            1470,
-            944,
-            720
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24167,14 +23903,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 5,
           "points": 7249,
-          "stateProjectionMax": 13249,
-          "statePointComponents": [
-            3000,
-            1540,
-            1078,
-            944,
-            687
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24184,13 +23912,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 6,
           "points": 6210,
-          "stateProjectionMax": 12210,
-          "statePointComponents": [
-            3000,
-            3000,
-            110,
-            100
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24200,13 +23921,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 7,
           "points": 5966,
-          "stateProjectionMax": 11966,
-          "statePointComponents": [
-            2000,
-            1540,
-            1348,
-            1078
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24216,13 +23930,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 8,
           "points": 5926,
-          "stateProjectionMax": 11926,
-          "statePointComponents": [
-            2100,
-            1400,
-            1348,
-            1078
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24232,13 +23939,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 9,
           "points": 5790,
-          "stateProjectionMax": 11790,
-          "statePointComponents": [
-            2100,
-            1925,
-            1078,
-            687
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24248,12 +23948,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 12,
           "points": 4720,
-          "stateProjectionMax": 16800,
-          "statePointComponents": [
-            3000,
-            2400,
-            5400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24263,12 +23957,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 12,
           "points": 4720,
-          "stateProjectionMax": 16800,
-          "statePointComponents": [
-            3000,
-            2400,
-            5400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24278,12 +23966,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 14,
           "points": 4690,
-          "stateProjectionMax": 15700,
-          "statePointComponents": [
-            2750,
-            2100,
-            4850
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24293,12 +23975,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 14,
           "points": 4690,
-          "stateProjectionMax": 15700,
-          "statePointComponents": [
-            2750,
-            2100,
-            4850
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24308,14 +23984,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 15,
           "points": 4627,
-          "stateProjectionMax": 15440,
-          "statePointComponents": [
-            1925,
-            1078,
-            1030,
-            687,
-            4720
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24325,14 +23993,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 17,
           "points": 4570,
-          "stateProjectionMax": 15440,
-          "statePointComponents": [
-            1925,
-            1078,
-            1030,
-            687,
-            4720
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24342,13 +24002,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 19,
           "points": 4328,
-          "stateProjectionMax": 15392,
-          "statePointComponents": [
-            2000,
-            1348,
-            1348,
-            4696
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24358,13 +24011,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 20,
           "points": 4247,
-          "stateProjectionMax": 15380,
-          "statePointComponents": [
-            1680,
-            1540,
-            1470,
-            4690
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24374,13 +24020,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 21,
           "points": 4102,
-          "stateProjectionMax": 15380,
-          "statePointComponents": [
-            1680,
-            1540,
-            1470,
-            4690
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24390,13 +24029,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 22,
           "points": 4006,
-          "stateProjectionMax": 15254,
-          "statePointComponents": [
-            2400,
-            1540,
-            687,
-            4627
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24406,13 +24038,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 23,
           "points": 3925,
-          "stateProjectionMax": 15208,
-          "statePointComponents": [
-            2100,
-            1680,
-            824,
-            4604
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24422,13 +24047,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 24,
           "points": 3900,
-          "stateProjectionMax": 15140,
-          "statePointComponents": [
-            2000,
-            1540,
-            1030,
-            4570
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24438,13 +24056,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 26,
           "points": 3574,
-          "stateProjectionMax": 14792,
-          "statePointComponents": [
-            2200,
-            1176,
-            1020,
-            4396
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -24454,13 +24065,6 @@
           "categoryCode": "BTMD",
           "sourcePosition": 27,
           "points": 3464,
-          "stateProjectionMax": 14792,
-          "statePointComponents": [
-            2200,
-            1176,
-            1020,
-            4396
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -26399,7 +26003,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 15956,
+      "durationMs": 2706,
       "attempts": 1
     },
     {
@@ -26424,16 +26028,7 @@
           "categoryCode": "BTME",
           "sourcePosition": 1,
           "points": 14615,
-          "stateProjectionMax": 20615,
-          "statePointComponents": [
-            3000,
-            3000,
-            2750,
-            2400,
-            1925,
-            1540
-          ],
-          "stateTop2Guaranteed": true
+          "stateTop2Guaranteed": false
         },
         {
           "position": 2,
@@ -26442,14 +26037,6 @@
           "categoryCode": "BTME",
           "sourcePosition": 2,
           "points": 11615,
-          "stateProjectionMax": 17615,
-          "statePointComponents": [
-            3000,
-            2750,
-            2400,
-            1925,
-            1540
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -26459,12 +26046,6 @@
           "categoryCode": "BTME",
           "sourcePosition": 3,
           "points": 6350,
-          "stateProjectionMax": 12350,
-          "statePointComponents": [
-            2750,
-            2200,
-            1400
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -26474,13 +26055,6 @@
           "categoryCode": "BTME",
           "sourcePosition": 4,
           "points": 6234,
-          "stateProjectionMax": 12234,
-          "statePointComponents": [
-            3000,
-            1176,
-            1078,
-            980
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -26490,13 +26064,6 @@
           "categoryCode": "BTME",
           "sourcePosition": 5,
           "points": 5898,
-          "stateProjectionMax": 11898,
-          "statePointComponents": [
-            1680,
-            1470,
-            1400,
-            1348
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -26506,13 +26073,6 @@
           "categoryCode": "BTME",
           "sourcePosition": 6,
           "points": 5876,
-          "stateProjectionMax": 11876,
-          "statePointComponents": [
-            2400,
-            2000,
-            756,
-            720
-          ],
           "stateTop2Guaranteed": false
         },
         {
@@ -27551,7 +27111,7 @@
           "stateTop2Guaranteed": false
         }
       ],
-      "durationMs": 5650,
+      "durationMs": 2448,
       "attempts": 1
     },
     {
@@ -28322,7 +27882,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3837,
+      "durationMs": 3836,
       "attempts": 1
     },
     {
@@ -28797,7 +28357,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2891,
+      "durationMs": 3619,
       "attempts": 1
     },
     {
@@ -29128,7 +28688,7 @@
           "points": 90
         }
       ],
-      "durationMs": 3053,
+      "durationMs": 2466,
       "attempts": 1
     },
     {
@@ -29755,7 +29315,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2866,
+      "durationMs": 4268,
       "attempts": 1
     },
     {
@@ -30406,7 +29966,7 @@
           "points": 83
         }
       ],
-      "durationMs": 4668,
+      "durationMs": 4134,
       "attempts": 1
     },
     {
@@ -30657,7 +30217,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2670,
+      "durationMs": 2376,
       "attempts": 1
     },
     {
@@ -30852,7 +30412,7 @@
           "points": 120
         }
       ],
-      "durationMs": 3044,
+      "durationMs": 2096,
       "attempts": 1
     },
     {
@@ -31183,7 +30743,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2844,
+      "durationMs": 2384,
       "attempts": 1
     },
     {
@@ -31370,7 +30930,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1224,
+      "durationMs": 2233,
       "attempts": 1
     },
     {
@@ -31485,7 +31045,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1162,
+      "durationMs": 1426,
       "attempts": 1
     },
     {
@@ -31736,7 +31296,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1601,
+      "durationMs": 1892,
       "attempts": 1
     },
     {
@@ -31987,7 +31547,7 @@
           "points": 120
         }
       ],
-      "durationMs": 1712,
+      "durationMs": 2584,
       "attempts": 1
     },
     {
@@ -32462,7 +32022,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3206,
+      "durationMs": 3170,
       "attempts": 1
     },
     {
@@ -33113,7 +32673,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3603,
+      "durationMs": 6429,
       "attempts": 1
     },
     {
@@ -34852,7 +34412,7 @@
           "points": 75
         }
       ],
-      "durationMs": 14835,
+      "durationMs": 13773,
       "attempts": 1
     },
     {
@@ -36559,7 +36119,7 @@
           "points": 50
         }
       ],
-      "durationMs": 13638,
+      "durationMs": 16001,
       "attempts": 1
     },
     {
@@ -37810,7 +37370,7 @@
           "points": 83
         }
       ],
-      "durationMs": 14143,
+      "durationMs": 16428,
       "attempts": 1
     },
     {
@@ -38221,7 +37781,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2971,
+      "durationMs": 3920,
       "attempts": 1
     },
     {
@@ -39056,7 +38616,7 @@
           "points": 83
         }
       ],
-      "durationMs": 7868,
+      "durationMs": 7323,
       "attempts": 1
     },
     {
@@ -40595,7 +40155,7 @@
           "points": 75
         }
       ],
-      "durationMs": 11936,
+      "durationMs": 12917,
       "attempts": 1
     },
     {
@@ -41974,7 +41534,7 @@
           "points": 83
         }
       ],
-      "durationMs": 12092,
+      "durationMs": 8946,
       "attempts": 1
     },
     {
@@ -42705,7 +42265,7 @@
           "points": 83
         }
       ],
-      "durationMs": 6734,
+      "durationMs": 10030,
       "attempts": 1
     },
     {
@@ -43052,7 +42612,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3620,
+      "durationMs": 2386,
       "attempts": 1
     },
     {
@@ -43183,7 +42743,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3637,
+      "durationMs": 4009,
       "attempts": 1
     },
     {
@@ -43266,7 +42826,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3001,
+      "durationMs": 2557,
       "attempts": 1
     },
     {
@@ -43549,7 +43109,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2442,
+      "durationMs": 3229,
       "attempts": 1
     },
     {
@@ -43712,7 +43272,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3407,
+      "durationMs": 2743,
       "attempts": 1
     },
     {
@@ -43795,7 +43355,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2123,
+      "durationMs": 1594,
       "attempts": 1
     },
     {
@@ -43910,7 +43470,7 @@
           "points": 567
         }
       ],
-      "durationMs": 2155,
+      "durationMs": 1828,
       "attempts": 1
     },
     {
@@ -44065,7 +43625,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2731,
+      "durationMs": 1968,
       "attempts": 1
     },
     {
@@ -44236,7 +43796,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1731,
+      "durationMs": 1247,
       "attempts": 1
     },
     {
@@ -44335,7 +43895,7 @@
           "points": 150
         }
       ],
-      "durationMs": 1479,
+      "durationMs": 1251,
       "attempts": 1
     },
     {
@@ -44458,7 +44018,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2108,
+      "durationMs": 1701,
       "attempts": 1
     },
     {
@@ -44621,7 +44181,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2732,
+      "durationMs": 1646,
       "attempts": 1
     },
     {
@@ -44704,7 +44264,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2408,
+      "durationMs": 1664,
       "attempts": 1
     },
     {
@@ -45019,7 +44579,7 @@
           "points": 150
         }
       ],
-      "durationMs": 8962,
+      "durationMs": 7687,
       "attempts": 1
     },
     {
@@ -45662,7 +45222,7 @@
           "points": 55
         }
       ],
-      "durationMs": 20545,
+      "durationMs": 17467,
       "attempts": 1
     },
     {
@@ -46265,7 +45825,7 @@
           "points": 83
         }
       ],
-      "durationMs": 21712,
+      "durationMs": 10041,
       "attempts": 1
     },
     {
@@ -46780,7 +46340,7 @@
           "points": 75
         }
       ],
-      "durationMs": 18347,
+      "durationMs": 13570,
       "attempts": 1
     },
     {
@@ -46975,7 +46535,7 @@
           "points": 120
         }
       ],
-      "durationMs": 4929,
+      "durationMs": 3698,
       "attempts": 1
     },
     {
@@ -47346,7 +46906,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9050,
+      "durationMs": 5124,
       "attempts": 1
     },
     {
@@ -48085,7 +47645,7 @@
           "points": 75
         }
       ],
-      "durationMs": 18362,
+      "durationMs": 14067,
       "attempts": 1
     },
     {
@@ -48640,7 +48200,7 @@
           "points": 55
         }
       ],
-      "durationMs": 21051,
+      "durationMs": 7820,
       "attempts": 1
     },
     {
@@ -49051,7 +48611,7 @@
           "points": 75
         }
       ],
-      "durationMs": 12260,
+      "durationMs": 12893,
       "attempts": 1
     },
     {
@@ -49278,7 +48838,7 @@
           "points": 110
         }
       ],
-      "durationMs": 6225,
+      "durationMs": 4458,
       "attempts": 1
     },
     {
@@ -49505,7 +49065,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6321,
+      "durationMs": 3217,
       "attempts": 1
     },
     {
@@ -49660,7 +49220,7 @@
           "points": 185
         }
       ],
-      "durationMs": 2207,
+      "durationMs": 2410,
       "attempts": 1
     },
     {
@@ -49927,7 +49487,7 @@
           "points": 120
         }
       ],
-      "durationMs": 3512,
+      "durationMs": 2526,
       "attempts": 1
     },
     {
@@ -50242,7 +49802,7 @@
           "points": 120
         }
       ],
-      "durationMs": 5553,
+      "durationMs": 4599,
       "attempts": 1
     },
     {
@@ -50397,7 +49957,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3715,
+      "durationMs": 1624,
       "attempts": 1
     },
     {
@@ -50576,7 +50136,7 @@
           "points": 185
         }
       ],
-      "durationMs": 3357,
+      "durationMs": 4179,
       "attempts": 1
     },
     {
@@ -50779,7 +50339,7 @@
           "points": 150
         }
       ],
-      "durationMs": 3636,
+      "durationMs": 2611,
       "attempts": 1
     },
     {
@@ -50990,7 +50550,7 @@
           "points": 120
         }
       ],
-      "durationMs": 2886,
+      "durationMs": 2831,
       "attempts": 1
     },
     {
@@ -51145,7 +50705,7 @@
           "points": 110
         }
       ],
-      "durationMs": 2448,
+      "durationMs": 1828,
       "attempts": 1
     },
     {
@@ -51348,7 +50908,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3208,
+      "durationMs": 4110,
       "attempts": 1
     },
     {
@@ -51575,7 +51135,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2271,
+      "durationMs": 3226,
       "attempts": 1
     },
     {
@@ -51778,7 +51338,7 @@
           "points": 82
         }
       ],
-      "durationMs": 5018,
+      "durationMs": 1841,
       "attempts": 1
     },
     {
@@ -52109,7 +51669,7 @@
           "points": 83
         }
       ],
-      "durationMs": 6354,
+      "durationMs": 4983,
       "attempts": 1
     },
     {
@@ -52832,7 +52392,7 @@
           "points": 75
         }
       ],
-      "durationMs": 14742,
+      "durationMs": 8337,
       "attempts": 1
     },
     {
@@ -53251,7 +52811,7 @@
           "points": 110
         }
       ],
-      "durationMs": 14074,
+      "durationMs": 11548,
       "attempts": 1
     },
     {
@@ -53398,7 +52958,7 @@
           "points": 824
         }
       ],
-      "durationMs": 14490,
+      "durationMs": 9313,
       "attempts": 1
     },
     {
@@ -53609,7 +53169,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2958,
+      "durationMs": 2357,
       "attempts": 1
     },
     {
@@ -53988,7 +53548,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4753,
+      "durationMs": 4687,
       "attempts": 1
     },
     {
@@ -54671,7 +54231,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8519,
+      "durationMs": 8817,
       "attempts": 1
     },
     {
@@ -54914,7 +54474,7 @@
           "points": 120
         }
       ],
-      "durationMs": 12510,
+      "durationMs": 11917,
       "attempts": 1
     },
     {
@@ -55157,7 +54717,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9795,
+      "durationMs": 8090,
       "attempts": 1
     },
     {
@@ -55336,7 +54896,7 @@
           "points": 75
         }
       ],
-      "durationMs": 6347,
+      "durationMs": 2610,
       "attempts": 1
     },
     {
@@ -55507,7 +55067,7 @@
           "points": 138
         }
       ],
-      "durationMs": 5132,
+      "durationMs": 3954,
       "attempts": 1
     },
     {
@@ -55622,7 +55182,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 2470,
+      "durationMs": 3000,
       "attempts": 1
     },
     {
@@ -55841,7 +55401,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5270,
+      "durationMs": 2622,
       "attempts": 1
     },
     {
@@ -55964,7 +55524,7 @@
           "points": 100
         }
       ],
-      "durationMs": 5733,
+      "durationMs": 5209,
       "attempts": 1
     },
     {
@@ -56119,7 +55679,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2271,
+      "durationMs": 3098,
       "attempts": 1
     },
     {
@@ -56266,7 +55826,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2921,
+      "durationMs": 3000,
       "attempts": 1
     },
     {
@@ -56469,7 +56029,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3744,
+      "durationMs": 2761,
       "attempts": 1
     },
     {
@@ -56624,7 +56184,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1481,
+      "durationMs": 1991,
       "attempts": 1
     },
     {
@@ -56747,7 +56307,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 1537,
+      "durationMs": 1729,
       "attempts": 1
     },
     {
@@ -57006,7 +56566,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4250,
+      "durationMs": 3329,
       "attempts": 1
     },
     {
@@ -57305,7 +56865,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3121,
+      "durationMs": 3210,
       "attempts": 1
     },
     {
@@ -57436,7 +56996,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3082,
+      "durationMs": 1747,
       "attempts": 1
     },
     {
@@ -57655,7 +57215,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5353,
+      "durationMs": 3924,
       "attempts": 1
     },
     {
@@ -58090,7 +57650,7 @@
           "points": 75
         }
       ],
-      "durationMs": 18492,
+      "durationMs": 8067,
       "attempts": 1
     },
     {
@@ -58285,7 +57845,7 @@
           "points": 83
         }
       ],
-      "durationMs": 19710,
+      "durationMs": 17988,
       "attempts": 1
     },
     {
@@ -58392,7 +57952,7 @@
           "points": 75
         }
       ],
-      "durationMs": 20635,
+      "durationMs": 18996,
       "attempts": 1
     },
     {
@@ -58531,7 +58091,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3239,
+      "durationMs": 3301,
       "attempts": 1
     },
     {
@@ -58750,7 +58310,7 @@
           "points": 138
         }
       ],
-      "durationMs": 4461,
+      "durationMs": 5542,
       "attempts": 1
     },
     {
@@ -59329,7 +58889,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9257,
+      "durationMs": 12410,
       "attempts": 1
     },
     {
@@ -59492,7 +59052,7 @@
           "points": 138
         }
       ],
-      "durationMs": 12428,
+      "durationMs": 6512,
       "attempts": 1
     },
     {
@@ -59647,7 +59207,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10112,
+      "durationMs": 10827,
       "attempts": 1
     },
     {
@@ -59930,7 +59490,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4388,
+      "durationMs": 4320,
       "attempts": 1
     },
     {
@@ -60205,7 +59765,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4418,
+      "durationMs": 3162,
       "attempts": 1
     },
     {
@@ -60328,7 +59888,7 @@
           "points": 1150
         }
       ],
-      "durationMs": 2057,
+      "durationMs": 3214,
       "attempts": 1
     },
     {
@@ -60707,7 +60267,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3327,
+      "durationMs": 2882,
       "attempts": 1
     },
     {
@@ -60998,7 +60558,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4002,
+      "durationMs": 3137,
       "attempts": 1
     },
     {
@@ -61121,7 +60681,7 @@
           "points": 110
         }
       ],
-      "durationMs": 3508,
+      "durationMs": 2393,
       "attempts": 1
     },
     {
@@ -61260,7 +60820,7 @@
           "points": 100
         }
       ],
-      "durationMs": 4056,
+      "durationMs": 1836,
       "attempts": 1
     },
     {
@@ -61447,7 +61007,7 @@
           "points": 100
         }
       ],
-      "durationMs": 2845,
+      "durationMs": 4374,
       "attempts": 1
     },
     {
@@ -61634,7 +61194,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2003,
+      "durationMs": 1434,
       "attempts": 1
     },
     {
@@ -61717,7 +61277,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1816,
+      "durationMs": 1341,
       "attempts": 1
     },
     {
@@ -61896,7 +61456,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3237,
+      "durationMs": 2612,
       "attempts": 1
     },
     {
@@ -62107,7 +61667,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2677,
+      "durationMs": 2527,
       "attempts": 1
     },
     {
@@ -62182,7 +61742,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2868,
+      "durationMs": 2600,
       "attempts": 1
     },
     {
@@ -62601,7 +62161,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8400,
+      "durationMs": 6641,
       "attempts": 1
     },
     {
@@ -63244,7 +62804,7 @@
           "points": 75
         }
       ],
-      "durationMs": 14175,
+      "durationMs": 17448,
       "attempts": 1
     },
     {
@@ -63959,7 +63519,7 @@
           "points": 75
         }
       ],
-      "durationMs": 15776,
+      "durationMs": 17472,
       "attempts": 1
     },
     {
@@ -64306,7 +63866,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8704,
+      "durationMs": 9916,
       "attempts": 1
     },
     {
@@ -64557,7 +64117,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2458,
+      "durationMs": 2363,
       "attempts": 1
     },
     {
@@ -64976,7 +64536,7 @@
           "points": 75
         }
       ],
-      "durationMs": 5912,
+      "durationMs": 4201,
       "attempts": 1
     },
     {
@@ -65883,7 +65443,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10074,
+      "durationMs": 8502,
       "attempts": 1
     },
     {
@@ -66302,7 +65862,7 @@
           "points": 75
         }
       ],
-      "durationMs": 10336,
+      "durationMs": 6198,
       "attempts": 1
     },
     {
@@ -66633,7 +66193,7 @@
           "points": 75
         }
       ],
-      "durationMs": 9656,
+      "durationMs": 9761,
       "attempts": 1
     },
     {
@@ -67068,7 +66628,7 @@
           "points": 75
         }
       ],
-      "durationMs": 3324,
+      "durationMs": 3224,
       "attempts": 1
     },
     {
@@ -67175,7 +66735,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2731,
+      "durationMs": 6947,
       "attempts": 1
     },
     {
@@ -67274,7 +66834,7 @@
           "points": 150
         }
       ],
-      "durationMs": 2855,
+      "durationMs": 2025,
       "attempts": 1
     },
     {
@@ -67501,7 +67061,7 @@
           "points": 83
         }
       ],
-      "durationMs": 4033,
+      "durationMs": 2617,
       "attempts": 1
     },
     {
@@ -67712,7 +67272,7 @@
           "points": 100
         }
       ],
-      "durationMs": 3086,
+      "durationMs": 3356,
       "attempts": 1
     },
     {
@@ -67835,7 +67395,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1656,
+      "durationMs": 2592,
       "attempts": 1
     },
     {
@@ -67950,7 +67510,7 @@
           "points": 138
         }
       ],
-      "durationMs": 3049,
+      "durationMs": 1774,
       "attempts": 1
     },
     {
@@ -68249,7 +67809,7 @@
           "points": 83
         }
       ],
-      "durationMs": 3263,
+      "durationMs": 2219,
       "attempts": 1
     },
     {
@@ -68444,7 +68004,7 @@
           "points": 75
         }
       ],
-      "durationMs": 2142,
+      "durationMs": 1519,
       "attempts": 1
     },
     {
@@ -68567,7 +68127,7 @@
           "points": 138
         }
       ],
-      "durationMs": 1571,
+      "durationMs": 1405,
       "attempts": 1
     },
     {
@@ -68778,7 +68338,7 @@
           "points": 98
         }
       ],
-      "durationMs": 2488,
+      "durationMs": 2249,
       "attempts": 1
     },
     {
@@ -69005,7 +68565,7 @@
           "points": 110
         }
       ],
-      "durationMs": 1812,
+      "durationMs": 2030,
       "attempts": 1
     },
     {
@@ -69023,7 +68583,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 2458,
+      "durationMs": 2378,
       "attempts": 1
     },
     {
@@ -69290,7 +68850,7 @@
           "points": 138
         }
       ],
-      "durationMs": 3141,
+      "durationMs": 3906,
       "attempts": 1
     },
     {
@@ -70117,7 +69677,7 @@
           "points": 75
         }
       ],
-      "durationMs": 18519,
+      "durationMs": 20410,
       "attempts": 1
     },
     {
@@ -70904,7 +70464,7 @@
           "points": 75
         }
       ],
-      "durationMs": 18012,
+      "durationMs": 20061,
       "attempts": 1
     },
     {
@@ -71315,7 +70875,7 @@
           "points": 83
         }
       ],
-      "durationMs": 8131,
+      "durationMs": 19737,
       "attempts": 1
     },
     {
@@ -71502,7 +71062,7 @@
           "points": 138
         }
       ],
-      "durationMs": 2206,
+      "durationMs": 2537,
       "attempts": 1
     },
     {
@@ -71841,7 +71401,7 @@
           "points": 75
         }
       ],
-      "durationMs": 4529,
+      "durationMs": 7934,
       "attempts": 1
     },
     {
@@ -72588,7 +72148,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8802,
+      "durationMs": 9745,
       "attempts": 1
     },
     {
@@ -73119,7 +72679,7 @@
           "points": 83
         }
       ],
-      "durationMs": 7143,
+      "durationMs": 8225,
       "attempts": 1
     },
     {
@@ -73338,7 +72898,7 @@
           "points": 75
         }
       ],
-      "durationMs": 8016,
+      "durationMs": 4603,
       "attempts": 1
     }
   ]

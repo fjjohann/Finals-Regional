@@ -388,6 +388,24 @@ input:focus {
   background: var(--confirmed);
 }
 
+.regional-top-scroll {
+  margin: 10px 12px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 18px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f8fafc;
+}
+
+.regional-top-scroll[hidden] {
+  display: none;
+}
+
+.regional-top-scroll-content {
+  height: 1px;
+}
+
 .regional-grid {
   display: grid;
   grid-template-columns: repeat(7, var(--regional-col-width)) !important;

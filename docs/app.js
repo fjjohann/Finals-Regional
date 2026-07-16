@@ -33,6 +33,7 @@ const state = {
 
 let persistTimer = null;
 let remoteRefreshTimer = null;
+let isSyncingRegionalScroll = false;
 
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
@@ -51,6 +52,8 @@ const els = {
   selectedMeta: document.querySelector("#selectedMeta"),
   selectedTitle: document.querySelector("#selectedTitle"),
   federationGuaranteeLegend: document.querySelector("#federationGuaranteeLegend"),
+  regionalTopScroll: document.querySelector("#regionalTopScroll"),
+  regionalTopScrollContent: document.querySelector("#regionalTopScrollContent"),
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
@@ -71,6 +74,28 @@ function option(value, label) {
   item.value = value;
   item.textContent = label;
   return item;
+}
+
+function syncRegionalScrollWidth() {
+  if (!els.regionalTopScroll || !els.regionalTopScrollContent || !els.regionalGrid) return;
+
+  const scrollWidth = els.regionalGrid.scrollWidth;
+  const clientWidth = els.regionalGrid.clientWidth;
+  const shouldShow = state.activeView === "regionals" && scrollWidth > clientWidth + 1;
+
+  els.regionalTopScroll.hidden = !shouldShow;
+  els.regionalTopScrollContent.style.width = `${scrollWidth}px`;
+  els.regionalTopScroll.scrollLeft = els.regionalGrid.scrollLeft;
+}
+
+function syncRegionalScroll(source, target) {
+  if (!source || !target || isSyncingRegionalScroll) return;
+
+  isSyncingRegionalScroll = true;
+  target.scrollLeft = source.scrollLeft;
+  window.requestAnimationFrame(() => {
+    isSyncingRegionalScroll = false;
+  });
 }
 
 function categoryLabel(ranking) {
@@ -1370,6 +1395,7 @@ function render() {
     els.selectedTitle.textContent = "Rankings regionais";
     els.federationGuaranteeLegend.hidden = true;
     els.regionalGrid.replaceChildren();
+    syncRegionalScrollWidth();
     els.emptyState.hidden = false;
     renderAdminStatus();
     return;
@@ -1394,6 +1420,7 @@ function render() {
       ),
     ),
   );
+  window.requestAnimationFrame(syncRegionalScrollWidth);
   els.emptyState.hidden = true;
   renderFederationView();
   renderFinalsView();
@@ -1408,6 +1435,18 @@ function bindEvents() {
 
   els.viewTabs.forEach((tab) => {
     tab.addEventListener("click", () => setActiveView(tab.dataset.view));
+  });
+
+  els.regionalTopScroll.addEventListener("scroll", () => {
+    syncRegionalScroll(els.regionalTopScroll, els.regionalGrid);
+  });
+
+  els.regionalGrid.addEventListener("scroll", () => {
+    syncRegionalScroll(els.regionalGrid, els.regionalTopScroll);
+  });
+
+  window.addEventListener("resize", () => {
+    window.requestAnimationFrame(syncRegionalScrollWidth);
   });
 
   els.adminToggle.addEventListener("click", () => {

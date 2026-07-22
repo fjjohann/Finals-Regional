@@ -22,8 +22,7 @@ SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
 STATE_RESULT_LIMIT = 8
-REMAINING_STATE_EVENTS = 2
-FUTURE_STATE_EVENT_POINTS = 3000
+FUTURE_STATE_EVENT_POINTS = [2750, 3000]
 FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
 
 
@@ -254,8 +253,11 @@ def parse_point_components(html: str, current_total: int) -> list[int]:
 
 
 def projected_state_points(components: list[int]) -> int:
-    future_points = [FUTURE_STATE_EVENT_POINTS] * REMAINING_STATE_EVENTS
-    return sum(sorted([*components, *future_points], reverse=True)[:STATE_RESULT_LIMIT])
+    return sum(sorted([*components, *FUTURE_STATE_EVENT_POINTS], reverse=True)[:STATE_RESULT_LIMIT])
+
+
+def future_state_points_total() -> int:
+    return sum(FUTURE_STATE_EVENT_POINTS)
 
 
 def has_federation_spots(target: dict[str, Any]) -> bool:
@@ -290,7 +292,7 @@ def enrich_state_guarantees(
         index
         for threshold in thresholds
         for index, athlete in enumerate(athletes)
-        if athlete["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS) >= threshold
+        if athlete["points"] + future_state_points_total() >= threshold
     }
 
     for index in sorted(contenders):
@@ -303,7 +305,7 @@ def enrich_state_guarantees(
             components_by_code[athlete["athleteCode"]] = components
             projected_max_by_code[athlete["athleteCode"]] = projected_state_points(components)
         except (HTTPError, URLError, TimeoutError, OSError):
-            projected_max_by_code[athlete["athleteCode"]] = athlete["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS)
+            projected_max_by_code[athlete["athleteCode"]] = athlete["points"] + future_state_points_total()
 
     enriched = []
     for athlete in athletes:
@@ -318,7 +320,7 @@ def enrich_state_guarantees(
                     continue
                 other_max = projected_max_by_code.get(other["athleteCode"])
                 if other_max is None:
-                    upper_bound = other["points"] + (REMAINING_STATE_EVENTS * FUTURE_STATE_EVENT_POINTS)
+                    upper_bound = other["points"] + future_state_points_total()
                     other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
                 if other_max >= athlete["points"]:
                     threats += 1

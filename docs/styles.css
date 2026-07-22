@@ -383,6 +383,15 @@ input:focus {
   flex: 0 0 auto;
 }
 
+.legend-finals-state-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #0f8f83;
+  box-shadow: 0 0 0 1px #fff;
+  flex: 0 0 auto;
+}
+
 .legend {
   display: flex;
   align-items: center;
@@ -609,6 +618,17 @@ input:focus {
   height: 7px;
   border-radius: 999px;
   background: #2563eb;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.guaranteed-finals-state-dot {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #0f8f83;
   box-shadow: 0 0 0 1px #fff;
 }
 
@@ -1166,6 +1186,7 @@ input:focus {
 }
 
 .summary-athlete-row {
+  position: relative;
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr) 54px;
   gap: 8px;

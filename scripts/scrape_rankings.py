@@ -266,6 +266,10 @@ def has_federation_spots(target: dict[str, Any]) -> bool:
     return target.get("categoryLabel") in FEDERATION_TECHNICAL_LABELS
 
 
+def state_qualification_limit(target: dict[str, Any]) -> int:
+    return 6 if target.get("categoryGroup") == "Tecnicas" else 4
+
+
 def enrich_state_guarantees(
     target: dict[str, Any],
     html: str,
@@ -275,7 +279,10 @@ def enrich_state_guarantees(
     if target.get("rankingScope") != "state" or not athletes:
         return athletes
     if not has_federation_spots(target):
-        return [{**athlete, "stateTop2Guaranteed": False} for athlete in athletes]
+        return [
+            {**athlete, "stateTop2Guaranteed": False, "stateFinalsGuaranteed": False}
+            for athlete in athletes
+        ]
 
     tennis_ids = parse_tennis_ids(html)
     if len(tennis_ids) < len(athletes):
@@ -286,8 +293,11 @@ def enrich_state_guarantees(
     base_url = "/".join(target["url"].split("/")[:3])
     projected_max_by_code: dict[str, int] = {}
     components_by_code: dict[str, list[int]] = {}
+    list_index_by_code = {athlete["athleteCode"]: index for index, athlete in enumerate(athletes)}
+    qualification_limit = state_qualification_limit(target)
     top_two = athletes[:2]
-    thresholds = [athlete["points"] for athlete in top_two]
+    state_qualified = athletes[:qualification_limit]
+    thresholds = [athlete["points"] for athlete in state_qualified]
     contenders = {
         index
         for threshold in thresholds
@@ -310,8 +320,10 @@ def enrich_state_guarantees(
     enriched = []
     for athlete in athletes:
         code = athlete["athleteCode"]
+        athlete_index = list_index_by_code[code]
         projected_max = projected_max_by_code.get(code)
-        guaranteed = False
+        federation_guaranteed = False
+        finals_guaranteed = False
 
         if athlete in top_two:
             threats = 0
@@ -322,16 +334,38 @@ def enrich_state_guarantees(
                 if other_max is None:
                     upper_bound = other["points"] + future_state_points_total()
                     other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
-                if other_max >= athlete["points"]:
+                other_is_ahead_on_tie = list_index_by_code[other["athleteCode"]] < athlete_index
+                if other_max > athlete["points"] or (other_max == athlete["points"] and other_is_ahead_on_tie):
                     threats += 1
-            guaranteed = threats <= 1
+            federation_guaranteed = threats <= 1
+
+        if athlete in state_qualified[2:]:
+            threats = 0
+            for other in athletes:
+                if other["athleteCode"] == code:
+                    continue
+                other_max = projected_max_by_code.get(other["athleteCode"])
+                if other_max is None:
+                    upper_bound = other["points"] + future_state_points_total()
+                    other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
+                other_is_ahead_on_tie = list_index_by_code[other["athleteCode"]] < athlete_index
+                if other_max > athlete["points"] or (other_max == athlete["points"] and other_is_ahead_on_tie):
+                    threats += 1
+
+            cannot_reach_top_two = (
+                projected_max is not None
+                and len(top_two) == 2
+                and projected_max <= top_two[1]["points"]
+            )
+            finals_guaranteed = threats < qualification_limit and cannot_reach_top_two
 
         enriched.append(
             {
                 **athlete,
                 **({"stateProjectionMax": projected_max} if projected_max is not None else {}),
                 **({"statePointComponents": components_by_code[code]} if code in components_by_code else {}),
-                "stateTop2Guaranteed": guaranteed,
+                "stateTop2Guaranteed": federation_guaranteed,
+                "stateFinalsGuaranteed": finals_guaranteed,
             }
         )
     return enriched

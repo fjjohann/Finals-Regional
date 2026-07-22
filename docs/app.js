@@ -50,6 +50,7 @@ const els = {
   selectedMeta: document.querySelector("#selectedMeta"),
   selectedTitle: document.querySelector("#selectedTitle"),
   federationGuaranteeLegend: document.querySelector("#federationGuaranteeLegend"),
+  finalsStateGuaranteeLegend: document.querySelector("#finalsStateGuaranteeLegend"),
   regionalScrollControl: document.querySelector("#regionalScrollControl"),
   regionalScrollRange: document.querySelector("#regionalScrollRange"),
   regionalGrid: document.querySelector("#regionalGrid"),
@@ -714,6 +715,10 @@ function hasVisibleFederationGuarantee(stateRanking, releaseCodes = new Set()) {
   return stateFederationAthletes(stateRanking, releaseCodes).some((athlete) => athlete.stateTop2Guaranteed);
 }
 
+function hasVisibleFinalsStateGuarantee(stateRanking, releaseCodes = new Set()) {
+  return stateFinalsAthletes(stateRanking, releaseCodes).some((athlete) => athlete.stateFinalsGuaranteed);
+}
+
 function stateClassificationLabel(athlete, stateCodes, federationCodes) {
   const identity = athleteIdentity(athlete);
   if (!stateCodes.has(identity)) return "";
@@ -1038,6 +1043,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
   const isFederation = isQualified && federationCodes.has(identity);
   const isFinalsState = isQualified && !isFederation;
   const isGuaranteedFederation = isFederation && Boolean(athlete.stateTop2Guaranteed);
+  const isGuaranteedFinalsState = isFinalsState && Boolean(athlete.stateFinalsGuaranteed);
   const canRelease = isQualified || isReleased;
   row.className = [
     "athlete-row",
@@ -1046,6 +1052,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
     isFinalsState ? "is-finals-cup" : "",
     isReleased ? "is-manual-release" : "",
     isGuaranteedFederation ? "is-guaranteed-federation" : "",
+    isGuaranteedFinalsState ? "is-guaranteed-finals-state" : "",
   ].filter(Boolean).join(" ");
   const label = isFederation ? "Copa Federações" : isFinalsState ? "Finals Copa - via Estadual" : "";
   const status = label
@@ -1070,6 +1077,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
     : "";
   row.innerHTML = `
     ${isGuaranteedFederation ? `<span class="guaranteed-federation-dot" title="Vaga matematicamente garantida na Copa das Federações"></span>` : ""}
+    ${isGuaranteedFinalsState ? `<span class="guaranteed-finals-state-dot" title="Vaga matematicamente garantida no Finals Copa via Estadual"></span>` : ""}
     <span class="rank-cell">
       ${controls}
       <span class="rank-position">${athlete.position}</span>
@@ -1127,8 +1135,10 @@ function statePanel(stateRanking, releaseCodes = new Set()) {
 
 function summaryAthleteRow(athlete, meta, tone = "regional") {
   const row = document.createElement("div");
-  row.className = `summary-athlete-row summary-${tone}`;
+  const isGuaranteedFinalsState = tone === "state" && Boolean(athlete.stateFinalsGuaranteed);
+  row.className = `summary-athlete-row summary-${tone}${isGuaranteedFinalsState ? " is-guaranteed-finals-state" : ""}`;
   row.innerHTML = `
+    ${isGuaranteedFinalsState ? `<span class="guaranteed-finals-state-dot" title="Vaga matematicamente garantida no Finals Copa via Estadual"></span>` : ""}
     <span class="rank-position">${athlete.position}</span>
     <span class="athlete-main">
       <span class="athlete-name">${athlete.name}</span>
@@ -1405,6 +1415,7 @@ function render() {
   els.selectedMeta.hidden = true;
   els.selectedTitle.textContent = categoryLabel(rankings[0]);
   els.federationGuaranteeLegend.hidden = !hasVisibleFederationGuarantee(stateRanking, stateReleaseCodes);
+  els.finalsStateGuaranteeLegend.hidden = !hasVisibleFinalsStateGuarantee(stateRanking, stateReleaseCodes);
   els.regionalGrid.replaceChildren(
     statePanel(stateRanking, stateReleaseCodes),
     ...rankings.map((ranking) =>

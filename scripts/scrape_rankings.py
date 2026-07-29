@@ -22,7 +22,7 @@ SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
 STATE_RESULT_LIMIT = 8
-FUTURE_STATE_EVENT_POINTS = [2750, 3000]
+FUTURE_STATE_EVENT_POINTS = [3000]
 FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
 
 

@@ -259,7 +259,7 @@ def future_state_event_points(target: dict[str, Any]) -> list[int]:
 
     if group == "Subs":
         return []
-    if group == "Idades" and label == "60+":
+    if group == "Idades" and label in {"40+", "60+"}:
         return []
     if group == "Idades" and label == "50+" and gender == "Masculina":
         return []

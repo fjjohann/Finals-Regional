@@ -255,13 +255,10 @@ def parse_point_components(html: str, current_total: int) -> list[int]:
 def future_state_event_points(target: dict[str, Any]) -> list[int]:
     group = target.get("categoryGroup")
     label = target.get("categoryLabel")
-    gender = target.get("gender")
 
     if group == "Subs":
         return []
-    if group == "Idades" and label in {"40+", "60+"}:
-        return []
-    if group == "Idades" and label == "50+" and gender == "Masculina":
+    if group == "Idades" and label in {"40+", "50+", "60+"}:
         return []
     if group == "Tecnicas" and label == "E":
         return []

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T02:15:51.845093+00:00",
+  "generatedAt": "2026-08-08T09:44:40.340567+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
@@ -1573,7 +1573,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 499,
+      "durationMs": 2481,
       "attempts": 1
     },
     {
@@ -1901,98 +1901,98 @@
         },
         {
           "position": 27,
+          "athleteCode": "26155",
+          "name": "Karla Campos",
+          "categoryCode": "BTFB",
+          "sourcePosition": 27,
+          "points": 3470,
+          "stateProjectionMax": 3470,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 28,
           "athleteCode": "49621",
           "name": "Carolina Pagani",
           "categoryCode": "BTFD",
-          "sourcePosition": 27,
+          "sourcePosition": 28,
           "points": 3422,
           "stateProjectionMax": 3422,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "34985",
           "name": "Patricia Novais",
           "categoryCode": "BTFD",
-          "sourcePosition": 28,
+          "sourcePosition": 29,
           "points": 3284,
           "stateProjectionMax": 3284,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 29,
+          "position": 30,
           "athleteCode": "34197",
           "name": "Fernanda Mariano",
           "categoryCode": "BTFC",
-          "sourcePosition": 29,
+          "sourcePosition": 30,
           "points": 3192,
           "stateProjectionMax": 3192,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 30,
+          "position": 31,
           "athleteCode": "40539",
           "name": "Andrea Monteiro",
           "categoryCode": "BTFC",
-          "sourcePosition": 30,
+          "sourcePosition": 31,
           "points": 3178,
           "stateProjectionMax": 3178,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 31,
+          "position": 32,
           "athleteCode": "31668",
           "name": "Thais Fonsatti",
           "categoryCode": "BTFC",
-          "sourcePosition": 31,
+          "sourcePosition": 32,
           "points": 3138,
           "stateProjectionMax": 3138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "36498",
           "name": "Marlete Fonseca",
           "categoryCode": "BTFC",
-          "sourcePosition": 32,
+          "sourcePosition": 33,
           "points": 3040,
           "stateProjectionMax": 3040,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 33,
+          "position": 34,
           "athleteCode": "42327",
           "name": "Valery Riechi",
           "categoryCode": "BTFC",
-          "sourcePosition": 33,
+          "sourcePosition": 34,
           "points": 3020,
           "stateProjectionMax": 3020,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 34,
+          "position": 35,
           "athleteCode": "46435",
           "name": "Adriana Nascimento",
           "categoryCode": "BTFE",
-          "sourcePosition": 34,
-          "points": 3010,
-          "stateProjectionMax": 3010,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 34,
-          "athleteCode": "47614",
-          "name": "Danielli Pedroso",
-          "categoryCode": "BTFE",
-          "sourcePosition": 34,
+          "sourcePosition": 35,
           "points": 3010,
           "stateProjectionMax": 3010,
           "stateTop2Guaranteed": false,
@@ -2000,76 +2000,76 @@
         },
         {
           "position": 35,
+          "athleteCode": "47614",
+          "name": "Danielli Pedroso",
+          "categoryCode": "BTFE",
+          "sourcePosition": 35,
+          "points": 3010,
+          "stateProjectionMax": 3010,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 36,
           "athleteCode": "36777",
           "name": "Marcia Weber",
           "categoryCode": "BTFC",
-          "sourcePosition": 35,
+          "sourcePosition": 36,
           "points": 2988,
           "stateProjectionMax": 2988,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 36,
+          "position": 37,
           "athleteCode": "35182",
           "name": "Manoela Grani",
           "categoryCode": "BTFC",
-          "sourcePosition": 36,
+          "sourcePosition": 37,
           "points": 2916,
           "stateProjectionMax": 2916,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 37,
+          "position": 38,
           "athleteCode": "30460",
           "name": "Lissandra Aguirre",
           "categoryCode": "BTFB",
-          "sourcePosition": 37,
+          "sourcePosition": 38,
           "points": 2860,
           "stateProjectionMax": 2860,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 38,
+          "position": 39,
           "athleteCode": "41830",
           "name": "Luciane Richter",
           "categoryCode": "BTFC",
-          "sourcePosition": 38,
+          "sourcePosition": 39,
           "points": 2720,
           "stateProjectionMax": 2720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 39,
+          "position": 40,
           "athleteCode": "27139",
           "name": "Viviane Mauad",
           "categoryCode": "BTFB",
-          "sourcePosition": 39,
+          "sourcePosition": 40,
           "points": 2628,
           "stateProjectionMax": 2628,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 40,
+          "position": 41,
           "athleteCode": "36835",
           "name": "Jaqueline Bechi",
           "categoryCode": "BTFC",
-          "sourcePosition": 40,
-          "points": 2200,
-          "stateProjectionMax": 2200,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 40,
-          "athleteCode": "45379",
-          "name": "Loiva Refatti",
-          "categoryCode": "BTFD",
-          "sourcePosition": 40,
+          "sourcePosition": 41,
           "points": 2200,
           "stateProjectionMax": 2200,
           "stateTop2Guaranteed": false,
@@ -2077,34 +2077,34 @@
         },
         {
           "position": 41,
+          "athleteCode": "45379",
+          "name": "Loiva Refatti",
+          "categoryCode": "BTFD",
+          "sourcePosition": 41,
+          "points": 2200,
+          "stateProjectionMax": 2200,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 42,
           "athleteCode": "8179",
           "name": "Cindi Carmello",
           "categoryCode": "BTFD",
-          "sourcePosition": 41,
+          "sourcePosition": 42,
           "points": 2172,
           "stateProjectionMax": 2172,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 42,
+          "position": 43,
           "athleteCode": "42320",
           "name": "Alessandra Veit",
           "categoryCode": "BTFC",
-          "sourcePosition": 42,
+          "sourcePosition": 43,
           "points": 2016,
           "stateProjectionMax": 2016,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 43,
-          "athleteCode": "26155",
-          "name": "Karla Campos",
-          "categoryCode": "BTFB",
-          "sourcePosition": 43,
-          "points": 2000,
-          "stateProjectionMax": 2000,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -2527,7 +2527,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 366,
+      "durationMs": 1911,
       "attempts": 1
     },
     {
@@ -3118,7 +3118,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 396,
+      "durationMs": 1571,
       "attempts": 1
     },
     {
@@ -4578,7 +4578,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 536,
+      "durationMs": 2252,
       "attempts": 1
     },
     {
@@ -5752,7 +5752,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 428,
+      "durationMs": 1878,
       "attempts": 1
     },
     {
@@ -6299,7 +6299,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 410,
+      "durationMs": 1410,
       "attempts": 1
     },
     {
@@ -6813,7 +6813,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 353,
+      "durationMs": 1728,
       "attempts": 1
     },
     {
@@ -7569,7 +7569,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 492,
+      "durationMs": 2095,
       "attempts": 1
     },
     {
@@ -8061,7 +8061,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 520,
+      "durationMs": 1700,
       "attempts": 1
     },
     {
@@ -8454,7 +8454,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 335,
+      "durationMs": 1844,
       "attempts": 1
     },
     {
@@ -9122,7 +9122,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 515,
+      "durationMs": 1641,
       "attempts": 1
     },
     {
@@ -9889,7 +9889,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 584,
+      "durationMs": 1828,
       "attempts": 1
     },
     {
@@ -10772,7 +10772,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 5596,
+      "durationMs": 16978,
       "attempts": 1
     },
     {
@@ -12430,7 +12430,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2053,
+      "durationMs": 7793,
       "attempts": 1
     },
     {
@@ -16088,7 +16088,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2641,
+      "durationMs": 8582,
       "attempts": 1
     },
     {
@@ -19242,7 +19242,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 631,
+      "durationMs": 2859,
       "attempts": 1
     },
     {
@@ -21472,7 +21472,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 883,
+      "durationMs": 4006,
       "attempts": 1
     },
     {
@@ -22477,7 +22477,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1907,
+      "durationMs": 6509,
       "attempts": 1
     },
     {
@@ -24295,7 +24295,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2129,
+      "durationMs": 7401,
       "attempts": 1
     },
     {
@@ -27850,7 +27850,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1837,
+      "durationMs": 7636,
       "attempts": 1
     },
     {
@@ -30465,7 +30465,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 854,
+      "durationMs": 3312,
       "attempts": 1
     },
     {
@@ -31925,7 +31925,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 699,
+      "durationMs": 3163,
       "attempts": 1
     },
     {
@@ -32792,7 +32792,7 @@
           "points": 75
         }
       ],
-      "durationMs": 300,
+      "durationMs": 2407,
       "attempts": 1
     },
     {
@@ -32876,27 +32876,27 @@
         },
         {
           "position": 9,
-          "athleteCode": "42320",
-          "name": "Alessandra Veit",
-          "categoryCode": "BTFC",
-          "sourcePosition": 9,
-          "points": 12163
-        },
-        {
-          "position": 10,
-          "athleteCode": "16991",
-          "name": "Selma Avila",
-          "categoryCode": "BTFC",
-          "sourcePosition": 10,
-          "points": 12140
-        },
-        {
-          "position": 11,
           "athleteCode": "26155",
           "name": "Karla Campos",
           "categoryCode": "BTFB",
+          "sourcePosition": 9,
+          "points": 12541
+        },
+        {
+          "position": 10,
+          "athleteCode": "42320",
+          "name": "Alessandra Veit",
+          "categoryCode": "BTFC",
+          "sourcePosition": 10,
+          "points": 12163
+        },
+        {
+          "position": 11,
+          "athleteCode": "16991",
+          "name": "Selma Avila",
+          "categoryCode": "BTFC",
           "sourcePosition": 11,
-          "points": 11154
+          "points": 12140
         },
         {
           "position": 12,
@@ -33275,7 +33275,7 @@
           "points": 75
         }
       ],
-      "durationMs": 321,
+      "durationMs": 1631,
       "attempts": 1
     },
     {
@@ -33614,7 +33614,7 @@
           "points": 90
         }
       ],
-      "durationMs": 292,
+      "durationMs": 1394,
       "attempts": 1
     },
     {
@@ -34305,7 +34305,7 @@
           "points": 83
         }
       ],
-      "durationMs": 278,
+      "durationMs": 1559,
       "attempts": 1
     },
     {
@@ -34972,7 +34972,7 @@
           "points": 83
         }
       ],
-      "durationMs": 321,
+      "durationMs": 1724,
       "attempts": 1
     },
     {
@@ -35255,7 +35255,7 @@
           "points": 83
         }
       ],
-      "durationMs": 269,
+      "durationMs": 1314,
       "attempts": 1
     },
     {
@@ -35474,7 +35474,7 @@
           "points": 120
         }
       ],
-      "durationMs": 248,
+      "durationMs": 1160,
       "attempts": 1
     },
     {
@@ -35821,7 +35821,7 @@
           "points": 83
         }
       ],
-      "durationMs": 280,
+      "durationMs": 1172,
       "attempts": 1
     },
     {
@@ -36008,7 +36008,7 @@
           "points": 110
         }
       ],
-      "durationMs": 273,
+      "durationMs": 1132,
       "attempts": 1
     },
     {
@@ -36123,7 +36123,7 @@
           "points": 83
         }
       ],
-      "durationMs": 276,
+      "durationMs": 953,
       "attempts": 1
     },
     {
@@ -36382,7 +36382,7 @@
           "points": 83
         }
       ],
-      "durationMs": 392,
+      "durationMs": 1212,
       "attempts": 1
     },
     {
@@ -36673,7 +36673,7 @@
           "points": 120
         }
       ],
-      "durationMs": 348,
+      "durationMs": 1370,
       "attempts": 1
     },
     {
@@ -37148,7 +37148,7 @@
           "points": 83
         }
       ],
-      "durationMs": 307,
+      "durationMs": 1645,
       "attempts": 1
     },
     {
@@ -37799,7 +37799,7 @@
           "points": 83
         }
       ],
-      "durationMs": 276,
+      "durationMs": 1781,
       "attempts": 1
     },
     {
@@ -39546,7 +39546,7 @@
           "points": 83
         }
       ],
-      "durationMs": 518,
+      "durationMs": 2294,
       "attempts": 1
     },
     {
@@ -41237,7 +41237,7 @@
           "points": 50
         }
       ],
-      "durationMs": 685,
+      "durationMs": 2685,
       "attempts": 1
     },
     {
@@ -42600,7 +42600,7 @@
           "points": 83
         }
       ],
-      "durationMs": 696,
+      "durationMs": 2989,
       "attempts": 1
     },
     {
@@ -43011,7 +43011,7 @@
           "points": 150
         }
       ],
-      "durationMs": 355,
+      "durationMs": 1836,
       "attempts": 1
     },
     {
@@ -43894,7 +43894,7 @@
           "points": 83
         }
       ],
-      "durationMs": 495,
+      "durationMs": 2168,
       "attempts": 1
     },
     {
@@ -45489,7 +45489,7 @@
           "points": 75
         }
       ],
-      "durationMs": 571,
+      "durationMs": 3954,
       "attempts": 1
     },
     {
@@ -46868,7 +46868,7 @@
           "points": 83
         }
       ],
-      "durationMs": 514,
+      "durationMs": 3952,
       "attempts": 1
     },
     {
@@ -47663,7 +47663,7 @@
           "points": 83
         }
       ],
-      "durationMs": 505,
+      "durationMs": 2179,
       "attempts": 1
     },
     {
@@ -48090,7 +48090,7 @@
           "points": 75
         }
       ],
-      "durationMs": 551,
+      "durationMs": 1512,
       "attempts": 1
     },
     {
@@ -48229,7 +48229,7 @@
           "points": 75
         }
       ],
-      "durationMs": 405,
+      "durationMs": 1349,
       "attempts": 1
     },
     {
@@ -48312,7 +48312,7 @@
           "points": 150
         }
       ],
-      "durationMs": 386,
+      "durationMs": 1223,
       "attempts": 1
     },
     {
@@ -48635,7 +48635,7 @@
           "points": 75
         }
       ],
-      "durationMs": 342,
+      "durationMs": 1537,
       "attempts": 1
     },
     {
@@ -48822,7 +48822,7 @@
           "points": 75
         }
       ],
-      "durationMs": 316,
+      "durationMs": 1219,
       "attempts": 1
     },
     {
@@ -48905,7 +48905,7 @@
           "points": 150
         }
       ],
-      "durationMs": 200,
+      "durationMs": 1018,
       "attempts": 1
     },
     {
@@ -49036,7 +49036,7 @@
           "points": 735
         }
       ],
-      "durationMs": 277,
+      "durationMs": 1007,
       "attempts": 1
     },
     {
@@ -49191,7 +49191,7 @@
           "points": 150
         }
       ],
-      "durationMs": 294,
+      "durationMs": 1548,
       "attempts": 1
     },
     {
@@ -49378,7 +49378,7 @@
           "points": 75
         }
       ],
-      "durationMs": 292,
+      "durationMs": 1256,
       "attempts": 1
     },
     {
@@ -49477,7 +49477,7 @@
           "points": 150
         }
       ],
-      "durationMs": 357,
+      "durationMs": 1062,
       "attempts": 1
     },
     {
@@ -49600,7 +49600,7 @@
           "points": 75
         }
       ],
-      "durationMs": 412,
+      "durationMs": 1114,
       "attempts": 1
     },
     {
@@ -49763,7 +49763,7 @@
           "points": 150
         }
       ],
-      "durationMs": 509,
+      "durationMs": 1078,
       "attempts": 1
     },
     {
@@ -49846,7 +49846,7 @@
           "points": 150
         }
       ],
-      "durationMs": 184,
+      "durationMs": 1022,
       "attempts": 1
     },
     {
@@ -50177,7 +50177,7 @@
           "points": 150
         }
       ],
-      "durationMs": 245,
+      "durationMs": 1256,
       "attempts": 1
     },
     {
@@ -50836,7 +50836,7 @@
           "points": 55
         }
       ],
-      "durationMs": 484,
+      "durationMs": 1833,
       "attempts": 1
     },
     {
@@ -51447,7 +51447,7 @@
           "points": 83
         }
       ],
-      "durationMs": 327,
+      "durationMs": 1939,
       "attempts": 1
     },
     {
@@ -52010,7 +52010,7 @@
           "points": 75
         }
       ],
-      "durationMs": 396,
+      "durationMs": 1637,
       "attempts": 1
     },
     {
@@ -52221,7 +52221,7 @@
           "points": 120
         }
       ],
-      "durationMs": 307,
+      "durationMs": 1144,
       "attempts": 1
     },
     {
@@ -52600,7 +52600,7 @@
           "points": 75
         }
       ],
-      "durationMs": 421,
+      "durationMs": 1359,
       "attempts": 1
     },
     {
@@ -53355,7 +53355,7 @@
           "points": 75
         }
       ],
-      "durationMs": 348,
+      "durationMs": 2073,
       "attempts": 1
     },
     {
@@ -53918,7 +53918,7 @@
           "points": 55
         }
       ],
-      "durationMs": 347,
+      "durationMs": 1834,
       "attempts": 1
     },
     {
@@ -54345,7 +54345,7 @@
           "points": 75
         }
       ],
-      "durationMs": 349,
+      "durationMs": 1582,
       "attempts": 1
     },
     {
@@ -54612,7 +54612,7 @@
           "points": 110
         }
       ],
-      "durationMs": 300,
+      "durationMs": 1214,
       "attempts": 1
     },
     {
@@ -54839,7 +54839,7 @@
           "points": 75
         }
       ],
-      "durationMs": 249,
+      "durationMs": 1215,
       "attempts": 1
     },
     {
@@ -54994,7 +54994,7 @@
           "points": 185
         }
       ],
-      "durationMs": 229,
+      "durationMs": 968,
       "attempts": 1
     },
     {
@@ -55285,7 +55285,7 @@
           "points": 120
         }
       ],
-      "durationMs": 291,
+      "durationMs": 1310,
       "attempts": 1
     },
     {
@@ -55600,7 +55600,7 @@
           "points": 120
         }
       ],
-      "durationMs": 273,
+      "durationMs": 1489,
       "attempts": 1
     },
     {
@@ -55755,7 +55755,7 @@
           "points": 150
         }
       ],
-      "durationMs": 224,
+      "durationMs": 1119,
       "attempts": 1
     },
     {
@@ -55942,7 +55942,7 @@
           "points": 268
         }
       ],
-      "durationMs": 285,
+      "durationMs": 989,
       "attempts": 1
     },
     {
@@ -56193,7 +56193,7 @@
           "points": 138
         }
       ],
-      "durationMs": 223,
+      "durationMs": 1201,
       "attempts": 1
     },
     {
@@ -56404,7 +56404,7 @@
           "points": 120
         }
       ],
-      "durationMs": 271,
+      "durationMs": 1176,
       "attempts": 1
     },
     {
@@ -56567,7 +56567,7 @@
           "points": 110
         }
       ],
-      "durationMs": 218,
+      "durationMs": 963,
       "attempts": 1
     },
     {
@@ -56786,7 +56786,7 @@
           "points": 75
         }
       ],
-      "durationMs": 216,
+      "durationMs": 1163,
       "attempts": 1
     },
     {
@@ -57029,7 +57029,7 @@
           "points": 150
         }
       ],
-      "durationMs": 204,
+      "durationMs": 1177,
       "attempts": 1
     },
     {
@@ -57232,7 +57232,7 @@
           "points": 82
         }
       ],
-      "durationMs": 201,
+      "durationMs": 1190,
       "attempts": 1
     },
     {
@@ -57555,7 +57555,7 @@
           "points": 120
         }
       ],
-      "durationMs": 248,
+      "durationMs": 1333,
       "attempts": 1
     },
     {
@@ -58302,7 +58302,7 @@
           "points": 75
         }
       ],
-      "durationMs": 338,
+      "durationMs": 2141,
       "attempts": 1
     },
     {
@@ -58753,7 +58753,7 @@
           "points": 120
         }
       ],
-      "durationMs": 289,
+      "durationMs": 1790,
       "attempts": 1
     },
     {
@@ -58900,7 +58900,7 @@
           "points": 824
         }
       ],
-      "durationMs": 231,
+      "durationMs": 1150,
       "attempts": 1
     },
     {
@@ -59119,7 +59119,7 @@
           "points": 150
         }
       ],
-      "durationMs": 229,
+      "durationMs": 1145,
       "attempts": 1
     },
     {
@@ -59506,7 +59506,7 @@
           "points": 75
         }
       ],
-      "durationMs": 268,
+      "durationMs": 1361,
       "attempts": 1
     },
     {
@@ -60229,7 +60229,7 @@
           "points": 75
         }
       ],
-      "durationMs": 303,
+      "durationMs": 1932,
       "attempts": 1
     },
     {
@@ -60504,7 +60504,7 @@
           "points": 120
         }
       ],
-      "durationMs": 256,
+      "durationMs": 1354,
       "attempts": 1
     },
     {
@@ -60731,7 +60731,7 @@
           "points": 75
         }
       ],
-      "durationMs": 248,
+      "durationMs": 1169,
       "attempts": 1
     },
     {
@@ -60910,7 +60910,7 @@
           "points": 75
         }
       ],
-      "durationMs": 253,
+      "durationMs": 999,
       "attempts": 1
     },
     {
@@ -61081,7 +61081,7 @@
           "points": 138
         }
       ],
-      "durationMs": 211,
+      "durationMs": 1020,
       "attempts": 1
     },
     {
@@ -61196,7 +61196,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 210,
+      "durationMs": 993,
       "attempts": 1
     },
     {
@@ -61415,7 +61415,7 @@
           "points": 75
         }
       ],
-      "durationMs": 212,
+      "durationMs": 1157,
       "attempts": 1
     },
     {
@@ -61538,7 +61538,7 @@
           "points": 100
         }
       ],
-      "durationMs": 212,
+      "durationMs": 1054,
       "attempts": 1
     },
     {
@@ -61693,7 +61693,7 @@
           "points": 138
         }
       ],
-      "durationMs": 199,
+      "durationMs": 1015,
       "attempts": 1
     },
     {
@@ -61840,7 +61840,7 @@
           "points": 100
         }
       ],
-      "durationMs": 226,
+      "durationMs": 958,
       "attempts": 1
     },
     {
@@ -62043,7 +62043,7 @@
           "points": 100
         }
       ],
-      "durationMs": 236,
+      "durationMs": 1152,
       "attempts": 1
     },
     {
@@ -62198,7 +62198,7 @@
           "points": 75
         }
       ],
-      "durationMs": 207,
+      "durationMs": 971,
       "attempts": 1
     },
     {
@@ -62321,7 +62321,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 189,
+      "durationMs": 1010,
       "attempts": 1
     },
     {
@@ -62604,7 +62604,7 @@
           "points": 75
         }
       ],
-      "durationMs": 233,
+      "durationMs": 1198,
       "attempts": 1
     },
     {
@@ -62903,7 +62903,7 @@
           "points": 75
         }
       ],
-      "durationMs": 291,
+      "durationMs": 1256,
       "attempts": 1
     },
     {
@@ -63034,7 +63034,7 @@
           "points": 100
         }
       ],
-      "durationMs": 229,
+      "durationMs": 955,
       "attempts": 1
     },
     {
@@ -63277,7 +63277,7 @@
           "points": 75
         }
       ],
-      "durationMs": 257,
+      "durationMs": 1199,
       "attempts": 1
     },
     {
@@ -63704,7 +63704,7 @@
           "points": 75
         }
       ],
-      "durationMs": 338,
+      "durationMs": 1446,
       "attempts": 1
     },
     {
@@ -63923,7 +63923,7 @@
           "points": 75
         }
       ],
-      "durationMs": 276,
+      "durationMs": 1181,
       "attempts": 1
     },
     {
@@ -64022,7 +64022,7 @@
           "points": 75
         }
       ],
-      "durationMs": 243,
+      "durationMs": 994,
       "attempts": 1
     },
     {
@@ -64161,7 +64161,7 @@
           "points": 100
         }
       ],
-      "durationMs": 206,
+      "durationMs": 980,
       "attempts": 1
     },
     {
@@ -64380,7 +64380,7 @@
           "points": 138
         }
       ],
-      "durationMs": 233,
+      "durationMs": 1181,
       "attempts": 1
     },
     {
@@ -64975,7 +64975,7 @@
           "points": 75
         }
       ],
-      "durationMs": 312,
+      "durationMs": 1700,
       "attempts": 1
     },
     {
@@ -65146,7 +65146,7 @@
           "points": 138
         }
       ],
-      "durationMs": 270,
+      "durationMs": 1228,
       "attempts": 1
     },
     {
@@ -65293,7 +65293,7 @@
           "points": 75
         }
       ],
-      "durationMs": 222,
+      "durationMs": 1209,
       "attempts": 1
     },
     {
@@ -65576,7 +65576,7 @@
           "points": 75
         }
       ],
-      "durationMs": 243,
+      "durationMs": 1178,
       "attempts": 1
     },
     {
@@ -65851,7 +65851,7 @@
           "points": 75
         }
       ],
-      "durationMs": 320,
+      "durationMs": 1165,
       "attempts": 1
     },
     {
@@ -65974,7 +65974,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 249,
+      "durationMs": 959,
       "attempts": 1
     },
     {
@@ -66353,7 +66353,7 @@
           "points": 75
         }
       ],
-      "durationMs": 304,
+      "durationMs": 1357,
       "attempts": 1
     },
     {
@@ -66652,7 +66652,7 @@
           "points": 75
         }
       ],
-      "durationMs": 293,
+      "durationMs": 1348,
       "attempts": 1
     },
     {
@@ -66775,7 +66775,7 @@
           "points": 110
         }
       ],
-      "durationMs": 245,
+      "durationMs": 956,
       "attempts": 1
     },
     {
@@ -66914,7 +66914,7 @@
           "points": 100
         }
       ],
-      "durationMs": 194,
+      "durationMs": 1100,
       "attempts": 1
     },
     {
@@ -67109,7 +67109,7 @@
           "points": 75
         }
       ],
-      "durationMs": 255,
+      "durationMs": 1065,
       "attempts": 1
     },
     {
@@ -67304,7 +67304,7 @@
           "points": 138
         }
       ],
-      "durationMs": 219,
+      "durationMs": 1017,
       "attempts": 1
     },
     {
@@ -67387,7 +67387,7 @@
           "points": 138
         }
       ],
-      "durationMs": 183,
+      "durationMs": 986,
       "attempts": 1
     },
     {
@@ -67566,7 +67566,7 @@
           "points": 75
         }
       ],
-      "durationMs": 297,
+      "durationMs": 1138,
       "attempts": 1
     },
     {
@@ -67777,7 +67777,7 @@
           "points": 138
         }
       ],
-      "durationMs": 290,
+      "durationMs": 1150,
       "attempts": 1
     },
     {
@@ -67852,7 +67852,7 @@
           "points": 138
         }
       ],
-      "durationMs": 325,
+      "durationMs": 953,
       "attempts": 1
     },
     {
@@ -68287,7 +68287,7 @@
           "points": 75
         }
       ],
-      "durationMs": 337,
+      "durationMs": 1555,
       "attempts": 1
     },
     {
@@ -68970,7 +68970,7 @@
           "points": 75
         }
       ],
-      "durationMs": 465,
+      "durationMs": 2000,
       "attempts": 1
     },
     {
@@ -69685,7 +69685,7 @@
           "points": 75
         }
       ],
-      "durationMs": 477,
+      "durationMs": 2109,
       "attempts": 1
     },
     {
@@ -70056,7 +70056,7 @@
           "points": 75
         }
       ],
-      "durationMs": 362,
+      "durationMs": 1535,
       "attempts": 1
     },
     {
@@ -70299,7 +70299,7 @@
           "points": 75
         }
       ],
-      "durationMs": 421,
+      "durationMs": 1184,
       "attempts": 1
     },
     {
@@ -70726,7 +70726,7 @@
           "points": 75
         }
       ],
-      "durationMs": 387,
+      "durationMs": 1373,
       "attempts": 1
     },
     {
@@ -71649,7 +71649,7 @@
           "points": 75
         }
       ],
-      "durationMs": 493,
+      "durationMs": 2164,
       "attempts": 1
     },
     {
@@ -72092,7 +72092,7 @@
           "points": 75
         }
       ],
-      "durationMs": 439,
+      "durationMs": 1752,
       "attempts": 1
     },
     {
@@ -72439,7 +72439,7 @@
           "points": 75
         }
       ],
-      "durationMs": 313,
+      "durationMs": 1198,
       "attempts": 1
     },
     {
@@ -72874,7 +72874,7 @@
           "points": 75
         }
       ],
-      "durationMs": 280,
+      "durationMs": 1354,
       "attempts": 1
     },
     {
@@ -72981,7 +72981,7 @@
           "points": 150
         }
       ],
-      "durationMs": 265,
+      "durationMs": 993,
       "attempts": 1
     },
     {
@@ -73080,7 +73080,7 @@
           "points": 150
         }
       ],
-      "durationMs": 196,
+      "durationMs": 986,
       "attempts": 1
     },
     {
@@ -73315,7 +73315,7 @@
           "points": 83
         }
       ],
-      "durationMs": 202,
+      "durationMs": 1187,
       "attempts": 1
     },
     {
@@ -73526,7 +73526,7 @@
           "points": 100
         }
       ],
-      "durationMs": 202,
+      "durationMs": 1214,
       "attempts": 1
     },
     {
@@ -73649,7 +73649,7 @@
           "points": 138
         }
       ],
-      "durationMs": 276,
+      "durationMs": 1039,
       "attempts": 1
     },
     {
@@ -73764,7 +73764,7 @@
           "points": 138
         }
       ],
-      "durationMs": 230,
+      "durationMs": 956,
       "attempts": 1
     },
     {
@@ -74063,7 +74063,7 @@
           "points": 83
         }
       ],
-      "durationMs": 330,
+      "durationMs": 1351,
       "attempts": 1
     },
     {
@@ -74258,7 +74258,7 @@
           "points": 75
         }
       ],
-      "durationMs": 229,
+      "durationMs": 1140,
       "attempts": 1
     },
     {
@@ -74381,7 +74381,7 @@
           "points": 138
         }
       ],
-      "durationMs": 191,
+      "durationMs": 984,
       "attempts": 1
     },
     {
@@ -74592,7 +74592,7 @@
           "points": 98
         }
       ],
-      "durationMs": 280,
+      "durationMs": 982,
       "attempts": 1
     },
     {
@@ -74819,7 +74819,7 @@
           "points": 110
         }
       ],
-      "durationMs": 214,
+      "durationMs": 1155,
       "attempts": 1
     },
     {
@@ -74837,7 +74837,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 170,
+      "durationMs": 761,
       "attempts": 1
     },
     {
@@ -75096,7 +75096,7 @@
           "points": 138
         }
       ],
-      "durationMs": 218,
+      "durationMs": 1214,
       "attempts": 1
     },
     {
@@ -75923,7 +75923,7 @@
           "points": 75
         }
       ],
-      "durationMs": 356,
+      "durationMs": 2088,
       "attempts": 1
     },
     {
@@ -76734,7 +76734,7 @@
           "points": 75
         }
       ],
-      "durationMs": 457,
+      "durationMs": 2493,
       "attempts": 1
     },
     {
@@ -77153,7 +77153,7 @@
           "points": 83
         }
       ],
-      "durationMs": 475,
+      "durationMs": 1719,
       "attempts": 1
     },
     {
@@ -77356,7 +77356,7 @@
           "points": 138
         }
       ],
-      "durationMs": 429,
+      "durationMs": 1180,
       "attempts": 1
     },
     {
@@ -77719,7 +77719,7 @@
           "points": 75
         }
       ],
-      "durationMs": 483,
+      "durationMs": 1374,
       "attempts": 1
     },
     {
@@ -78450,7 +78450,7 @@
           "points": 75
         }
       ],
-      "durationMs": 633,
+      "durationMs": 1796,
       "attempts": 1
     },
     {
@@ -78989,7 +78989,7 @@
           "points": 83
         }
       ],
-      "durationMs": 464,
+      "durationMs": 1766,
       "attempts": 1
     },
     {
@@ -79232,7 +79232,7 @@
           "points": 75
         }
       ],
-      "durationMs": 480,
+      "durationMs": 1188,
       "attempts": 1
     }
   ]

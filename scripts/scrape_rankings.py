@@ -22,7 +22,7 @@ SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
 STATE_RESULT_LIMIT = 8
-FUTURE_STATE_EVENT_POINTS = [3000]
+DEFAULT_FUTURE_STATE_EVENT_POINTS = [3000]
 FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
 
 
@@ -252,12 +252,28 @@ def parse_point_components(html: str, current_total: int) -> list[int]:
     return points
 
 
-def projected_state_points(components: list[int]) -> int:
-    return sum(sorted([*components, *FUTURE_STATE_EVENT_POINTS], reverse=True)[:STATE_RESULT_LIMIT])
+def future_state_event_points(target: dict[str, Any]) -> list[int]:
+    group = target.get("categoryGroup")
+    label = target.get("categoryLabel")
+    gender = target.get("gender")
+
+    if group == "Subs":
+        return []
+    if group == "Idades" and label == "60+":
+        return []
+    if group == "Idades" and label == "50+" and gender == "Masculina":
+        return []
+    if group == "Tecnicas" and label == "E":
+        return []
+    return DEFAULT_FUTURE_STATE_EVENT_POINTS
 
 
-def future_state_points_total() -> int:
-    return sum(FUTURE_STATE_EVENT_POINTS)
+def projected_state_points(components: list[int], event_points: list[int]) -> int:
+    return sum(sorted([*components, *event_points], reverse=True)[:STATE_RESULT_LIMIT])
+
+
+def future_state_points_total(event_points: list[int]) -> int:
+    return sum(event_points)
 
 
 def has_federation_spots(target: dict[str, Any]) -> bool:
@@ -278,20 +294,24 @@ def enrich_state_guarantees(
 ) -> list[dict[str, Any]]:
     if target.get("rankingScope") != "state" or not athletes:
         return athletes
+    event_points = future_state_event_points(target)
     if not has_federation_spots(target):
+        finals_only_is_complete = target.get("categoryLabel") == "E" and not event_points
         return [
-            {**athlete, "stateTop2Guaranteed": False, "stateFinalsGuaranteed": False}
-            for athlete in athletes
+            {
+                **athlete,
+                "stateProjectionMax": athlete["points"],
+                "stateTop2Guaranteed": False,
+                "stateFinalsGuaranteed": finals_only_is_complete and index < 4,
+            }
+            for index, athlete in enumerate(athletes)
         ]
 
-    tennis_ids = parse_tennis_ids(html)
-    if len(tennis_ids) < len(athletes):
-        return athletes
-
-    suffix = parse_points_endpoint_suffix(html)
-    ranking_id = target["rankingId"]
-    base_url = "/".join(target["url"].split("/")[:3])
-    projected_max_by_code: dict[str, int] = {}
+    projected_max_by_code: dict[str, int] = (
+        {athlete["athleteCode"]: athlete["points"] for athlete in athletes}
+        if not event_points
+        else {}
+    )
     components_by_code: dict[str, list[int]] = {}
     list_index_by_code = {athlete["athleteCode"]: index for index, athlete in enumerate(athletes)}
     qualification_limit = state_qualification_limit(target)
@@ -302,20 +322,28 @@ def enrich_state_guarantees(
         index
         for threshold in thresholds
         for index, athlete in enumerate(athletes)
-        if athlete["points"] + future_state_points_total() >= threshold
+        if athlete["points"] + future_state_points_total(event_points) >= threshold
     }
 
-    for index in sorted(contenders):
-        athlete = athletes[index]
-        tennis_id = tennis_ids[index]
-        points_url = f"{base_url}/Ranking/PontosPartial/{target['url'].split('/')[-4]}/bt-estadual/{ranking_id}/{tennis_id}{suffix}"
-        try:
-            point_html = fetch_html(points_url, timeout)
-            components = parse_point_components(point_html, athlete["points"])
-            components_by_code[athlete["athleteCode"]] = components
-            projected_max_by_code[athlete["athleteCode"]] = projected_state_points(components)
-        except (HTTPError, URLError, TimeoutError, OSError):
-            projected_max_by_code[athlete["athleteCode"]] = athlete["points"] + future_state_points_total()
+    if event_points:
+        tennis_ids = parse_tennis_ids(html)
+        if len(tennis_ids) < len(athletes):
+            return athletes
+
+        suffix = parse_points_endpoint_suffix(html)
+        ranking_id = target["rankingId"]
+        base_url = "/".join(target["url"].split("/")[:3])
+        for index in sorted(contenders):
+            athlete = athletes[index]
+            tennis_id = tennis_ids[index]
+            points_url = f"{base_url}/Ranking/PontosPartial/{target['url'].split('/')[-4]}/bt-estadual/{ranking_id}/{tennis_id}{suffix}"
+            try:
+                point_html = fetch_html(points_url, timeout)
+                components = parse_point_components(point_html, athlete["points"])
+                components_by_code[athlete["athleteCode"]] = components
+                projected_max_by_code[athlete["athleteCode"]] = projected_state_points(components, event_points)
+            except (HTTPError, URLError, TimeoutError, OSError):
+                projected_max_by_code[athlete["athleteCode"]] = athlete["points"] + future_state_points_total(event_points)
 
     enriched = []
     for athlete in athletes:
@@ -332,7 +360,7 @@ def enrich_state_guarantees(
                     continue
                 other_max = projected_max_by_code.get(other["athleteCode"])
                 if other_max is None:
-                    upper_bound = other["points"] + future_state_points_total()
+                    upper_bound = other["points"] + future_state_points_total(event_points)
                     other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
                 other_is_ahead_on_tie = list_index_by_code[other["athleteCode"]] < athlete_index
                 if other_max > athlete["points"] or (other_max == athlete["points"] and other_is_ahead_on_tie):
@@ -346,7 +374,7 @@ def enrich_state_guarantees(
                     continue
                 other_max = projected_max_by_code.get(other["athleteCode"])
                 if other_max is None:
-                    upper_bound = other["points"] + future_state_points_total()
+                    upper_bound = other["points"] + future_state_points_total(event_points)
                     other_max = upper_bound if upper_bound >= athlete["points"] else other["points"]
                 other_is_ahead_on_tie = list_index_by_code[other["athleteCode"]] < athlete_index
                 if other_max > athlete["points"] or (other_max == athlete["points"] and other_is_ahead_on_tie):

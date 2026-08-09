@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T13:18:15.471583+00:00",
+  "generatedAt": "2026-08-09T14:02:52.687115+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
   "totalRankings": 154,
-  "totalAthletes": 8633,
+  "totalAthletes": 8639,
   "rankings": [
     {
       "rankingScope": "state",
@@ -1573,7 +1573,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1089,
+      "durationMs": 593,
       "attempts": 1
     },
     {
@@ -2527,7 +2527,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 993,
+      "durationMs": 413,
       "attempts": 1
     },
     {
@@ -3118,7 +3118,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 804,
+      "durationMs": 364,
       "attempts": 1
     },
     {
@@ -4578,7 +4578,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1181,
+      "durationMs": 492,
       "attempts": 1
     },
     {
@@ -5752,7 +5752,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 908,
+      "durationMs": 514,
       "attempts": 1
     },
     {
@@ -6299,7 +6299,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 719,
+      "durationMs": 386,
       "attempts": 1
     },
     {
@@ -6813,7 +6813,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 687,
+      "durationMs": 566,
       "attempts": 1
     },
     {
@@ -7569,7 +7569,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1128,
+      "durationMs": 633,
       "attempts": 1
     },
     {
@@ -8061,7 +8061,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 605,
+      "durationMs": 572,
       "attempts": 1
     },
     {
@@ -8454,7 +8454,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 671,
+      "durationMs": 599,
       "attempts": 1
     },
     {
@@ -9122,7 +9122,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1070,
+      "durationMs": 590,
       "attempts": 1
     },
     {
@@ -9889,7 +9889,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1060,
+      "durationMs": 615,
       "attempts": 1
     },
     {
@@ -10645,7 +10645,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 857,
+      "durationMs": 356,
       "attempts": 1
     },
     {
@@ -12446,7 +12446,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1057,
+      "durationMs": 643,
       "attempts": 1
     },
     {
@@ -16104,7 +16104,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 5248,
+      "durationMs": 2414,
       "attempts": 1
     },
     {
@@ -19566,7 +19566,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2157,
+      "durationMs": 1098,
       "attempts": 1
     },
     {
@@ -21774,7 +21774,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1651,
+      "durationMs": 984,
       "attempts": 1
     },
     {
@@ -21790,7 +21790,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMA/290",
       "status": "ok",
       "error": null,
-      "athleteCount": 90,
+      "athleteCount": 93,
       "athletes": [
         {
           "position": 1,
@@ -21799,17 +21799,7 @@
           "categoryCode": "BTMA",
           "sourcePosition": 1,
           "points": 20430,
-          "stateProjectionMax": 21750,
-          "statePointComponents": [
-            3000,
-            3000,
-            2750,
-            2750,
-            2750,
-            2400,
-            2100,
-            1680
-          ],
+          "stateProjectionMax": 20430,
           "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
@@ -21820,17 +21810,7 @@
           "categoryCode": "BTMA",
           "sourcePosition": 2,
           "points": 18758,
-          "stateProjectionMax": 20680,
-          "statePointComponents": [
-            3000,
-            3000,
-            2750,
-            2750,
-            2400,
-            2100,
-            1680,
-            1078
-          ],
+          "stateProjectionMax": 18758,
           "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
@@ -21841,17 +21821,7 @@
           "categoryCode": "BTMA",
           "sourcePosition": 3,
           "points": 16673,
-          "stateProjectionMax": 18325,
-          "statePointComponents": [
-            3000,
-            2750,
-            2400,
-            2100,
-            1925,
-            1680,
-            1470,
-            1348
-          ],
+          "stateProjectionMax": 16673,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": true
         },
@@ -21862,17 +21832,7 @@
           "categoryCode": "BTMA",
           "sourcePosition": 4,
           "points": 16473,
-          "stateProjectionMax": 18125,
-          "statePointComponents": [
-            3000,
-            2750,
-            2200,
-            2100,
-            1925,
-            1680,
-            1470,
-            1348
-          ],
+          "stateProjectionMax": 16473,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": true
         },
@@ -21882,20 +21842,10 @@
           "name": "Lucas Alves",
           "categoryCode": "BTMA",
           "sourcePosition": 5,
-          "points": 10698,
-          "stateProjectionMax": 12978,
-          "statePointComponents": [
-            2100,
-            1540,
-            1470,
-            1348,
-            1348,
-            1348,
-            824,
-            720
-          ],
+          "points": 11008,
+          "stateProjectionMax": 11008,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 6,
@@ -21904,19 +21854,9 @@
           "categoryCode": "BTMA",
           "sourcePosition": 6,
           "points": 10571,
-          "stateProjectionMax": 13421,
-          "statePointComponents": [
-            2200,
-            1925,
-            1540,
-            1348,
-            1348,
-            1030,
-            1030,
-            150
-          ],
+          "stateProjectionMax": 10571,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 7,
@@ -21925,86 +21865,73 @@
           "categoryCode": "BTMA",
           "sourcePosition": 7,
           "points": 9661,
-          "stateProjectionMax": 11837,
-          "statePointComponents": [
-            1925,
-            1540,
-            1348,
-            1030,
-            1030,
-            1020,
-            944,
-            824
-          ],
+          "stateProjectionMax": 9661,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 8,
-          "athleteCode": "22252",
-          "name": "Lucas Oliveira",
+          "athleteCode": "27734",
+          "name": "Marcelo Lima",
           "categoryCode": "BTMA",
           "sourcePosition": 8,
-          "points": 8538,
-          "stateProjectionMax": 11538,
-          "statePointComponents": [
-            2100,
-            1540,
-            1540,
-            1470,
-            944,
-            944
-          ],
+          "points": 9444,
+          "stateProjectionMax": 9444,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 9,
-          "athleteCode": "28263",
-          "name": "Henri Azevedo",
+          "athleteCode": "20248",
+          "name": "Gustavo Gabardo",
           "categoryCode": "BTMA",
           "sourcePosition": 9,
-          "points": 6620,
+          "points": 8812,
+          "stateProjectionMax": 8812,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 10,
-          "athleteCode": "27818",
-          "name": "Rafael Pereira",
+          "athleteCode": "22252",
+          "name": "Lucas Oliveira",
           "categoryCode": "BTMA",
           "sourcePosition": 10,
-          "points": 6597,
+          "points": 8538,
+          "stateProjectionMax": 8538,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 11,
-          "athleteCode": "27734",
-          "name": "Marcelo Lima",
+          "athleteCode": "28263",
+          "name": "Henri Azevedo",
           "categoryCode": "BTMA",
           "sourcePosition": 11,
-          "points": 6444,
+          "points": 6620,
+          "stateProjectionMax": 6620,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 12,
-          "athleteCode": "25112",
-          "name": "Henrique Vicente",
+          "athleteCode": "27818",
+          "name": "Rafael Pereira",
           "categoryCode": "BTMA",
           "sourcePosition": 12,
-          "points": 5914,
+          "points": 6597,
+          "stateProjectionMax": 6597,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 13,
-          "athleteCode": "20248",
-          "name": "Gustavo Gabardo",
+          "athleteCode": "25112",
+          "name": "Henrique Vicente",
           "categoryCode": "BTMA",
           "sourcePosition": 13,
-          "points": 5812,
+          "points": 5914,
+          "stateProjectionMax": 5914,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -22015,6 +21942,7 @@
           "categoryCode": "BTMA",
           "sourcePosition": 14,
           "points": 5702,
+          "stateProjectionMax": 5702,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -22025,761 +21953,870 @@
           "categoryCode": "BTMA",
           "sourcePosition": 15,
           "points": 5594,
+          "stateProjectionMax": 5594,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 16,
-          "athleteCode": "303",
-          "name": "Fabio Antoniassi",
+          "athleteCode": "36645",
+          "name": "Alan Ribas",
           "categoryCode": "BTMA",
           "sourcePosition": 16,
-          "points": 5052,
+          "points": 5288,
+          "stateProjectionMax": 5288,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 17,
-          "athleteCode": "34315",
-          "name": "Jean Ribeiro",
+          "athleteCode": "303",
+          "name": "Fabio Antoniassi",
           "categoryCode": "BTMA",
           "sourcePosition": 17,
-          "points": 5018,
+          "points": 5052,
+          "stateProjectionMax": 5052,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 18,
-          "athleteCode": "21105",
-          "name": "Rafael Ishikawa",
+          "athleteCode": "34315",
+          "name": "Jean Ribeiro",
           "categoryCode": "BTMA",
           "sourcePosition": 18,
-          "points": 4784,
+          "points": 5018,
+          "stateProjectionMax": 5018,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 19,
-          "athleteCode": "21192",
-          "name": "Matheus Souza",
+          "athleteCode": "21105",
+          "name": "Rafael Ishikawa",
           "categoryCode": "BTMA",
           "sourcePosition": 19,
-          "points": 4506,
+          "points": 4784,
+          "stateProjectionMax": 4784,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 20,
-          "athleteCode": "18480",
-          "name": "Luis Bersalim",
+          "athleteCode": "29816",
+          "name": "Arthur Santiago",
           "categoryCode": "BTMA",
           "sourcePosition": 20,
-          "points": 4348,
+          "points": 4744,
+          "stateProjectionMax": 4744,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 21,
-          "athleteCode": "36645",
-          "name": "Alan Ribas",
+          "athleteCode": "21192",
+          "name": "Matheus Souza",
           "categoryCode": "BTMA",
           "sourcePosition": 21,
-          "points": 4258,
+          "points": 4506,
+          "stateProjectionMax": 4506,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 22,
-          "athleteCode": "34350",
-          "name": "Raphael Ambos",
+          "athleteCode": "18480",
+          "name": "Luis Bersalim",
           "categoryCode": "BTMA",
           "sourcePosition": 22,
-          "points": 4044,
+          "points": 4348,
+          "stateProjectionMax": 4348,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 23,
-          "athleteCode": "23926",
-          "name": "Leonardo Santos",
+          "athleteCode": "6645",
+          "name": "Renê Mastrocola",
           "categoryCode": "BTMA",
           "sourcePosition": 23,
-          "points": 3642,
+          "points": 4242,
+          "stateProjectionMax": 4242,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 24,
-          "athleteCode": "33551",
-          "name": "Daniel Zanardini",
+          "athleteCode": "34350",
+          "name": "Raphael Ambos",
           "categoryCode": "BTMA",
           "sourcePosition": 24,
-          "points": 3586,
+          "points": 4044,
+          "stateProjectionMax": 4044,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 25,
-          "athleteCode": "22004",
-          "name": "Gustavo Padilha",
+          "athleteCode": "23926",
+          "name": "Leonardo Santos",
           "categoryCode": "BTMA",
           "sourcePosition": 25,
-          "points": 3436,
+          "points": 3642,
+          "stateProjectionMax": 3642,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 26,
-          "athleteCode": "26768",
-          "name": "Marcos Araujo",
+          "athleteCode": "33551",
+          "name": "Daniel Zanardini",
           "categoryCode": "BTMA",
           "sourcePosition": 26,
-          "points": 3430,
+          "points": 3586,
+          "stateProjectionMax": 3586,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 27,
-          "athleteCode": "33054",
-          "name": "Enzo Chaves",
+          "athleteCode": "22004",
+          "name": "Gustavo Padilha",
           "categoryCode": "BTMA",
           "sourcePosition": 27,
-          "points": 3294,
+          "points": 3436,
+          "stateProjectionMax": 3436,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 28,
-          "athleteCode": "29816",
-          "name": "Arthur Santiago",
+          "athleteCode": "26768",
+          "name": "Marcos Araujo",
           "categoryCode": "BTMA",
           "sourcePosition": 28,
-          "points": 3274,
+          "points": 3430,
+          "stateProjectionMax": 3430,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 29,
-          "athleteCode": "33626",
-          "name": "João Veiga",
+          "athleteCode": "13811",
+          "name": "Claudemir Souza",
           "categoryCode": "BTMA",
           "sourcePosition": 29,
-          "points": 3224,
+          "points": 3304,
+          "stateProjectionMax": 3304,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 30,
-          "athleteCode": "34895",
-          "name": "Luiz Lima",
+          "athleteCode": "33054",
+          "name": "Enzo Chaves",
           "categoryCode": "BTMA",
           "sourcePosition": 30,
-          "points": 3215,
+          "points": 3294,
+          "stateProjectionMax": 3294,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 31,
-          "athleteCode": "25490",
-          "name": "Armando Amorin",
+          "athleteCode": "33626",
+          "name": "João Veiga",
           "categoryCode": "BTMA",
           "sourcePosition": 31,
-          "points": 3150,
+          "points": 3224,
+          "stateProjectionMax": 3224,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 32,
-          "athleteCode": "14914",
-          "name": "Anderson Silva",
+          "athleteCode": "34895",
+          "name": "Luiz Lima",
           "categoryCode": "BTMA",
           "sourcePosition": 32,
-          "points": 3144,
+          "points": 3215,
+          "stateProjectionMax": 3215,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 33,
-          "athleteCode": "48796",
-          "name": "Rudson Machado",
+          "athleteCode": "25490",
+          "name": "Armando Amorin",
           "categoryCode": "BTMA",
           "sourcePosition": 33,
-          "points": 3003,
+          "points": 3150,
+          "stateProjectionMax": 3150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 34,
-          "athleteCode": "6645",
-          "name": "Renê Mastrocola",
+          "position": 33,
+          "athleteCode": "28191",
+          "name": "Luan Zanchi",
           "categoryCode": "BTMA",
-          "sourcePosition": 34,
-          "points": 2772,
+          "sourcePosition": 33,
+          "points": 3150,
+          "stateProjectionMax": 3150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 35,
-          "athleteCode": "30163",
-          "name": "João Pantarotto",
+          "athleteCode": "14914",
+          "name": "Anderson Silva",
           "categoryCode": "BTMA",
-          "sourcePosition": 35,
-          "points": 2674,
+          "sourcePosition": 34,
+          "points": 3144,
+          "stateProjectionMax": 3144,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 36,
-          "athleteCode": "24630",
-          "name": "Ercilio Faleiro Junior",
+          "athleteCode": "48796",
+          "name": "Rudson Machado",
           "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 2645,
+          "sourcePosition": 35,
+          "points": 3003,
+          "stateProjectionMax": 3003,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 37,
-          "athleteCode": "10306",
-          "name": "Rafael Lopes",
+          "athleteCode": "30378",
+          "name": "Thiago Fumagalli",
           "categoryCode": "BTMA",
-          "sourcePosition": 37,
-          "points": 2494,
+          "sourcePosition": 36,
+          "points": 2924,
+          "stateProjectionMax": 2924,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 38,
-          "athleteCode": "44077",
-          "name": "Kevin Saa",
+          "athleteCode": "34158",
+          "name": "Felipe Portela",
           "categoryCode": "BTMA",
-          "sourcePosition": 38,
-          "points": 2484,
+          "sourcePosition": 37,
+          "points": 2690,
+          "stateProjectionMax": 2690,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 39,
-          "athleteCode": "11988",
-          "name": "Cassiano Ribeiro",
+          "athleteCode": "30163",
+          "name": "João Pantarotto",
           "categoryCode": "BTMA",
-          "sourcePosition": 39,
-          "points": 2430,
+          "sourcePosition": 38,
+          "points": 2674,
+          "stateProjectionMax": 2674,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 40,
-          "athleteCode": "30745",
-          "name": "Carlos E. Fernandes",
+          "athleteCode": "24630",
+          "name": "Ercilio Faleiro Junior",
           "categoryCode": "BTMA",
-          "sourcePosition": 40,
-          "points": 2414,
+          "sourcePosition": 39,
+          "points": 2645,
+          "stateProjectionMax": 2645,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 41,
-          "athleteCode": "10198",
-          "name": "Joao Uchak",
+          "athleteCode": "10306",
+          "name": "Rafael Lopes",
           "categoryCode": "BTMA",
-          "sourcePosition": 41,
-          "points": 2374,
+          "sourcePosition": 40,
+          "points": 2494,
+          "stateProjectionMax": 2494,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 42,
-          "athleteCode": "36115",
-          "name": "Pedro Santos",
+          "athleteCode": "44077",
+          "name": "Kevin Saa",
           "categoryCode": "BTMA",
-          "sourcePosition": 42,
-          "points": 2300,
+          "sourcePosition": 41,
+          "points": 2484,
+          "stateProjectionMax": 2484,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 43,
-          "athleteCode": "17744",
-          "name": "Daniel dos Santos",
+          "athleteCode": "11988",
+          "name": "Cassiano Ribeiro",
           "categoryCode": "BTMA",
-          "sourcePosition": 43,
-          "points": 2200,
+          "sourcePosition": 42,
+          "points": 2430,
+          "stateProjectionMax": 2430,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 44,
-          "athleteCode": "5153",
-          "name": "Vinicius Brainta",
+          "athleteCode": "30745",
+          "name": "Carlos E. Fernandes",
           "categoryCode": "BTMA",
-          "sourcePosition": 44,
-          "points": 2034,
+          "sourcePosition": 43,
+          "points": 2414,
+          "stateProjectionMax": 2414,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 45,
+          "athleteCode": "10198",
+          "name": "Joao Uchak",
+          "categoryCode": "BTMA",
+          "sourcePosition": 44,
+          "points": 2374,
+          "stateProjectionMax": 2374,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 46,
+          "athleteCode": "36115",
+          "name": "Pedro Santos",
+          "categoryCode": "BTMA",
+          "sourcePosition": 45,
+          "points": 2300,
+          "stateProjectionMax": 2300,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 47,
+          "athleteCode": "17744",
+          "name": "Daniel dos Santos",
+          "categoryCode": "BTMA",
+          "sourcePosition": 46,
+          "points": 2200,
+          "stateProjectionMax": 2200,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 48,
+          "athleteCode": "5153",
+          "name": "Vinicius Brainta",
+          "categoryCode": "BTMA",
+          "sourcePosition": 47,
+          "points": 2184,
+          "stateProjectionMax": 2184,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 49,
           "athleteCode": "22898",
           "name": "Heitor Inacio",
           "categoryCode": "BTMA",
-          "sourcePosition": 45,
+          "sourcePosition": 48,
           "points": 2000,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 46,
-          "athleteCode": "14533",
-          "name": "Guilherme Brizuela",
-          "categoryCode": "BTMA",
-          "sourcePosition": 46,
-          "points": 1925,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 46,
-          "athleteCode": "34763",
-          "name": "Sérgio Ganassim Filho",
-          "categoryCode": "BTMA",
-          "sourcePosition": 46,
-          "points": 1925,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 48,
-          "athleteCode": "15155",
-          "name": "Marcos Beggiato",
-          "categoryCode": "BTMA",
-          "sourcePosition": 47,
-          "points": 1854,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 48,
-          "athleteCode": "38058",
-          "name": "Pablo Batauz",
-          "categoryCode": "BTMA",
-          "sourcePosition": 47,
-          "points": 1854,
+          "stateProjectionMax": 2000,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 50,
-          "athleteCode": "28191",
-          "name": "Luan Zanchi",
+          "athleteCode": "14533",
+          "name": "Guilherme Brizuela",
           "categoryCode": "BTMA",
-          "sourcePosition": 48,
-          "points": 1680,
+          "sourcePosition": 49,
+          "points": 1925,
+          "stateProjectionMax": 1925,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 51,
-          "athleteCode": "34158",
-          "name": "Felipe Portela",
+          "position": 50,
+          "athleteCode": "34763",
+          "name": "Sérgio Ganassim Filho",
           "categoryCode": "BTMA",
           "sourcePosition": 49,
-          "points": 1660,
+          "points": 1925,
+          "stateProjectionMax": 1925,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 52,
-          "athleteCode": "36256",
-          "name": "Vinicius Belusso",
+          "athleteCode": "49710",
+          "name": "Carlos Shaw",
           "categoryCode": "BTMA",
           "sourcePosition": 50,
-          "points": 1580,
+          "points": 1896,
+          "stateProjectionMax": 1896,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 53,
-          "athleteCode": "24167",
-          "name": "Kayme Fernandes",
+          "athleteCode": "43838",
+          "name": "Cristiano Xavier",
           "categoryCode": "BTMA",
           "sourcePosition": 51,
-          "points": 1550,
+          "points": 1870,
+          "stateProjectionMax": 1870,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 54,
-          "athleteCode": "26650",
-          "name": "Gustavo França",
+          "athleteCode": "33422",
+          "name": "Nathan Morais",
           "categoryCode": "BTMA",
           "sourcePosition": 52,
-          "points": 1540,
+          "points": 1866,
+          "stateProjectionMax": 1866,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 55,
-          "athleteCode": "23564",
-          "name": "Maicon Rodrigues",
+          "athleteCode": "15155",
+          "name": "Marcos Beggiato",
           "categoryCode": "BTMA",
           "sourcePosition": 53,
-          "points": 1258,
+          "points": 1854,
+          "stateProjectionMax": 1854,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 56,
-          "athleteCode": "32576",
-          "name": "Eduardo Branco",
+          "position": 55,
+          "athleteCode": "38058",
+          "name": "Pablo Batauz",
           "categoryCode": "BTMA",
-          "sourcePosition": 54,
-          "points": 1216,
+          "sourcePosition": 53,
+          "points": 1854,
+          "stateProjectionMax": 1854,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 57,
-          "athleteCode": "13811",
-          "name": "Claudemir Souza",
+          "athleteCode": "26350",
+          "name": "Edson Lopes Junior",
+          "categoryCode": "BTMA",
+          "sourcePosition": 54,
+          "points": 1850,
+          "stateProjectionMax": 1850,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 58,
+          "athleteCode": "24883",
+          "name": "Sandro Ruviaro",
           "categoryCode": "BTMA",
           "sourcePosition": 55,
-          "points": 1204,
+          "points": 1750,
+          "stateProjectionMax": 1750,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 58,
-          "athleteCode": "22187",
-          "name": "Guilherme Arruda",
+          "position": 59,
+          "athleteCode": "36256",
+          "name": "Vinicius Belusso",
           "categoryCode": "BTMA",
           "sourcePosition": 56,
-          "points": 1176,
+          "points": 1580,
+          "stateProjectionMax": 1580,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 58,
-          "athleteCode": "36627",
-          "name": "Gabriel Galhardo",
+          "position": 60,
+          "athleteCode": "24167",
+          "name": "Kayme Fernandes",
           "categoryCode": "BTMA",
-          "sourcePosition": 56,
-          "points": 1176,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 58,
-          "athleteCode": "49710",
-          "name": "Carlos Shaw",
-          "categoryCode": "BTMA",
-          "sourcePosition": 56,
-          "points": 1176,
+          "sourcePosition": 57,
+          "points": 1550,
+          "stateProjectionMax": 1550,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 61,
-          "athleteCode": "33422",
-          "name": "Nathan Morais",
+          "athleteCode": "26650",
+          "name": "Gustavo França",
           "categoryCode": "BTMA",
-          "sourcePosition": 57,
-          "points": 1146,
+          "sourcePosition": 58,
+          "points": 1540,
+          "stateProjectionMax": 1540,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 62,
-          "athleteCode": "27795",
-          "name": "Lucas Lotici",
+          "athleteCode": "20084",
+          "name": "Alex Macionk",
           "categoryCode": "BTMA",
-          "sourcePosition": 58,
-          "points": 1078,
+          "sourcePosition": 59,
+          "points": 1290,
+          "stateProjectionMax": 1290,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 62,
-          "athleteCode": "34532",
-          "name": "Denzel Souza",
+          "position": 63,
+          "athleteCode": "23564",
+          "name": "Maicon Rodrigues",
           "categoryCode": "BTMA",
-          "sourcePosition": 58,
-          "points": 1078,
+          "sourcePosition": 60,
+          "points": 1258,
+          "stateProjectionMax": 1258,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 64,
-          "athleteCode": "32133",
-          "name": "Lorenzo Tyski",
+          "athleteCode": "32576",
+          "name": "Eduardo Branco",
           "categoryCode": "BTMA",
-          "sourcePosition": 59,
-          "points": 1064,
+          "sourcePosition": 61,
+          "points": 1216,
+          "stateProjectionMax": 1216,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 65,
-          "athleteCode": "33856",
-          "name": "Matheus Zilli",
+          "athleteCode": "22187",
+          "name": "Guilherme Arruda",
           "categoryCode": "BTMA",
-          "sourcePosition": 60,
-          "points": 1020,
+          "sourcePosition": 62,
+          "points": 1176,
+          "stateProjectionMax": 1176,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 66,
-          "athleteCode": "359",
-          "name": "Glaucio Pozza",
+          "position": 65,
+          "athleteCode": "36627",
+          "name": "Gabriel Galhardo",
           "categoryCode": "BTMA",
-          "sourcePosition": 61,
-          "points": 962,
+          "sourcePosition": 62,
+          "points": 1176,
+          "stateProjectionMax": 1176,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 67,
-          "athleteCode": "43838",
-          "name": "Cristiano Xavier",
+          "athleteCode": "31813",
+          "name": "Guilherme Vendrametto",
           "categoryCode": "BTMA",
           "sourcePosition": 63,
-          "points": 840,
+          "points": 1100,
+          "stateProjectionMax": 1100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 68,
-          "athleteCode": "20005",
-          "name": "Flavio Drulla",
+          "athleteCode": "27795",
+          "name": "Lucas Lotici",
           "categoryCode": "BTMA",
           "sourcePosition": 64,
-          "points": 824,
+          "points": 1078,
+          "stateProjectionMax": 1078,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 68,
-          "athleteCode": "30378",
-          "name": "Thiago Fumagalli",
+          "athleteCode": "34532",
+          "name": "Denzel Souza",
           "categoryCode": "BTMA",
           "sourcePosition": 64,
-          "points": 824,
+          "points": 1078,
+          "stateProjectionMax": 1078,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 68,
-          "athleteCode": "30684",
-          "name": "Pedro Felix",
+          "position": 70,
+          "athleteCode": "32133",
+          "name": "Lorenzo Tyski",
           "categoryCode": "BTMA",
-          "sourcePosition": 64,
-          "points": 824,
+          "sourcePosition": 65,
+          "points": 1064,
+          "stateProjectionMax": 1064,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 68,
-          "athleteCode": "30708",
-          "name": "Lucas Felix",
+          "position": 71,
+          "athleteCode": "33856",
+          "name": "Matheus Zilli",
           "categoryCode": "BTMA",
-          "sourcePosition": 64,
-          "points": 824,
+          "sourcePosition": 66,
+          "points": 1020,
+          "stateProjectionMax": 1020,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 72,
-          "athleteCode": "24883",
-          "name": "Sandro Ruviaro",
+          "athleteCode": "359",
+          "name": "Glaucio Pozza",
           "categoryCode": "BTMA",
-          "sourcePosition": 65,
-          "points": 720,
+          "sourcePosition": 67,
+          "points": 962,
+          "stateProjectionMax": 962,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 73,
-          "athleteCode": "26350",
-          "name": "Edson Lopes Junior",
+          "athleteCode": "25362",
+          "name": "Victor Arnhold",
           "categoryCode": "BTMA",
-          "sourcePosition": 66,
-          "points": 380,
+          "sourcePosition": 69,
+          "points": 870,
+          "stateProjectionMax": 870,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 73,
-          "athleteCode": "31813",
-          "name": "Guilherme Vendrametto",
+          "position": 74,
+          "athleteCode": "20005",
+          "name": "Flavio Drulla",
           "categoryCode": "BTMA",
-          "sourcePosition": 66,
-          "points": 380,
+          "sourcePosition": 70,
+          "points": 824,
+          "stateProjectionMax": 824,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 75,
-          "athleteCode": "29685",
-          "name": "Lorenzo Finardi",
+          "position": 74,
+          "athleteCode": "30684",
+          "name": "Pedro Felix",
           "categoryCode": "BTMA",
-          "sourcePosition": 67,
-          "points": 270,
+          "sourcePosition": 70,
+          "points": 824,
+          "stateProjectionMax": 824,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 75,
-          "athleteCode": "32822",
-          "name": "Lucas Romano",
+          "position": 74,
+          "athleteCode": "30708",
+          "name": "Lucas Felix",
           "categoryCode": "BTMA",
-          "sourcePosition": 67,
-          "points": 270,
+          "sourcePosition": 70,
+          "points": 824,
+          "stateProjectionMax": 824,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 77,
-          "athleteCode": "20084",
-          "name": "Alex Macionk",
-          "categoryCode": "BTMA",
-          "sourcePosition": 68,
-          "points": 260,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 78,
-          "athleteCode": "4764",
-          "name": "Marcelo Marin",
-          "categoryCode": "BTMA",
-          "sourcePosition": 69,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 78,
-          "athleteCode": "24578",
-          "name": "Ivan Neumann",
-          "categoryCode": "BTMA",
-          "sourcePosition": 69,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 78,
-          "athleteCode": "25362",
-          "name": "Victor Arnhold",
-          "categoryCode": "BTMA",
-          "sourcePosition": 69,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 81,
-          "athleteCode": "28294",
-          "name": "Leonardo Lippmann",
-          "categoryCode": "BTMA",
-          "sourcePosition": 70,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 81,
-          "athleteCode": "31500",
-          "name": "Vinicius Souza",
-          "categoryCode": "BTMA",
-          "sourcePosition": 70,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 81,
-          "athleteCode": "44264",
-          "name": "Uberaldino Marques",
-          "categoryCode": "BTMA",
-          "sourcePosition": 70,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 84,
-          "athleteCode": "6581",
-          "name": "Jefferson Oliveira",
+          "athleteCode": "32822",
+          "name": "Lucas Romano",
           "categoryCode": "BTMA",
           "sourcePosition": 71,
-          "points": 120,
+          "points": 420,
+          "stateProjectionMax": 420,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 84,
+          "position": 78,
+          "athleteCode": "29685",
+          "name": "Lorenzo Finardi",
+          "categoryCode": "BTMA",
+          "sourcePosition": 72,
+          "points": 270,
+          "stateProjectionMax": 270,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 78,
           "athleteCode": "33879",
           "name": "Thiago Romano",
           "categoryCode": "BTMA",
-          "sourcePosition": 71,
-          "points": 120,
+          "sourcePosition": 72,
+          "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 86,
+          "position": 80,
+          "athleteCode": "4764",
+          "name": "Marcelo Marin",
+          "categoryCode": "BTMA",
+          "sourcePosition": 73,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 80,
+          "athleteCode": "20079",
+          "name": "Mário Wanderley",
+          "categoryCode": "BTMA",
+          "sourcePosition": 73,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 80,
+          "athleteCode": "23644",
+          "name": "Danilo da Cruz",
+          "categoryCode": "BTMA",
+          "sourcePosition": 73,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 80,
+          "athleteCode": "24578",
+          "name": "Ivan Neumann",
+          "categoryCode": "BTMA",
+          "sourcePosition": 73,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 80,
+          "athleteCode": "55886",
+          "name": "Pedro Gonzaga",
+          "categoryCode": "BTMA",
+          "sourcePosition": 73,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 85,
+          "athleteCode": "28294",
+          "name": "Leonardo Lippmann",
+          "categoryCode": "BTMA",
+          "sourcePosition": 74,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 85,
+          "athleteCode": "31500",
+          "name": "Vinicius Souza",
+          "categoryCode": "BTMA",
+          "sourcePosition": 74,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 85,
+          "athleteCode": "44264",
+          "name": "Uberaldino Marques",
+          "categoryCode": "BTMA",
+          "sourcePosition": 74,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 88,
+          "athleteCode": "6581",
+          "name": "Jefferson Oliveira",
+          "categoryCode": "BTMA",
+          "sourcePosition": 75,
+          "points": 120,
+          "stateProjectionMax": 120,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 89,
           "athleteCode": "19935",
           "name": "Maurilio Lima",
           "categoryCode": "BTMA",
-          "sourcePosition": 72,
+          "sourcePosition": 76,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 86,
+          "position": 89,
           "athleteCode": "24808",
           "name": "Alexandre Ferronatto",
           "categoryCode": "BTMA",
-          "sourcePosition": 72,
+          "sourcePosition": 76,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 86,
+          "position": 89,
           "athleteCode": "30462",
           "name": "Willian Soares",
           "categoryCode": "BTMA",
-          "sourcePosition": 72,
+          "sourcePosition": 76,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 86,
+          "position": 89,
           "athleteCode": "32507",
           "name": "Gabriel Bernardi",
           "categoryCode": "BTMA",
-          "sourcePosition": 72,
+          "sourcePosition": 76,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 90,
+          "position": 93,
           "athleteCode": "40504",
           "name": "Evandro Rocha",
           "categoryCode": "BTMA",
-          "sourcePosition": 73,
+          "sourcePosition": 77,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 4397,
+      "durationMs": 407,
       "attempts": 1
     },
     {
@@ -24800,7 +24837,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1580,
+      "durationMs": 499,
       "attempts": 1
     },
     {
@@ -28779,7 +28816,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1775,
+      "durationMs": 830,
       "attempts": 1
     },
     {
@@ -31691,7 +31728,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1484,
+      "durationMs": 888,
       "attempts": 1
     },
     {
@@ -33151,7 +33188,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 944,
+      "durationMs": 625,
       "attempts": 1
     },
     {
@@ -34018,7 +34055,7 @@
           "points": 75
         }
       ],
-      "durationMs": 562,
+      "durationMs": 352,
       "attempts": 1
     },
     {
@@ -34501,7 +34538,7 @@
           "points": 75
         }
       ],
-      "durationMs": 636,
+      "durationMs": 304,
       "attempts": 1
     },
     {
@@ -34840,7 +34877,7 @@
           "points": 90
         }
       ],
-      "durationMs": 596,
+      "durationMs": 389,
       "attempts": 1
     },
     {
@@ -35531,7 +35568,7 @@
           "points": 83
         }
       ],
-      "durationMs": 660,
+      "durationMs": 428,
       "attempts": 1
     },
     {
@@ -36198,7 +36235,7 @@
           "points": 83
         }
       ],
-      "durationMs": 717,
+      "durationMs": 396,
       "attempts": 1
     },
     {
@@ -36481,7 +36518,7 @@
           "points": 83
         }
       ],
-      "durationMs": 757,
+      "durationMs": 245,
       "attempts": 1
     },
     {
@@ -36700,7 +36737,7 @@
           "points": 120
         }
       ],
-      "durationMs": 725,
+      "durationMs": 278,
       "attempts": 1
     },
     {
@@ -37047,7 +37084,7 @@
           "points": 83
         }
       ],
-      "durationMs": 492,
+      "durationMs": 254,
       "attempts": 1
     },
     {
@@ -37234,7 +37271,7 @@
           "points": 110
         }
       ],
-      "durationMs": 536,
+      "durationMs": 353,
       "attempts": 1
     },
     {
@@ -37349,7 +37386,7 @@
           "points": 83
         }
       ],
-      "durationMs": 498,
+      "durationMs": 348,
       "attempts": 1
     },
     {
@@ -37608,7 +37645,7 @@
           "points": 83
         }
       ],
-      "durationMs": 401,
+      "durationMs": 309,
       "attempts": 1
     },
     {
@@ -37899,7 +37936,7 @@
           "points": 120
         }
       ],
-      "durationMs": 419,
+      "durationMs": 312,
       "attempts": 1
     },
     {
@@ -38374,7 +38411,7 @@
           "points": 83
         }
       ],
-      "durationMs": 726,
+      "durationMs": 303,
       "attempts": 1
     },
     {
@@ -39065,7 +39102,7 @@
           "points": 83
         }
       ],
-      "durationMs": 730,
+      "durationMs": 318,
       "attempts": 1
     },
     {
@@ -40812,7 +40849,7 @@
           "points": 83
         }
       ],
-      "durationMs": 995,
+      "durationMs": 1130,
       "attempts": 1
     },
     {
@@ -42559,7 +42596,7 @@
           "points": 50
         }
       ],
-      "durationMs": 1645,
+      "durationMs": 946,
       "attempts": 1
     },
     {
@@ -43922,7 +43959,7 @@
           "points": 83
         }
       ],
-      "durationMs": 2020,
+      "durationMs": 1035,
       "attempts": 1
     },
     {
@@ -43938,7 +43975,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMA/290",
       "status": "ok",
       "error": null,
-      "athleteCount": 49,
+      "athleteCount": 52,
       "athletes": [
         {
           "position": 1,
@@ -43946,7 +43983,7 @@
           "name": "Marcelo Lima",
           "categoryCode": "BTMA",
           "sourcePosition": 1,
-          "points": 16780
+          "points": 18760
         },
         {
           "position": 2,
@@ -43954,7 +43991,7 @@
           "name": "Gustavo Gabardo",
           "categoryCode": "BTMA",
           "sourcePosition": 2,
-          "points": 13650
+          "points": 15694
         },
         {
           "position": 3,
@@ -43962,7 +43999,7 @@
           "name": "Arthur Santiago",
           "categoryCode": "BTMA",
           "sourcePosition": 3,
-          "points": 12206
+          "points": 12720
         },
         {
           "position": 4,
@@ -43970,7 +44007,7 @@
           "name": "Felipe Portela",
           "categoryCode": "BTMA",
           "sourcePosition": 4,
-          "points": 10815
+          "points": 11269
         },
         {
           "position": 5,
@@ -43978,7 +44015,7 @@
           "name": "Alan Ribas",
           "categoryCode": "BTMA",
           "sourcePosition": 5,
-          "points": 10685
+          "points": 11148
         },
         {
           "position": 6,
@@ -43990,35 +44027,35 @@
         },
         {
           "position": 7,
-          "athleteCode": "34350",
-          "name": "Raphael Ambos",
-          "categoryCode": "BTMA",
-          "sourcePosition": 7,
-          "points": 9698
-        },
-        {
-          "position": 8,
-          "athleteCode": "303",
-          "name": "Fabio Antoniassi",
-          "categoryCode": "BTMA",
-          "sourcePosition": 8,
-          "points": 9558
-        },
-        {
-          "position": 9,
           "athleteCode": "25531",
           "name": "Leonardo Souza",
           "categoryCode": "BTMA",
-          "sourcePosition": 9,
-          "points": 9188
+          "sourcePosition": 7,
+          "points": 10218
         },
         {
-          "position": 10,
+          "position": 8,
           "athleteCode": "6645",
           "name": "Renê Mastrocola",
           "categoryCode": "BTMA",
+          "sourcePosition": 8,
+          "points": 10134
+        },
+        {
+          "position": 9,
+          "athleteCode": "34350",
+          "name": "Raphael Ambos",
+          "categoryCode": "BTMA",
+          "sourcePosition": 9,
+          "points": 9698
+        },
+        {
+          "position": 10,
+          "athleteCode": "303",
+          "name": "Fabio Antoniassi",
+          "categoryCode": "BTMA",
           "sourcePosition": 10,
-          "points": 8664
+          "points": 9558
         },
         {
           "position": 11,
@@ -44026,111 +44063,111 @@
           "name": "Luan Zanchi",
           "categoryCode": "BTMA",
           "sourcePosition": 11,
-          "points": 6595
+          "points": 8065
         },
         {
           "position": 12,
-          "athleteCode": "20752",
-          "name": "Ciro Rebeschini",
-          "categoryCode": "BTMA",
-          "sourcePosition": 12,
-          "points": 6591
-        },
-        {
-          "position": 13,
-          "athleteCode": "445",
-          "name": "Fernando Prestes",
-          "categoryCode": "BTMA",
-          "sourcePosition": 13,
-          "points": 6508
-        },
-        {
-          "position": 14,
           "athleteCode": "36213",
           "name": "Lucas Alves",
           "categoryCode": "BTMA",
-          "sourcePosition": 14,
-          "points": 6428
+          "sourcePosition": 12,
+          "points": 7458
         },
         {
-          "position": 15,
-          "athleteCode": "15155",
-          "name": "Marcos Beggiato",
-          "categoryCode": "BTMA",
-          "sourcePosition": 15,
-          "points": 6021
-        },
-        {
-          "position": 16,
+          "position": 13,
           "athleteCode": "26350",
           "name": "Edson Lopes Junior",
           "categoryCode": "BTMA",
-          "sourcePosition": 16,
-          "points": 5896
+          "sourcePosition": 13,
+          "points": 7366
         },
         {
-          "position": 17,
-          "athleteCode": "11988",
-          "name": "Cassiano Ribeiro",
+          "position": 14,
+          "athleteCode": "20752",
+          "name": "Ciro Rebeschini",
           "categoryCode": "BTMA",
-          "sourcePosition": 17,
-          "points": 5644
+          "sourcePosition": 14,
+          "points": 6591
         },
         {
-          "position": 18,
+          "position": 15,
+          "athleteCode": "445",
+          "name": "Fernando Prestes",
+          "categoryCode": "BTMA",
+          "sourcePosition": 15,
+          "points": 6508
+        },
+        {
+          "position": 16,
           "athleteCode": "13811",
           "name": "Claudemir Souza",
           "categoryCode": "BTMA",
+          "sourcePosition": 16,
+          "points": 6432
+        },
+        {
+          "position": 17,
+          "athleteCode": "15155",
+          "name": "Marcos Beggiato",
+          "categoryCode": "BTMA",
+          "sourcePosition": 17,
+          "points": 6021
+        },
+        {
+          "position": 18,
+          "athleteCode": "11988",
+          "name": "Cassiano Ribeiro",
+          "categoryCode": "BTMA",
           "sourcePosition": 18,
-          "points": 4430
+          "points": 5644
         },
         {
           "position": 19,
-          "athleteCode": "32059",
-          "name": "João Carneiro",
-          "categoryCode": "BTMA",
-          "sourcePosition": 19,
-          "points": 4330
-        },
-        {
-          "position": 20,
           "athleteCode": "43838",
           "name": "Cristiano Xavier",
           "categoryCode": "BTMA",
+          "sourcePosition": 19,
+          "points": 4969
+        },
+        {
+          "position": 20,
+          "athleteCode": "32059",
+          "name": "João Carneiro",
+          "categoryCode": "BTMA",
           "sourcePosition": 20,
-          "points": 3939
+          "points": 4330
         },
         {
           "position": 21,
-          "athleteCode": "36115",
-          "name": "Pedro Santos",
+          "athleteCode": "30378",
+          "name": "Thiago Fumagalli",
           "categoryCode": "BTMA",
           "sourcePosition": 21,
-          "points": 3643
+          "points": 4300
         },
         {
           "position": 22,
-          "athleteCode": "33879",
-          "name": "Thiago Romano",
+          "athleteCode": "36115",
+          "name": "Pedro Santos",
           "categoryCode": "BTMA",
           "sourcePosition": 22,
-          "points": 3291
+          "points": 3643
         },
         {
           "position": 23,
-          "athleteCode": "26650",
-          "name": "Gustavo França",
+          "athleteCode": "33879",
+          "name": "Thiago Romano",
           "categoryCode": "BTMA",
           "sourcePosition": 23,
-          "points": 3158
+          "points": 3441
         },
         {
           "position": 24,
-          "athleteCode": "22269",
-          "name": "Gabriel Arruda",
+          "athleteCode": "26650",
+          "name": "Gustavo França",
           "categoryCode": "BTMA",
           "sourcePosition": 24,
-          "points": 3000
+          "points": 3158
         },
         {
           "position": 25,
@@ -44138,7 +44175,7 @@
           "name": "Lucas Romano",
           "categoryCode": "BTMA",
           "sourcePosition": 25,
-          "points": 2957
+          "points": 3107
         },
         {
           "position": 26,
@@ -44146,194 +44183,218 @@
           "name": "Vinicius Brainta",
           "categoryCode": "BTMA",
           "sourcePosition": 26,
-          "points": 2861
+          "points": 3011
         },
         {
           "position": 27,
-          "athleteCode": "30378",
-          "name": "Thiago Fumagalli",
+          "athleteCode": "22269",
+          "name": "Gabriel Arruda",
           "categoryCode": "BTMA",
           "sourcePosition": 27,
-          "points": 2200
+          "points": 3000
         },
         {
           "position": 28,
-          "athleteCode": "28263",
-          "name": "Henri Azevedo",
-          "categoryCode": "BTMA",
-          "sourcePosition": 28,
-          "points": 1470
-        },
-        {
-          "position": 28,
-          "athleteCode": "30745",
-          "name": "Carlos E. Fernandes",
-          "categoryCode": "BTMA",
-          "sourcePosition": 28,
-          "points": 1470
-        },
-        {
-          "position": 28,
-          "athleteCode": "35640",
-          "name": "Lucas Batista",
-          "categoryCode": "BTMA",
-          "sourcePosition": 28,
-          "points": 1470
-        },
-        {
-          "position": 31,
-          "athleteCode": "29685",
-          "name": "Lorenzo Finardi",
-          "categoryCode": "BTMA",
-          "sourcePosition": 29,
-          "points": 1455
-        },
-        {
-          "position": 32,
           "athleteCode": "33422",
           "name": "Nathan Morais",
           "categoryCode": "BTMA",
-          "sourcePosition": 30,
-          "points": 1432
+          "sourcePosition": 28,
+          "points": 2152
         },
         {
-          "position": 33,
+          "position": 29,
           "athleteCode": "31813",
           "name": "Guilherme Vendrametto",
           "categoryCode": "BTMA",
-          "sourcePosition": 31,
-          "points": 1316
+          "sourcePosition": 29,
+          "points": 2036
         },
         {
-          "position": 34,
+          "position": 30,
           "athleteCode": "49710",
           "name": "Carlos Shaw",
           "categoryCode": "BTMA",
-          "sourcePosition": 32,
-          "points": 1176
+          "sourcePosition": 30,
+          "points": 1896
         },
         {
-          "position": 35,
+          "position": 31,
+          "athleteCode": "24883",
+          "name": "Sandro Ruviaro",
+          "categoryCode": "BTMA",
+          "sourcePosition": 31,
+          "points": 1750
+        },
+        {
+          "position": 32,
           "athleteCode": "22232",
           "name": "Julio Silva",
           "categoryCode": "BTMA",
-          "sourcePosition": 33,
-          "points": 1020
+          "sourcePosition": 32,
+          "points": 1740
         },
         {
-          "position": 35,
+          "position": 33,
+          "athleteCode": "28263",
+          "name": "Henri Azevedo",
+          "categoryCode": "BTMA",
+          "sourcePosition": 33,
+          "points": 1470
+        },
+        {
+          "position": 33,
+          "athleteCode": "30745",
+          "name": "Carlos E. Fernandes",
+          "categoryCode": "BTMA",
+          "sourcePosition": 33,
+          "points": 1470
+        },
+        {
+          "position": 33,
+          "athleteCode": "35640",
+          "name": "Lucas Batista",
+          "categoryCode": "BTMA",
+          "sourcePosition": 33,
+          "points": 1470
+        },
+        {
+          "position": 36,
+          "athleteCode": "29685",
+          "name": "Lorenzo Finardi",
+          "categoryCode": "BTMA",
+          "sourcePosition": 34,
+          "points": 1455
+        },
+        {
+          "position": 37,
+          "athleteCode": "20084",
+          "name": "Alex Macionk",
+          "categoryCode": "BTMA",
+          "sourcePosition": 35,
+          "points": 1290
+        },
+        {
+          "position": 38,
           "athleteCode": "23564",
           "name": "Maicon Rodrigues",
           "categoryCode": "BTMA",
-          "sourcePosition": 33,
-          "points": 1020
-        },
-        {
-          "position": 35,
-          "athleteCode": "33856",
-          "name": "Matheus Zilli",
-          "categoryCode": "BTMA",
-          "sourcePosition": 33,
+          "sourcePosition": 36,
           "points": 1020
         },
         {
           "position": 38,
+          "athleteCode": "33856",
+          "name": "Matheus Zilli",
+          "categoryCode": "BTMA",
+          "sourcePosition": 36,
+          "points": 1020
+        },
+        {
+          "position": 40,
           "athleteCode": "20005",
           "name": "Flavio Drulla",
           "categoryCode": "BTMA",
-          "sourcePosition": 34,
+          "sourcePosition": 37,
           "points": 907
         },
         {
-          "position": 39,
-          "athleteCode": "29027",
-          "name": "João Caldeirão",
-          "categoryCode": "BTMA",
-          "sourcePosition": 35,
-          "points": 809
-        },
-        {
-          "position": 40,
-          "athleteCode": "21105",
-          "name": "Rafael Ishikawa",
-          "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 720
-        },
-        {
-          "position": 40,
-          "athleteCode": "24630",
-          "name": "Ercilio Faleiro Junior",
-          "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 720
-        },
-        {
-          "position": 40,
-          "athleteCode": "24883",
-          "name": "Sandro Ruviaro",
-          "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 720
-        },
-        {
-          "position": 40,
-          "athleteCode": "25112",
-          "name": "Henrique Vicente",
-          "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 720
-        },
-        {
-          "position": 40,
-          "athleteCode": "26768",
-          "name": "Marcos Araujo",
-          "categoryCode": "BTMA",
-          "sourcePosition": 36,
-          "points": 720
-        },
-        {
-          "position": 45,
-          "athleteCode": "20084",
-          "name": "Alex Macionk",
-          "categoryCode": "BTMA",
-          "sourcePosition": 37,
-          "points": 260
-        },
-        {
-          "position": 46,
-          "athleteCode": "26763",
-          "name": "Rhenan Bonfim",
-          "categoryCode": "BTMA",
-          "sourcePosition": 38,
-          "points": 181
-        },
-        {
-          "position": 47,
-          "athleteCode": "4764",
-          "name": "Marcelo Marin",
-          "categoryCode": "BTMA",
-          "sourcePosition": 39,
-          "points": 150
-        },
-        {
-          "position": 47,
-          "athleteCode": "24578",
-          "name": "Ivan Neumann",
-          "categoryCode": "BTMA",
-          "sourcePosition": 39,
-          "points": 150
-        },
-        {
-          "position": 47,
+          "position": 41,
           "athleteCode": "25362",
           "name": "Victor Arnhold",
           "categoryCode": "BTMA",
+          "sourcePosition": 38,
+          "points": 870
+        },
+        {
+          "position": 42,
+          "athleteCode": "29027",
+          "name": "João Caldeirão",
+          "categoryCode": "BTMA",
           "sourcePosition": 39,
+          "points": 809
+        },
+        {
+          "position": 43,
+          "athleteCode": "21105",
+          "name": "Rafael Ishikawa",
+          "categoryCode": "BTMA",
+          "sourcePosition": 40,
+          "points": 720
+        },
+        {
+          "position": 43,
+          "athleteCode": "24630",
+          "name": "Ercilio Faleiro Junior",
+          "categoryCode": "BTMA",
+          "sourcePosition": 40,
+          "points": 720
+        },
+        {
+          "position": 43,
+          "athleteCode": "25112",
+          "name": "Henrique Vicente",
+          "categoryCode": "BTMA",
+          "sourcePosition": 40,
+          "points": 720
+        },
+        {
+          "position": 43,
+          "athleteCode": "26768",
+          "name": "Marcos Araujo",
+          "categoryCode": "BTMA",
+          "sourcePosition": 40,
+          "points": 720
+        },
+        {
+          "position": 47,
+          "athleteCode": "26763",
+          "name": "Rhenan Bonfim",
+          "categoryCode": "BTMA",
+          "sourcePosition": 41,
+          "points": 181
+        },
+        {
+          "position": 48,
+          "athleteCode": "4764",
+          "name": "Marcelo Marin",
+          "categoryCode": "BTMA",
+          "sourcePosition": 42,
+          "points": 150
+        },
+        {
+          "position": 48,
+          "athleteCode": "20079",
+          "name": "Mário Wanderley",
+          "categoryCode": "BTMA",
+          "sourcePosition": 42,
+          "points": 150
+        },
+        {
+          "position": 48,
+          "athleteCode": "23644",
+          "name": "Danilo da Cruz",
+          "categoryCode": "BTMA",
+          "sourcePosition": 42,
+          "points": 150
+        },
+        {
+          "position": 48,
+          "athleteCode": "24578",
+          "name": "Ivan Neumann",
+          "categoryCode": "BTMA",
+          "sourcePosition": 42,
+          "points": 150
+        },
+        {
+          "position": 48,
+          "athleteCode": "55886",
+          "name": "Pedro Gonzaga",
+          "categoryCode": "BTMA",
+          "sourcePosition": 42,
           "points": 150
         }
       ],
-      "durationMs": 920,
+      "durationMs": 331,
       "attempts": 1
     },
     {
@@ -45256,7 +45317,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1853,
+      "durationMs": 718,
       "attempts": 1
     },
     {
@@ -46915,7 +46976,7 @@
           "points": 75
         }
       ],
-      "durationMs": 1906,
+      "durationMs": 784,
       "attempts": 1
     },
     {
@@ -48382,7 +48443,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1561,
+      "durationMs": 646,
       "attempts": 1
     },
     {
@@ -49177,7 +49238,7 @@
           "points": 83
         }
       ],
-      "durationMs": 1331,
+      "durationMs": 562,
       "attempts": 1
     },
     {
@@ -49604,7 +49665,7 @@
           "points": 75
         }
       ],
-      "durationMs": 387,
+      "durationMs": 334,
       "attempts": 1
     },
     {
@@ -49743,7 +49804,7 @@
           "points": 75
         }
       ],
-      "durationMs": 321,
+      "durationMs": 271,
       "attempts": 1
     },
     {
@@ -49826,7 +49887,7 @@
           "points": 150
         }
       ],
-      "durationMs": 283,
+      "durationMs": 220,
       "attempts": 1
     },
     {
@@ -50149,7 +50210,7 @@
           "points": 75
         }
       ],
-      "durationMs": 383,
+      "durationMs": 294,
       "attempts": 1
     },
     {
@@ -50336,7 +50397,7 @@
           "points": 75
         }
       ],
-      "durationMs": 388,
+      "durationMs": 224,
       "attempts": 1
     },
     {
@@ -50419,7 +50480,7 @@
           "points": 150
         }
       ],
-      "durationMs": 420,
+      "durationMs": 182,
       "attempts": 1
     },
     {
@@ -50550,7 +50611,7 @@
           "points": 735
         }
       ],
-      "durationMs": 837,
+      "durationMs": 285,
       "attempts": 1
     },
     {
@@ -50705,7 +50766,7 @@
           "points": 150
         }
       ],
-      "durationMs": 443,
+      "durationMs": 337,
       "attempts": 1
     },
     {
@@ -50892,7 +50953,7 @@
           "points": 75
         }
       ],
-      "durationMs": 476,
+      "durationMs": 283,
       "attempts": 1
     },
     {
@@ -50991,7 +51052,7 @@
           "points": 150
         }
       ],
-      "durationMs": 409,
+      "durationMs": 243,
       "attempts": 1
     },
     {
@@ -51114,7 +51175,7 @@
           "points": 75
         }
       ],
-      "durationMs": 343,
+      "durationMs": 213,
       "attempts": 1
     },
     {
@@ -51277,7 +51338,7 @@
           "points": 150
         }
       ],
-      "durationMs": 423,
+      "durationMs": 232,
       "attempts": 1
     },
     {
@@ -51360,7 +51421,7 @@
           "points": 150
         }
       ],
-      "durationMs": 538,
+      "durationMs": 209,
       "attempts": 1
     },
     {
@@ -51691,7 +51752,7 @@
           "points": 150
         }
       ],
-      "durationMs": 489,
+      "durationMs": 272,
       "attempts": 1
     },
     {
@@ -52350,7 +52411,7 @@
           "points": 55
         }
       ],
-      "durationMs": 633,
+      "durationMs": 402,
       "attempts": 1
     },
     {
@@ -52961,7 +53022,7 @@
           "points": 83
         }
       ],
-      "durationMs": 784,
+      "durationMs": 329,
       "attempts": 1
     },
     {
@@ -53524,7 +53585,7 @@
           "points": 75
         }
       ],
-      "durationMs": 722,
+      "durationMs": 301,
       "attempts": 1
     },
     {
@@ -53735,7 +53796,7 @@
           "points": 120
         }
       ],
-      "durationMs": 527,
+      "durationMs": 299,
       "attempts": 1
     },
     {
@@ -54114,7 +54175,7 @@
           "points": 75
         }
       ],
-      "durationMs": 670,
+      "durationMs": 308,
       "attempts": 1
     },
     {
@@ -54869,7 +54930,7 @@
           "points": 75
         }
       ],
-      "durationMs": 845,
+      "durationMs": 348,
       "attempts": 1
     },
     {
@@ -55432,7 +55493,7 @@
           "points": 55
         }
       ],
-      "durationMs": 718,
+      "durationMs": 329,
       "attempts": 1
     },
     {
@@ -55859,7 +55920,7 @@
           "points": 75
         }
       ],
-      "durationMs": 581,
+      "durationMs": 264,
       "attempts": 1
     },
     {
@@ -56126,7 +56187,7 @@
           "points": 110
         }
       ],
-      "durationMs": 510,
+      "durationMs": 316,
       "attempts": 1
     },
     {
@@ -56353,7 +56414,7 @@
           "points": 75
         }
       ],
-      "durationMs": 441,
+      "durationMs": 271,
       "attempts": 1
     },
     {
@@ -56508,7 +56569,7 @@
           "points": 185
         }
       ],
-      "durationMs": 448,
+      "durationMs": 220,
       "attempts": 1
     },
     {
@@ -56799,7 +56860,7 @@
           "points": 120
         }
       ],
-      "durationMs": 657,
+      "durationMs": 235,
       "attempts": 1
     },
     {
@@ -57114,7 +57175,7 @@
           "points": 120
         }
       ],
-      "durationMs": 656,
+      "durationMs": 295,
       "attempts": 1
     },
     {
@@ -57269,7 +57330,7 @@
           "points": 150
         }
       ],
-      "durationMs": 523,
+      "durationMs": 237,
       "attempts": 1
     },
     {
@@ -57456,7 +57517,7 @@
           "points": 268
         }
       ],
-      "durationMs": 466,
+      "durationMs": 248,
       "attempts": 1
     },
     {
@@ -57707,7 +57768,7 @@
           "points": 138
         }
       ],
-      "durationMs": 470,
+      "durationMs": 251,
       "attempts": 1
     },
     {
@@ -57918,7 +57979,7 @@
           "points": 120
         }
       ],
-      "durationMs": 473,
+      "durationMs": 220,
       "attempts": 1
     },
     {
@@ -58081,7 +58142,7 @@
           "points": 110
         }
       ],
-      "durationMs": 466,
+      "durationMs": 209,
       "attempts": 1
     },
     {
@@ -58300,7 +58361,7 @@
           "points": 75
         }
       ],
-      "durationMs": 480,
+      "durationMs": 336,
       "attempts": 1
     },
     {
@@ -58543,7 +58604,7 @@
           "points": 150
         }
       ],
-      "durationMs": 456,
+      "durationMs": 262,
       "attempts": 1
     },
     {
@@ -58746,7 +58807,7 @@
           "points": 82
         }
       ],
-      "durationMs": 610,
+      "durationMs": 220,
       "attempts": 1
     },
     {
@@ -59069,7 +59130,7 @@
           "points": 120
         }
       ],
-      "durationMs": 619,
+      "durationMs": 266,
       "attempts": 1
     },
     {
@@ -59816,7 +59877,7 @@
           "points": 75
         }
       ],
-      "durationMs": 858,
+      "durationMs": 355,
       "attempts": 1
     },
     {
@@ -60267,7 +60328,7 @@
           "points": 120
         }
       ],
-      "durationMs": 819,
+      "durationMs": 286,
       "attempts": 1
     },
     {
@@ -60414,7 +60475,7 @@
           "points": 824
         }
       ],
-      "durationMs": 790,
+      "durationMs": 203,
       "attempts": 1
     },
     {
@@ -60633,7 +60694,7 @@
           "points": 150
         }
       ],
-      "durationMs": 837,
+      "durationMs": 231,
       "attempts": 1
     },
     {
@@ -61020,7 +61081,7 @@
           "points": 75
         }
       ],
-      "durationMs": 779,
+      "durationMs": 254,
       "attempts": 1
     },
     {
@@ -61743,7 +61804,7 @@
           "points": 75
         }
       ],
-      "durationMs": 916,
+      "durationMs": 319,
       "attempts": 1
     },
     {
@@ -62018,7 +62079,7 @@
           "points": 120
         }
       ],
-      "durationMs": 796,
+      "durationMs": 280,
       "attempts": 1
     },
     {
@@ -62245,7 +62306,7 @@
           "points": 75
         }
       ],
-      "durationMs": 698,
+      "durationMs": 352,
       "attempts": 1
     },
     {
@@ -62424,7 +62485,7 @@
           "points": 75
         }
       ],
-      "durationMs": 447,
+      "durationMs": 229,
       "attempts": 1
     },
     {
@@ -62595,7 +62656,7 @@
           "points": 138
         }
       ],
-      "durationMs": 428,
+      "durationMs": 224,
       "attempts": 1
     },
     {
@@ -62710,7 +62771,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 446,
+      "durationMs": 248,
       "attempts": 1
     },
     {
@@ -62929,7 +62990,7 @@
           "points": 75
         }
       ],
-      "durationMs": 484,
+      "durationMs": 258,
       "attempts": 1
     },
     {
@@ -63052,7 +63113,7 @@
           "points": 100
         }
       ],
-      "durationMs": 414,
+      "durationMs": 298,
       "attempts": 1
     },
     {
@@ -63207,7 +63268,7 @@
           "points": 138
         }
       ],
-      "durationMs": 434,
+      "durationMs": 241,
       "attempts": 1
     },
     {
@@ -63354,7 +63415,7 @@
           "points": 100
         }
       ],
-      "durationMs": 627,
+      "durationMs": 237,
       "attempts": 1
     },
     {
@@ -63557,7 +63618,7 @@
           "points": 100
         }
       ],
-      "durationMs": 612,
+      "durationMs": 231,
       "attempts": 1
     },
     {
@@ -63712,7 +63773,7 @@
           "points": 75
         }
       ],
-      "durationMs": 610,
+      "durationMs": 221,
       "attempts": 1
     },
     {
@@ -63835,7 +63896,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 498,
+      "durationMs": 262,
       "attempts": 1
     },
     {
@@ -64118,7 +64179,7 @@
           "points": 75
         }
       ],
-      "durationMs": 573,
+      "durationMs": 232,
       "attempts": 1
     },
     {
@@ -64417,7 +64478,7 @@
           "points": 75
         }
       ],
-      "durationMs": 556,
+      "durationMs": 232,
       "attempts": 1
     },
     {
@@ -64548,7 +64609,7 @@
           "points": 100
         }
       ],
-      "durationMs": 416,
+      "durationMs": 247,
       "attempts": 1
     },
     {
@@ -64791,7 +64852,7 @@
           "points": 75
         }
       ],
-      "durationMs": 458,
+      "durationMs": 274,
       "attempts": 1
     },
     {
@@ -65218,7 +65279,7 @@
           "points": 75
         }
       ],
-      "durationMs": 497,
+      "durationMs": 253,
       "attempts": 1
     },
     {
@@ -65437,7 +65498,7 @@
           "points": 75
         }
       ],
-      "durationMs": 412,
+      "durationMs": 246,
       "attempts": 1
     },
     {
@@ -65536,7 +65597,7 @@
           "points": 75
         }
       ],
-      "durationMs": 371,
+      "durationMs": 220,
       "attempts": 1
     },
     {
@@ -65675,7 +65736,7 @@
           "points": 100
         }
       ],
-      "durationMs": 345,
+      "durationMs": 233,
       "attempts": 1
     },
     {
@@ -65894,7 +65955,7 @@
           "points": 138
         }
       ],
-      "durationMs": 392,
+      "durationMs": 222,
       "attempts": 1
     },
     {
@@ -66489,7 +66550,7 @@
           "points": 75
         }
       ],
-      "durationMs": 475,
+      "durationMs": 358,
       "attempts": 1
     },
     {
@@ -66660,7 +66721,7 @@
           "points": 138
         }
       ],
-      "durationMs": 371,
+      "durationMs": 281,
       "attempts": 1
     },
     {
@@ -66807,7 +66868,7 @@
           "points": 75
         }
       ],
-      "durationMs": 321,
+      "durationMs": 232,
       "attempts": 1
     },
     {
@@ -67090,7 +67151,7 @@
           "points": 75
         }
       ],
-      "durationMs": 293,
+      "durationMs": 269,
       "attempts": 1
     },
     {
@@ -67365,7 +67426,7 @@
           "points": 75
         }
       ],
-      "durationMs": 246,
+      "durationMs": 255,
       "attempts": 1
     },
     {
@@ -67488,7 +67549,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 217,
+      "durationMs": 218,
       "attempts": 1
     },
     {
@@ -67867,7 +67928,7 @@
           "points": 75
         }
       ],
-      "durationMs": 254,
+      "durationMs": 223,
       "attempts": 1
     },
     {
@@ -68166,7 +68227,7 @@
           "points": 75
         }
       ],
-      "durationMs": 209,
+      "durationMs": 226,
       "attempts": 1
     },
     {
@@ -68289,7 +68350,7 @@
           "points": 110
         }
       ],
-      "durationMs": 197,
+      "durationMs": 207,
       "attempts": 1
     },
     {
@@ -68428,7 +68489,7 @@
           "points": 100
         }
       ],
-      "durationMs": 368,
+      "durationMs": 207,
       "attempts": 1
     },
     {
@@ -68623,7 +68684,7 @@
           "points": 75
         }
       ],
-      "durationMs": 383,
+      "durationMs": 231,
       "attempts": 1
     },
     {
@@ -68818,7 +68879,7 @@
           "points": 138
         }
       ],
-      "durationMs": 415,
+      "durationMs": 238,
       "attempts": 1
     },
     {
@@ -68901,7 +68962,7 @@
           "points": 138
         }
       ],
-      "durationMs": 330,
+      "durationMs": 192,
       "attempts": 1
     },
     {
@@ -69080,7 +69141,7 @@
           "points": 75
         }
       ],
-      "durationMs": 395,
+      "durationMs": 265,
       "attempts": 1
     },
     {
@@ -69291,7 +69352,7 @@
           "points": 138
         }
       ],
-      "durationMs": 340,
+      "durationMs": 234,
       "attempts": 1
     },
     {
@@ -69366,7 +69427,7 @@
           "points": 138
         }
       ],
-      "durationMs": 206,
+      "durationMs": 201,
       "attempts": 1
     },
     {
@@ -69801,7 +69862,7 @@
           "points": 75
         }
       ],
-      "durationMs": 266,
+      "durationMs": 263,
       "attempts": 1
     },
     {
@@ -70484,7 +70545,7 @@
           "points": 75
         }
       ],
-      "durationMs": 323,
+      "durationMs": 379,
       "attempts": 1
     },
     {
@@ -71199,7 +71260,7 @@
           "points": 75
         }
       ],
-      "durationMs": 321,
+      "durationMs": 333,
       "attempts": 1
     },
     {
@@ -71570,7 +71631,7 @@
           "points": 75
         }
       ],
-      "durationMs": 351,
+      "durationMs": 360,
       "attempts": 1
     },
     {
@@ -71813,7 +71874,7 @@
           "points": 75
         }
       ],
-      "durationMs": 309,
+      "durationMs": 251,
       "attempts": 1
     },
     {
@@ -72240,7 +72301,7 @@
           "points": 75
         }
       ],
-      "durationMs": 240,
+      "durationMs": 258,
       "attempts": 1
     },
     {
@@ -73163,7 +73224,7 @@
           "points": 75
         }
       ],
-      "durationMs": 310,
+      "durationMs": 321,
       "attempts": 1
     },
     {
@@ -73606,7 +73667,7 @@
           "points": 75
         }
       ],
-      "durationMs": 295,
+      "durationMs": 270,
       "attempts": 1
     },
     {
@@ -73953,7 +74014,7 @@
           "points": 75
         }
       ],
-      "durationMs": 260,
+      "durationMs": 355,
       "attempts": 1
     },
     {
@@ -74388,7 +74449,7 @@
           "points": 75
         }
       ],
-      "durationMs": 262,
+      "durationMs": 312,
       "attempts": 1
     },
     {
@@ -74495,7 +74556,7 @@
           "points": 150
         }
       ],
-      "durationMs": 198,
+      "durationMs": 202,
       "attempts": 1
     },
     {
@@ -74594,7 +74655,7 @@
           "points": 150
         }
       ],
-      "durationMs": 245,
+      "durationMs": 240,
       "attempts": 1
     },
     {
@@ -74829,7 +74890,7 @@
           "points": 83
         }
       ],
-      "durationMs": 218,
+      "durationMs": 250,
       "attempts": 1
     },
     {
@@ -75040,7 +75101,7 @@
           "points": 100
         }
       ],
-      "durationMs": 261,
+      "durationMs": 222,
       "attempts": 1
     },
     {
@@ -75163,7 +75224,7 @@
           "points": 138
         }
       ],
-      "durationMs": 207,
+      "durationMs": 260,
       "attempts": 1
     },
     {
@@ -75278,7 +75339,7 @@
           "points": 138
         }
       ],
-      "durationMs": 250,
+      "durationMs": 243,
       "attempts": 1
     },
     {
@@ -75577,7 +75638,7 @@
           "points": 83
         }
       ],
-      "durationMs": 246,
+      "durationMs": 255,
       "attempts": 1
     },
     {
@@ -75772,7 +75833,7 @@
           "points": 75
         }
       ],
-      "durationMs": 235,
+      "durationMs": 196,
       "attempts": 1
     },
     {
@@ -76106,7 +76167,7 @@
           "points": 98
         }
       ],
-      "durationMs": 247,
+      "durationMs": 272,
       "attempts": 1
     },
     {
@@ -76333,7 +76394,7 @@
           "points": 110
         }
       ],
-      "durationMs": 236,
+      "durationMs": 217,
       "attempts": 1
     },
     {
@@ -76351,7 +76412,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 169,
+      "durationMs": 218,
       "attempts": 1
     },
     {
@@ -76610,7 +76671,7 @@
           "points": 138
         }
       ],
-      "durationMs": 231,
+      "durationMs": 307,
       "attempts": 1
     },
     {
@@ -77437,7 +77498,7 @@
           "points": 75
         }
       ],
-      "durationMs": 417,
+      "durationMs": 631,
       "attempts": 1
     },
     {
@@ -78248,7 +78309,7 @@
           "points": 75
         }
       ],
-      "durationMs": 412,
+      "durationMs": 480,
       "attempts": 1
     },
     {
@@ -78651,7 +78712,7 @@
           "points": 83
         }
       ],
-      "durationMs": 343,
+      "durationMs": 555,
       "attempts": 1
     },
     {
@@ -78854,7 +78915,7 @@
           "points": 138
         }
       ],
-      "durationMs": 276,
+      "durationMs": 265,
       "attempts": 1
     },
     {
@@ -79217,7 +79278,7 @@
           "points": 75
         }
       ],
-      "durationMs": 334,
+      "durationMs": 328,
       "attempts": 1
     },
     {
@@ -79948,7 +80009,7 @@
           "points": 75
         }
       ],
-      "durationMs": 426,
+      "durationMs": 386,
       "attempts": 1
     },
     {
@@ -80487,7 +80548,7 @@
           "points": 83
         }
       ],
-      "durationMs": 334,
+      "durationMs": 428,
       "attempts": 1
     },
     {
@@ -80730,7 +80791,7 @@
           "points": 75
         }
       ],
-      "durationMs": 278,
+      "durationMs": 348,
       "attempts": 1
     }
   ]

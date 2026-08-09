@@ -263,7 +263,7 @@ def future_state_event_points(target: dict[str, Any]) -> list[int]:
         return []
     if group == "Tecnicas" and label in {"D", "E"}:
         return []
-    if group == "Tecnicas" and label in {"B", "C"} and gender == "Masculina":
+    if group == "Tecnicas" and label in {"A", "B", "C"} and gender == "Masculina":
         return []
     if group == "Tecnicas" and label in {"A", "B"} and gender == "Feminina":
         return []

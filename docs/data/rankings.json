@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T13:08:04.658517+00:00",
+  "generatedAt": "2026-08-09T13:18:15.471583+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
   "totalRankings": 154,
-  "totalAthletes": 8620,
+  "totalAthletes": 8633,
   "rankings": [
     {
       "rankingScope": "state",
@@ -1573,7 +1573,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 385,
+      "durationMs": 1089,
       "attempts": 1
     },
     {
@@ -2527,7 +2527,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 405,
+      "durationMs": 993,
       "attempts": 1
     },
     {
@@ -3118,7 +3118,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 437,
+      "durationMs": 804,
       "attempts": 1
     },
     {
@@ -4578,7 +4578,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 597,
+      "durationMs": 1181,
       "attempts": 1
     },
     {
@@ -5752,7 +5752,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 547,
+      "durationMs": 908,
       "attempts": 1
     },
     {
@@ -6299,7 +6299,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 538,
+      "durationMs": 719,
       "attempts": 1
     },
     {
@@ -6813,7 +6813,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 325,
+      "durationMs": 687,
       "attempts": 1
     },
     {
@@ -7569,7 +7569,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 301,
+      "durationMs": 1128,
       "attempts": 1
     },
     {
@@ -8061,7 +8061,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 355,
+      "durationMs": 605,
       "attempts": 1
     },
     {
@@ -8454,7 +8454,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 244,
+      "durationMs": 671,
       "attempts": 1
     },
     {
@@ -9122,7 +9122,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 450,
+      "durationMs": 1070,
       "attempts": 1
     },
     {
@@ -9889,7 +9889,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 429,
+      "durationMs": 1060,
       "attempts": 1
     },
     {
@@ -10645,7 +10645,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 383,
+      "durationMs": 857,
       "attempts": 1
     },
     {
@@ -10661,7 +10661,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFB/296",
       "status": "ok",
       "error": null,
-      "athleteCount": 154,
+      "athleteCount": 162,
       "athletes": [
         {
           "position": 1,
@@ -10669,18 +10669,8 @@
           "name": "Laura Fontana",
           "categoryCode": "BTFB",
           "sourcePosition": 1,
-          "points": 18340,
+          "points": 19800,
           "stateProjectionMax": 19800,
-          "statePointComponents": [
-            3000,
-            3000,
-            2750,
-            2200,
-            2000,
-            1925,
-            1925,
-            1540
-          ],
           "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
@@ -10690,19 +10680,9 @@
           "name": "Luciele Geram",
           "categoryCode": "BTFB",
           "sourcePosition": 2,
-          "points": 16724,
+          "points": 18780,
           "stateProjectionMax": 18780,
-          "statePointComponents": [
-            3000,
-            3000,
-            2750,
-            2200,
-            1925,
-            1925,
-            980,
-            944
-          ],
-          "stateTop2Guaranteed": false,
+          "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
         {
@@ -10711,20 +10691,10 @@
           "name": "Claudia Nogueira",
           "categoryCode": "BTFB",
           "sourcePosition": 3,
-          "points": 14732,
-          "stateProjectionMax": 16788,
-          "statePointComponents": [
-            2750,
-            2750,
-            2100,
-            2100,
-            1540,
-            1470,
-            1078,
-            944
-          ],
+          "points": 14818,
+          "stateProjectionMax": 14818,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 3,
@@ -10732,20 +10702,10 @@
           "name": "Paula Nogueira",
           "categoryCode": "BTFB",
           "sourcePosition": 3,
-          "points": 14732,
-          "stateProjectionMax": 16788,
-          "statePointComponents": [
-            2750,
-            2750,
-            2100,
-            2100,
-            1540,
-            1470,
-            1078,
-            944
-          ],
+          "points": 14818,
+          "stateProjectionMax": 14818,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 5,
@@ -10754,19 +10714,9 @@
           "categoryCode": "BTFB",
           "sourcePosition": 4,
           "points": 14703,
-          "stateProjectionMax": 16673,
-          "statePointComponents": [
-            3000,
-            2400,
-            2400,
-            2100,
-            1348,
-            1347,
-            1078,
-            1030
-          ],
+          "stateProjectionMax": 14703,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 6,
@@ -10775,19 +10725,9 @@
           "categoryCode": "BTFB",
           "sourcePosition": 5,
           "points": 13829,
-          "stateProjectionMax": 15799,
-          "statePointComponents": [
-            3000,
-            2100,
-            2000,
-            1925,
-            1348,
-            1348,
-            1078,
-            1030
-          ],
+          "stateProjectionMax": 13829,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 7,
@@ -10796,17 +10736,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 6,
           "points": 13041,
-          "stateProjectionMax": 15321,
-          "statePointComponents": [
-            3000,
-            2400,
-            1925,
-            1540,
-            1348,
-            1078,
-            1030,
-            720
-          ],
+          "stateProjectionMax": 13041,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10817,17 +10747,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 7,
           "points": 12679,
-          "stateProjectionMax": 14659,
-          "statePointComponents": [
-            3000,
-            2200,
-            1925,
-            1348,
-            1078,
-            1078,
-            1030,
-            1020
-          ],
+          "stateProjectionMax": 12679,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10838,17 +10758,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 8,
           "points": 12442,
-          "stateProjectionMax": 14412,
-          "statePointComponents": [
-            2400,
-            2200,
-            1470,
-            1470,
-            1348,
-            1348,
-            1176,
-            1030
-          ],
+          "stateProjectionMax": 12442,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10859,6 +10769,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 9,
           "points": 10390,
+          "stateProjectionMax": 10390,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10867,8 +10778,9 @@
           "athleteCode": "34968",
           "name": "Nayara Yano",
           "categoryCode": "BTFB",
-          "sourcePosition": 10,
+          "sourcePosition": 11,
           "points": 8522,
+          "stateProjectionMax": 8522,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10877,8 +10789,9 @@
           "athleteCode": "40707",
           "name": "Juliana Cambrussi",
           "categoryCode": "BTFB",
-          "sourcePosition": 11,
+          "sourcePosition": 12,
           "points": 7648,
+          "stateProjectionMax": 7648,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -10887,248 +10800,273 @@
           "athleteCode": "42954",
           "name": "Pabliny Ruaro",
           "categoryCode": "BTFB",
-          "sourcePosition": 11,
+          "sourcePosition": 12,
           "points": 7648,
+          "stateProjectionMax": 7648,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 14,
-          "athleteCode": "36512",
-          "name": "Eduarda Dicalo",
+          "athleteCode": "39908",
+          "name": "Juliana Netto",
           "categoryCode": "BTFB",
           "sourcePosition": 13,
-          "points": 6894,
+          "points": 7496,
+          "stateProjectionMax": 7496,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 15,
-          "athleteCode": "27375",
-          "name": "Julianna Melhorança",
+          "athleteCode": "36512",
+          "name": "Eduarda Dicalo",
           "categoryCode": "BTFB",
           "sourcePosition": 14,
-          "points": 6768,
+          "points": 6894,
+          "stateProjectionMax": 6894,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 16,
-          "athleteCode": "33720",
-          "name": "Maria Julia Alves",
+          "athleteCode": "26549",
+          "name": "Cristiana Dawybida",
           "categoryCode": "BTFB",
           "sourcePosition": 15,
-          "points": 6721,
+          "points": 6886,
+          "stateProjectionMax": 6886,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 17,
-          "athleteCode": "40532",
-          "name": "Rafaela Fernandes",
+          "athleteCode": "27375",
+          "name": "Julianna Melhorança",
           "categoryCode": "BTFB",
           "sourcePosition": 16,
-          "points": 6697,
+          "points": 6768,
+          "stateProjectionMax": 6768,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 18,
-          "athleteCode": "32669",
-          "name": "Anielle Bubiak",
+          "athleteCode": "33720",
+          "name": "Maria Julia Alves",
           "categoryCode": "BTFB",
           "sourcePosition": 17,
-          "points": 6171,
+          "points": 6721,
+          "stateProjectionMax": 6721,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 19,
-          "athleteCode": "42600",
-          "name": "Thieli Damiani",
+          "athleteCode": "40532",
+          "name": "Rafaela Fernandes",
           "categoryCode": "BTFB",
           "sourcePosition": 18,
-          "points": 6148,
+          "points": 6697,
+          "stateProjectionMax": 6697,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 20,
-          "athleteCode": "39908",
-          "name": "Juliana Netto",
+          "athleteCode": "32669",
+          "name": "Anielle Bubiak",
           "categoryCode": "BTFB",
           "sourcePosition": 19,
-          "points": 6026,
+          "points": 6171,
+          "stateProjectionMax": 6171,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 21,
-          "athleteCode": "26549",
-          "name": "Cristiana Dawybida",
+          "athleteCode": "42600",
+          "name": "Thieli Damiani",
           "categoryCode": "BTFB",
           "sourcePosition": 20,
-          "points": 5416,
+          "points": 6148,
+          "stateProjectionMax": 6148,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 22,
-          "athleteCode": "36118",
-          "name": "Mirianny Fernandes",
+          "athleteCode": "36544",
+          "name": "Fabiola Pereira",
           "categoryCode": "BTFB",
           "sourcePosition": 21,
-          "points": 5280,
+          "points": 5984,
+          "stateProjectionMax": 5984,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 23,
+          "athleteCode": "37580",
+          "name": "Nicole Bianco",
+          "categoryCode": "BTFB",
+          "sourcePosition": 22,
+          "points": 5474,
+          "stateProjectionMax": 5474,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 24,
+          "athleteCode": "37625",
+          "name": "Camila Amorim",
+          "categoryCode": "BTFB",
+          "sourcePosition": 23,
+          "points": 5416,
+          "stateProjectionMax": 5416,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 25,
+          "athleteCode": "36118",
+          "name": "Mirianny Fernandes",
+          "categoryCode": "BTFB",
+          "sourcePosition": 24,
+          "points": 5280,
+          "stateProjectionMax": 5280,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 26,
           "athleteCode": "27501",
           "name": "Jaqueline Simon",
           "categoryCode": "BTFB",
-          "sourcePosition": 22,
+          "sourcePosition": 25,
           "points": 5115,
+          "stateProjectionMax": 5115,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 24,
+          "position": 27,
           "athleteCode": "35056",
           "name": "Marina Prá",
           "categoryCode": "BTFB",
-          "sourcePosition": 23,
+          "sourcePosition": 26,
           "points": 5013,
+          "stateProjectionMax": 5013,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 24,
+          "position": 27,
           "athleteCode": "36527",
           "name": "Edina Krassmann",
           "categoryCode": "BTFB",
-          "sourcePosition": 23,
+          "sourcePosition": 26,
           "points": 5013,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 26,
-          "athleteCode": "32849",
-          "name": "Larissa Meurer",
-          "categoryCode": "BTFB",
-          "sourcePosition": 24,
-          "points": 4972,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 26,
-          "athleteCode": "32942",
-          "name": "Danieli Trevisan",
-          "categoryCode": "BTFB",
-          "sourcePosition": 24,
-          "points": 4972,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 28,
-          "athleteCode": "36544",
-          "name": "Fabiola Pereira",
-          "categoryCode": "BTFB",
-          "sourcePosition": 25,
-          "points": 4954,
+          "stateProjectionMax": 5013,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 29,
-          "athleteCode": "12332",
-          "name": "Franciele Bueno",
+          "athleteCode": "32849",
+          "name": "Larissa Meurer",
           "categoryCode": "BTFB",
-          "sourcePosition": 26,
-          "points": 4846,
+          "sourcePosition": 27,
+          "points": 4972,
+          "stateProjectionMax": 4972,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 30,
-          "athleteCode": "37580",
-          "name": "Nicole Bianco",
+          "position": 29,
+          "athleteCode": "32942",
+          "name": "Danieli Trevisan",
           "categoryCode": "BTFB",
           "sourcePosition": 27,
-          "points": 4754,
+          "points": 4972,
+          "stateProjectionMax": 4972,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 31,
+          "athleteCode": "12332",
+          "name": "Franciele Bueno",
+          "categoryCode": "BTFB",
+          "sourcePosition": 28,
+          "points": 4846,
+          "stateProjectionMax": 4846,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 32,
           "athleteCode": "33905",
           "name": "Natalia Freitas",
           "categoryCode": "BTFB",
-          "sourcePosition": 28,
+          "sourcePosition": 29,
           "points": 4354,
+          "stateProjectionMax": 4354,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "36052",
           "name": "Maristela Kaeski",
           "categoryCode": "BTFB",
-          "sourcePosition": 29,
+          "sourcePosition": 30,
           "points": 4274,
+          "stateProjectionMax": 4274,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 32,
+          "position": 33,
           "athleteCode": "37483",
           "name": "Bianca Costa",
           "categoryCode": "BTFB",
-          "sourcePosition": 29,
-          "points": 4274,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 34,
-          "athleteCode": "45593",
-          "name": "Gabriele Dored",
-          "categoryCode": "BTFB",
           "sourcePosition": 30,
-          "points": 4244,
+          "points": 4274,
+          "stateProjectionMax": 4274,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 35,
-          "athleteCode": "34399",
-          "name": "Silvana Pinetti",
+          "athleteCode": "45593",
+          "name": "Gabriele Dored",
           "categoryCode": "BTFB",
           "sourcePosition": 31,
-          "points": 4178,
+          "points": 4244,
+          "stateProjectionMax": 4244,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 36,
-          "athleteCode": "39157",
-          "name": "Andrieli Porto",
+          "athleteCode": "34399",
+          "name": "Silvana Pinetti",
           "categoryCode": "BTFB",
           "sourcePosition": 32,
-          "points": 4090,
+          "points": 4178,
+          "stateProjectionMax": 4178,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 37,
-          "athleteCode": "37625",
-          "name": "Camila Amorim",
+          "athleteCode": "39157",
+          "name": "Andrieli Porto",
           "categoryCode": "BTFB",
           "sourcePosition": 33,
-          "points": 3946,
+          "points": 4090,
+          "stateProjectionMax": 4090,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11139,76 +11077,84 @@
           "categoryCode": "BTFB",
           "sourcePosition": 34,
           "points": 3774,
+          "stateProjectionMax": 3774,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 39,
-          "athleteCode": "27724",
-          "name": "Giovana Butenas",
+          "athleteCode": "39643",
+          "name": "Vitoria Esmanhotto",
           "categoryCode": "BTFB",
           "sourcePosition": 35,
-          "points": 3660,
+          "points": 3732,
+          "stateProjectionMax": 3732,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 40,
-          "athleteCode": "32725",
-          "name": "Gabriela Campi",
+          "athleteCode": "27724",
+          "name": "Giovana Butenas",
           "categoryCode": "BTFB",
           "sourcePosition": 36,
-          "points": 3650,
+          "points": 3660,
+          "stateProjectionMax": 3660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 41,
+          "athleteCode": "32725",
+          "name": "Gabriela Campi",
+          "categoryCode": "BTFB",
+          "sourcePosition": 37,
+          "points": 3650,
+          "stateProjectionMax": 3650,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 42,
           "athleteCode": "31954",
           "name": "Camila Kazuma",
           "categoryCode": "BTFB",
-          "sourcePosition": 37,
+          "sourcePosition": 38,
           "points": 3634,
+          "stateProjectionMax": 3634,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 42,
+          "position": 43,
           "athleteCode": "39088",
           "name": "Camila Picollo",
           "categoryCode": "BTFB",
-          "sourcePosition": 38,
+          "sourcePosition": 39,
           "points": 3528,
+          "stateProjectionMax": 3528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 42,
+          "position": 43,
           "athleteCode": "41486",
           "name": "Rafaella Valduga",
           "categoryCode": "BTFB",
-          "sourcePosition": 38,
-          "points": 3528,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 44,
-          "athleteCode": "37364",
-          "name": "Andrezza Abreu",
-          "categoryCode": "BTFB",
           "sourcePosition": 39,
-          "points": 3466,
+          "points": 3528,
+          "stateProjectionMax": 3528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 45,
-          "athleteCode": "39643",
-          "name": "Vitoria Esmanhotto",
+          "athleteCode": "37364",
+          "name": "Andrezza Abreu",
           "categoryCode": "BTFB",
           "sourcePosition": 40,
-          "points": 3228,
+          "points": 3466,
+          "stateProjectionMax": 3466,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11219,6 +11165,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 41,
           "points": 3216,
+          "stateProjectionMax": 3216,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11229,6 +11176,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 42,
           "points": 3002,
+          "stateProjectionMax": 3002,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11239,86 +11187,95 @@
           "categoryCode": "BTFB",
           "sourcePosition": 43,
           "points": 2790,
+          "stateProjectionMax": 2790,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 49,
-          "athleteCode": "32927",
-          "name": "Bruna Theodoro",
+          "athleteCode": "43148",
+          "name": "Gabriela Terra",
           "categoryCode": "BTFB",
           "sourcePosition": 44,
-          "points": 2652,
+          "points": 2764,
+          "stateProjectionMax": 2764,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 50,
+          "athleteCode": "32927",
+          "name": "Bruna Theodoro",
+          "categoryCode": "BTFB",
+          "sourcePosition": 45,
+          "points": 2652,
+          "stateProjectionMax": 2652,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 51,
           "athleteCode": "32726",
           "name": "Carla Amador",
           "categoryCode": "BTFB",
-          "sourcePosition": 45,
+          "sourcePosition": 46,
           "points": 2574,
+          "stateProjectionMax": 2574,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 51,
+          "position": 52,
           "athleteCode": "41183",
           "name": "Maria Guerra",
           "categoryCode": "BTFB",
-          "sourcePosition": 46,
+          "sourcePosition": 47,
           "points": 2570,
+          "stateProjectionMax": 2570,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 51,
+          "position": 52,
           "athleteCode": "42898",
           "name": "Maria Sangali",
           "categoryCode": "BTFB",
-          "sourcePosition": 46,
-          "points": 2570,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 53,
-          "athleteCode": "28437",
-          "name": "Leticia Nascimento",
-          "categoryCode": "BTFB",
           "sourcePosition": 47,
-          "points": 2436,
+          "points": 2570,
+          "stateProjectionMax": 2570,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 54,
-          "athleteCode": "36107",
-          "name": "Isadora Begnini",
+          "athleteCode": "28437",
+          "name": "Leticia Nascimento",
           "categoryCode": "BTFB",
           "sourcePosition": 48,
-          "points": 2426,
+          "points": 2436,
+          "stateProjectionMax": 2436,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 55,
-          "athleteCode": "32908",
-          "name": "Ana Vieira",
+          "athleteCode": "36107",
+          "name": "Isadora Begnini",
           "categoryCode": "BTFB",
           "sourcePosition": 49,
-          "points": 2352,
+          "points": 2426,
+          "stateProjectionMax": 2426,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 56,
-          "athleteCode": "43148",
-          "name": "Gabriela Terra",
+          "athleteCode": "32908",
+          "name": "Ana Vieira",
           "categoryCode": "BTFB",
           "sourcePosition": 50,
-          "points": 2260,
+          "points": 2352,
+          "stateProjectionMax": 2352,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11329,6 +11286,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 51,
           "points": 2228,
+          "stateProjectionMax": 2228,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11339,6 +11297,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 52,
           "points": 2200,
+          "stateProjectionMax": 2200,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11349,6 +11308,7 @@
           "categoryCode": "BTFB",
           "sourcePosition": 53,
           "points": 2130,
+          "stateProjectionMax": 2130,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -11359,951 +11319,1134 @@
           "categoryCode": "BTFB",
           "sourcePosition": 54,
           "points": 2108,
+          "stateProjectionMax": 2108,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 61,
-          "athleteCode": "36420",
-          "name": "Natalia Sandri",
+          "athleteCode": "28450",
+          "name": "Manuela Fagnani",
           "categoryCode": "BTFB",
           "sourcePosition": 55,
-          "points": 2000,
+          "points": 2100,
+          "stateProjectionMax": 2100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 62,
-          "athleteCode": "38644",
-          "name": "Mayara Ferreira",
+          "position": 61,
+          "athleteCode": "32916",
+          "name": "Giovanna Berg",
           "categoryCode": "BTFB",
-          "sourcePosition": 56,
-          "points": 1844,
+          "sourcePosition": 55,
+          "points": 2100,
+          "stateProjectionMax": 2100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 63,
-          "athleteCode": "33242",
-          "name": "Debora Sperancetta",
+          "athleteCode": "36420",
+          "name": "Natalia Sandri",
           "categoryCode": "BTFB",
-          "sourcePosition": 57,
-          "points": 1830,
+          "sourcePosition": 56,
+          "points": 2000,
+          "stateProjectionMax": 2000,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 64,
-          "athleteCode": "38434",
-          "name": "Fernanda França",
+          "athleteCode": "33242",
+          "name": "Debora Sperancetta",
           "categoryCode": "BTFB",
-          "sourcePosition": 58,
-          "points": 1690,
+          "sourcePosition": 57,
+          "points": 1980,
+          "stateProjectionMax": 1980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 65,
-          "athleteCode": "40212",
-          "name": "Fernanda Marangoni",
+          "athleteCode": "16028",
+          "name": "Isabelle Reginato",
           "categoryCode": "BTFB",
-          "sourcePosition": 59,
-          "points": 1580,
+          "sourcePosition": 58,
+          "points": 1896,
+          "stateProjectionMax": 1896,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 66,
-          "athleteCode": "39419",
-          "name": "Simone Machinski",
+          "position": 65,
+          "athleteCode": "33908",
+          "name": "Flávia Bueno",
           "categoryCode": "BTFB",
-          "sourcePosition": 60,
-          "points": 1557,
+          "sourcePosition": 58,
+          "points": 1896,
+          "stateProjectionMax": 1896,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 67,
-          "athleteCode": "35031",
-          "name": "Cristiane Schelp",
+          "athleteCode": "38644",
+          "name": "Mayara Ferreira",
           "categoryCode": "BTFB",
-          "sourcePosition": 61,
-          "points": 1550,
+          "sourcePosition": 59,
+          "points": 1844,
+          "stateProjectionMax": 1844,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 68,
-          "athleteCode": "33883",
-          "name": "Cecile Sorgi",
+          "athleteCode": "40212",
+          "name": "Fernanda Marangoni",
           "categoryCode": "BTFB",
-          "sourcePosition": 62,
-          "points": 1540,
+          "sourcePosition": 60,
+          "points": 1730,
+          "stateProjectionMax": 1730,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 69,
-          "athleteCode": "40318",
-          "name": "Sophia Storto",
+          "athleteCode": "38434",
+          "name": "Fernanda França",
           "categoryCode": "BTFB",
-          "sourcePosition": 63,
-          "points": 1534,
+          "sourcePosition": 61,
+          "points": 1690,
+          "stateProjectionMax": 1690,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 70,
-          "athleteCode": "32905",
-          "name": "Andréia Molina",
+          "athleteCode": "33528",
+          "name": "Daniela Barros",
+          "categoryCode": "BTFB",
+          "sourcePosition": 62,
+          "points": 1606,
+          "stateProjectionMax": 1606,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 70,
+          "athleteCode": "40978",
+          "name": "Laura Souza",
+          "categoryCode": "BTFB",
+          "sourcePosition": 62,
+          "points": 1606,
+          "stateProjectionMax": 1606,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 72,
+          "athleteCode": "39419",
+          "name": "Simone Machinski",
+          "categoryCode": "BTFB",
+          "sourcePosition": 63,
+          "points": 1557,
+          "stateProjectionMax": 1557,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 73,
+          "athleteCode": "35031",
+          "name": "Cristiane Schelp",
           "categoryCode": "BTFB",
           "sourcePosition": 64,
-          "points": 1476,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 71,
-          "athleteCode": "28533",
-          "name": "Amanda Liberatti",
-          "categoryCode": "BTFB",
-          "sourcePosition": 65,
-          "points": 1434,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 72,
-          "athleteCode": "32366",
-          "name": "Ana Flávia Tibério Lopes",
-          "categoryCode": "BTFB",
-          "sourcePosition": 66,
-          "points": 1400,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 72,
-          "athleteCode": "43743",
-          "name": "Amanda Mazini",
-          "categoryCode": "BTFB",
-          "sourcePosition": 66,
-          "points": 1400,
+          "points": 1550,
+          "stateProjectionMax": 1550,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 74,
-          "athleteCode": "30701",
-          "name": "Thaysa Franco",
+          "athleteCode": "33883",
+          "name": "Cecile Sorgi",
           "categoryCode": "BTFB",
-          "sourcePosition": 67,
-          "points": 1366,
+          "sourcePosition": 65,
+          "points": 1540,
+          "stateProjectionMax": 1540,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 75,
-          "athleteCode": "35247",
-          "name": "Myrella Barreto",
+          "athleteCode": "40318",
+          "name": "Sophia Storto",
           "categoryCode": "BTFB",
-          "sourcePosition": 68,
-          "points": 1348,
+          "sourcePosition": 66,
+          "points": 1534,
+          "stateProjectionMax": 1534,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 76,
-          "athleteCode": "29920",
-          "name": "Andressa Sentone",
+          "athleteCode": "32905",
+          "name": "Andréia Molina",
+          "categoryCode": "BTFB",
+          "sourcePosition": 67,
+          "points": 1476,
+          "stateProjectionMax": 1476,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 77,
+          "athleteCode": "24554",
+          "name": "Isabela Cervieri",
+          "categoryCode": "BTFB",
+          "sourcePosition": 68,
+          "points": 1440,
+          "stateProjectionMax": 1440,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 78,
+          "athleteCode": "28533",
+          "name": "Amanda Liberatti",
           "categoryCode": "BTFB",
           "sourcePosition": 69,
-          "points": 1216,
+          "points": 1434,
+          "stateProjectionMax": 1434,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 77,
-          "athleteCode": "16028",
-          "name": "Isabelle Reginato",
+          "position": 79,
+          "athleteCode": "32366",
+          "name": "Ana Flávia Tibério Lopes",
           "categoryCode": "BTFB",
           "sourcePosition": 70,
-          "points": 1176,
+          "points": 1400,
+          "stateProjectionMax": 1400,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 77,
-          "athleteCode": "30381",
-          "name": "Milena Silvério",
+          "position": 79,
+          "athleteCode": "43743",
+          "name": "Amanda Mazini",
           "categoryCode": "BTFB",
           "sourcePosition": 70,
-          "points": 1176,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 77,
-          "athleteCode": "33908",
-          "name": "Flávia Bueno",
-          "categoryCode": "BTFB",
-          "sourcePosition": 70,
-          "points": 1176,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 77,
-          "athleteCode": "35588",
-          "name": "Wellidha Amado",
-          "categoryCode": "BTFB",
-          "sourcePosition": 70,
-          "points": 1176,
+          "points": 1400,
+          "stateProjectionMax": 1400,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 81,
-          "athleteCode": "37399",
-          "name": "Juliana Wilt",
+          "athleteCode": "30701",
+          "name": "Thaysa Franco",
           "categoryCode": "BTFB",
           "sourcePosition": 71,
-          "points": 1118,
+          "points": 1366,
+          "stateProjectionMax": 1366,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 82,
-          "athleteCode": "26979",
-          "name": "Letícia Ortega",
+          "athleteCode": "35247",
+          "name": "Myrella Barreto",
           "categoryCode": "BTFB",
           "sourcePosition": 72,
-          "points": 1084,
+          "points": 1348,
+          "stateProjectionMax": 1348,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 82,
-          "athleteCode": "33938",
-          "name": "Lari Ianke",
+          "position": 83,
+          "athleteCode": "29920",
+          "name": "Andressa Sentone",
           "categoryCode": "BTFB",
-          "sourcePosition": 72,
-          "points": 1084,
+          "sourcePosition": 73,
+          "points": 1216,
+          "stateProjectionMax": 1216,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 84,
+          "athleteCode": "30381",
+          "name": "Milena Silvério",
+          "categoryCode": "BTFB",
+          "sourcePosition": 74,
+          "points": 1176,
+          "stateProjectionMax": 1176,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 84,
+          "athleteCode": "35588",
+          "name": "Wellidha Amado",
+          "categoryCode": "BTFB",
+          "sourcePosition": 74,
+          "points": 1176,
+          "stateProjectionMax": 1176,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 86,
+          "athleteCode": "37399",
+          "name": "Juliana Wilt",
+          "categoryCode": "BTFB",
+          "sourcePosition": 75,
+          "points": 1118,
+          "stateProjectionMax": 1118,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 87,
+          "athleteCode": "26979",
+          "name": "Letícia Ortega",
+          "categoryCode": "BTFB",
+          "sourcePosition": 76,
+          "points": 1084,
+          "stateProjectionMax": 1084,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 87,
+          "athleteCode": "33938",
+          "name": "Lari Ianke",
+          "categoryCode": "BTFB",
+          "sourcePosition": 76,
+          "points": 1084,
+          "stateProjectionMax": 1084,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 89,
           "athleteCode": "32162",
           "name": "Juliê Starck",
           "categoryCode": "BTFB",
-          "sourcePosition": 73,
+          "sourcePosition": 77,
           "points": 1030,
+          "stateProjectionMax": 1030,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 85,
+          "position": 89,
+          "athleteCode": "43826",
+          "name": "Dandara Ferreira",
+          "categoryCode": "BTFB",
+          "sourcePosition": 77,
+          "points": 1030,
+          "stateProjectionMax": 1030,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 91,
           "athleteCode": "28343",
           "name": "Júlia Malucelli",
           "categoryCode": "BTFB",
-          "sourcePosition": 74,
+          "sourcePosition": 78,
           "points": 1020,
+          "stateProjectionMax": 1020,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 85,
+          "position": 91,
           "athleteCode": "43315",
           "name": "Elis Fonseca",
           "categoryCode": "BTFB",
-          "sourcePosition": 74,
+          "sourcePosition": 78,
           "points": 1020,
+          "stateProjectionMax": 1020,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 85,
+          "position": 91,
           "athleteCode": "44489",
           "name": "Darielli Lourenço",
           "categoryCode": "BTFB",
-          "sourcePosition": 74,
+          "sourcePosition": 78,
           "points": 1020,
+          "stateProjectionMax": 1020,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 88,
+          "position": 94,
           "athleteCode": "31556",
           "name": "Julia Pielak",
           "categoryCode": "BTFB",
-          "sourcePosition": 75,
+          "sourcePosition": 79,
           "points": 1004,
+          "stateProjectionMax": 1004,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 89,
+          "position": 95,
           "athleteCode": "23870",
           "name": "Pyetra Filus",
           "categoryCode": "BTFB",
-          "sourcePosition": 76,
+          "sourcePosition": 80,
           "points": 980,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 89,
+          "position": 95,
           "athleteCode": "31233",
           "name": "Mariana Kern",
           "categoryCode": "BTFB",
-          "sourcePosition": 76,
+          "sourcePosition": 80,
           "points": 980,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 89,
+          "position": 95,
           "athleteCode": "39938",
           "name": "Lara Oliveira",
           "categoryCode": "BTFB",
-          "sourcePosition": 76,
+          "sourcePosition": 80,
           "points": 980,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 89,
+          "position": 95,
           "athleteCode": "41054",
           "name": "Maria Capelette",
           "categoryCode": "BTFB",
-          "sourcePosition": 76,
+          "sourcePosition": 80,
           "points": 980,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 93,
-          "athleteCode": "44769",
-          "name": "Ana Teixeira",
-          "categoryCode": "BTFB",
-          "sourcePosition": 77,
-          "points": 974,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 94,
-          "athleteCode": "14582",
-          "name": "Diuly Santa",
-          "categoryCode": "BTFB",
-          "sourcePosition": 78,
-          "points": 944,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 94,
-          "athleteCode": "29529",
-          "name": "Sandra Antonio",
-          "categoryCode": "BTFB",
-          "sourcePosition": 78,
-          "points": 944,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 94,
-          "athleteCode": "29653",
-          "name": "Renata Rosa",
-          "categoryCode": "BTFB",
-          "sourcePosition": 78,
-          "points": 944,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 94,
-          "athleteCode": "32647",
-          "name": "Caroline Alexandre",
-          "categoryCode": "BTFB",
-          "sourcePosition": 78,
-          "points": 944,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 94,
-          "athleteCode": "36029",
-          "name": "Dayani Lazarin",
-          "categoryCode": "BTFB",
-          "sourcePosition": 78,
-          "points": 944,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 99,
-          "athleteCode": "32486",
-          "name": "Danielle Paraguay",
+          "athleteCode": "44769",
+          "name": "Ana Teixeira",
           "categoryCode": "BTFB",
-          "sourcePosition": 79,
-          "points": 894,
+          "sourcePosition": 81,
+          "points": 974,
+          "stateProjectionMax": 974,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 100,
-          "athleteCode": "22272",
-          "name": "Maria Souza",
+          "athleteCode": "14582",
+          "name": "Diuly Santa",
           "categoryCode": "BTFB",
-          "sourcePosition": 80,
-          "points": 840,
+          "sourcePosition": 82,
+          "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 101,
-          "athleteCode": "13169",
-          "name": "Mayra Testa",
+          "position": 100,
+          "athleteCode": "29529",
+          "name": "Sandra Antonio",
           "categoryCode": "BTFB",
-          "sourcePosition": 81,
-          "points": 824,
+          "sourcePosition": 82,
+          "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 101,
-          "athleteCode": "20330",
-          "name": "Roberta Kern",
+          "position": 100,
+          "athleteCode": "29653",
+          "name": "Renata Rosa",
           "categoryCode": "BTFB",
-          "sourcePosition": 81,
-          "points": 824,
+          "sourcePosition": 82,
+          "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 101,
-          "athleteCode": "32881",
-          "name": "Caroline Oliveira",
+          "position": 100,
+          "athleteCode": "32647",
+          "name": "Caroline Alexandre",
           "categoryCode": "BTFB",
-          "sourcePosition": 81,
-          "points": 824,
+          "sourcePosition": 82,
+          "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 101,
-          "athleteCode": "32972",
-          "name": "Lilian Boas",
+          "position": 100,
+          "athleteCode": "36029",
+          "name": "Dayani Lazarin",
           "categoryCode": "BTFB",
-          "sourcePosition": 81,
-          "points": 824,
+          "sourcePosition": 82,
+          "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 105,
+          "athleteCode": "32486",
+          "name": "Danielle Paraguay",
+          "categoryCode": "BTFB",
+          "sourcePosition": 83,
+          "points": 894,
+          "stateProjectionMax": 894,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 106,
+          "athleteCode": "22272",
+          "name": "Maria Souza",
+          "categoryCode": "BTFB",
+          "sourcePosition": 84,
+          "points": 840,
+          "stateProjectionMax": 840,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 106,
+          "athleteCode": "37702",
+          "name": "Natasha Riechi",
+          "categoryCode": "BTFB",
+          "sourcePosition": 84,
+          "points": 840,
+          "stateProjectionMax": 840,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 108,
+          "athleteCode": "34614",
+          "name": "Naiara Lavanhinhi",
+          "categoryCode": "BTFB",
+          "sourcePosition": 85,
+          "points": 830,
+          "stateProjectionMax": 830,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 109,
+          "athleteCode": "13169",
+          "name": "Mayra Testa",
+          "categoryCode": "BTFB",
+          "sourcePosition": 86,
+          "points": 824,
+          "stateProjectionMax": 824,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 109,
+          "athleteCode": "20330",
+          "name": "Roberta Kern",
+          "categoryCode": "BTFB",
+          "sourcePosition": 86,
+          "points": 824,
+          "stateProjectionMax": 824,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 109,
+          "athleteCode": "32881",
+          "name": "Caroline Oliveira",
+          "categoryCode": "BTFB",
+          "sourcePosition": 86,
+          "points": 824,
+          "stateProjectionMax": 824,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 109,
+          "athleteCode": "32972",
+          "name": "Lilian Boas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 86,
+          "points": 824,
+          "stateProjectionMax": 824,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 113,
           "athleteCode": "36038",
           "name": "Camila Andraschko",
           "categoryCode": "BTFB",
-          "sourcePosition": 82,
+          "sourcePosition": 87,
           "points": 797,
+          "stateProjectionMax": 797,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 106,
+          "position": 114,
           "athleteCode": "27337",
           "name": "Luísa Barbosa",
           "categoryCode": "BTFB",
-          "sourcePosition": 83,
+          "sourcePosition": 88,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 106,
+          "position": 114,
           "athleteCode": "34822",
           "name": "Danieli Delago",
           "categoryCode": "BTFB",
-          "sourcePosition": 83,
+          "sourcePosition": 88,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 108,
+          "position": 116,
           "athleteCode": "12693",
           "name": "Monica Pires",
           "categoryCode": "BTFB",
-          "sourcePosition": 84,
+          "sourcePosition": 89,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 108,
-          "athleteCode": "24554",
-          "name": "Isabela Cervieri",
-          "categoryCode": "BTFB",
-          "sourcePosition": 84,
-          "points": 720,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 108,
+          "position": 116,
           "athleteCode": "31293",
           "name": "Giovana Freitas",
           "categoryCode": "BTFB",
-          "sourcePosition": 84,
+          "sourcePosition": 89,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 108,
+          "position": 116,
           "athleteCode": "33776",
           "name": "Andressa Ribas",
           "categoryCode": "BTFB",
-          "sourcePosition": 84,
+          "sourcePosition": 89,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 108,
+          "position": 116,
+          "athleteCode": "36713",
+          "name": "Carolina Zanlorenzi",
+          "categoryCode": "BTFB",
+          "sourcePosition": 89,
+          "points": 720,
+          "stateProjectionMax": 720,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 116,
           "athleteCode": "38656",
           "name": "Mariana Maciel",
           "categoryCode": "BTFB",
-          "sourcePosition": 84,
+          "sourcePosition": 89,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 113,
+          "position": 116,
+          "athleteCode": "42663",
+          "name": "Rafaela Serman",
+          "categoryCode": "BTFB",
+          "sourcePosition": 89,
+          "points": 720,
+          "stateProjectionMax": 720,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 122,
           "athleteCode": "48573",
           "name": "Marcela Silva",
           "categoryCode": "BTFB",
-          "sourcePosition": 85,
+          "sourcePosition": 90,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 113,
+          "position": 122,
           "athleteCode": "34670",
           "name": "Carolina Genofre",
           "categoryCode": "BTFB",
-          "sourcePosition": 85,
+          "sourcePosition": 90,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 124,
           "athleteCode": "29864",
           "name": "Katiuscia Urnau",
           "categoryCode": "BTFB",
-          "sourcePosition": 86,
+          "sourcePosition": 91,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 124,
           "athleteCode": "30111",
           "name": "Franciele Rosa",
           "categoryCode": "BTFB",
-          "sourcePosition": 86,
+          "sourcePosition": 91,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 124,
           "athleteCode": "33173",
           "name": "Marcela Uchôa",
           "categoryCode": "BTFB",
-          "sourcePosition": 86,
+          "sourcePosition": 91,
           "points": 660,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 118,
-          "athleteCode": "27799",
-          "name": "Rosana Follador",
-          "categoryCode": "BTFB",
-          "sourcePosition": 87,
-          "points": 624,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 119,
-          "athleteCode": "33488",
-          "name": "Vanessa Gandin",
-          "categoryCode": "BTFB",
-          "sourcePosition": 88,
-          "points": 576,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 119,
-          "athleteCode": "33528",
-          "name": "Daniela Barros",
-          "categoryCode": "BTFB",
-          "sourcePosition": 88,
-          "points": 576,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 119,
-          "athleteCode": "40978",
-          "name": "Laura Souza",
-          "categoryCode": "BTFB",
-          "sourcePosition": 88,
-          "points": 576,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 122,
-          "athleteCode": "27139",
-          "name": "Viviane Mauad",
-          "categoryCode": "BTFB",
-          "sourcePosition": 89,
-          "points": 504,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 122,
-          "athleteCode": "38214",
-          "name": "Patrícia Fernandes",
-          "categoryCode": "BTFB",
-          "sourcePosition": 89,
-          "points": 504,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 122,
-          "athleteCode": "52341",
-          "name": "Giordana Cardozo",
-          "categoryCode": "BTFB",
-          "sourcePosition": 89,
-          "points": 504,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 125,
-          "athleteCode": "32225",
-          "name": "Angelica Hardt",
-          "categoryCode": "BTFB",
-          "sourcePosition": 90,
-          "points": 458,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 125,
-          "athleteCode": "42654",
-          "name": "Isabelle Moreto",
-          "categoryCode": "BTFB",
-          "sourcePosition": 90,
-          "points": 458,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 127,
-          "athleteCode": "34784",
-          "name": "Thayza Vitorino",
+          "athleteCode": "27799",
+          "name": "Rosana Follador",
           "categoryCode": "BTFB",
-          "sourcePosition": 91,
-          "points": 270,
+          "sourcePosition": 92,
+          "points": 624,
+          "stateProjectionMax": 624,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 128,
-          "athleteCode": "33525",
-          "name": "Karina Schulz",
+          "athleteCode": "33488",
+          "name": "Vanessa Gandin",
           "categoryCode": "BTFB",
-          "sourcePosition": 92,
-          "points": 260,
+          "sourcePosition": 93,
+          "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 129,
+          "athleteCode": "27139",
+          "name": "Viviane Mauad",
+          "categoryCode": "BTFB",
+          "sourcePosition": 94,
+          "points": 504,
+          "stateProjectionMax": 504,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 129,
+          "athleteCode": "29593",
+          "name": "Paula Bau",
+          "categoryCode": "BTFB",
+          "sourcePosition": 94,
+          "points": 504,
+          "stateProjectionMax": 504,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 129,
+          "athleteCode": "38214",
+          "name": "Patrícia Fernandes",
+          "categoryCode": "BTFB",
+          "sourcePosition": 94,
+          "points": 504,
+          "stateProjectionMax": 504,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 129,
+          "athleteCode": "52341",
+          "name": "Giordana Cardozo",
+          "categoryCode": "BTFB",
+          "sourcePosition": 94,
+          "points": 504,
+          "stateProjectionMax": 504,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 133,
+          "athleteCode": "32225",
+          "name": "Angelica Hardt",
+          "categoryCode": "BTFB",
+          "sourcePosition": 95,
+          "points": 458,
+          "stateProjectionMax": 458,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 133,
+          "athleteCode": "42654",
+          "name": "Isabelle Moreto",
+          "categoryCode": "BTFB",
+          "sourcePosition": 95,
+          "points": 458,
+          "stateProjectionMax": 458,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 135,
           "athleteCode": "32798",
           "name": "Vanessa Becker",
           "categoryCode": "BTFB",
-          "sourcePosition": 93,
-          "points": 240,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "31987",
-          "name": "Ana Kazahaya",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "35081",
-          "name": "Ketlyn Rizzotto",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "35083",
-          "name": "Bruna Morais",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "35532",
-          "name": "Juliana Tolkmitt",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "38167",
-          "name": "Adriana Freitas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 130,
-          "athleteCode": "40729",
-          "name": "Ana Souza",
-          "categoryCode": "BTFB",
-          "sourcePosition": 94,
-          "points": 150,
+          "sourcePosition": 96,
+          "points": 390,
+          "stateProjectionMax": 390,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 136,
-          "athleteCode": "31845",
-          "name": "Susana Wilt",
-          "categoryCode": "BTFB",
-          "sourcePosition": 95,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 136,
-          "athleteCode": "37439",
-          "name": "Maila Leoni",
-          "categoryCode": "BTFB",
-          "sourcePosition": 95,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 136,
-          "athleteCode": "47823",
-          "name": "Aline Cavalheiro",
-          "categoryCode": "BTFB",
-          "sourcePosition": 95,
-          "points": 138,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 139,
-          "athleteCode": "14264",
-          "name": "Marieli Araujo",
-          "categoryCode": "BTFB",
-          "sourcePosition": 96,
-          "points": 120,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 139,
-          "athleteCode": "19895",
-          "name": "Juliana Jonas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 96,
-          "points": 120,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 139,
-          "athleteCode": "29833",
-          "name": "Francielli Barreto",
-          "categoryCode": "BTFB",
-          "sourcePosition": 96,
-          "points": 120,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 139,
           "athleteCode": "31358",
           "name": "Mariana Coelho",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
-          "points": 120,
+          "sourcePosition": 97,
+          "points": 270,
+          "stateProjectionMax": 270,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 136,
+          "athleteCode": "34784",
+          "name": "Thayza Vitorino",
+          "categoryCode": "BTFB",
+          "sourcePosition": 97,
+          "points": 270,
+          "stateProjectionMax": 270,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 138,
+          "athleteCode": "33525",
+          "name": "Karina Schulz",
+          "categoryCode": "BTFB",
+          "sourcePosition": 98,
+          "points": 260,
+          "stateProjectionMax": 260,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
           "position": 139,
+          "athleteCode": "31987",
+          "name": "Ana Kazahaya",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "35081",
+          "name": "Ketlyn Rizzotto",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "35083",
+          "name": "Bruna Morais",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "35532",
+          "name": "Juliana Tolkmitt",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "36101",
+          "name": "Bruna Kachimareck",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "38167",
+          "name": "Adriana Freitas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "40623",
+          "name": "Talita Micharki",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 139,
+          "athleteCode": "40729",
+          "name": "Ana Souza",
+          "categoryCode": "BTFB",
+          "sourcePosition": 99,
+          "points": 150,
+          "stateProjectionMax": 150,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 147,
+          "athleteCode": "31845",
+          "name": "Susana Wilt",
+          "categoryCode": "BTFB",
+          "sourcePosition": 100,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 147,
+          "athleteCode": "37439",
+          "name": "Maila Leoni",
+          "categoryCode": "BTFB",
+          "sourcePosition": 100,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 147,
+          "athleteCode": "47823",
+          "name": "Aline Cavalheiro",
+          "categoryCode": "BTFB",
+          "sourcePosition": 100,
+          "points": 138,
+          "stateProjectionMax": 138,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 150,
+          "athleteCode": "14264",
+          "name": "Marieli Araujo",
+          "categoryCode": "BTFB",
+          "sourcePosition": 101,
+          "points": 120,
+          "stateProjectionMax": 120,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 150,
+          "athleteCode": "19895",
+          "name": "Juliana Jonas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 101,
+          "points": 120,
+          "stateProjectionMax": 120,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 150,
+          "athleteCode": "29833",
+          "name": "Francielli Barreto",
+          "categoryCode": "BTFB",
+          "sourcePosition": 101,
+          "points": 120,
+          "stateProjectionMax": 120,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 150,
           "athleteCode": "31943",
           "name": "Daniela Suguimoto",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "32157",
           "name": "Maria Kredens",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "32965",
           "name": "Rafaella Sallum",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "34199",
           "name": "Graziela Tomazi",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "34825",
           "name": "Aline Viscardi",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "35900",
           "name": "Antonella Macedo",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
+          "position": 150,
           "athleteCode": "36776",
           "name": "Isadora Bonini",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 139,
-          "athleteCode": "37702",
-          "name": "Natasha Riechi",
-          "categoryCode": "BTFB",
-          "sourcePosition": 96,
-          "points": 120,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 139,
+          "position": 150,
           "athleteCode": "41405",
           "name": "Bruna Silva",
           "categoryCode": "BTFB",
-          "sourcePosition": 96,
+          "sourcePosition": 101,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 152,
+          "position": 161,
           "athleteCode": "31623",
           "name": "Vanessa Viquetti",
           "categoryCode": "BTFB",
-          "sourcePosition": 97,
+          "sourcePosition": 102,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 152,
-          "athleteCode": "34614",
-          "name": "Naiara Lavanhinhi",
-          "categoryCode": "BTFB",
-          "sourcePosition": 97,
-          "points": 110,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 154,
+          "position": 162,
           "athleteCode": "45959",
           "name": "Vanessa Zufo",
           "categoryCode": "BTFB",
-          "sourcePosition": 98,
+          "sourcePosition": 103,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2235,
+      "durationMs": 1057,
       "attempts": 1
     },
     {
@@ -15961,7 +16104,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2435,
+      "durationMs": 5248,
       "attempts": 1
     },
     {
@@ -19423,7 +19566,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 710,
+      "durationMs": 2157,
       "attempts": 1
     },
     {
@@ -21631,7 +21774,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 872,
+      "durationMs": 1651,
       "attempts": 1
     },
     {
@@ -22636,7 +22779,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2248,
+      "durationMs": 4397,
       "attempts": 1
     },
     {
@@ -24657,7 +24800,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 784,
+      "durationMs": 1580,
       "attempts": 1
     },
     {
@@ -28636,7 +28779,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 768,
+      "durationMs": 1775,
       "attempts": 1
     },
     {
@@ -31548,7 +31691,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 926,
+      "durationMs": 1484,
       "attempts": 1
     },
     {
@@ -33008,7 +33151,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 658,
+      "durationMs": 944,
       "attempts": 1
     },
     {
@@ -33875,7 +34018,7 @@
           "points": 75
         }
       ],
-      "durationMs": 330,
+      "durationMs": 562,
       "attempts": 1
     },
     {
@@ -34358,7 +34501,7 @@
           "points": 75
         }
       ],
-      "durationMs": 263,
+      "durationMs": 636,
       "attempts": 1
     },
     {
@@ -34697,7 +34840,7 @@
           "points": 90
         }
       ],
-      "durationMs": 348,
+      "durationMs": 596,
       "attempts": 1
     },
     {
@@ -35388,7 +35531,7 @@
           "points": 83
         }
       ],
-      "durationMs": 280,
+      "durationMs": 660,
       "attempts": 1
     },
     {
@@ -36055,7 +36198,7 @@
           "points": 83
         }
       ],
-      "durationMs": 284,
+      "durationMs": 717,
       "attempts": 1
     },
     {
@@ -36338,7 +36481,7 @@
           "points": 83
         }
       ],
-      "durationMs": 274,
+      "durationMs": 757,
       "attempts": 1
     },
     {
@@ -36557,7 +36700,7 @@
           "points": 120
         }
       ],
-      "durationMs": 282,
+      "durationMs": 725,
       "attempts": 1
     },
     {
@@ -36904,7 +37047,7 @@
           "points": 83
         }
       ],
-      "durationMs": 225,
+      "durationMs": 492,
       "attempts": 1
     },
     {
@@ -37091,7 +37234,7 @@
           "points": 110
         }
       ],
-      "durationMs": 242,
+      "durationMs": 536,
       "attempts": 1
     },
     {
@@ -37206,7 +37349,7 @@
           "points": 83
         }
       ],
-      "durationMs": 223,
+      "durationMs": 498,
       "attempts": 1
     },
     {
@@ -37465,7 +37608,7 @@
           "points": 83
         }
       ],
-      "durationMs": 232,
+      "durationMs": 401,
       "attempts": 1
     },
     {
@@ -37756,7 +37899,7 @@
           "points": 120
         }
       ],
-      "durationMs": 344,
+      "durationMs": 419,
       "attempts": 1
     },
     {
@@ -38231,7 +38374,7 @@
           "points": 83
         }
       ],
-      "durationMs": 297,
+      "durationMs": 726,
       "attempts": 1
     },
     {
@@ -38247,7 +38390,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFB/296",
       "status": "ok",
       "error": null,
-      "athleteCount": 79,
+      "athleteCount": 84,
       "athletes": [
         {
           "position": 1,
@@ -38275,19 +38418,19 @@
         },
         {
           "position": 4,
-          "athleteCode": "34822",
-          "name": "Danieli Delago",
-          "categoryCode": "BTFB",
-          "sourcePosition": 4,
-          "points": 13833
-        },
-        {
-          "position": 5,
           "athleteCode": "26549",
           "name": "Cristiana Dawybida",
           "categoryCode": "BTFB",
+          "sourcePosition": 4,
+          "points": 14041
+        },
+        {
+          "position": 5,
+          "athleteCode": "34822",
+          "name": "Danieli Delago",
+          "categoryCode": "BTFB",
           "sourcePosition": 5,
-          "points": 13726
+          "points": 13833
         },
         {
           "position": 6,
@@ -38311,7 +38454,7 @@
           "name": "Camila Amorim",
           "categoryCode": "BTFB",
           "sourcePosition": 8,
-          "points": 11348
+          "points": 12251
         },
         {
           "position": 9,
@@ -38351,23 +38494,23 @@
           "name": "Daniela Barros",
           "categoryCode": "BTFB",
           "sourcePosition": 13,
-          "points": 8225
+          "points": 8859
         },
         {
           "position": 14,
-          "athleteCode": "26979",
-          "name": "Letícia Ortega",
-          "categoryCode": "BTFB",
-          "sourcePosition": 14,
-          "points": 7220
-        },
-        {
-          "position": 15,
           "athleteCode": "40978",
           "name": "Laura Souza",
           "categoryCode": "BTFB",
+          "sourcePosition": 14,
+          "points": 7851
+        },
+        {
+          "position": 15,
+          "athleteCode": "26979",
+          "name": "Letícia Ortega",
+          "categoryCode": "BTFB",
           "sourcePosition": 15,
-          "points": 6904
+          "points": 7220
         },
         {
           "position": 16,
@@ -38383,7 +38526,7 @@
           "name": "Fernanda Marangoni",
           "categoryCode": "BTFB",
           "sourcePosition": 17,
-          "points": 5929
+          "points": 5996
         },
         {
           "position": 18,
@@ -38391,111 +38534,111 @@
           "name": "Naiara Lavanhinhi",
           "categoryCode": "BTFB",
           "sourcePosition": 18,
-          "points": 4490
+          "points": 5210
         },
         {
           "position": 19,
-          "athleteCode": "38644",
-          "name": "Mayara Ferreira",
-          "categoryCode": "BTFB",
-          "sourcePosition": 19,
-          "points": 4303
-        },
-        {
-          "position": 20,
           "athleteCode": "36713",
           "name": "Carolina Zanlorenzi",
           "categoryCode": "BTFB",
+          "sourcePosition": 19,
+          "points": 4844
+        },
+        {
+          "position": 20,
+          "athleteCode": "32916",
+          "name": "Giovanna Berg",
+          "categoryCode": "BTFB",
           "sourcePosition": 20,
-          "points": 4124
+          "points": 4500
         },
         {
           "position": 21,
-          "athleteCode": "33938",
-          "name": "Lari Ianke",
+          "athleteCode": "38644",
+          "name": "Mayara Ferreira",
           "categoryCode": "BTFB",
           "sourcePosition": 21,
-          "points": 3857
+          "points": 4303
         },
         {
           "position": 22,
-          "athleteCode": "33908",
-          "name": "Flávia Bueno",
-          "categoryCode": "BTFB",
-          "sourcePosition": 22,
-          "points": 3287
-        },
-        {
-          "position": 23,
           "athleteCode": "38372",
           "name": "Barbara Dreves",
           "categoryCode": "BTFB",
-          "sourcePosition": 23,
-          "points": 3000
+          "sourcePosition": 22,
+          "points": 4030
         },
         {
           "position": 23,
-          "athleteCode": "39555",
-          "name": "Rafaella Parra",
+          "athleteCode": "33908",
+          "name": "Flávia Bueno",
           "categoryCode": "BTFB",
           "sourcePosition": 23,
-          "points": 3000
+          "points": 4007
+        },
+        {
+          "position": 24,
+          "athleteCode": "33938",
+          "name": "Lari Ianke",
+          "categoryCode": "BTFB",
+          "sourcePosition": 24,
+          "points": 3857
         },
         {
           "position": 25,
           "athleteCode": "37702",
           "name": "Natasha Riechi",
           "categoryCode": "BTFB",
-          "sourcePosition": 24,
-          "points": 2619
+          "sourcePosition": 26,
+          "points": 3339
         },
         {
           "position": 26,
-          "athleteCode": "32916",
-          "name": "Giovanna Berg",
+          "athleteCode": "28450",
+          "name": "Manuela Fagnani",
           "categoryCode": "BTFB",
-          "sourcePosition": 25,
-          "points": 2400
+          "sourcePosition": 27,
+          "points": 3255
         },
         {
           "position": 27,
+          "athleteCode": "39555",
+          "name": "Rafaella Parra",
+          "categoryCode": "BTFB",
+          "sourcePosition": 28,
+          "points": 3150
+        },
+        {
+          "position": 28,
           "athleteCode": "33809",
           "name": "Claudia Nogueira",
           "categoryCode": "BTFB",
-          "sourcePosition": 27,
-          "points": 2100
+          "sourcePosition": 29,
+          "points": 3130
         },
         {
-          "position": 27,
+          "position": 28,
           "athleteCode": "34555",
           "name": "Paula Nogueira",
           "categoryCode": "BTFB",
-          "sourcePosition": 27,
-          "points": 2100
-        },
-        {
-          "position": 29,
-          "athleteCode": "42748",
-          "name": "Maria Vasconcelos",
-          "categoryCode": "BTFB",
-          "sourcePosition": 28,
-          "points": 2098
+          "sourcePosition": 29,
+          "points": 3130
         },
         {
           "position": 30,
-          "athleteCode": "44489",
-          "name": "Darielli Lourenço",
-          "categoryCode": "BTFB",
-          "sourcePosition": 29,
-          "points": 1829
-        },
-        {
-          "position": 31,
-          "athleteCode": "28533",
-          "name": "Amanda Liberatti",
+          "athleteCode": "20158",
+          "name": "Luciele Geram",
           "categoryCode": "BTFB",
           "sourcePosition": 30,
-          "points": 1532
+          "points": 3000
+        },
+        {
+          "position": 30,
+          "athleteCode": "34569",
+          "name": "Laura Fontana",
+          "categoryCode": "BTFB",
+          "sourcePosition": 30,
+          "points": 3000
         },
         {
           "position": 32,
@@ -38503,386 +38646,426 @@
           "name": "Isabela Cervieri",
           "categoryCode": "BTFB",
           "sourcePosition": 31,
-          "points": 1529
+          "points": 2249
         },
         {
-          "position": 32,
-          "athleteCode": "38656",
-          "name": "Mariana Maciel",
+          "position": 33,
+          "athleteCode": "42748",
+          "name": "Maria Vasconcelos",
           "categoryCode": "BTFB",
-          "sourcePosition": 31,
-          "points": 1529
+          "sourcePosition": 32,
+          "points": 2248
         },
         {
           "position": 34,
-          "athleteCode": "38167",
-          "name": "Adriana Freitas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 32,
-          "points": 1395
-        },
-        {
-          "position": 35,
-          "athleteCode": "12693",
-          "name": "Monica Pires",
-          "categoryCode": "BTFB",
-          "sourcePosition": 33,
-          "points": 1287
-        },
-        {
-          "position": 36,
-          "athleteCode": "43315",
-          "name": "Elis Fonseca",
-          "categoryCode": "BTFB",
-          "sourcePosition": 34,
-          "points": 1193
-        },
-        {
-          "position": 37,
-          "athleteCode": "16028",
-          "name": "Isabelle Reginato",
-          "categoryCode": "BTFB",
-          "sourcePosition": 35,
-          "points": 1176
-        },
-        {
-          "position": 37,
-          "athleteCode": "35588",
-          "name": "Wellidha Amado",
-          "categoryCode": "BTFB",
-          "sourcePosition": 35,
-          "points": 1176
-        },
-        {
-          "position": 39,
-          "athleteCode": "28450",
-          "name": "Manuela Fagnani",
-          "categoryCode": "BTFB",
-          "sourcePosition": 36,
-          "points": 1155
-        },
-        {
-          "position": 40,
-          "athleteCode": "28343",
-          "name": "Júlia Malucelli",
-          "categoryCode": "BTFB",
-          "sourcePosition": 37,
-          "points": 1020
-        },
-        {
-          "position": 41,
-          "athleteCode": "41405",
-          "name": "Bruna Silva",
-          "categoryCode": "BTFB",
-          "sourcePosition": 38,
-          "points": 1004
-        },
-        {
-          "position": 42,
-          "athleteCode": "40530",
-          "name": "Kheila Grobe",
-          "categoryCode": "BTFB",
-          "sourcePosition": 39,
-          "points": 899
-        },
-        {
-          "position": 43,
-          "athleteCode": "28434",
-          "name": "Juliane Muller",
-          "categoryCode": "BTFB",
-          "sourcePosition": 40,
-          "points": 882
-        },
-        {
-          "position": 44,
-          "athleteCode": "20330",
-          "name": "Roberta Kern",
-          "categoryCode": "BTFB",
-          "sourcePosition": 41,
-          "points": 824
-        },
-        {
-          "position": 44,
-          "athleteCode": "32881",
-          "name": "Caroline Oliveira",
-          "categoryCode": "BTFB",
-          "sourcePosition": 41,
-          "points": 824
-        },
-        {
-          "position": 44,
-          "athleteCode": "32972",
-          "name": "Lilian Boas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 41,
-          "points": 824
-        },
-        {
-          "position": 47,
-          "athleteCode": "41397",
-          "name": "Elis Alessi",
-          "categoryCode": "BTFB",
-          "sourcePosition": 42,
-          "points": 809
-        },
-        {
-          "position": 48,
-          "athleteCode": "32798",
-          "name": "Vanessa Becker",
-          "categoryCode": "BTFB",
-          "sourcePosition": 43,
-          "points": 807
-        },
-        {
-          "position": 49,
-          "athleteCode": "23725",
-          "name": "Isadora Silva",
-          "categoryCode": "BTFB",
-          "sourcePosition": 44,
-          "points": 720
-        },
-        {
-          "position": 49,
-          "athleteCode": "31293",
-          "name": "Giovana Freitas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 44,
-          "points": 720
-        },
-        {
-          "position": 49,
-          "athleteCode": "33776",
-          "name": "Andressa Ribas",
-          "categoryCode": "BTFB",
-          "sourcePosition": 44,
-          "points": 720
-        },
-        {
-          "position": 49,
-          "athleteCode": "34399",
-          "name": "Silvana Pinetti",
-          "categoryCode": "BTFB",
-          "sourcePosition": 44,
-          "points": 720
-        },
-        {
-          "position": 49,
-          "athleteCode": "34968",
-          "name": "Nayara Yano",
-          "categoryCode": "BTFB",
-          "sourcePosition": 44,
-          "points": 720
-        },
-        {
-          "position": 54,
-          "athleteCode": "31358",
-          "name": "Mariana Coelho",
-          "categoryCode": "BTFB",
-          "sourcePosition": 45,
-          "points": 687
-        },
-        {
-          "position": 55,
-          "athleteCode": "26728",
-          "name": "Mariana Turra",
-          "categoryCode": "BTFB",
-          "sourcePosition": 46,
-          "points": 650
-        },
-        {
-          "position": 56,
-          "athleteCode": "27799",
-          "name": "Rosana Follador",
-          "categoryCode": "BTFB",
-          "sourcePosition": 47,
-          "points": 624
-        },
-        {
-          "position": 57,
-          "athleteCode": "33488",
-          "name": "Vanessa Gandin",
-          "categoryCode": "BTFB",
-          "sourcePosition": 48,
-          "points": 576
-        },
-        {
-          "position": 58,
-          "athleteCode": "15633",
-          "name": "Amanda Ávila",
-          "categoryCode": "BTFB",
-          "sourcePosition": 49,
-          "points": 567
-        },
-        {
-          "position": 58,
-          "athleteCode": "27779",
-          "name": "Amália Baki",
-          "categoryCode": "BTFB",
-          "sourcePosition": 49,
-          "points": 567
-        },
-        {
-          "position": 58,
-          "athleteCode": "36101",
-          "name": "Bruna Kachimareck",
-          "categoryCode": "BTFB",
-          "sourcePosition": 49,
-          "points": 567
-        },
-        {
-          "position": 58,
-          "athleteCode": "40623",
-          "name": "Talita Micharki",
-          "categoryCode": "BTFB",
-          "sourcePosition": 49,
-          "points": 567
-        },
-        {
-          "position": 62,
-          "athleteCode": "27139",
-          "name": "Viviane Mauad",
-          "categoryCode": "BTFB",
-          "sourcePosition": 50,
-          "points": 504
-        },
-        {
-          "position": 62,
-          "athleteCode": "38214",
-          "name": "Patrícia Fernandes",
-          "categoryCode": "BTFB",
-          "sourcePosition": 50,
-          "points": 504
-        },
-        {
-          "position": 62,
           "athleteCode": "39908",
           "name": "Juliana Netto",
           "categoryCode": "BTFB",
-          "sourcePosition": 50,
-          "points": 504
+          "sourcePosition": 33,
+          "points": 1974
         },
         {
-          "position": 62,
-          "athleteCode": "40318",
-          "name": "Sophia Storto",
+          "position": 35,
+          "athleteCode": "16028",
+          "name": "Isabelle Reginato",
           "categoryCode": "BTFB",
-          "sourcePosition": 50,
-          "points": 504
+          "sourcePosition": 34,
+          "points": 1896
         },
         {
-          "position": 62,
-          "athleteCode": "40532",
-          "name": "Rafaela Fernandes",
+          "position": 36,
+          "athleteCode": "44489",
+          "name": "Darielli Lourenço",
           "categoryCode": "BTFB",
-          "sourcePosition": 50,
-          "points": 504
+          "sourcePosition": 35,
+          "points": 1829
         },
         {
-          "position": 62,
-          "athleteCode": "52341",
-          "name": "Giordana Cardozo",
+          "position": 37,
+          "athleteCode": "28533",
+          "name": "Amanda Liberatti",
+          "categoryCode": "BTFB",
+          "sourcePosition": 36,
+          "points": 1532
+        },
+        {
+          "position": 38,
+          "athleteCode": "38656",
+          "name": "Mariana Maciel",
+          "categoryCode": "BTFB",
+          "sourcePosition": 37,
+          "points": 1529
+        },
+        {
+          "position": 39,
+          "athleteCode": "38167",
+          "name": "Adriana Freitas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 38,
+          "points": 1395
+        },
+        {
+          "position": 40,
+          "athleteCode": "12693",
+          "name": "Monica Pires",
+          "categoryCode": "BTFB",
+          "sourcePosition": 39,
+          "points": 1287
+        },
+        {
+          "position": 41,
+          "athleteCode": "43315",
+          "name": "Elis Fonseca",
+          "categoryCode": "BTFB",
+          "sourcePosition": 40,
+          "points": 1193
+        },
+        {
+          "position": 42,
+          "athleteCode": "35588",
+          "name": "Wellidha Amado",
+          "categoryCode": "BTFB",
+          "sourcePosition": 41,
+          "points": 1176
+        },
+        {
+          "position": 43,
+          "athleteCode": "43826",
+          "name": "Dandara Ferreira",
+          "categoryCode": "BTFB",
+          "sourcePosition": 42,
+          "points": 1120
+        },
+        {
+          "position": 44,
+          "athleteCode": "36544",
+          "name": "Fabiola Pereira",
+          "categoryCode": "BTFB",
+          "sourcePosition": 43,
+          "points": 1030
+        },
+        {
+          "position": 45,
+          "athleteCode": "28343",
+          "name": "Júlia Malucelli",
+          "categoryCode": "BTFB",
+          "sourcePosition": 44,
+          "points": 1020
+        },
+        {
+          "position": 46,
+          "athleteCode": "41405",
+          "name": "Bruna Silva",
+          "categoryCode": "BTFB",
+          "sourcePosition": 45,
+          "points": 1004
+        },
+        {
+          "position": 47,
+          "athleteCode": "32798",
+          "name": "Vanessa Becker",
+          "categoryCode": "BTFB",
+          "sourcePosition": 46,
+          "points": 957
+        },
+        {
+          "position": 48,
+          "athleteCode": "40530",
+          "name": "Kheila Grobe",
+          "categoryCode": "BTFB",
+          "sourcePosition": 47,
+          "points": 899
+        },
+        {
+          "position": 49,
+          "athleteCode": "28434",
+          "name": "Juliane Muller",
+          "categoryCode": "BTFB",
+          "sourcePosition": 48,
+          "points": 882
+        },
+        {
+          "position": 50,
+          "athleteCode": "31358",
+          "name": "Mariana Coelho",
+          "categoryCode": "BTFB",
+          "sourcePosition": 49,
+          "points": 837
+        },
+        {
+          "position": 51,
+          "athleteCode": "20330",
+          "name": "Roberta Kern",
           "categoryCode": "BTFB",
           "sourcePosition": 50,
+          "points": 824
+        },
+        {
+          "position": 51,
+          "athleteCode": "32881",
+          "name": "Caroline Oliveira",
+          "categoryCode": "BTFB",
+          "sourcePosition": 50,
+          "points": 824
+        },
+        {
+          "position": 51,
+          "athleteCode": "32972",
+          "name": "Lilian Boas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 50,
+          "points": 824
+        },
+        {
+          "position": 54,
+          "athleteCode": "41397",
+          "name": "Elis Alessi",
+          "categoryCode": "BTFB",
+          "sourcePosition": 51,
+          "points": 809
+        },
+        {
+          "position": 55,
+          "athleteCode": "23725",
+          "name": "Isadora Silva",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 55,
+          "athleteCode": "31293",
+          "name": "Giovana Freitas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 55,
+          "athleteCode": "33776",
+          "name": "Andressa Ribas",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 55,
+          "athleteCode": "34399",
+          "name": "Silvana Pinetti",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 55,
+          "athleteCode": "34968",
+          "name": "Nayara Yano",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 55,
+          "athleteCode": "42663",
+          "name": "Rafaela Serman",
+          "categoryCode": "BTFB",
+          "sourcePosition": 52,
+          "points": 720
+        },
+        {
+          "position": 61,
+          "athleteCode": "36101",
+          "name": "Bruna Kachimareck",
+          "categoryCode": "BTFB",
+          "sourcePosition": 53,
+          "points": 717
+        },
+        {
+          "position": 61,
+          "athleteCode": "40623",
+          "name": "Talita Micharki",
+          "categoryCode": "BTFB",
+          "sourcePosition": 53,
+          "points": 717
+        },
+        {
+          "position": 63,
+          "athleteCode": "26728",
+          "name": "Mariana Turra",
+          "categoryCode": "BTFB",
+          "sourcePosition": 54,
+          "points": 650
+        },
+        {
+          "position": 64,
+          "athleteCode": "27799",
+          "name": "Rosana Follador",
+          "categoryCode": "BTFB",
+          "sourcePosition": 55,
+          "points": 624
+        },
+        {
+          "position": 65,
+          "athleteCode": "33488",
+          "name": "Vanessa Gandin",
+          "categoryCode": "BTFB",
+          "sourcePosition": 56,
+          "points": 576
+        },
+        {
+          "position": 66,
+          "athleteCode": "15633",
+          "name": "Amanda Ávila",
+          "categoryCode": "BTFB",
+          "sourcePosition": 57,
+          "points": 567
+        },
+        {
+          "position": 66,
+          "athleteCode": "27779",
+          "name": "Amália Baki",
+          "categoryCode": "BTFB",
+          "sourcePosition": 57,
+          "points": 567
+        },
+        {
+          "position": 68,
+          "athleteCode": "27139",
+          "name": "Viviane Mauad",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
           "points": 504
         },
         {
           "position": 68,
+          "athleteCode": "29593",
+          "name": "Paula Bau",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
+          "points": 504
+        },
+        {
+          "position": 68,
+          "athleteCode": "38214",
+          "name": "Patrícia Fernandes",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
+          "points": 504
+        },
+        {
+          "position": 68,
+          "athleteCode": "40318",
+          "name": "Sophia Storto",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
+          "points": 504
+        },
+        {
+          "position": 68,
+          "athleteCode": "40532",
+          "name": "Rafaela Fernandes",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
+          "points": 504
+        },
+        {
+          "position": 68,
+          "athleteCode": "52341",
+          "name": "Giordana Cardozo",
+          "categoryCode": "BTFB",
+          "sourcePosition": 58,
+          "points": 504
+        },
+        {
+          "position": 74,
           "athleteCode": "29833",
           "name": "Francielli Barreto",
           "categoryCode": "BTFB",
-          "sourcePosition": 51,
+          "sourcePosition": 59,
           "points": 467
         },
         {
-          "position": 69,
+          "position": 75,
           "athleteCode": "14264",
           "name": "Marieli Araujo",
           "categoryCode": "BTFB",
-          "sourcePosition": 52,
+          "sourcePosition": 60,
           "points": 210
         },
         {
-          "position": 70,
+          "position": 76,
           "athleteCode": "28969",
           "name": "Leana Ganassin",
           "categoryCode": "BTFB",
-          "sourcePosition": 53,
+          "sourcePosition": 61,
           "points": 166
         },
         {
-          "position": 70,
+          "position": 76,
           "athleteCode": "34681",
           "name": "Letícia Sugai",
           "categoryCode": "BTFB",
-          "sourcePosition": 53,
+          "sourcePosition": 61,
           "points": 166
         },
         {
-          "position": 72,
+          "position": 78,
           "athleteCode": "40729",
           "name": "Ana Souza",
           "categoryCode": "BTFB",
-          "sourcePosition": 54,
+          "sourcePosition": 62,
           "points": 150
         },
         {
-          "position": 73,
+          "position": 79,
           "athleteCode": "34199",
           "name": "Graziela Tomazi",
           "categoryCode": "BTFB",
-          "sourcePosition": 55,
+          "sourcePosition": 63,
           "points": 120
         },
         {
-          "position": 73,
+          "position": 79,
           "athleteCode": "35900",
           "name": "Antonella Macedo",
           "categoryCode": "BTFB",
-          "sourcePosition": 55,
+          "sourcePosition": 63,
           "points": 120
         },
         {
-          "position": 75,
+          "position": 81,
           "athleteCode": "27591",
           "name": "Michelli Cavali",
           "categoryCode": "BTFB",
-          "sourcePosition": 56,
+          "sourcePosition": 64,
           "points": 90
         },
         {
-          "position": 75,
-          "athleteCode": "43826",
-          "name": "Dandara Ferreira",
-          "categoryCode": "BTFB",
-          "sourcePosition": 56,
-          "points": 90
-        },
-        {
-          "position": 77,
+          "position": 82,
           "athleteCode": "28446",
           "name": "Carla Toninello",
           "categoryCode": "BTFB",
-          "sourcePosition": 57,
+          "sourcePosition": 65,
           "points": 83
         },
         {
-          "position": 77,
+          "position": 82,
           "athleteCode": "32307",
           "name": "Giulia Prevedello",
           "categoryCode": "BTFB",
-          "sourcePosition": 57,
+          "sourcePosition": 65,
           "points": 83
         },
         {
-          "position": 77,
+          "position": 82,
           "athleteCode": "37886",
           "name": "Ana Ramos",
           "categoryCode": "BTFB",
-          "sourcePosition": 57,
+          "sourcePosition": 65,
           "points": 83
         }
       ],
-      "durationMs": 356,
+      "durationMs": 730,
       "attempts": 1
     },
     {
@@ -40629,7 +40812,7 @@
           "points": 83
         }
       ],
-      "durationMs": 554,
+      "durationMs": 995,
       "attempts": 1
     },
     {
@@ -42376,7 +42559,7 @@
           "points": 50
         }
       ],
-      "durationMs": 532,
+      "durationMs": 1645,
       "attempts": 1
     },
     {
@@ -43739,7 +43922,7 @@
           "points": 83
         }
       ],
-      "durationMs": 611,
+      "durationMs": 2020,
       "attempts": 1
     },
     {
@@ -44150,7 +44333,7 @@
           "points": 150
         }
       ],
-      "durationMs": 400,
+      "durationMs": 920,
       "attempts": 1
     },
     {
@@ -45073,7 +45256,7 @@
           "points": 83
         }
       ],
-      "durationMs": 566,
+      "durationMs": 1853,
       "attempts": 1
     },
     {
@@ -46732,7 +46915,7 @@
           "points": 75
         }
       ],
-      "durationMs": 679,
+      "durationMs": 1906,
       "attempts": 1
     },
     {
@@ -48199,7 +48382,7 @@
           "points": 83
         }
       ],
-      "durationMs": 543,
+      "durationMs": 1561,
       "attempts": 1
     },
     {
@@ -48994,7 +49177,7 @@
           "points": 83
         }
       ],
-      "durationMs": 451,
+      "durationMs": 1331,
       "attempts": 1
     },
     {
@@ -49421,7 +49604,7 @@
           "points": 75
         }
       ],
-      "durationMs": 381,
+      "durationMs": 387,
       "attempts": 1
     },
     {
@@ -49560,7 +49743,7 @@
           "points": 75
         }
       ],
-      "durationMs": 222,
+      "durationMs": 321,
       "attempts": 1
     },
     {
@@ -49643,7 +49826,7 @@
           "points": 150
         }
       ],
-      "durationMs": 266,
+      "durationMs": 283,
       "attempts": 1
     },
     {
@@ -49966,7 +50149,7 @@
           "points": 75
         }
       ],
-      "durationMs": 252,
+      "durationMs": 383,
       "attempts": 1
     },
     {
@@ -50153,7 +50336,7 @@
           "points": 75
         }
       ],
-      "durationMs": 216,
+      "durationMs": 388,
       "attempts": 1
     },
     {
@@ -50236,7 +50419,7 @@
           "points": 150
         }
       ],
-      "durationMs": 197,
+      "durationMs": 420,
       "attempts": 1
     },
     {
@@ -50367,7 +50550,7 @@
           "points": 735
         }
       ],
-      "durationMs": 281,
+      "durationMs": 837,
       "attempts": 1
     },
     {
@@ -50522,7 +50705,7 @@
           "points": 150
         }
       ],
-      "durationMs": 217,
+      "durationMs": 443,
       "attempts": 1
     },
     {
@@ -50709,7 +50892,7 @@
           "points": 75
         }
       ],
-      "durationMs": 187,
+      "durationMs": 476,
       "attempts": 1
     },
     {
@@ -50808,7 +50991,7 @@
           "points": 150
         }
       ],
-      "durationMs": 248,
+      "durationMs": 409,
       "attempts": 1
     },
     {
@@ -50931,7 +51114,7 @@
           "points": 75
         }
       ],
-      "durationMs": 287,
+      "durationMs": 343,
       "attempts": 1
     },
     {
@@ -51094,7 +51277,7 @@
           "points": 150
         }
       ],
-      "durationMs": 247,
+      "durationMs": 423,
       "attempts": 1
     },
     {
@@ -51177,7 +51360,7 @@
           "points": 150
         }
       ],
-      "durationMs": 205,
+      "durationMs": 538,
       "attempts": 1
     },
     {
@@ -51508,7 +51691,7 @@
           "points": 150
         }
       ],
-      "durationMs": 240,
+      "durationMs": 489,
       "attempts": 1
     },
     {
@@ -52167,7 +52350,7 @@
           "points": 55
         }
       ],
-      "durationMs": 327,
+      "durationMs": 633,
       "attempts": 1
     },
     {
@@ -52778,7 +52961,7 @@
           "points": 83
         }
       ],
-      "durationMs": 390,
+      "durationMs": 784,
       "attempts": 1
     },
     {
@@ -53341,7 +53524,7 @@
           "points": 75
         }
       ],
-      "durationMs": 410,
+      "durationMs": 722,
       "attempts": 1
     },
     {
@@ -53552,7 +53735,7 @@
           "points": 120
         }
       ],
-      "durationMs": 256,
+      "durationMs": 527,
       "attempts": 1
     },
     {
@@ -53931,7 +54114,7 @@
           "points": 75
         }
       ],
-      "durationMs": 341,
+      "durationMs": 670,
       "attempts": 1
     },
     {
@@ -54686,7 +54869,7 @@
           "points": 75
         }
       ],
-      "durationMs": 403,
+      "durationMs": 845,
       "attempts": 1
     },
     {
@@ -55249,7 +55432,7 @@
           "points": 55
         }
       ],
-      "durationMs": 298,
+      "durationMs": 718,
       "attempts": 1
     },
     {
@@ -55676,7 +55859,7 @@
           "points": 75
         }
       ],
-      "durationMs": 303,
+      "durationMs": 581,
       "attempts": 1
     },
     {
@@ -55943,7 +56126,7 @@
           "points": 110
         }
       ],
-      "durationMs": 248,
+      "durationMs": 510,
       "attempts": 1
     },
     {
@@ -56170,7 +56353,7 @@
           "points": 75
         }
       ],
-      "durationMs": 264,
+      "durationMs": 441,
       "attempts": 1
     },
     {
@@ -56325,7 +56508,7 @@
           "points": 185
         }
       ],
-      "durationMs": 254,
+      "durationMs": 448,
       "attempts": 1
     },
     {
@@ -56616,7 +56799,7 @@
           "points": 120
         }
       ],
-      "durationMs": 209,
+      "durationMs": 657,
       "attempts": 1
     },
     {
@@ -56931,7 +57114,7 @@
           "points": 120
         }
       ],
-      "durationMs": 218,
+      "durationMs": 656,
       "attempts": 1
     },
     {
@@ -57086,7 +57269,7 @@
           "points": 150
         }
       ],
-      "durationMs": 192,
+      "durationMs": 523,
       "attempts": 1
     },
     {
@@ -57273,7 +57456,7 @@
           "points": 268
         }
       ],
-      "durationMs": 213,
+      "durationMs": 466,
       "attempts": 1
     },
     {
@@ -57524,7 +57707,7 @@
           "points": 138
         }
       ],
-      "durationMs": 220,
+      "durationMs": 470,
       "attempts": 1
     },
     {
@@ -57735,7 +57918,7 @@
           "points": 120
         }
       ],
-      "durationMs": 209,
+      "durationMs": 473,
       "attempts": 1
     },
     {
@@ -57898,7 +58081,7 @@
           "points": 110
         }
       ],
-      "durationMs": 201,
+      "durationMs": 466,
       "attempts": 1
     },
     {
@@ -58117,7 +58300,7 @@
           "points": 75
         }
       ],
-      "durationMs": 212,
+      "durationMs": 480,
       "attempts": 1
     },
     {
@@ -58360,7 +58543,7 @@
           "points": 150
         }
       ],
-      "durationMs": 243,
+      "durationMs": 456,
       "attempts": 1
     },
     {
@@ -58563,7 +58746,7 @@
           "points": 82
         }
       ],
-      "durationMs": 196,
+      "durationMs": 610,
       "attempts": 1
     },
     {
@@ -58886,7 +59069,7 @@
           "points": 120
         }
       ],
-      "durationMs": 256,
+      "durationMs": 619,
       "attempts": 1
     },
     {
@@ -59633,7 +59816,7 @@
           "points": 75
         }
       ],
-      "durationMs": 290,
+      "durationMs": 858,
       "attempts": 1
     },
     {
@@ -60084,7 +60267,7 @@
           "points": 120
         }
       ],
-      "durationMs": 291,
+      "durationMs": 819,
       "attempts": 1
     },
     {
@@ -60231,7 +60414,7 @@
           "points": 824
         }
       ],
-      "durationMs": 336,
+      "durationMs": 790,
       "attempts": 1
     },
     {
@@ -60450,7 +60633,7 @@
           "points": 150
         }
       ],
-      "durationMs": 273,
+      "durationMs": 837,
       "attempts": 1
     },
     {
@@ -60837,7 +61020,7 @@
           "points": 75
         }
       ],
-      "durationMs": 401,
+      "durationMs": 779,
       "attempts": 1
     },
     {
@@ -61560,7 +61743,7 @@
           "points": 75
         }
       ],
-      "durationMs": 431,
+      "durationMs": 916,
       "attempts": 1
     },
     {
@@ -61835,7 +62018,7 @@
           "points": 120
         }
       ],
-      "durationMs": 447,
+      "durationMs": 796,
       "attempts": 1
     },
     {
@@ -62062,7 +62245,7 @@
           "points": 75
         }
       ],
-      "durationMs": 464,
+      "durationMs": 698,
       "attempts": 1
     },
     {
@@ -62241,7 +62424,7 @@
           "points": 75
         }
       ],
-      "durationMs": 418,
+      "durationMs": 447,
       "attempts": 1
     },
     {
@@ -62412,7 +62595,7 @@
           "points": 138
         }
       ],
-      "durationMs": 387,
+      "durationMs": 428,
       "attempts": 1
     },
     {
@@ -62527,7 +62710,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 354,
+      "durationMs": 446,
       "attempts": 1
     },
     {
@@ -62746,7 +62929,7 @@
           "points": 75
         }
       ],
-      "durationMs": 335,
+      "durationMs": 484,
       "attempts": 1
     },
     {
@@ -62869,7 +63052,7 @@
           "points": 100
         }
       ],
-      "durationMs": 222,
+      "durationMs": 414,
       "attempts": 1
     },
     {
@@ -63024,7 +63207,7 @@
           "points": 138
         }
       ],
-      "durationMs": 228,
+      "durationMs": 434,
       "attempts": 1
     },
     {
@@ -63171,7 +63354,7 @@
           "points": 100
         }
       ],
-      "durationMs": 472,
+      "durationMs": 627,
       "attempts": 1
     },
     {
@@ -63374,7 +63557,7 @@
           "points": 100
         }
       ],
-      "durationMs": 493,
+      "durationMs": 612,
       "attempts": 1
     },
     {
@@ -63529,7 +63712,7 @@
           "points": 75
         }
       ],
-      "durationMs": 452,
+      "durationMs": 610,
       "attempts": 1
     },
     {
@@ -63652,7 +63835,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 402,
+      "durationMs": 498,
       "attempts": 1
     },
     {
@@ -63935,7 +64118,7 @@
           "points": 75
         }
       ],
-      "durationMs": 490,
+      "durationMs": 573,
       "attempts": 1
     },
     {
@@ -64234,7 +64417,7 @@
           "points": 75
         }
       ],
-      "durationMs": 414,
+      "durationMs": 556,
       "attempts": 1
     },
     {
@@ -64365,7 +64548,7 @@
           "points": 100
         }
       ],
-      "durationMs": 237,
+      "durationMs": 416,
       "attempts": 1
     },
     {
@@ -64608,7 +64791,7 @@
           "points": 75
         }
       ],
-      "durationMs": 235,
+      "durationMs": 458,
       "attempts": 1
     },
     {
@@ -65035,7 +65218,7 @@
           "points": 75
         }
       ],
-      "durationMs": 244,
+      "durationMs": 497,
       "attempts": 1
     },
     {
@@ -65254,7 +65437,7 @@
           "points": 75
         }
       ],
-      "durationMs": 220,
+      "durationMs": 412,
       "attempts": 1
     },
     {
@@ -65353,7 +65536,7 @@
           "points": 75
         }
       ],
-      "durationMs": 240,
+      "durationMs": 371,
       "attempts": 1
     },
     {
@@ -65492,7 +65675,7 @@
           "points": 100
         }
       ],
-      "durationMs": 220,
+      "durationMs": 345,
       "attempts": 1
     },
     {
@@ -65711,7 +65894,7 @@
           "points": 138
         }
       ],
-      "durationMs": 224,
+      "durationMs": 392,
       "attempts": 1
     },
     {
@@ -66306,7 +66489,7 @@
           "points": 75
         }
       ],
-      "durationMs": 297,
+      "durationMs": 475,
       "attempts": 1
     },
     {
@@ -66477,7 +66660,7 @@
           "points": 138
         }
       ],
-      "durationMs": 228,
+      "durationMs": 371,
       "attempts": 1
     },
     {
@@ -66624,7 +66807,7 @@
           "points": 75
         }
       ],
-      "durationMs": 223,
+      "durationMs": 321,
       "attempts": 1
     },
     {
@@ -66907,7 +67090,7 @@
           "points": 75
         }
       ],
-      "durationMs": 222,
+      "durationMs": 293,
       "attempts": 1
     },
     {
@@ -67182,7 +67365,7 @@
           "points": 75
         }
       ],
-      "durationMs": 223,
+      "durationMs": 246,
       "attempts": 1
     },
     {
@@ -67305,7 +67488,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 193,
+      "durationMs": 217,
       "attempts": 1
     },
     {
@@ -67684,7 +67867,7 @@
           "points": 75
         }
       ],
-      "durationMs": 211,
+      "durationMs": 254,
       "attempts": 1
     },
     {
@@ -67983,7 +68166,7 @@
           "points": 75
         }
       ],
-      "durationMs": 280,
+      "durationMs": 209,
       "attempts": 1
     },
     {
@@ -68106,7 +68289,7 @@
           "points": 110
         }
       ],
-      "durationMs": 191,
+      "durationMs": 197,
       "attempts": 1
     },
     {
@@ -68245,7 +68428,7 @@
           "points": 100
         }
       ],
-      "durationMs": 199,
+      "durationMs": 368,
       "attempts": 1
     },
     {
@@ -68440,7 +68623,7 @@
           "points": 75
         }
       ],
-      "durationMs": 207,
+      "durationMs": 383,
       "attempts": 1
     },
     {
@@ -68635,7 +68818,7 @@
           "points": 138
         }
       ],
-      "durationMs": 187,
+      "durationMs": 415,
       "attempts": 1
     },
     {
@@ -68718,7 +68901,7 @@
           "points": 138
         }
       ],
-      "durationMs": 165,
+      "durationMs": 330,
       "attempts": 1
     },
     {
@@ -68897,7 +69080,7 @@
           "points": 75
         }
       ],
-      "durationMs": 231,
+      "durationMs": 395,
       "attempts": 1
     },
     {
@@ -69108,7 +69291,7 @@
           "points": 138
         }
       ],
-      "durationMs": 234,
+      "durationMs": 340,
       "attempts": 1
     },
     {
@@ -69183,7 +69366,7 @@
           "points": 138
         }
       ],
-      "durationMs": 192,
+      "durationMs": 206,
       "attempts": 1
     },
     {
@@ -70301,7 +70484,7 @@
           "points": 75
         }
       ],
-      "durationMs": 309,
+      "durationMs": 323,
       "attempts": 1
     },
     {
@@ -71016,7 +71199,7 @@
           "points": 75
         }
       ],
-      "durationMs": 396,
+      "durationMs": 321,
       "attempts": 1
     },
     {
@@ -71387,7 +71570,7 @@
           "points": 75
         }
       ],
-      "durationMs": 412,
+      "durationMs": 351,
       "attempts": 1
     },
     {
@@ -71630,7 +71813,7 @@
           "points": 75
         }
       ],
-      "durationMs": 384,
+      "durationMs": 309,
       "attempts": 1
     },
     {
@@ -72057,7 +72240,7 @@
           "points": 75
         }
       ],
-      "durationMs": 432,
+      "durationMs": 240,
       "attempts": 1
     },
     {
@@ -72980,7 +73163,7 @@
           "points": 75
         }
       ],
-      "durationMs": 496,
+      "durationMs": 310,
       "attempts": 1
     },
     {
@@ -73423,7 +73606,7 @@
           "points": 75
         }
       ],
-      "durationMs": 464,
+      "durationMs": 295,
       "attempts": 1
     },
     {
@@ -73770,7 +73953,7 @@
           "points": 75
         }
       ],
-      "durationMs": 314,
+      "durationMs": 260,
       "attempts": 1
     },
     {
@@ -74205,7 +74388,7 @@
           "points": 75
         }
       ],
-      "durationMs": 292,
+      "durationMs": 262,
       "attempts": 1
     },
     {
@@ -74312,7 +74495,7 @@
           "points": 150
         }
       ],
-      "durationMs": 202,
+      "durationMs": 198,
       "attempts": 1
     },
     {
@@ -74411,7 +74594,7 @@
           "points": 150
         }
       ],
-      "durationMs": 180,
+      "durationMs": 245,
       "attempts": 1
     },
     {
@@ -74646,7 +74829,7 @@
           "points": 83
         }
       ],
-      "durationMs": 201,
+      "durationMs": 218,
       "attempts": 1
     },
     {
@@ -74857,7 +75040,7 @@
           "points": 100
         }
       ],
-      "durationMs": 190,
+      "durationMs": 261,
       "attempts": 1
     },
     {
@@ -74980,7 +75163,7 @@
           "points": 138
         }
       ],
-      "durationMs": 178,
+      "durationMs": 207,
       "attempts": 1
     },
     {
@@ -75095,7 +75278,7 @@
           "points": 138
         }
       ],
-      "durationMs": 222,
+      "durationMs": 250,
       "attempts": 1
     },
     {
@@ -75394,7 +75577,7 @@
           "points": 83
         }
       ],
-      "durationMs": 275,
+      "durationMs": 246,
       "attempts": 1
     },
     {
@@ -75589,7 +75772,7 @@
           "points": 75
         }
       ],
-      "durationMs": 214,
+      "durationMs": 235,
       "attempts": 1
     },
     {
@@ -75712,7 +75895,7 @@
           "points": 138
         }
       ],
-      "durationMs": 176,
+      "durationMs": 172,
       "attempts": 1
     },
     {
@@ -75923,7 +76106,7 @@
           "points": 98
         }
       ],
-      "durationMs": 196,
+      "durationMs": 247,
       "attempts": 1
     },
     {
@@ -76150,7 +76333,7 @@
           "points": 110
         }
       ],
-      "durationMs": 222,
+      "durationMs": 236,
       "attempts": 1
     },
     {
@@ -76168,7 +76351,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 153,
+      "durationMs": 169,
       "attempts": 1
     },
     {
@@ -76427,7 +76610,7 @@
           "points": 138
         }
       ],
-      "durationMs": 228,
+      "durationMs": 231,
       "attempts": 1
     },
     {
@@ -77254,7 +77437,7 @@
           "points": 75
         }
       ],
-      "durationMs": 332,
+      "durationMs": 417,
       "attempts": 1
     },
     {
@@ -78065,7 +78248,7 @@
           "points": 75
         }
       ],
-      "durationMs": 393,
+      "durationMs": 412,
       "attempts": 1
     },
     {
@@ -78468,7 +78651,7 @@
           "points": 83
         }
       ],
-      "durationMs": 292,
+      "durationMs": 343,
       "attempts": 1
     },
     {
@@ -78671,7 +78854,7 @@
           "points": 138
         }
       ],
-      "durationMs": 242,
+      "durationMs": 276,
       "attempts": 1
     },
     {
@@ -79034,7 +79217,7 @@
           "points": 75
         }
       ],
-      "durationMs": 288,
+      "durationMs": 334,
       "attempts": 1
     },
     {
@@ -79765,7 +79948,7 @@
           "points": 75
         }
       ],
-      "durationMs": 324,
+      "durationMs": 426,
       "attempts": 1
     },
     {
@@ -80304,7 +80487,7 @@
           "points": 83
         }
       ],
-      "durationMs": 290,
+      "durationMs": 334,
       "attempts": 1
     },
     {
@@ -80547,7 +80730,7 @@
           "points": 75
         }
       ],
-      "durationMs": 293,
+      "durationMs": 278,
       "attempts": 1
     }
   ]

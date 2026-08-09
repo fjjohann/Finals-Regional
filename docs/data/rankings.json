@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T12:48:58.249410+00:00",
+  "generatedAt": "2026-08-09T12:50:18.859793+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
@@ -1573,7 +1573,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 360,
+      "durationMs": 496,
       "attempts": 1
     },
     {
@@ -2527,7 +2527,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 297,
+      "durationMs": 330,
       "attempts": 1
     },
     {
@@ -3118,7 +3118,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 335,
+      "durationMs": 464,
       "attempts": 1
     },
     {
@@ -4578,7 +4578,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 401,
+      "durationMs": 586,
       "attempts": 1
     },
     {
@@ -5752,7 +5752,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 418,
+      "durationMs": 540,
       "attempts": 1
     },
     {
@@ -6299,7 +6299,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 325,
+      "durationMs": 375,
       "attempts": 1
     },
     {
@@ -6813,7 +6813,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 336,
+      "durationMs": 589,
       "attempts": 1
     },
     {
@@ -7569,7 +7569,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 447,
+      "durationMs": 579,
       "attempts": 1
     },
     {
@@ -8061,7 +8061,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 417,
+      "durationMs": 562,
       "attempts": 1
     },
     {
@@ -8454,7 +8454,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 324,
+      "durationMs": 441,
       "attempts": 1
     },
     {
@@ -9122,7 +9122,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 516,
+      "durationMs": 549,
       "attempts": 1
     },
     {
@@ -9889,7 +9889,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 377,
+      "durationMs": 463,
       "attempts": 1
     },
     {
@@ -10772,7 +10772,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 5619,
+      "durationMs": 6649,
       "attempts": 1
     },
     {
@@ -12430,7 +12430,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2335,
+      "durationMs": 2809,
       "attempts": 1
     },
     {
@@ -16088,7 +16088,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2368,
+      "durationMs": 3424,
       "attempts": 1
     },
     {
@@ -19550,7 +19550,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1145,
+      "durationMs": 906,
       "attempts": 1
     },
     {
@@ -21758,7 +21758,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1234,
+      "durationMs": 1106,
       "attempts": 1
     },
     {
@@ -22763,7 +22763,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 2248,
+      "durationMs": 2539,
       "attempts": 1
     },
     {
@@ -24581,7 +24581,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1981,
+      "durationMs": 2564,
       "attempts": 1
     },
     {
@@ -24606,18 +24606,8 @@
           "categoryCode": "BTMC",
           "sourcePosition": 1,
           "points": 18245,
-          "stateProjectionMax": 19775,
-          "statePointComponents": [
-            2750,
-            2750,
-            2750,
-            2400,
-            2200,
-            2000,
-            1925,
-            1470
-          ],
-          "stateTop2Guaranteed": false,
+          "stateProjectionMax": 18245,
+          "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
         {
@@ -24627,18 +24617,8 @@
           "categoryCode": "BTMC",
           "sourcePosition": 2,
           "points": 17291,
-          "stateProjectionMax": 18943,
-          "statePointComponents": [
-            3000,
-            3000,
-            3000,
-            2200,
-            1925,
-            1470,
-            1348,
-            1348
-          ],
-          "stateTop2Guaranteed": false,
+          "stateProjectionMax": 17291,
+          "stateTop2Guaranteed": true,
           "stateFinalsGuaranteed": false
         },
         {
@@ -24648,19 +24628,9 @@
           "categoryCode": "BTMC",
           "sourcePosition": 3,
           "points": 17000,
-          "stateProjectionMax": 19020,
-          "statePointComponents": [
-            2750,
-            2750,
-            2750,
-            2100,
-            2100,
-            2100,
-            1470,
-            980
-          ],
+          "stateProjectionMax": 17000,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 4,
@@ -24669,19 +24639,9 @@
           "categoryCode": "BTMC",
           "sourcePosition": 4,
           "points": 16793,
-          "stateProjectionMax": 18445,
-          "statePointComponents": [
-            3000,
-            2750,
-            2200,
-            2100,
-            2000,
-            1925,
-            1470,
-            1348
-          ],
+          "stateProjectionMax": 16793,
           "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
+          "stateFinalsGuaranteed": true
         },
         {
           "position": 5,
@@ -24690,17 +24650,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 5,
           "points": 14601,
-          "stateProjectionMax": 16571,
-          "statePointComponents": [
-            3000,
-            2750,
-            2000,
-            1925,
-            1470,
-            1348,
-            1078,
-            1030
-          ],
+          "stateProjectionMax": 14601,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": true
         },
@@ -24711,17 +24661,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 6,
           "points": 14593,
-          "stateProjectionMax": 16563,
-          "statePointComponents": [
-            2750,
-            2400,
-            2200,
-            1925,
-            1470,
-            1470,
-            1348,
-            1030
-          ],
+          "stateProjectionMax": 14593,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": true
         },
@@ -24732,6 +24672,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 7,
           "points": 11193,
+          "stateProjectionMax": 11193,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24742,6 +24683,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 8,
           "points": 10896,
+          "stateProjectionMax": 10896,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24752,6 +24694,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 9,
           "points": 10729,
+          "stateProjectionMax": 10729,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24762,6 +24705,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 10,
           "points": 8740,
+          "stateProjectionMax": 8740,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24772,6 +24716,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 11,
           "points": 8712,
+          "stateProjectionMax": 8712,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24782,6 +24727,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 12,
           "points": 8616,
+          "stateProjectionMax": 8616,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24792,6 +24738,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 13,
           "points": 7792,
+          "stateProjectionMax": 7792,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24802,6 +24749,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 14,
           "points": 7707,
+          "stateProjectionMax": 7707,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24812,6 +24760,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 15,
           "points": 7444,
+          "stateProjectionMax": 7444,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24822,6 +24771,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 16,
           "points": 6872,
+          "stateProjectionMax": 6872,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24832,6 +24782,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 17,
           "points": 6797,
+          "stateProjectionMax": 6797,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24842,6 +24793,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 18,
           "points": 6760,
+          "stateProjectionMax": 6760,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24852,6 +24804,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 19,
           "points": 6506,
+          "stateProjectionMax": 6506,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24862,6 +24815,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 20,
           "points": 6366,
+          "stateProjectionMax": 6366,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24872,6 +24826,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 21,
           "points": 6100,
+          "stateProjectionMax": 6100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24882,6 +24837,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 22,
           "points": 6031,
+          "stateProjectionMax": 6031,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24892,6 +24848,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 23,
           "points": 5820,
+          "stateProjectionMax": 5820,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24902,6 +24859,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 24,
           "points": 5620,
+          "stateProjectionMax": 5620,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24912,6 +24870,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 25,
           "points": 5301,
+          "stateProjectionMax": 5301,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24922,6 +24881,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 27,
           "points": 5206,
+          "stateProjectionMax": 5206,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24932,6 +24892,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 28,
           "points": 5034,
+          "stateProjectionMax": 5034,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24942,6 +24903,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 30,
           "points": 4994,
+          "stateProjectionMax": 4994,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24952,6 +24914,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 32,
           "points": 4858,
+          "stateProjectionMax": 4858,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24962,6 +24925,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 33,
           "points": 4759,
+          "stateProjectionMax": 4759,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24972,6 +24936,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 34,
           "points": 4622,
+          "stateProjectionMax": 4622,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24982,6 +24947,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 35,
           "points": 4609,
+          "stateProjectionMax": 4609,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -24992,6 +24958,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 36,
           "points": 4406,
+          "stateProjectionMax": 4406,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25002,6 +24969,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 37,
           "points": 4238,
+          "stateProjectionMax": 4238,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25012,6 +24980,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 38,
           "points": 4202,
+          "stateProjectionMax": 4202,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25022,6 +24991,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 38,
           "points": 4202,
+          "stateProjectionMax": 4202,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25032,6 +25002,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 39,
           "points": 4065,
+          "stateProjectionMax": 4065,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25042,6 +25013,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 40,
           "points": 3859,
+          "stateProjectionMax": 3859,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25052,6 +25024,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 41,
           "points": 3810,
+          "stateProjectionMax": 3810,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25062,6 +25035,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 42,
           "points": 3766,
+          "stateProjectionMax": 3766,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25072,6 +25046,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 43,
           "points": 3642,
+          "stateProjectionMax": 3642,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25082,6 +25057,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 44,
           "points": 3613,
+          "stateProjectionMax": 3613,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25092,6 +25068,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 45,
           "points": 3594,
+          "stateProjectionMax": 3594,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25102,6 +25079,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 46,
           "points": 3537,
+          "stateProjectionMax": 3537,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25112,6 +25090,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 47,
           "points": 3506,
+          "stateProjectionMax": 3506,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25122,6 +25101,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 49,
           "points": 3418,
+          "stateProjectionMax": 3418,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25132,6 +25112,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 50,
           "points": 3402,
+          "stateProjectionMax": 3402,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25142,6 +25123,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 51,
           "points": 3382,
+          "stateProjectionMax": 3382,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25152,6 +25134,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 52,
           "points": 3362,
+          "stateProjectionMax": 3362,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25162,6 +25145,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 54,
           "points": 3238,
+          "stateProjectionMax": 3238,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25172,6 +25156,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 55,
           "points": 3223,
+          "stateProjectionMax": 3223,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25182,6 +25167,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 57,
           "points": 3188,
+          "stateProjectionMax": 3188,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25192,6 +25178,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 58,
           "points": 3156,
+          "stateProjectionMax": 3156,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25202,6 +25189,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 59,
           "points": 3041,
+          "stateProjectionMax": 3041,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25212,6 +25200,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 60,
           "points": 3012,
+          "stateProjectionMax": 3012,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25222,6 +25211,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 61,
           "points": 2988,
+          "stateProjectionMax": 2988,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25232,6 +25222,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 63,
           "points": 2920,
+          "stateProjectionMax": 2920,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25242,6 +25233,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 64,
           "points": 2918,
+          "stateProjectionMax": 2918,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25252,6 +25244,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 65,
           "points": 2904,
+          "stateProjectionMax": 2904,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25262,6 +25255,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 66,
           "points": 2887,
+          "stateProjectionMax": 2887,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25272,6 +25266,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 67,
           "points": 2860,
+          "stateProjectionMax": 2860,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25282,6 +25277,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 68,
           "points": 2858,
+          "stateProjectionMax": 2858,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25292,6 +25288,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 70,
           "points": 2797,
+          "stateProjectionMax": 2797,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25302,6 +25299,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 71,
           "points": 2729,
+          "stateProjectionMax": 2729,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25312,6 +25310,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 72,
           "points": 2726,
+          "stateProjectionMax": 2726,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25322,6 +25321,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 73,
           "points": 2725,
+          "stateProjectionMax": 2725,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25332,6 +25332,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 74,
           "points": 2697,
+          "stateProjectionMax": 2697,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25342,6 +25343,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 75,
           "points": 2695,
+          "stateProjectionMax": 2695,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25352,6 +25354,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 76,
           "points": 2682,
+          "stateProjectionMax": 2682,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25362,6 +25365,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 77,
           "points": 2660,
+          "stateProjectionMax": 2660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25372,6 +25376,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 78,
           "points": 2646,
+          "stateProjectionMax": 2646,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25382,6 +25387,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 79,
           "points": 2561,
+          "stateProjectionMax": 2561,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25392,6 +25398,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 80,
           "points": 2538,
+          "stateProjectionMax": 2538,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25402,6 +25409,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 81,
           "points": 2491,
+          "stateProjectionMax": 2491,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25412,6 +25420,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 81,
           "points": 2491,
+          "stateProjectionMax": 2491,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25422,6 +25431,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 82,
           "points": 2487,
+          "stateProjectionMax": 2487,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25432,6 +25442,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 83,
           "points": 2484,
+          "stateProjectionMax": 2484,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25442,6 +25453,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 84,
           "points": 2420,
+          "stateProjectionMax": 2420,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25452,6 +25464,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 85,
           "points": 2338,
+          "stateProjectionMax": 2338,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25462,6 +25475,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 86,
           "points": 2313,
+          "stateProjectionMax": 2313,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25472,6 +25486,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 87,
           "points": 2299,
+          "stateProjectionMax": 2299,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25482,6 +25497,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 88,
           "points": 2183,
+          "stateProjectionMax": 2183,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25492,6 +25508,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 89,
           "points": 2156,
+          "stateProjectionMax": 2156,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25502,6 +25519,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 89,
           "points": 2156,
+          "stateProjectionMax": 2156,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25512,6 +25530,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 90,
           "points": 2134,
+          "stateProjectionMax": 2134,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25522,6 +25541,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 90,
           "points": 2134,
+          "stateProjectionMax": 2134,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25532,6 +25552,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 92,
           "points": 2112,
+          "stateProjectionMax": 2112,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25542,6 +25563,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 92,
           "points": 2112,
+          "stateProjectionMax": 2112,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25552,6 +25574,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 93,
           "points": 2108,
+          "stateProjectionMax": 2108,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25562,6 +25585,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 94,
           "points": 2082,
+          "stateProjectionMax": 2082,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25572,6 +25596,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 94,
           "points": 2082,
+          "stateProjectionMax": 2082,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25582,6 +25607,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 95,
           "points": 2072,
+          "stateProjectionMax": 2072,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25592,6 +25618,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 97,
           "points": 2034,
+          "stateProjectionMax": 2034,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25602,6 +25629,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 98,
           "points": 2006,
+          "stateProjectionMax": 2006,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25612,6 +25640,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 101,
           "points": 1940,
+          "stateProjectionMax": 1940,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25622,6 +25651,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 102,
           "points": 1916,
+          "stateProjectionMax": 1916,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25632,6 +25662,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 103,
           "points": 1912,
+          "stateProjectionMax": 1912,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25642,6 +25673,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 104,
           "points": 1896,
+          "stateProjectionMax": 1896,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25652,6 +25684,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 105,
           "points": 1854,
+          "stateProjectionMax": 1854,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25662,6 +25695,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 105,
           "points": 1854,
+          "stateProjectionMax": 1854,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25672,6 +25706,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 106,
           "points": 1845,
+          "stateProjectionMax": 1845,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25682,6 +25717,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 108,
           "points": 1828,
+          "stateProjectionMax": 1828,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25692,6 +25728,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 109,
           "points": 1807,
+          "stateProjectionMax": 1807,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25702,6 +25739,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 110,
           "points": 1804,
+          "stateProjectionMax": 1804,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25712,6 +25750,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 111,
           "points": 1798,
+          "stateProjectionMax": 1798,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25722,6 +25761,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 112,
           "points": 1774,
+          "stateProjectionMax": 1774,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25732,6 +25772,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 113,
           "points": 1765,
+          "stateProjectionMax": 1765,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25742,6 +25783,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 114,
           "points": 1741,
+          "stateProjectionMax": 1741,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25752,6 +25794,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 115,
           "points": 1738,
+          "stateProjectionMax": 1738,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25762,6 +25805,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 115,
           "points": 1738,
+          "stateProjectionMax": 1738,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25772,6 +25816,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 115,
           "points": 1738,
+          "stateProjectionMax": 1738,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25782,6 +25827,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 117,
           "points": 1699,
+          "stateProjectionMax": 1699,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25792,6 +25838,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 118,
           "points": 1680,
+          "stateProjectionMax": 1680,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25802,6 +25849,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 118,
           "points": 1680,
+          "stateProjectionMax": 1680,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25812,6 +25860,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 119,
           "points": 1658,
+          "stateProjectionMax": 1658,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25822,6 +25871,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 121,
           "points": 1596,
+          "stateProjectionMax": 1596,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25832,6 +25882,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 122,
           "points": 1590,
+          "stateProjectionMax": 1590,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25842,6 +25893,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 123,
           "points": 1587,
+          "stateProjectionMax": 1587,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25852,6 +25904,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 124,
           "points": 1558,
+          "stateProjectionMax": 1558,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25862,6 +25915,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 125,
           "points": 1550,
+          "stateProjectionMax": 1550,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25872,6 +25926,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 126,
           "points": 1544,
+          "stateProjectionMax": 1544,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25882,6 +25937,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 126,
           "points": 1544,
+          "stateProjectionMax": 1544,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25892,6 +25948,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 127,
           "points": 1540,
+          "stateProjectionMax": 1540,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25902,6 +25959,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 128,
           "points": 1538,
+          "stateProjectionMax": 1538,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25912,6 +25970,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 129,
           "points": 1484,
+          "stateProjectionMax": 1484,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25922,6 +25981,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 130,
           "points": 1476,
+          "stateProjectionMax": 1476,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25932,6 +25992,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 131,
           "points": 1470,
+          "stateProjectionMax": 1470,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25942,6 +26003,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 132,
           "points": 1466,
+          "stateProjectionMax": 1466,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25952,6 +26014,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 133,
           "points": 1447,
+          "stateProjectionMax": 1447,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25962,6 +26025,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 134,
           "points": 1446,
+          "stateProjectionMax": 1446,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25972,6 +26036,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 135,
           "points": 1413,
+          "stateProjectionMax": 1413,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25982,6 +26047,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 136,
           "points": 1400,
+          "stateProjectionMax": 1400,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -25992,6 +26058,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 136,
           "points": 1400,
+          "stateProjectionMax": 1400,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26002,6 +26069,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 137,
           "points": 1385,
+          "stateProjectionMax": 1385,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26012,6 +26080,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 138,
           "points": 1380,
+          "stateProjectionMax": 1380,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26022,6 +26091,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 139,
           "points": 1332,
+          "stateProjectionMax": 1332,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26032,6 +26102,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 140,
           "points": 1328,
+          "stateProjectionMax": 1328,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26042,6 +26113,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 141,
           "points": 1296,
+          "stateProjectionMax": 1296,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26052,6 +26124,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 141,
           "points": 1296,
+          "stateProjectionMax": 1296,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26062,6 +26135,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 142,
           "points": 1250,
+          "stateProjectionMax": 1250,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26072,6 +26146,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 143,
           "points": 1233,
+          "stateProjectionMax": 1233,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26082,6 +26157,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 144,
           "points": 1230,
+          "stateProjectionMax": 1230,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26092,6 +26168,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 145,
           "points": 1228,
+          "stateProjectionMax": 1228,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26102,6 +26179,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 145,
           "points": 1228,
+          "stateProjectionMax": 1228,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26112,6 +26190,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 146,
           "points": 1224,
+          "stateProjectionMax": 1224,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26122,6 +26201,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 147,
           "points": 1216,
+          "stateProjectionMax": 1216,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26132,6 +26212,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 147,
           "points": 1216,
+          "stateProjectionMax": 1216,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26142,6 +26223,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 148,
           "points": 1192,
+          "stateProjectionMax": 1192,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26152,6 +26234,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 149,
           "points": 1188,
+          "stateProjectionMax": 1188,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26162,6 +26245,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 150,
           "points": 1180,
+          "stateProjectionMax": 1180,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26172,6 +26256,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 151,
           "points": 1163,
+          "stateProjectionMax": 1163,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26182,6 +26267,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 152,
           "points": 1144,
+          "stateProjectionMax": 1144,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26192,6 +26278,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 153,
           "points": 1124,
+          "stateProjectionMax": 1124,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26202,6 +26289,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 154,
           "points": 1084,
+          "stateProjectionMax": 1084,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26212,6 +26300,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 154,
           "points": 1084,
+          "stateProjectionMax": 1084,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26222,6 +26311,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 155,
           "points": 1080,
+          "stateProjectionMax": 1080,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26232,6 +26322,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 155,
           "points": 1080,
+          "stateProjectionMax": 1080,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26242,6 +26333,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 155,
           "points": 1080,
+          "stateProjectionMax": 1080,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26252,6 +26344,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 155,
           "points": 1080,
+          "stateProjectionMax": 1080,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26262,6 +26355,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 155,
           "points": 1080,
+          "stateProjectionMax": 1080,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26272,6 +26366,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 156,
           "points": 1078,
+          "stateProjectionMax": 1078,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26282,6 +26377,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 157,
           "points": 1058,
+          "stateProjectionMax": 1058,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26292,6 +26388,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 158,
           "points": 1057,
+          "stateProjectionMax": 1057,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26302,6 +26399,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 159,
           "points": 1054,
+          "stateProjectionMax": 1054,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26312,6 +26410,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 160,
           "points": 1030,
+          "stateProjectionMax": 1030,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26322,6 +26421,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 162,
           "points": 996,
+          "stateProjectionMax": 996,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26332,6 +26432,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 163,
           "points": 990,
+          "stateProjectionMax": 990,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26342,6 +26443,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 164,
           "points": 985,
+          "stateProjectionMax": 985,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26352,6 +26454,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 165,
           "points": 980,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26362,6 +26465,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 165,
           "points": 980,
+          "stateProjectionMax": 980,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26372,6 +26476,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 166,
           "points": 979,
+          "stateProjectionMax": 979,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26382,6 +26487,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 166,
           "points": 979,
+          "stateProjectionMax": 979,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26392,6 +26498,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 167,
           "points": 974,
+          "stateProjectionMax": 974,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26402,6 +26509,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 167,
           "points": 974,
+          "stateProjectionMax": 974,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26412,6 +26520,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 168,
           "points": 958,
+          "stateProjectionMax": 958,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26422,6 +26531,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 169,
           "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26432,6 +26542,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 169,
           "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26442,6 +26553,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 169,
           "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26452,6 +26564,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 169,
           "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26462,6 +26575,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 169,
           "points": 944,
+          "stateProjectionMax": 944,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26472,6 +26586,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 170,
           "points": 936,
+          "stateProjectionMax": 936,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26482,6 +26597,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 171,
           "points": 931,
+          "stateProjectionMax": 931,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26492,6 +26608,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 172,
           "points": 920,
+          "stateProjectionMax": 920,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26502,6 +26619,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 173,
           "points": 907,
+          "stateProjectionMax": 907,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26512,6 +26630,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 174,
           "points": 894,
+          "stateProjectionMax": 894,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26522,6 +26641,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 176,
           "points": 866,
+          "stateProjectionMax": 866,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26532,6 +26652,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 177,
           "points": 858,
+          "stateProjectionMax": 858,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26542,6 +26663,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 178,
           "points": 824,
+          "stateProjectionMax": 824,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26552,6 +26674,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 178,
           "points": 824,
+          "stateProjectionMax": 824,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26562,6 +26685,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 179,
           "points": 820,
+          "stateProjectionMax": 820,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26572,6 +26696,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 180,
           "points": 786,
+          "stateProjectionMax": 786,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26582,6 +26707,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 181,
           "points": 770,
+          "stateProjectionMax": 770,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26592,6 +26718,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26602,6 +26729,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26612,6 +26740,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26622,6 +26751,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26632,6 +26762,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26642,6 +26773,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 182,
           "points": 756,
+          "stateProjectionMax": 756,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26652,6 +26784,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 183,
           "points": 734,
+          "stateProjectionMax": 734,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26662,6 +26795,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 184,
           "points": 726,
+          "stateProjectionMax": 726,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26672,6 +26806,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 184,
           "points": 726,
+          "stateProjectionMax": 726,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26682,6 +26817,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 184,
           "points": 726,
+          "stateProjectionMax": 726,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26692,6 +26828,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 184,
           "points": 726,
+          "stateProjectionMax": 726,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26702,6 +26839,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26712,6 +26850,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26722,6 +26861,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26732,6 +26872,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26742,6 +26883,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26752,6 +26894,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26762,6 +26905,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 185,
           "points": 720,
+          "stateProjectionMax": 720,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26772,6 +26916,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26782,6 +26927,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26792,6 +26938,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26802,6 +26949,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26812,6 +26960,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26822,6 +26971,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26832,6 +26982,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 186,
           "points": 687,
+          "stateProjectionMax": 687,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26842,6 +26993,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 187,
           "points": 678,
+          "stateProjectionMax": 678,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26852,6 +27004,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 188,
           "points": 662,
+          "stateProjectionMax": 662,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26862,6 +27015,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26872,6 +27026,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26882,6 +27037,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26892,6 +27048,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26902,6 +27059,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26912,6 +27070,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26922,6 +27081,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 189,
           "points": 660,
+          "stateProjectionMax": 660,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26932,6 +27092,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 190,
           "points": 654,
+          "stateProjectionMax": 654,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26942,6 +27103,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 191,
           "points": 640,
+          "stateProjectionMax": 640,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26952,6 +27114,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 192,
           "points": 624,
+          "stateProjectionMax": 624,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26962,6 +27125,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 192,
           "points": 624,
+          "stateProjectionMax": 624,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26972,6 +27136,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 192,
           "points": 624,
+          "stateProjectionMax": 624,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26982,6 +27147,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 193,
           "points": 622,
+          "stateProjectionMax": 622,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -26992,6 +27158,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 194,
           "points": 600,
+          "stateProjectionMax": 600,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27002,6 +27169,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27012,6 +27180,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27022,6 +27191,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27032,6 +27202,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27042,6 +27213,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27052,6 +27224,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27062,6 +27235,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27072,6 +27246,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27082,6 +27257,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27092,6 +27268,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27102,6 +27279,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 195,
           "points": 576,
+          "stateProjectionMax": 576,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27112,6 +27290,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 196,
           "points": 553,
+          "stateProjectionMax": 553,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27122,6 +27301,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 196,
           "points": 553,
+          "stateProjectionMax": 553,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27132,6 +27312,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 197,
           "points": 540,
+          "stateProjectionMax": 540,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27142,6 +27323,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 198,
           "points": 528,
+          "stateProjectionMax": 528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27152,6 +27334,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 198,
           "points": 528,
+          "stateProjectionMax": 528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27162,6 +27345,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 198,
           "points": 528,
+          "stateProjectionMax": 528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27172,6 +27356,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 198,
           "points": 528,
+          "stateProjectionMax": 528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27182,6 +27367,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 198,
           "points": 528,
+          "stateProjectionMax": 528,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27192,6 +27378,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 199,
           "points": 523,
+          "stateProjectionMax": 523,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27202,6 +27389,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 200,
           "points": 504,
+          "stateProjectionMax": 504,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27212,6 +27400,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 200,
           "points": 504,
+          "stateProjectionMax": 504,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27222,6 +27411,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 200,
           "points": 504,
+          "stateProjectionMax": 504,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27232,6 +27422,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 200,
           "points": 504,
+          "stateProjectionMax": 504,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27242,6 +27433,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 200,
           "points": 504,
+          "stateProjectionMax": 504,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27252,6 +27444,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 201,
           "points": 503,
+          "stateProjectionMax": 503,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27262,6 +27455,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 202,
           "points": 491,
+          "stateProjectionMax": 491,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27272,6 +27466,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 203,
           "points": 480,
+          "stateProjectionMax": 480,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27282,6 +27477,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 203,
           "points": 480,
+          "stateProjectionMax": 480,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27292,6 +27488,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 203,
           "points": 480,
+          "stateProjectionMax": 480,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27302,6 +27499,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 203,
           "points": 480,
+          "stateProjectionMax": 480,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27312,6 +27510,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 203,
           "points": 480,
+          "stateProjectionMax": 480,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27322,6 +27521,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 204,
           "points": 462,
+          "stateProjectionMax": 462,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27332,6 +27532,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 205,
           "points": 432,
+          "stateProjectionMax": 432,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27342,6 +27543,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 205,
           "points": 432,
+          "stateProjectionMax": 432,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27352,6 +27554,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 206,
           "points": 403,
+          "stateProjectionMax": 403,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27362,6 +27565,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 206,
           "points": 403,
+          "stateProjectionMax": 403,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27372,6 +27576,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 206,
           "points": 403,
+          "stateProjectionMax": 403,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27382,6 +27587,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 206,
           "points": 403,
+          "stateProjectionMax": 403,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27392,6 +27598,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 207,
           "points": 402,
+          "stateProjectionMax": 402,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27402,6 +27609,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 208,
           "points": 398,
+          "stateProjectionMax": 398,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27412,6 +27620,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 209,
           "points": 390,
+          "stateProjectionMax": 390,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27422,6 +27631,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 210,
           "points": 370,
+          "stateProjectionMax": 370,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27432,6 +27642,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 211,
           "points": 348,
+          "stateProjectionMax": 348,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27442,6 +27653,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 212,
           "points": 336,
+          "stateProjectionMax": 336,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27452,6 +27664,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 213,
           "points": 282,
+          "stateProjectionMax": 282,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27462,6 +27675,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 213,
           "points": 282,
+          "stateProjectionMax": 282,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27472,6 +27686,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 214,
           "points": 276,
+          "stateProjectionMax": 276,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27482,6 +27697,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27492,6 +27708,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27502,6 +27719,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27512,6 +27730,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27522,6 +27741,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27532,6 +27752,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27542,6 +27763,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 215,
           "points": 270,
+          "stateProjectionMax": 270,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27552,6 +27774,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 216,
           "points": 260,
+          "stateProjectionMax": 260,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27562,6 +27785,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 216,
           "points": 260,
+          "stateProjectionMax": 260,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27572,6 +27796,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 217,
           "points": 259,
+          "stateProjectionMax": 259,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27582,6 +27807,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 218,
           "points": 258,
+          "stateProjectionMax": 258,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27592,6 +27818,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 219,
           "points": 252,
+          "stateProjectionMax": 252,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27602,6 +27829,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 219,
           "points": 252,
+          "stateProjectionMax": 252,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27612,6 +27840,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 220,
           "points": 248,
+          "stateProjectionMax": 248,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27622,6 +27851,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 221,
           "points": 230,
+          "stateProjectionMax": 230,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27632,6 +27862,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 222,
           "points": 210,
+          "stateProjectionMax": 210,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27642,6 +27873,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27652,6 +27884,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27662,6 +27895,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27672,6 +27906,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27682,6 +27917,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27692,6 +27928,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27702,6 +27939,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27712,6 +27950,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27722,6 +27961,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27732,6 +27972,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27742,6 +27983,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27752,6 +27994,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27762,6 +28005,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27772,6 +28016,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27782,6 +28027,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27792,6 +28038,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27802,6 +28049,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27812,6 +28060,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27822,6 +28071,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27832,6 +28082,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27842,6 +28093,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 223,
           "points": 150,
+          "stateProjectionMax": 150,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27852,6 +28104,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27862,6 +28115,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27872,6 +28126,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27882,6 +28137,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27892,6 +28148,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27902,6 +28159,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27912,6 +28170,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27922,6 +28181,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27932,6 +28192,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27942,6 +28203,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27952,6 +28214,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27962,6 +28225,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 224,
           "points": 138,
+          "stateProjectionMax": 138,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27972,6 +28236,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27982,6 +28247,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -27992,6 +28258,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28002,6 +28269,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28012,6 +28280,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28022,6 +28291,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28032,6 +28302,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28042,6 +28313,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28052,6 +28324,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28062,6 +28335,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28072,6 +28346,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28082,6 +28357,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28092,6 +28368,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 225,
           "points": 120,
+          "stateProjectionMax": 120,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28102,6 +28379,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28112,6 +28390,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28122,6 +28401,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28132,6 +28412,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28142,6 +28423,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28152,6 +28434,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28162,6 +28445,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28172,6 +28456,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28182,6 +28467,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28192,6 +28478,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 226,
           "points": 110,
+          "stateProjectionMax": 110,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28202,6 +28489,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28212,6 +28500,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28222,6 +28511,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28232,6 +28522,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28242,6 +28533,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28252,6 +28544,7 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         },
@@ -28262,11 +28555,12 @@
           "categoryCode": "BTMC",
           "sourcePosition": 227,
           "points": 100,
+          "stateProjectionMax": 100,
           "stateTop2Guaranteed": false,
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 1896,
+      "durationMs": 990,
       "attempts": 1
     },
     {
@@ -31178,7 +31472,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 597,
+      "durationMs": 943,
       "attempts": 1
     },
     {
@@ -32638,7 +32932,7 @@
           "stateFinalsGuaranteed": false
         }
       ],
-      "durationMs": 426,
+      "durationMs": 523,
       "attempts": 1
     },
     {
@@ -33505,7 +33799,7 @@
           "points": 75
         }
       ],
-      "durationMs": 316,
+      "durationMs": 528,
       "attempts": 1
     },
     {
@@ -33988,7 +34282,7 @@
           "points": 75
         }
       ],
-      "durationMs": 232,
+      "durationMs": 530,
       "attempts": 1
     },
     {
@@ -34327,7 +34621,7 @@
           "points": 90
         }
       ],
-      "durationMs": 330,
+      "durationMs": 432,
       "attempts": 1
     },
     {
@@ -35018,7 +35312,7 @@
           "points": 83
         }
       ],
-      "durationMs": 371,
+      "durationMs": 456,
       "attempts": 1
     },
     {
@@ -35685,7 +35979,7 @@
           "points": 83
         }
       ],
-      "durationMs": 366,
+      "durationMs": 562,
       "attempts": 1
     },
     {
@@ -35968,7 +36262,7 @@
           "points": 83
         }
       ],
-      "durationMs": 273,
+      "durationMs": 491,
       "attempts": 1
     },
     {
@@ -36187,7 +36481,7 @@
           "points": 120
         }
       ],
-      "durationMs": 416,
+      "durationMs": 413,
       "attempts": 1
     },
     {
@@ -36534,7 +36828,7 @@
           "points": 83
         }
       ],
-      "durationMs": 249,
+      "durationMs": 305,
       "attempts": 1
     },
     {
@@ -36721,7 +37015,7 @@
           "points": 110
         }
       ],
-      "durationMs": 294,
+      "durationMs": 278,
       "attempts": 1
     },
     {
@@ -36836,7 +37130,7 @@
           "points": 83
         }
       ],
-      "durationMs": 296,
+      "durationMs": 365,
       "attempts": 1
     },
     {
@@ -37095,7 +37389,7 @@
           "points": 83
         }
       ],
-      "durationMs": 211,
+      "durationMs": 336,
       "attempts": 1
     },
     {
@@ -37386,7 +37680,7 @@
           "points": 120
         }
       ],
-      "durationMs": 211,
+      "durationMs": 514,
       "attempts": 1
     },
     {
@@ -37861,7 +38155,7 @@
           "points": 83
         }
       ],
-      "durationMs": 305,
+      "durationMs": 488,
       "attempts": 1
     },
     {
@@ -38512,7 +38806,7 @@
           "points": 83
         }
       ],
-      "durationMs": 344,
+      "durationMs": 518,
       "attempts": 1
     },
     {
@@ -40259,7 +40553,7 @@
           "points": 83
         }
       ],
-      "durationMs": 620,
+      "durationMs": 578,
       "attempts": 1
     },
     {
@@ -42006,7 +42300,7 @@
           "points": 50
         }
       ],
-      "durationMs": 640,
+      "durationMs": 881,
       "attempts": 1
     },
     {
@@ -43369,7 +43663,7 @@
           "points": 83
         }
       ],
-      "durationMs": 739,
+      "durationMs": 814,
       "attempts": 1
     },
     {
@@ -43780,7 +44074,7 @@
           "points": 150
         }
       ],
-      "durationMs": 521,
+      "durationMs": 516,
       "attempts": 1
     },
     {
@@ -44663,7 +44957,7 @@
           "points": 83
         }
       ],
-      "durationMs": 571,
+      "durationMs": 529,
       "attempts": 1
     },
     {
@@ -46322,7 +46616,7 @@
           "points": 75
         }
       ],
-      "durationMs": 508,
+      "durationMs": 650,
       "attempts": 1
     },
     {
@@ -47789,7 +48083,7 @@
           "points": 83
         }
       ],
-      "durationMs": 620,
+      "durationMs": 615,
       "attempts": 1
     },
     {
@@ -48584,7 +48878,7 @@
           "points": 83
         }
       ],
-      "durationMs": 351,
+      "durationMs": 536,
       "attempts": 1
     },
     {
@@ -49011,7 +49305,7 @@
           "points": 75
         }
       ],
-      "durationMs": 318,
+      "durationMs": 332,
       "attempts": 1
     },
     {
@@ -49150,7 +49444,7 @@
           "points": 75
         }
       ],
-      "durationMs": 213,
+      "durationMs": 260,
       "attempts": 1
     },
     {
@@ -49233,7 +49527,7 @@
           "points": 150
         }
       ],
-      "durationMs": 276,
+      "durationMs": 368,
       "attempts": 1
     },
     {
@@ -49556,7 +49850,7 @@
           "points": 75
         }
       ],
-      "durationMs": 244,
+      "durationMs": 365,
       "attempts": 1
     },
     {
@@ -49743,7 +50037,7 @@
           "points": 75
         }
       ],
-      "durationMs": 206,
+      "durationMs": 321,
       "attempts": 1
     },
     {
@@ -49826,7 +50120,7 @@
           "points": 150
         }
       ],
-      "durationMs": 177,
+      "durationMs": 268,
       "attempts": 1
     },
     {
@@ -49957,7 +50251,7 @@
           "points": 735
         }
       ],
-      "durationMs": 222,
+      "durationMs": 388,
       "attempts": 1
     },
     {
@@ -50112,7 +50406,7 @@
           "points": 150
         }
       ],
-      "durationMs": 210,
+      "durationMs": 414,
       "attempts": 1
     },
     {
@@ -50299,7 +50593,7 @@
           "points": 75
         }
       ],
-      "durationMs": 266,
+      "durationMs": 331,
       "attempts": 1
     },
     {
@@ -50398,7 +50692,7 @@
           "points": 150
         }
       ],
-      "durationMs": 265,
+      "durationMs": 245,
       "attempts": 1
     },
     {
@@ -50521,7 +50815,7 @@
           "points": 75
         }
       ],
-      "durationMs": 244,
+      "durationMs": 233,
       "attempts": 1
     },
     {
@@ -50684,7 +50978,7 @@
           "points": 150
         }
       ],
-      "durationMs": 213,
+      "durationMs": 209,
       "attempts": 1
     },
     {
@@ -50767,7 +51061,7 @@
           "points": 150
         }
       ],
-      "durationMs": 181,
+      "durationMs": 284,
       "attempts": 1
     },
     {
@@ -51098,7 +51392,7 @@
           "points": 150
         }
       ],
-      "durationMs": 236,
+      "durationMs": 230,
       "attempts": 1
     },
     {
@@ -51757,7 +52051,7 @@
           "points": 55
         }
       ],
-      "durationMs": 272,
+      "durationMs": 386,
       "attempts": 1
     },
     {
@@ -52368,7 +52662,7 @@
           "points": 83
         }
       ],
-      "durationMs": 271,
+      "durationMs": 581,
       "attempts": 1
     },
     {
@@ -52931,7 +53225,7 @@
           "points": 75
         }
       ],
-      "durationMs": 270,
+      "durationMs": 498,
       "attempts": 1
     },
     {
@@ -53142,7 +53436,7 @@
           "points": 120
         }
       ],
-      "durationMs": 204,
+      "durationMs": 418,
       "attempts": 1
     },
     {
@@ -53521,7 +53815,7 @@
           "points": 75
         }
       ],
-      "durationMs": 239,
+      "durationMs": 458,
       "attempts": 1
     },
     {
@@ -54276,7 +54570,7 @@
           "points": 75
         }
       ],
-      "durationMs": 306,
+      "durationMs": 502,
       "attempts": 1
     },
     {
@@ -54839,7 +55133,7 @@
           "points": 55
         }
       ],
-      "durationMs": 350,
+      "durationMs": 704,
       "attempts": 1
     },
     {
@@ -55266,7 +55560,7 @@
           "points": 75
         }
       ],
-      "durationMs": 332,
+      "durationMs": 557,
       "attempts": 1
     },
     {
@@ -55533,7 +55827,7 @@
           "points": 110
         }
       ],
-      "durationMs": 215,
+      "durationMs": 391,
       "attempts": 1
     },
     {
@@ -55760,7 +56054,7 @@
           "points": 75
         }
       ],
-      "durationMs": 239,
+      "durationMs": 361,
       "attempts": 1
     },
     {
@@ -55915,7 +56209,7 @@
           "points": 185
         }
       ],
-      "durationMs": 220,
+      "durationMs": 313,
       "attempts": 1
     },
     {
@@ -56206,7 +56500,7 @@
           "points": 120
         }
       ],
-      "durationMs": 306,
+      "durationMs": 342,
       "attempts": 1
     },
     {
@@ -56521,7 +56815,7 @@
           "points": 120
         }
       ],
-      "durationMs": 241,
+      "durationMs": 492,
       "attempts": 1
     },
     {
@@ -56676,7 +56970,7 @@
           "points": 150
         }
       ],
-      "durationMs": 208,
+      "durationMs": 369,
       "attempts": 1
     },
     {
@@ -56863,7 +57157,7 @@
           "points": 268
         }
       ],
-      "durationMs": 181,
+      "durationMs": 469,
       "attempts": 1
     },
     {
@@ -57114,7 +57408,7 @@
           "points": 138
         }
       ],
-      "durationMs": 312,
+      "durationMs": 475,
       "attempts": 1
     },
     {
@@ -57325,7 +57619,7 @@
           "points": 120
         }
       ],
-      "durationMs": 233,
+      "durationMs": 386,
       "attempts": 1
     },
     {
@@ -57488,7 +57782,7 @@
           "points": 110
         }
       ],
-      "durationMs": 214,
+      "durationMs": 348,
       "attempts": 1
     },
     {
@@ -57707,7 +58001,7 @@
           "points": 75
         }
       ],
-      "durationMs": 200,
+      "durationMs": 391,
       "attempts": 1
     },
     {
@@ -57950,7 +58244,7 @@
           "points": 150
         }
       ],
-      "durationMs": 224,
+      "durationMs": 365,
       "attempts": 1
     },
     {
@@ -58153,7 +58447,7 @@
           "points": 82
         }
       ],
-      "durationMs": 212,
+      "durationMs": 489,
       "attempts": 1
     },
     {
@@ -58476,7 +58770,7 @@
           "points": 120
         }
       ],
-      "durationMs": 241,
+      "durationMs": 501,
       "attempts": 1
     },
     {
@@ -59223,7 +59517,7 @@
           "points": 75
         }
       ],
-      "durationMs": 312,
+      "durationMs": 530,
       "attempts": 1
     },
     {
@@ -59674,7 +59968,7 @@
           "points": 120
         }
       ],
-      "durationMs": 292,
+      "durationMs": 500,
       "attempts": 1
     },
     {
@@ -59821,7 +60115,7 @@
           "points": 824
         }
       ],
-      "durationMs": 209,
+      "durationMs": 404,
       "attempts": 1
     },
     {
@@ -60040,7 +60334,7 @@
           "points": 150
         }
       ],
-      "durationMs": 217,
+      "durationMs": 520,
       "attempts": 1
     },
     {
@@ -60427,7 +60721,7 @@
           "points": 75
         }
       ],
-      "durationMs": 253,
+      "durationMs": 523,
       "attempts": 1
     },
     {
@@ -61150,7 +61444,7 @@
           "points": 75
         }
       ],
-      "durationMs": 284,
+      "durationMs": 547,
       "attempts": 1
     },
     {
@@ -61425,7 +61719,7 @@
           "points": 120
         }
       ],
-      "durationMs": 245,
+      "durationMs": 508,
       "attempts": 1
     },
     {
@@ -61652,7 +61946,7 @@
           "points": 75
         }
       ],
-      "durationMs": 215,
+      "durationMs": 453,
       "attempts": 1
     },
     {
@@ -61831,7 +62125,7 @@
           "points": 75
         }
       ],
-      "durationMs": 214,
+      "durationMs": 337,
       "attempts": 1
     },
     {
@@ -62002,7 +62296,7 @@
           "points": 138
         }
       ],
-      "durationMs": 193,
+      "durationMs": 348,
       "attempts": 1
     },
     {
@@ -62117,7 +62411,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 197,
+      "durationMs": 550,
       "attempts": 1
     },
     {
@@ -62336,7 +62630,7 @@
           "points": 75
         }
       ],
-      "durationMs": 184,
+      "durationMs": 525,
       "attempts": 1
     },
     {
@@ -62459,7 +62753,7 @@
           "points": 100
         }
       ],
-      "durationMs": 229,
+      "durationMs": 422,
       "attempts": 1
     },
     {
@@ -62614,7 +62908,7 @@
           "points": 138
         }
       ],
-      "durationMs": 209,
+      "durationMs": 404,
       "attempts": 1
     },
     {
@@ -62761,7 +63055,7 @@
           "points": 100
         }
       ],
-      "durationMs": 195,
+      "durationMs": 254,
       "attempts": 1
     },
     {
@@ -62964,7 +63258,7 @@
           "points": 100
         }
       ],
-      "durationMs": 198,
+      "durationMs": 418,
       "attempts": 1
     },
     {
@@ -63119,7 +63413,7 @@
           "points": 75
         }
       ],
-      "durationMs": 197,
+      "durationMs": 518,
       "attempts": 1
     },
     {
@@ -63242,7 +63536,7 @@
           "points": 1054
         }
       ],
-      "durationMs": 177,
+      "durationMs": 351,
       "attempts": 1
     },
     {
@@ -63525,7 +63819,7 @@
           "points": 75
         }
       ],
-      "durationMs": 236,
+      "durationMs": 521,
       "attempts": 1
     },
     {
@@ -63824,7 +64118,7 @@
           "points": 75
         }
       ],
-      "durationMs": 241,
+      "durationMs": 522,
       "attempts": 1
     },
     {
@@ -63955,7 +64249,7 @@
           "points": 100
         }
       ],
-      "durationMs": 220,
+      "durationMs": 379,
       "attempts": 1
     },
     {
@@ -64198,7 +64492,7 @@
           "points": 75
         }
       ],
-      "durationMs": 231,
+      "durationMs": 559,
       "attempts": 1
     },
     {
@@ -64625,7 +64919,7 @@
           "points": 75
         }
       ],
-      "durationMs": 286,
+      "durationMs": 520,
       "attempts": 1
     },
     {
@@ -64844,7 +65138,7 @@
           "points": 75
         }
       ],
-      "durationMs": 195,
+      "durationMs": 496,
       "attempts": 1
     },
     {
@@ -64943,7 +65237,7 @@
           "points": 75
         }
       ],
-      "durationMs": 211,
+      "durationMs": 446,
       "attempts": 1
     },
     {
@@ -65082,7 +65376,7 @@
           "points": 100
         }
       ],
-      "durationMs": 192,
+      "durationMs": 436,
       "attempts": 1
     },
     {
@@ -65301,7 +65595,7 @@
           "points": 138
         }
       ],
-      "durationMs": 240,
+      "durationMs": 486,
       "attempts": 1
     },
     {
@@ -65896,7 +66190,7 @@
           "points": 75
         }
       ],
-      "durationMs": 299,
+      "durationMs": 347,
       "attempts": 1
     },
     {
@@ -66067,7 +66361,7 @@
           "points": 138
         }
       ],
-      "durationMs": 204,
+      "durationMs": 407,
       "attempts": 1
     },
     {
@@ -66214,7 +66508,7 @@
           "points": 75
         }
       ],
-      "durationMs": 194,
+      "durationMs": 382,
       "attempts": 1
     },
     {
@@ -66497,7 +66791,7 @@
           "points": 75
         }
       ],
-      "durationMs": 201,
+      "durationMs": 370,
       "attempts": 1
     },
     {
@@ -66772,7 +67066,7 @@
           "points": 75
         }
       ],
-      "durationMs": 203,
+      "durationMs": 344,
       "attempts": 1
     },
     {
@@ -66895,7 +67189,7 @@
           "points": 1348
         }
       ],
-      "durationMs": 169,
+      "durationMs": 279,
       "attempts": 1
     },
     {
@@ -67274,7 +67568,7 @@
           "points": 75
         }
       ],
-      "durationMs": 223,
+      "durationMs": 427,
       "attempts": 1
     },
     {
@@ -67573,7 +67867,7 @@
           "points": 75
         }
       ],
-      "durationMs": 226,
+      "durationMs": 501,
       "attempts": 1
     },
     {
@@ -67696,7 +67990,7 @@
           "points": 110
         }
       ],
-      "durationMs": 186,
+      "durationMs": 312,
       "attempts": 1
     },
     {
@@ -67835,7 +68129,7 @@
           "points": 100
         }
       ],
-      "durationMs": 182,
+      "durationMs": 345,
       "attempts": 1
     },
     {
@@ -68030,7 +68324,7 @@
           "points": 75
         }
       ],
-      "durationMs": 194,
+      "durationMs": 419,
       "attempts": 1
     },
     {
@@ -68225,7 +68519,7 @@
           "points": 138
         }
       ],
-      "durationMs": 193,
+      "durationMs": 351,
       "attempts": 1
     },
     {
@@ -68308,7 +68602,7 @@
           "points": 138
         }
       ],
-      "durationMs": 192,
+      "durationMs": 262,
       "attempts": 1
     },
     {
@@ -68487,7 +68781,7 @@
           "points": 75
         }
       ],
-      "durationMs": 190,
+      "durationMs": 345,
       "attempts": 1
     },
     {
@@ -68698,7 +68992,7 @@
           "points": 138
         }
       ],
-      "durationMs": 196,
+      "durationMs": 358,
       "attempts": 1
     },
     {
@@ -68773,7 +69067,7 @@
           "points": 138
         }
       ],
-      "durationMs": 175,
+      "durationMs": 332,
       "attempts": 1
     },
     {
@@ -69208,7 +69502,7 @@
           "points": 75
         }
       ],
-      "durationMs": 216,
+      "durationMs": 513,
       "attempts": 1
     },
     {
@@ -69891,7 +70185,7 @@
           "points": 75
         }
       ],
-      "durationMs": 295,
+      "durationMs": 709,
       "attempts": 1
     },
     {
@@ -70606,7 +70900,7 @@
           "points": 75
         }
       ],
-      "durationMs": 281,
+      "durationMs": 526,
       "attempts": 1
     },
     {
@@ -70977,7 +71271,7 @@
           "points": 75
         }
       ],
-      "durationMs": 355,
+      "durationMs": 434,
       "attempts": 1
     },
     {
@@ -71220,7 +71514,7 @@
           "points": 75
         }
       ],
-      "durationMs": 218,
+      "durationMs": 401,
       "attempts": 1
     },
     {
@@ -71647,7 +71941,7 @@
           "points": 75
         }
       ],
-      "durationMs": 300,
+      "durationMs": 601,
       "attempts": 1
     },
     {
@@ -72570,7 +72864,7 @@
           "points": 75
         }
       ],
-      "durationMs": 373,
+      "durationMs": 745,
       "attempts": 1
     },
     {
@@ -73013,7 +73307,7 @@
           "points": 75
         }
       ],
-      "durationMs": 252,
+      "durationMs": 497,
       "attempts": 1
     },
     {
@@ -73360,7 +73654,7 @@
           "points": 75
         }
       ],
-      "durationMs": 296,
+      "durationMs": 329,
       "attempts": 1
     },
     {
@@ -73795,7 +74089,7 @@
           "points": 75
         }
       ],
-      "durationMs": 295,
+      "durationMs": 392,
       "attempts": 1
     },
     {
@@ -73902,7 +74196,7 @@
           "points": 150
         }
       ],
-      "durationMs": 214,
+      "durationMs": 274,
       "attempts": 1
     },
     {
@@ -74001,7 +74295,7 @@
           "points": 150
         }
       ],
-      "durationMs": 198,
+      "durationMs": 320,
       "attempts": 1
     },
     {
@@ -74236,7 +74530,7 @@
           "points": 83
         }
       ],
-      "durationMs": 241,
+      "durationMs": 380,
       "attempts": 1
     },
     {
@@ -74447,7 +74741,7 @@
           "points": 100
         }
       ],
-      "durationMs": 232,
+      "durationMs": 361,
       "attempts": 1
     },
     {
@@ -74570,7 +74864,7 @@
           "points": 138
         }
       ],
-      "durationMs": 194,
+      "durationMs": 354,
       "attempts": 1
     },
     {
@@ -74685,7 +74979,7 @@
           "points": 138
         }
       ],
-      "durationMs": 213,
+      "durationMs": 332,
       "attempts": 1
     },
     {
@@ -74984,7 +75278,7 @@
           "points": 83
         }
       ],
-      "durationMs": 272,
+      "durationMs": 290,
       "attempts": 1
     },
     {
@@ -75179,7 +75473,7 @@
           "points": 75
         }
       ],
-      "durationMs": 266,
+      "durationMs": 367,
       "attempts": 1
     },
     {
@@ -75302,7 +75596,7 @@
           "points": 138
         }
       ],
-      "durationMs": 223,
+      "durationMs": 474,
       "attempts": 1
     },
     {
@@ -75513,7 +75807,7 @@
           "points": 98
         }
       ],
-      "durationMs": 274,
+      "durationMs": 510,
       "attempts": 1
     },
     {
@@ -75740,7 +76034,7 @@
           "points": 110
         }
       ],
-      "durationMs": 253,
+      "durationMs": 484,
       "attempts": 1
     },
     {
@@ -75758,7 +76052,7 @@
       "error": null,
       "athleteCount": 0,
       "athletes": [],
-      "durationMs": 192,
+      "durationMs": 286,
       "attempts": 1
     },
     {
@@ -76017,7 +76311,7 @@
           "points": 138
         }
       ],
-      "durationMs": 248,
+      "durationMs": 449,
       "attempts": 1
     },
     {
@@ -76844,7 +77138,7 @@
           "points": 75
         }
       ],
-      "durationMs": 315,
+      "durationMs": 400,
       "attempts": 1
     },
     {
@@ -77655,7 +77949,7 @@
           "points": 75
         }
       ],
-      "durationMs": 347,
+      "durationMs": 469,
       "attempts": 1
     },
     {
@@ -78058,7 +78352,7 @@
           "points": 83
         }
       ],
-      "durationMs": 346,
+      "durationMs": 516,
       "attempts": 1
     },
     {
@@ -78261,7 +78555,7 @@
           "points": 138
         }
       ],
-      "durationMs": 228,
+      "durationMs": 432,
       "attempts": 1
     },
     {
@@ -78624,7 +78918,7 @@
           "points": 75
         }
       ],
-      "durationMs": 271,
+      "durationMs": 484,
       "attempts": 1
     },
     {
@@ -79355,7 +79649,7 @@
           "points": 75
         }
       ],
-      "durationMs": 295,
+      "durationMs": 445,
       "attempts": 1
     },
     {
@@ -79894,7 +80188,7 @@
           "points": 83
         }
       ],
-      "durationMs": 319,
+      "durationMs": 466,
       "attempts": 1
     },
     {
@@ -80137,7 +80431,7 @@
           "points": 75
         }
       ],
-      "durationMs": 278,
+      "durationMs": 277,
       "attempts": 1
     }
   ]

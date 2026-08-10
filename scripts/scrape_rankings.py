@@ -22,7 +22,6 @@ SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
 STATE_RESULT_LIMIT = 8
-DEFAULT_FUTURE_STATE_EVENT_POINTS = [3000]
 FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
 
 
@@ -252,17 +251,8 @@ def parse_point_components(html: str, current_total: int) -> list[int]:
     return points
 
 
-def future_state_event_points(target: dict[str, Any]) -> list[int]:
-    group = target.get("categoryGroup")
-    label = target.get("categoryLabel")
-
-    if group == "Subs":
-        return []
-    if group == "Idades" and label in {"40+", "50+", "60+"}:
-        return []
-    if group == "Tecnicas" and label in {"A", "B", "C", "D", "E"}:
-        return []
-    return DEFAULT_FUTURE_STATE_EVENT_POINTS
+def future_state_event_points(_target: dict[str, Any]) -> list[int]:
+    return []
 
 
 def projected_state_points(components: list[int], event_points: list[int]) -> int:

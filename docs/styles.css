@@ -16,6 +16,9 @@
   --regional-finals: #eef6ff;
   --regional-finals-line: #93c5fd;
   --regional-finals-strong: #1e40af;
+  --finals-confirmed: #f3efff;
+  --finals-confirmed-line: #a78bfa;
+  --finals-confirmed-strong: #6d28d9;
   --state: #f4f6f8;
   --state-line: #b8c0cc;
   --federation: #ede9fe;
@@ -600,6 +603,11 @@ input:focus {
   background: var(--state);
 }
 
+.athlete-row.is-finals-confirmed {
+  background: var(--finals-confirmed);
+  border-bottom-color: var(--finals-confirmed-line);
+}
+
 .athlete-row.is-released {
   background: #fff;
   border-bottom-color: var(--line);
@@ -641,6 +649,7 @@ input:focus {
 }
 
 .confirm-button,
+.finals-confirm-button,
 .release-button,
 .release-demo {
   display: inline-flex;
@@ -660,6 +669,21 @@ input:focus {
 
 .confirm-button {
   color: transparent;
+}
+
+.finals-confirm-button {
+  color: transparent;
+}
+
+.finals-confirm-button:hover {
+  border-color: var(--finals-confirmed-line);
+  color: var(--finals-confirmed-strong);
+}
+
+.finals-confirm-button[aria-pressed="true"] {
+  border-color: var(--finals-confirmed-strong);
+  background: var(--finals-confirmed-strong);
+  color: #fff;
 }
 
 .confirm-button:hover:not(:disabled) {
@@ -1194,6 +1218,31 @@ input:focus {
   padding: 8px 10px;
   border-bottom: 1px solid var(--line);
   align-items: center;
+}
+
+.summary-rank-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.summary-athlete-row.is-finals-confirmed {
+  background: var(--finals-confirmed);
+  border-bottom-color: var(--finals-confirmed-line);
+}
+
+.finals-confirmed-badge {
+  width: fit-content;
+  border: 1px solid var(--finals-confirmed-line);
+  border-radius: 4px;
+  padding: 1px 4px;
+  color: var(--finals-confirmed-strong);
+  background: #fff;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .summary-federation {

@@ -17,9 +17,11 @@ const state = {
   confirmations: {},
   releases: {},
   stateReleases: {},
+  finalsConfirmations: {},
   remoteConfirmations: {},
   remoteReleases: {},
   remoteStateReleases: {},
+  remoteFinalsConfirmations: {},
   remoteStateSignature: "",
   simulationConfirmations: loadConfirmations(),
   simulationReleases: loadReleases(),
@@ -189,11 +191,16 @@ function saveStateReleases() {
   }
 }
 
+function saveFinalsConfirmations() {
+  schedulePersistRemoteState();
+}
+
 function remotePayload() {
   return {
     confirmations: state.remoteConfirmations,
     releases: state.remoteReleases,
     stateReleases: state.remoteStateReleases,
+    finalsConfirmations: state.remoteFinalsConfirmations,
     updatedAt: new Date().toISOString(),
   };
 }
@@ -203,6 +210,7 @@ function normalizeRemotePayload(payload) {
     confirmations: payload?.confirmations && typeof payload.confirmations === "object" ? payload.confirmations : {},
     releases: payload?.releases && typeof payload.releases === "object" ? payload.releases : {},
     stateReleases: payload?.stateReleases && typeof payload.stateReleases === "object" ? payload.stateReleases : {},
+    finalsConfirmations: payload?.finalsConfirmations && typeof payload.finalsConfirmations === "object" ? payload.finalsConfirmations : {},
   };
 }
 
@@ -214,6 +222,7 @@ function applyRemotePayload(payload) {
   state.remoteConfirmations = normalized.confirmations;
   state.remoteReleases = normalized.releases;
   state.remoteStateReleases = normalized.stateReleases;
+  state.remoteFinalsConfirmations = normalized.finalsConfirmations;
   syncEffectiveDecisionState();
   return changed;
 }
@@ -245,6 +254,7 @@ function syncEffectiveDecisionState() {
     state.confirmations = state.remoteConfirmations;
     state.releases = state.remoteReleases;
     state.stateReleases = state.remoteStateReleases;
+    state.finalsConfirmations = state.remoteFinalsConfirmations;
     return;
   }
 
@@ -282,6 +292,7 @@ function syncEffectiveDecisionState() {
   state.confirmations = confirmations;
   state.releases = releases;
   state.stateReleases = stateReleases;
+  state.finalsConfirmations = state.remoteFinalsConfirmations;
 }
 
 function activeConfirmationsForCategory(key) {
@@ -296,6 +307,10 @@ function activeStateReleasesForCategory(key) {
   return ensureCategory(isAdminActive() ? state.remoteStateReleases : state.simulationStateReleases, key);
 }
 
+function finalsConfirmationsForCategory(key) {
+  return ensureCategory(state.remoteFinalsConfirmations, key);
+}
+
 function activeRegionalReleases(regionalId) {
   const releases = activeReleasesForCategory(state.selectedCategory);
   if (!releases[regionalId]) releases[regionalId] = {};
@@ -306,6 +321,7 @@ function isOfficialDecisionForAthlete(athleteCode, key = state.selectedCategory)
   const code = String(athleteCode);
   if (state.remoteConfirmations[key]?.[code]) return true;
   if (state.remoteStateReleases[key]?.[code]) return true;
+  if (state.remoteFinalsConfirmations[key]?.[code]) return true;
   return Object.values(state.remoteReleases[key] || {}).some((regionalMap) => Boolean(regionalMap?.[code]));
 }
 
@@ -519,6 +535,7 @@ function setCategoryWideRelease(athleteCode, released) {
   const stateReleases = activeStateReleasesForCategory(state.selectedCategory);
   const releases = activeReleasesForCategory(state.selectedCategory);
   const confirmations = activeConfirmationsForCategory(state.selectedCategory);
+  const finalsConfirmations = finalsConfirmationsForCategory(state.selectedCategory);
 
   if (targets.hasState) {
     if (released) {
@@ -539,11 +556,26 @@ function setCategoryWideRelease(athleteCode, released) {
 
   if (released) {
     delete confirmations[code];
+    delete finalsConfirmations[code];
   }
 
   saveConfirmations();
   saveStateReleases();
   saveReleases();
+  saveFinalsConfirmations();
+  render();
+}
+
+function toggleFinalsConfirmation(category, athleteCode) {
+  if (!isAdminActive()) return;
+  const confirmations = finalsConfirmationsForCategory(category);
+  const code = String(athleteCode);
+  if (confirmations[code]) {
+    delete confirmations[code];
+  } else {
+    confirmations[code] = true;
+  }
+  saveFinalsConfirmations();
   render();
 }
 
@@ -854,6 +886,7 @@ function athleteRow(
   federationCodes,
   regionalFinalsCodes,
   regionalFinalsRegionals,
+  finalsConfirmations,
 ) {
   const row = document.createElement("div");
   const identity = athleteIdentity(athlete);
@@ -862,6 +895,7 @@ function athleteRow(
   const regionalFinalsSource = regionalFinalsRegionals.get(identity) || [];
   const isAlreadyRegionalFinalsQualified = !isAlreadyStateQualified && regionalFinalsCodes.has(identity);
   const isRegionalFinalsHere = regionalFinalsSource.includes(ranking.regionalId);
+  const isFinalsConfirmed = Boolean(finalsConfirmations[identity]);
   const stateLabelText = stateClassificationLabel(athlete, stateCodes, federationCodes);
   const isReleasedManually = isManuallyReleased(athlete, ranking, releases);
   const isConfirmedHere = !isAlreadyStateQualified && !isAlreadyRegionalFinalsQualified && confirmedRegional === ranking.regionalId;
@@ -889,6 +923,7 @@ function athleteRow(
     isReleasedElsewhere ? "is-released" : "",
     isAlreadyStateQualified ? "is-state-qualified" : "",
     isRegionalFinalsHere ? "is-regional-finals-qualified" : "",
+    isRegionalFinalsHere && isFinalsConfirmed ? "is-finals-confirmed" : "",
     isReleasedManually ? "is-manual-release" : "",
   ].filter(Boolean).join(" ");
 
@@ -906,6 +941,9 @@ function athleteRow(
     : "";
   const regionalFinalsLabel = isAlreadyRegionalFinalsQualified
     ? `<span class="regional-finals-badge" title="Classificado para Finals Copa pelo ranking regional técnico">Finals Copa - via Regional${regionalFinalsSource.length ? ` (${regionalFinalsSource.join(", ")})` : ""}</span>`
+    : "";
+  const finalsConfirmedLabel = isFinalsConfirmed && (isAlreadyStateQualified || isAlreadyRegionalFinalsQualified)
+    ? `<span class="finals-confirmed-badge">Inscrição Finals Copa confirmada</span>`
     : "";
   const manualReleaseLabel = isReleasedManually
     ? `<span class="manual-release-badge" title="Vaga liberada manualmente nesta categoria">Vaga liberada</span>`
@@ -935,7 +973,15 @@ function athleteRow(
           aria-pressed="false"
           title="Liberar vaga deste atleta em toda a categoria"
         >×</button>
-        <span class="regional-finals-lock" title="Classificado para Finals Copa pelo ranking regional">FC</span>
+        ${isAdminActive() ? `
+        <button
+          class="finals-confirm-button"
+          type="button"
+          data-category-key="${state.selectedCategory}"
+          data-athlete-code="${athlete.athleteCode}"
+          aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
+          title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
+        >✓</button>` : `<span class="regional-finals-lock" title="Classificado para Finals Copa pelo ranking regional">FC</span>`}
       `
         : `
         <button
@@ -975,6 +1021,7 @@ function athleteRow(
       ${releasedLabel}
       ${stateLabel}
       ${regionalFinalsLabel}
+      ${finalsConfirmedLabel}
       ${manualReleaseLabel}
     </span>
     <span class="athlete-points">${athlete.points.toLocaleString("pt-BR")}</span>
@@ -991,6 +1038,7 @@ function regionalPanel(
   federationCodes,
   regionalFinalsCodes,
   regionalFinalsRegionals,
+  finalsConfirmations,
 ) {
   const panel = document.createElement("article");
   panel.className = "regional-panel";
@@ -1012,6 +1060,7 @@ function regionalPanel(
       federationCodes,
       regionalFinalsCodes,
       regionalFinalsRegionals,
+      finalsConfirmations,
     ),
   );
   const body = document.createElement("div");
@@ -1039,13 +1088,14 @@ function regionalPanel(
   return panel;
 }
 
-function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
+function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes, finalsConfirmations, category) {
   const row = document.createElement("div");
   const identity = athleteIdentity(athlete);
   const isReleased = releaseCodes.has(identity);
   const isQualified = stateCodes.has(identity);
   const isFederation = isQualified && federationCodes.has(identity);
   const isFinalsState = isQualified && !isFederation;
+  const isFinalsConfirmed = isFinalsState && Boolean(finalsConfirmations[identity]);
   const isGuaranteedFederation = isFederation && Boolean(athlete.stateTop2Guaranteed);
   const isGuaranteedFinalsState = isFinalsState && Boolean(athlete.stateFinalsGuaranteed);
   const canRelease = isQualified || isReleased;
@@ -1054,6 +1104,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
     isQualified ? "is-state-panel-qualified" : "",
     isFederation ? "is-federation-cup" : "",
     isFinalsState ? "is-finals-cup" : "",
+    isFinalsConfirmed ? "is-finals-confirmed" : "",
     isReleased ? "is-manual-release" : "",
     isGuaranteedFederation ? "is-guaranteed-federation" : "",
     isGuaranteedFinalsState ? "is-guaranteed-finals-state" : "",
@@ -1076,7 +1127,16 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
         title="${isReleased ? "Desfazer liberação em toda a categoria" : "Liberar vaga deste atleta em toda a categoria"}"
         ${canRelease ? "" : "disabled"}
       >×</button>
-      ${isQualified ? `<span class="state-lock" title="Classificado pelo ranking estadual">E</span>` : ""}
+      ${isQualified && (!isFinalsState || !isAdminActive()) ? `<span class="state-lock" title="Classificado pelo ranking estadual">E</span>` : ""}
+      ${isFinalsState && isAdminActive() ? `
+      <button
+        class="finals-confirm-button"
+        type="button"
+        data-category-key="${category}"
+        data-athlete-code="${athlete.athleteCode}"
+        aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
+        title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
+      >✓</button>` : ""}
     `
     : "";
   row.innerHTML = `
@@ -1094,6 +1154,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
         </span>
       </span>
       ${status}
+      ${isFinalsConfirmed ? `<span class="finals-confirmed-badge">Inscrição Finals Copa confirmada</span>` : ""}
       ${releasedLabel}
     </span>
     <span class="athlete-points">${athlete.points.toLocaleString("pt-BR")}</span>
@@ -1101,7 +1162,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes) {
   return row;
 }
 
-function statePanel(stateRanking, releaseCodes = new Set()) {
+function statePanel(stateRanking, releaseCodes = new Set(), finalsConfirmations = {}) {
   const panel = document.createElement("article");
   panel.className = "regional-panel state-panel";
 
@@ -1123,7 +1184,14 @@ function statePanel(stateRanking, releaseCodes = new Set()) {
   const federationCodes = stateFederationCodes(stateRanking, releaseCodes);
   const body = document.createElement("div");
   body.className = "regional-list";
-  body.replaceChildren(...stateRanking.athletes.map((athlete) => stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes)));
+  body.replaceChildren(...stateRanking.athletes.map((athlete) => stateAthleteRow(
+    athlete,
+    stateCodes,
+    federationCodes,
+    releaseCodes,
+    finalsConfirmations,
+    categoryKey(stateRanking),
+  )));
 
   panel.innerHTML = `
     <header class="regional-panel-header">
@@ -1137,16 +1205,27 @@ function statePanel(stateRanking, releaseCodes = new Set()) {
   return panel;
 }
 
-function summaryAthleteRow(athlete, meta, tone = "regional") {
+function summaryAthleteRow(athlete, meta, tone = "regional", category = "", isFinalsConfirmed = false) {
   const row = document.createElement("div");
   const isGuaranteedFinalsState = tone === "state" && Boolean(athlete.stateFinalsGuaranteed);
-  row.className = `summary-athlete-row summary-${tone}${isGuaranteedFinalsState ? " is-guaranteed-finals-state" : ""}`;
+  row.className = `summary-athlete-row summary-${tone}${isGuaranteedFinalsState ? " is-guaranteed-finals-state" : ""}${isFinalsConfirmed ? " is-finals-confirmed" : ""}`;
   row.innerHTML = `
     ${isGuaranteedFinalsState ? `<span class="guaranteed-finals-state-dot" title="Vaga matematicamente garantida no Finals Copa via Estadual"></span>` : ""}
-    <span class="rank-position">${athlete.position}</span>
+    <span class="summary-rank-cell">
+      ${isAdminActive() ? `<button
+        class="finals-confirm-button"
+        type="button"
+        data-category-key="${category}"
+        data-athlete-code="${athlete.athleteCode}"
+        aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
+        title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
+      >✓</button>` : ""}
+      <span class="rank-position">${athlete.position}</span>
+    </span>
     <span class="athlete-main">
       <span class="athlete-name">${athlete.name}</span>
       <span class="athlete-code">${meta} · Cod. ${athlete.athleteCode}</span>
+      ${isFinalsConfirmed ? `<span class="finals-confirmed-badge">Inscrição confirmada</span>` : ""}
     </span>
     <span class="athlete-points">${athlete.points.toLocaleString("pt-BR")}</span>
   `;
@@ -1360,9 +1439,16 @@ function renderFinalsView() {
     const stateRanking = stateRankingForCategory(key);
     const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
     const regionalReleases = releasesForCategory(key);
+    const finalsConfirmations = finalsConfirmationsForCategory(key);
     const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
     const rows = stateFinalsAthletes(stateRanking, stateReleaseCodes).map((athlete) =>
-      summaryAthleteRow(athlete, "Finals Copa - via Estadual", "state"),
+      summaryAthleteRow(
+        athlete,
+        "Finals Copa - via Estadual",
+        "state",
+        key,
+        Boolean(finalsConfirmations[athleteIdentity(athlete)]),
+      ),
     );
     regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
       rows.push(
@@ -1370,6 +1456,8 @@ function renderFinalsView() {
           entry.athlete,
           `Finals Copa - via Regional ${entry.regionals.join(", ")}`,
           "regional-finals",
+          key,
+          Boolean(finalsConfirmations[athleteIdentity(entry.athlete)]),
         ),
       );
     });
@@ -1400,6 +1488,7 @@ function render() {
   const releases = categoryReleases();
   const regionalFinalsRegionals = regionalFinalsRegionalsByAthlete(rankings, stateCodes, releases);
   const regionalFinalsCodes = regionalFinalsCodesForRankings(rankings, stateCodes, releases);
+  const finalsConfirmations = finalsConfirmationsForCategory(state.selectedCategory);
   const duplicateRegionals = duplicateQualifiedRegionals(rankings, confirmations, releases, stateCodes, regionalFinalsCodes);
   els.updatedAt.textContent = `Atualizado em ${formatDate(state.data?.generatedAt)}`;
 
@@ -1421,7 +1510,7 @@ function render() {
   els.federationGuaranteeLegend.hidden = !hasVisibleFederationGuarantee(stateRanking, stateReleaseCodes);
   els.finalsStateGuaranteeLegend.hidden = !hasVisibleFinalsStateGuarantee(stateRanking, stateReleaseCodes);
   els.regionalGrid.replaceChildren(
-    statePanel(stateRanking, stateReleaseCodes),
+    statePanel(stateRanking, stateReleaseCodes, finalsConfirmations),
     ...rankings.map((ranking) =>
       regionalPanel(
         ranking,
@@ -1432,6 +1521,7 @@ function render() {
         federationCodes,
         regionalFinalsCodes,
         regionalFinalsRegionals,
+        finalsConfirmations,
       ),
     ),
   );
@@ -1509,6 +1599,15 @@ function bindEvents() {
     if (releaseButton && !releaseButton.disabled) {
       toggleRelease(releaseButton.dataset.regionalId, releaseButton.dataset.athleteCode);
     }
+  });
+
+  document.addEventListener("click", (event) => {
+    const finalsConfirmButton = event.target.closest(".finals-confirm-button");
+    if (!finalsConfirmButton || finalsConfirmButton.disabled) return;
+    toggleFinalsConfirmation(
+      finalsConfirmButton.dataset.categoryKey,
+      finalsConfirmButton.dataset.athleteCode,
+    );
   });
 
   document.addEventListener("visibilitychange", async () => {

@@ -25,10 +25,12 @@ jobs:
           SCRAPER_WORKERS: "4"
           SCRAPER_TIMEOUT: "45"
           SCRAPER_RETRIES: "3"
+          FPT_USERNAME: ${{ secrets.FPT_USERNAME }}
+          FPT_PASSWORD: ${{ secrets.FPT_PASSWORD }}
         run: python scripts/scrape_rankings.py
 
       - name: Commit se houver alteração
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Atualiza rankings"
-          file_pattern: docs/data/rankings.json
+          file_pattern: docs/data/rankings.json data/category-change-cache.json

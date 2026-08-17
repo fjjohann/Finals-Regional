@@ -9,20 +9,36 @@ import ssl
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from html.parser import HTMLParser
+from http.cookiejar import CookieJar
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
+from urllib.parse import urlencode, urljoin
+from urllib.request import HTTPCookieProcessor, HTTPSHandler, Request, build_opener, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATH = ROOT / "data" / "sources.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "rankings.json"
+CATEGORY_CHANGE_CACHE_PATH = ROOT / "data" / "category-change-cache.json"
 USER_AGENT = "FinalsRegionalBot/1.0 (+https://github.com/fjjohann/Finals-Regional)"
 STATE_RESULT_LIMIT = 8
 FEDERATION_TECHNICAL_LABELS = {"A", "B", "C"}
+CATEGORY_CHANGE_CUTOFF = date(2026, 8, 17)
+PROMOTED_CATEGORY_BY_SOURCE = {
+    "BTFE": "BTFD",
+    "BTME": "BTMD",
+    "BTFD": "BTFC",
+    "BTMD": "BTMC",
+}
+FPT_ADMIN_BASE = "https://fpt.com.br/3213fpt023/"
+FPT_ADMIN_LOGIN_URL = urljoin(FPT_ADMIN_BASE, "entra_gestao.asp")
+FPT_ADMIN_PLAYERS_URL = urljoin(
+    FPT_ADMIN_BASE,
+    "pg7.asp?tabela=tenistas&descricao=Tenistas&tipopage=7&page=1",
+)
 
 
 class RankingTableParser(HTMLParser):
@@ -109,8 +125,130 @@ class PointsCompositionParser(HTMLParser):
             self._in_row = False
 
 
+class AdminPageParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.links: list[tuple[str, str]] = []
+        self.inputs: dict[str, str] = {}
+        self._link_href: str | None = None
+        self._link_text: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attrs_dict = {key: value or "" for key, value in attrs}
+        if tag == "a" and attrs_dict.get("href"):
+            self._link_href = attrs_dict["href"]
+            self._link_text = []
+        elif tag == "input" and attrs_dict.get("name"):
+            self.inputs[attrs_dict["name"]] = attrs_dict.get("value", "")
+
+    def handle_data(self, data: str) -> None:
+        if self._link_href is not None:
+            self._link_text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "a" and self._link_href is not None:
+            self.links.append((normalize_text("".join(self._link_text)), self._link_href))
+            self._link_href = None
+            self._link_text = []
+
+
+class FptAdminClient:
+    def __init__(self, username: str, password: str, timeout: int) -> None:
+        self.username = username
+        self.password = password
+        self.timeout = timeout
+        context = ssl._create_unverified_context()
+        self.opener = build_opener(
+            HTTPCookieProcessor(CookieJar()),
+            HTTPSHandler(context=context),
+        )
+
+    def _open(self, url: str, data: dict[str, str] | None = None) -> str:
+        body = urlencode(data, encoding="latin-1").encode("ascii") if data else None
+        request = Request(
+            url,
+            data=body,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        with self.opener.open(request, timeout=self.timeout) as response:
+            charset = response.headers.get_content_charset() or "latin-1"
+            return response.read().decode(charset, errors="replace")
+
+    def login(self) -> None:
+        html = self._open(
+            FPT_ADMIN_LOGIN_URL,
+            {"usuario": self.username, "senha": self.password},
+        )
+        normalized = normalize_text(html).lower()
+        if "senha" in normalized and "usuario" in normalized:
+            raise RuntimeError("Login no sistema interno da FPT não foi aceito.")
+
+    def category_change_date(self, athlete_code: str) -> date | None:
+        search_html = self._open(
+            FPT_ADMIN_PLAYERS_URL,
+            {"cboBusca": "tenistas.cdTenista", "pesquisa": athlete_code},
+        )
+        parser = AdminPageParser()
+        parser.feed(search_html)
+        edit_url = ""
+        for text, href in parser.links:
+            blob = f"{text} {href}"
+            if "alterar" in blob.lower() and athlete_code in blob:
+                edit_url = urljoin(FPT_ADMIN_BASE, href)
+                break
+        if not edit_url:
+            raise RuntimeError(f"Cadastro FPT não localizado para o atleta {athlete_code}.")
+
+        profile_parser = AdminPageParser()
+        profile_parser.feed(self._open(edit_url))
+        if "dtMudancaCategoriaBT" not in profile_parser.inputs:
+            raise RuntimeError(
+                f"Campo de mudança de categoria não localizado para o atleta {athlete_code}."
+            )
+        return parse_category_change_date(profile_parser.inputs["dtMudancaCategoriaBT"])
+
+
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value.replace("\xa0", " ")).strip()
+
+
+def parse_category_change_date(value: str) -> date | None:
+    cleaned = normalize_text(value)
+    if not cleaned:
+        return None
+    for pattern in ("%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(cleaned, pattern).date()
+        except ValueError:
+            continue
+    raise ValueError(f"Data de mudança de categoria inválida: {cleaned}")
+
+
+def category_change_cache_key(athlete_code: str, current_category: str) -> str:
+    return f"{athlete_code}|{current_category}"
+
+
+def load_category_change_cache() -> dict[str, Any]:
+    if not CATEGORY_CHANGE_CACHE_PATH.exists():
+        return {"cutoffDate": CATEGORY_CHANGE_CUTOFF.isoformat(), "athletes": {}}
+    data = json.loads(CATEGORY_CHANGE_CACHE_PATH.read_text(encoding="utf-8"))
+    if data.get("cutoffDate") != CATEGORY_CHANGE_CUTOFF.isoformat():
+        raise RuntimeError("A data de corte do cache de mudanças de categoria não confere.")
+    data.setdefault("athletes", {})
+    return data
+
+
+def save_category_change_cache(data: dict[str, Any]) -> None:
+    CATEGORY_CHANGE_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = CATEGORY_CHANGE_CACHE_PATH.with_suffix(".json.tmp")
+    tmp_path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(CATEGORY_CHANGE_CACHE_PATH)
 
 
 def load_sources() -> dict[str, Any]:
@@ -197,7 +335,11 @@ def ranking_positions(athletes: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return positioned
 
 
-def parse_athletes(html: str, category_code: str | None = None) -> list[dict[str, Any]]:
+def parse_athletes(
+    html: str,
+    category_code: str | None = None,
+    eligible_promotions: set[tuple[str, str]] | None = None,
+) -> list[dict[str, Any]]:
     parser = RankingTableParser()
     parser.feed(html)
     athletes = []
@@ -208,14 +350,22 @@ def parse_athletes(html: str, category_code: str | None = None) -> list[dict[str
             continue
         if not cells[0].isdigit() or not cells[1].isdigit():
             continue
+        athlete_code = cells[1]
         athlete_category = normalize_text(cells[5]).upper()
         if expected_category and athlete_category != expected_category:
-            continue
+            expected_promoted_category = PROMOTED_CATEGORY_BY_SOURCE.get(expected_category)
+            is_eligible_promotion = (
+                expected_promoted_category == athlete_category
+                and eligible_promotions is not None
+                and (athlete_code, expected_category) in eligible_promotions
+            )
+            if not is_eligible_promotion:
+                continue
         points_text = re.sub(r"[^\d]", "", cells[7])
         athletes.append(
             {
                 "position": int(cells[0]),
-                "athleteCode": cells[1],
+                "athleteCode": athlete_code,
                 "name": cells[3],
                 "categoryCode": athlete_category,
                 "sourcePosition": int(cells[0]),
@@ -386,6 +536,121 @@ def enrich_state_guarantees(
     return enriched
 
 
+def query_category_change_dates(
+    candidates: list[dict[str, str]],
+    username: str,
+    password: str,
+    timeout: int,
+    max_workers: int,
+) -> dict[str, date | None]:
+    if not candidates:
+        return {}
+    if not username or not password:
+        raise RuntimeError(
+            "Há atletas promovidos novos, mas FPT_USERNAME/FPT_PASSWORD não estão configurados."
+        )
+
+    worker_count = max(1, min(max_workers, 4, len(candidates)))
+    chunks = [candidates[index::worker_count] for index in range(worker_count)]
+
+    def query_chunk(chunk: list[dict[str, str]]) -> dict[str, date | None]:
+        client = FptAdminClient(username, password, timeout)
+        client.login()
+        result: dict[str, date | None] = {}
+        for candidate in chunk:
+            result[candidate["cacheKey"]] = client.category_change_date(
+                candidate["athleteCode"]
+            )
+        return result
+
+    resolved: dict[str, date | None] = {}
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+        futures = [executor.submit(query_chunk, chunk) for chunk in chunks if chunk]
+        for future in as_completed(futures):
+            resolved.update(future.result())
+    return resolved
+
+
+def resolve_eligible_promotions(
+    rankings: list[dict[str, Any]],
+    timeout: int,
+    max_workers: int,
+) -> set[tuple[str, str]]:
+    candidates_by_key: dict[str, dict[str, str]] = {}
+    source_categories_by_key: dict[str, set[str]] = {}
+
+    for ranking in rankings:
+        if ranking.get("status") != "ok":
+            continue
+        source_category = ranking.get("categoryCode", "")
+        promoted_category = PROMOTED_CATEGORY_BY_SOURCE.get(source_category)
+        if not promoted_category:
+            continue
+        for athlete in parse_athletes(ranking["_html"]):
+            if athlete["categoryCode"] != promoted_category:
+                continue
+            cache_key = category_change_cache_key(
+                athlete["athleteCode"], athlete["categoryCode"]
+            )
+            candidates_by_key.setdefault(
+                cache_key,
+                {
+                    "cacheKey": cache_key,
+                    "athleteCode": athlete["athleteCode"],
+                    "currentCategory": athlete["categoryCode"],
+                },
+            )
+            source_categories_by_key.setdefault(cache_key, set()).add(source_category)
+
+    cache = load_category_change_cache()
+    cache_athletes = cache["athletes"]
+    missing = [
+        candidate
+        for cache_key, candidate in candidates_by_key.items()
+        if cache_key not in cache_athletes
+    ]
+    if missing:
+        print(
+            f"Consultando data de mudança de categoria de {len(missing)} atletas novos...",
+            file=sys.stderr,
+        )
+        resolved = query_category_change_dates(
+            missing,
+            os.environ.get("FPT_USERNAME", ""),
+            os.environ.get("FPT_PASSWORD", ""),
+            timeout,
+            max_workers,
+        )
+        checked_at = datetime.now(timezone.utc).isoformat()
+        for candidate in missing:
+            change_date = resolved[candidate["cacheKey"]]
+            cache_athletes[candidate["cacheKey"]] = {
+                "athleteCode": candidate["athleteCode"],
+                "currentCategory": candidate["currentCategory"],
+                "changeDate": change_date.isoformat() if change_date else None,
+                "checkedAt": checked_at,
+            }
+        save_category_change_cache(cache)
+
+    eligible: set[tuple[str, str]] = set()
+    for cache_key, source_categories in source_categories_by_key.items():
+        cached_date = cache_athletes[cache_key].get("changeDate")
+        if not cached_date:
+            continue
+        change_date = date.fromisoformat(cached_date)
+        if change_date < CATEGORY_CHANGE_CUTOFF:
+            continue
+        athlete_code = candidates_by_key[cache_key]["athleteCode"]
+        eligible.update((athlete_code, source) for source in source_categories)
+
+    print(
+        f"Promoções elegíveis após {CATEGORY_CHANGE_CUTOFF.strftime('%d/%m/%Y')}: "
+        f"{len(eligible)}.",
+        file=sys.stderr,
+    )
+    return eligible
+
+
 def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[str, Any]:
     started = time.time()
     error = None
@@ -393,15 +658,11 @@ def scrape_target(target: dict[str, Any], timeout: int, retries: int) -> dict[st
     for attempt in range(retries + 1):
         try:
             html = fetch_html(target["url"], timeout)
-            category_code = target.get("categoryCode") if target.get("categoryGroup") == "Tecnicas" else None
-            athletes = parse_athletes(html, category_code)
-            athletes = enrich_state_guarantees(target, html, athletes, timeout)
             return {
                 **target,
                 "status": "ok",
                 "error": None,
-                "athleteCount": len(athletes),
-                "athletes": athletes,
+                "_html": html,
                 "durationMs": round((time.time() - started) * 1000),
                 "attempts": attempt + 1,
             }
@@ -433,13 +694,32 @@ def scrape_all(max_workers: int, timeout: int, retries: int) -> dict[str, Any]:
         for future in as_completed(future_to_target):
             result = future.result()
             rankings.append(result)
-            marker = "OK" if result["status"] == "ok" else "ERRO"
-            detail = f" após {result['attempts']} tentativas" if result.get("attempts", 1) > 1 else ""
-            print(
-                f"{marker} {result['regionalLabel']} "
-                f"{result['categoryCode']} ({result['athleteCount']} atletas){detail}",
-                file=sys.stderr,
+
+    eligible_promotions = resolve_eligible_promotions(rankings, timeout, max_workers)
+    for result in rankings:
+        if result["status"] == "ok":
+            html = result.pop("_html")
+            category_code = (
+                result.get("categoryCode")
+                if result.get("categoryGroup") == "Tecnicas"
+                else None
             )
+            athletes = parse_athletes(html, category_code, eligible_promotions)
+            athletes = enrich_state_guarantees(result, html, athletes, timeout)
+            result["athleteCount"] = len(athletes)
+            result["athletes"] = athletes
+
+        marker = "OK" if result["status"] == "ok" else "ERRO"
+        detail = (
+            f" após {result['attempts']} tentativas"
+            if result.get("attempts", 1) > 1
+            else ""
+        )
+        print(
+            f"{marker} {result['regionalLabel']} "
+            f"{result['categoryCode']} ({result['athleteCount']} atletas){detail}",
+            file=sys.stderr,
+        )
 
     rankings.sort(
         key=lambda item: (

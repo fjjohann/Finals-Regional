@@ -372,15 +372,19 @@ async function persistRemoteState() {
   state.admin.saving = true;
   renderAdminStatus("Salvando...");
   try {
-    await remoteRequest("/rest/v1/panel_state?id=eq.global", {
+    const response = await remoteRequest("/rest/v1/panel_state?id=eq.global&select=id", {
       authenticated: true,
       method: "PATCH",
-      headers: { Prefer: "return=minimal" },
+      headers: { Prefer: "return=representation" },
       body: JSON.stringify({
         payload: remotePayload(),
         updated_at: new Date().toISOString(),
       }),
     });
+    const updatedRows = await response.json();
+    if (updatedRows.length !== 1 || updatedRows[0]?.id !== REMOTE_STATE_ID) {
+      throw new Error("A conta autenticada nao tem permissao para salvar o estado compartilhado.");
+    }
     state.admin.saving = false;
     renderAdminStatus("Salvo");
   } catch (error) {

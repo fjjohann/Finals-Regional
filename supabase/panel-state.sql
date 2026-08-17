@@ -16,22 +16,33 @@ drop policy if exists "admin insert panel state" on public.panel_state;
 create policy "admin insert panel state"
 on public.panel_state
 for insert
+to authenticated
 with check (
   id = 'global'
-  and auth.jwt() ->> 'email' = 'fjjohann@gmail.com'
+  and lower(auth.jwt() ->> 'email') in (
+    'fjjohann@gmail.com',
+    'marketing@fpt.com.br'
+  )
 );
 
 drop policy if exists "admin update panel state" on public.panel_state;
 create policy "admin update panel state"
 on public.panel_state
 for update
+to authenticated
 using (
   id = 'global'
-  and auth.jwt() ->> 'email' = 'fjjohann@gmail.com'
+  and lower(auth.jwt() ->> 'email') in (
+    'fjjohann@gmail.com',
+    'marketing@fpt.com.br'
+  )
 )
 with check (
   id = 'global'
-  and auth.jwt() ->> 'email' = 'fjjohann@gmail.com'
+  and lower(auth.jwt() ->> 'email') in (
+    'fjjohann@gmail.com',
+    'marketing@fpt.com.br'
+  )
 );
 
 insert into public.panel_state (id, payload)

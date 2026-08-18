@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-17T15:43:23.900612+00:00",
+  "generatedAt": "2026-08-18T09:40:01.786117+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
   "totalRankings": 154,
-  "totalAthletes": 8830,
+  "totalAthletes": 8831,
   "rankings": [
     {
       "rankingScope": "state",
@@ -19,7 +19,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 5436,
+      "durationMs": 1782,
       "attempts": 1,
       "athleteCount": 141,
       "athletes": [
@@ -1589,7 +1589,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 2195,
+      "durationMs": 1555,
       "attempts": 1,
       "athleteCount": 85,
       "athletes": [
@@ -1663,7 +1663,7 @@
           "position": 6,
           "athleteCode": "41717",
           "name": "Eliane Bertogna",
-          "categoryCode": "BTFC",
+          "categoryCode": "BTFD",
           "sourcePosition": 6,
           "points": 11357,
           "stateProjectionMax": 11357,
@@ -2543,7 +2543,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 2713,
+      "durationMs": 1395,
       "attempts": 1,
       "athleteCount": 53,
       "athletes": [
@@ -3145,7 +3145,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 2084,
+      "durationMs": 1627,
       "attempts": 1,
       "athleteCount": 132,
       "athletes": [
@@ -4616,7 +4616,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 2496,
+      "durationMs": 1731,
       "attempts": 1,
       "athleteCount": 105,
       "athletes": [
@@ -5790,7 +5790,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 1872,
+      "durationMs": 1364,
       "attempts": 1,
       "athleteCount": 48,
       "athletes": [
@@ -6337,7 +6337,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 1878,
+      "durationMs": 1526,
       "attempts": 1,
       "athleteCount": 45,
       "athletes": [
@@ -6851,7 +6851,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 2871,
+      "durationMs": 1762,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -7200,7 +7200,7 @@
           "position": 29,
           "athleteCode": "40152",
           "name": "Ana Correa",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 29,
           "points": 2710,
           "stateProjectionMax": 2710,
@@ -7607,7 +7607,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 5591,
+      "durationMs": 1723,
       "attempts": 1,
       "athleteCount": 46,
       "athletes": [
@@ -8132,7 +8132,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 804,
+      "durationMs": 1403,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -8525,7 +8525,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 2779,
+      "durationMs": 1215,
       "attempts": 1,
       "athleteCount": 59,
       "athletes": [
@@ -9193,7 +9193,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 2779,
+      "durationMs": 1576,
       "attempts": 1,
       "athleteCount": 68,
       "athletes": [
@@ -9960,7 +9960,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1161,
+      "durationMs": 1357,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -10716,7 +10716,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1416,
+      "durationMs": 1767,
       "attempts": 1,
       "athleteCount": 162,
       "athletes": [
@@ -12517,7 +12517,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 30382,
+      "durationMs": 2488,
       "attempts": 1,
       "athleteCount": 370,
       "athletes": [
@@ -16606,7 +16606,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 19464,
+      "durationMs": 3134,
       "attempts": 1,
       "athleteCount": 315,
       "athletes": [
@@ -16746,7 +16746,7 @@
           "position": 13,
           "athleteCode": "44896",
           "name": "Anna Antonelli",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 14,
           "points": 5650,
           "stateProjectionMax": 5650,
@@ -17074,6 +17074,17 @@
         },
         {
           "position": 43,
+          "athleteCode": "41717",
+          "name": "Eliane Bertogna",
+          "categoryCode": "BTFD",
+          "sourcePosition": 43,
+          "points": 2920,
+          "stateProjectionMax": 2920,
+          "stateTop2Guaranteed": false,
+          "stateFinalsGuaranteed": false
+        },
+        {
+          "position": 44,
           "athleteCode": "38509",
           "name": "Tatiane Miranda",
           "categoryCode": "BTFD",
@@ -17084,7 +17095,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "45367",
           "name": "Isabella Schroeder",
           "categoryCode": "BTFD",
@@ -17095,7 +17106,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 45,
+          "position": 46,
           "athleteCode": "45122",
           "name": "Débora Dreves",
           "categoryCode": "BTFD",
@@ -17106,7 +17117,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 46,
+          "position": 47,
           "athleteCode": "38249",
           "name": "Patrícia Valério",
           "categoryCode": "BTFD",
@@ -17117,7 +17128,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 47,
+          "position": 48,
           "athleteCode": "22156",
           "name": "Aline Ximenez",
           "categoryCode": "BTFD",
@@ -17128,7 +17139,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 47,
+          "position": 48,
           "athleteCode": "43062",
           "name": "Júlia Rodrigues",
           "categoryCode": "BTFD",
@@ -17139,7 +17150,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 49,
+          "position": 50,
           "athleteCode": "46062",
           "name": "Ana Mancini",
           "categoryCode": "BTFD",
@@ -17150,7 +17161,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "45246",
           "name": "Jerusa Baseggio",
           "categoryCode": "BTFD",
@@ -17161,7 +17172,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 51,
+          "position": 52,
           "athleteCode": "40820",
           "name": "Julia Gualdessi",
           "categoryCode": "BTFD",
@@ -17172,7 +17183,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 52,
+          "position": 53,
           "athleteCode": "39704",
           "name": "Mariana Nakayama",
           "categoryCode": "BTFD",
@@ -17183,7 +17194,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 53,
+          "position": 54,
           "athleteCode": "36121",
           "name": "Bruna Brecailo",
           "categoryCode": "BTFD",
@@ -17194,7 +17205,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 54,
+          "position": 55,
           "athleteCode": "46885",
           "name": "Giovana Sordi",
           "categoryCode": "BTFD",
@@ -17205,7 +17216,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 55,
+          "position": 56,
           "athleteCode": "47237",
           "name": "Jociele Taborda",
           "categoryCode": "BTFD",
@@ -17216,7 +17227,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 56,
+          "position": 57,
           "athleteCode": "44846",
           "name": "Carolina Soares",
           "categoryCode": "BTFD",
@@ -17227,7 +17238,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 57,
+          "position": 58,
           "athleteCode": "40955",
           "name": "Daiane Begnini",
           "categoryCode": "BTFD",
@@ -17238,7 +17249,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 58,
+          "position": 59,
           "athleteCode": "48870",
           "name": "Beatriz Pozzo",
           "categoryCode": "BTFD",
@@ -17249,7 +17260,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 59,
+          "position": 60,
           "athleteCode": "49152",
           "name": "Joslaine Szura",
           "categoryCode": "BTFD",
@@ -17260,7 +17271,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "45087",
           "name": "Gabriela Tomazzini",
           "categoryCode": "BTFD",
@@ -17271,7 +17282,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 61,
+          "position": 62,
           "athleteCode": "8179",
           "name": "Cindi Carmello",
           "categoryCode": "BTFD",
@@ -17282,7 +17293,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 62,
+          "position": 63,
           "athleteCode": "35356",
           "name": "Gisele Benato",
           "categoryCode": "BTFD",
@@ -17293,7 +17304,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 63,
+          "position": 64,
           "athleteCode": "34111",
           "name": "Marcieli Urnau",
           "categoryCode": "BTFD",
@@ -17304,7 +17315,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 63,
+          "position": 64,
           "athleteCode": "46203",
           "name": "Betina Samuel",
           "categoryCode": "BTFD",
@@ -17315,7 +17326,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 65,
+          "position": 66,
           "athleteCode": "47435",
           "name": "Jociane Taborda",
           "categoryCode": "BTFD",
@@ -17326,7 +17337,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 66,
+          "position": 67,
           "athleteCode": "47261",
           "name": "Ana Schelle",
           "categoryCode": "BTFD",
@@ -17337,7 +17348,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 67,
+          "position": 68,
           "athleteCode": "43647",
           "name": "Rafaela Ruza",
           "categoryCode": "BTFD",
@@ -17348,7 +17359,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 68,
+          "position": 69,
           "athleteCode": "44429",
           "name": "Giovanna Hernandez",
           "categoryCode": "BTFD",
@@ -17359,7 +17370,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 69,
+          "position": 70,
           "athleteCode": "45587",
           "name": "Rosiane de Oliveira",
           "categoryCode": "BTFD",
@@ -17370,7 +17381,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 70,
+          "position": 71,
           "athleteCode": "48000",
           "name": "Manuela Corzanego",
           "categoryCode": "BTFD",
@@ -17381,7 +17392,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "42195",
           "name": "Kelen Mueller",
           "categoryCode": "BTFD",
@@ -17392,7 +17403,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 72,
+          "position": 73,
           "athleteCode": "42001",
           "name": "Kamila Correia",
           "categoryCode": "BTFD",
@@ -17403,7 +17414,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 73,
+          "position": 74,
           "athleteCode": "45240",
           "name": "Denise Luz",
           "categoryCode": "BTFD",
@@ -17414,7 +17425,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 74,
+          "position": 75,
           "athleteCode": "47228",
           "name": "Sara Valendorf",
           "categoryCode": "BTFD",
@@ -17425,7 +17436,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 75,
+          "position": 76,
           "athleteCode": "45611",
           "name": "Amanda Silva",
           "categoryCode": "BTFD",
@@ -17436,7 +17447,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 76,
+          "position": 77,
           "athleteCode": "25769",
           "name": "Caroline Pasinato",
           "categoryCode": "BTFD",
@@ -17447,7 +17458,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 77,
+          "position": 78,
           "athleteCode": "40875",
           "name": "Patricia Oliveira",
           "categoryCode": "BTFD",
@@ -17458,7 +17469,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 78,
+          "position": 79,
           "athleteCode": "48586",
           "name": "Thaís Baseggio",
           "categoryCode": "BTFD",
@@ -17469,7 +17480,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 79,
+          "position": 80,
           "athleteCode": "45440",
           "name": "Estefani Berger",
           "categoryCode": "BTFD",
@@ -17480,7 +17491,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 80,
+          "position": 81,
           "athleteCode": "43521",
           "name": "Mariana Yanaguizawa",
           "categoryCode": "BTFD",
@@ -17491,7 +17502,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "29699",
           "name": "Patricia Uratani",
           "categoryCode": "BTFD",
@@ -17502,7 +17513,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "31655",
           "name": "Regiane Rigon",
           "categoryCode": "BTFD",
@@ -17513,7 +17524,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "46737",
           "name": "Giovanna Presotto",
           "categoryCode": "BTFD",
@@ -17524,7 +17535,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 84,
+          "position": 85,
           "athleteCode": "38814",
           "name": "Julia Kaminski",
           "categoryCode": "BTFD",
@@ -17535,7 +17546,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "44806",
           "name": "Lucimeire Garcia",
           "categoryCode": "BTFD",
@@ -17546,10 +17557,10 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 86,
+          "position": 87,
           "athleteCode": "47006",
           "name": "Emilly Alves",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 95,
           "points": 1502,
           "stateProjectionMax": 1502,
@@ -17557,7 +17568,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 87,
+          "position": 88,
           "athleteCode": "46194",
           "name": "Ana Paula Iramina",
           "categoryCode": "BTFD",
@@ -17568,7 +17579,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 88,
+          "position": 89,
           "athleteCode": "44987",
           "name": "Simone Vilande",
           "categoryCode": "BTFD",
@@ -17579,7 +17590,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 89,
+          "position": 90,
           "athleteCode": "42243",
           "name": "Elismara Piornedo",
           "categoryCode": "BTFD",
@@ -17590,7 +17601,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 90,
+          "position": 91,
           "athleteCode": "50634",
           "name": "Emanuelle Brixner",
           "categoryCode": "BTFD",
@@ -17601,7 +17612,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "47078",
           "name": "Naômi Maidl",
           "categoryCode": "BTFD",
@@ -17612,7 +17623,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 91,
+          "position": 92,
           "athleteCode": "53493",
           "name": "Thais Vieira",
           "categoryCode": "BTFD",
@@ -17623,7 +17634,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 93,
+          "position": 94,
           "athleteCode": "46427",
           "name": "Alessa Nunes",
           "categoryCode": "BTFD",
@@ -17634,7 +17645,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 94,
+          "position": 95,
           "athleteCode": "42809",
           "name": "Karine Pilatti",
           "categoryCode": "BTFD",
@@ -17645,7 +17656,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 95,
+          "position": 96,
           "athleteCode": "47058",
           "name": "Hellen Juk",
           "categoryCode": "BTFD",
@@ -17656,7 +17667,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 96,
+          "position": 97,
           "athleteCode": "45547",
           "name": "Luana Cruz",
           "categoryCode": "BTFD",
@@ -17667,7 +17678,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 97,
+          "position": 98,
           "athleteCode": "38173",
           "name": "Luana Oliveira",
           "categoryCode": "BTFD",
@@ -17678,7 +17689,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 97,
+          "position": 98,
           "athleteCode": "45056",
           "name": "Simone Luz",
           "categoryCode": "BTFD",
@@ -17689,7 +17700,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 97,
+          "position": 98,
           "athleteCode": "47987",
           "name": "Denise Luciane",
           "categoryCode": "BTFD",
@@ -17700,7 +17711,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 100,
+          "position": 101,
           "athleteCode": "43437",
           "name": "Andressa Cipriano",
           "categoryCode": "BTFD",
@@ -17711,7 +17722,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 101,
+          "position": 102,
           "athleteCode": "47270",
           "name": "Jessica Lemos",
           "categoryCode": "BTFD",
@@ -17722,7 +17733,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 102,
+          "position": 103,
           "athleteCode": "41177",
           "name": "Ana Dallastella",
           "categoryCode": "BTFD",
@@ -17733,7 +17744,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 103,
+          "position": 104,
           "athleteCode": "40475",
           "name": "Maíra Brisolla Rubio",
           "categoryCode": "BTFD",
@@ -17744,7 +17755,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 104,
+          "position": 105,
           "athleteCode": "49501",
           "name": "Eduarda Pinheiro",
           "categoryCode": "BTFD",
@@ -17755,7 +17766,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 105,
+          "position": 106,
           "athleteCode": "44187",
           "name": "Rafaela Santana",
           "categoryCode": "BTFD",
@@ -17766,7 +17777,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 106,
+          "position": 107,
           "athleteCode": "42498",
           "name": "Ana Hireman",
           "categoryCode": "BTFD",
@@ -17777,7 +17788,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 107,
+          "position": 108,
           "athleteCode": "38157",
           "name": "Adriana Lopes",
           "categoryCode": "BTFD",
@@ -17788,7 +17799,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 107,
+          "position": 108,
           "athleteCode": "45515",
           "name": "Mayara Modanese",
           "categoryCode": "BTFD",
@@ -17799,7 +17810,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 109,
+          "position": 110,
           "athleteCode": "33526",
           "name": "Cintia Esp. Santo",
           "categoryCode": "BTFD",
@@ -17810,7 +17821,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 110,
+          "position": 111,
           "athleteCode": "45269",
           "name": "Luiza Cristo",
           "categoryCode": "BTFD",
@@ -17821,7 +17832,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 110,
+          "position": 111,
           "athleteCode": "46943",
           "name": "Danielle Mazzotti",
           "categoryCode": "BTFD",
@@ -17832,7 +17843,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 110,
+          "position": 111,
           "athleteCode": "46944",
           "name": "Marina Badia",
           "categoryCode": "BTFD",
@@ -17843,7 +17854,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 110,
+          "position": 111,
           "athleteCode": "53094",
           "name": "Ariadne Lange",
           "categoryCode": "BTFD",
@@ -17854,7 +17865,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 114,
+          "position": 115,
           "athleteCode": "44419",
           "name": "Adrielli Lewandowski",
           "categoryCode": "BTFD",
@@ -17865,7 +17876,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "36012",
           "name": "Andreia de Paula",
           "categoryCode": "BTFD",
@@ -17876,7 +17887,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "44458",
           "name": "Bianca Maiorki",
           "categoryCode": "BTFD",
@@ -17887,7 +17898,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 115,
+          "position": 116,
           "athleteCode": "44538",
           "name": "Helena Longares",
           "categoryCode": "BTFD",
@@ -17898,7 +17909,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 118,
+          "position": 119,
           "athleteCode": "45336",
           "name": "Rafaela Freitas",
           "categoryCode": "BTFD",
@@ -17909,7 +17920,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 119,
+          "position": 120,
           "athleteCode": "36436",
           "name": "Mariane Basso",
           "categoryCode": "BTFD",
@@ -17920,7 +17931,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 120,
+          "position": 121,
           "athleteCode": "37707",
           "name": "Estefane Konrath",
           "categoryCode": "BTFD",
@@ -17931,7 +17942,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 120,
+          "position": 121,
           "athleteCode": "45923",
           "name": "Kelly Lapazini",
           "categoryCode": "BTFD",
@@ -17942,10 +17953,10 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 122,
+          "position": 123,
           "athleteCode": "40152",
           "name": "Ana Correa",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 124,
           "points": 974,
           "stateProjectionMax": 974,
@@ -17953,7 +17964,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "40683",
           "name": "Heloisa Chagas",
           "categoryCode": "BTFD",
@@ -17964,7 +17975,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "46525",
           "name": "Kelly Rossetim",
           "categoryCode": "BTFD",
@@ -17975,7 +17986,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "46930",
           "name": "Emyllyn Bocate",
           "categoryCode": "BTFD",
@@ -17986,7 +17997,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "51716",
           "name": "Ana Mendes",
           "categoryCode": "BTFD",
@@ -17997,7 +18008,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "51981",
           "name": "Yasmin Andrade",
           "categoryCode": "BTFD",
@@ -18008,7 +18019,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "53252",
           "name": "Kananda Montani",
           "categoryCode": "BTFD",
@@ -18019,7 +18030,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 129,
+          "position": 130,
           "athleteCode": "48677",
           "name": "Eduarda Baldessar",
           "categoryCode": "BTFD",
@@ -18030,7 +18041,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 130,
+          "position": 131,
           "athleteCode": "37579",
           "name": "Maiara Spiacci",
           "categoryCode": "BTFD",
@@ -18041,7 +18052,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 131,
+          "position": 132,
           "athleteCode": "41676",
           "name": "Camila Lara",
           "categoryCode": "BTFD",
@@ -18052,7 +18063,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "41421",
           "name": "Rafaela Troiani",
           "categoryCode": "BTFD",
@@ -18063,7 +18074,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "41470",
           "name": "Kamila Troiani",
           "categoryCode": "BTFD",
@@ -18074,7 +18085,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "47370",
           "name": "Vanessa Antoniolli",
           "categoryCode": "BTFD",
@@ -18085,7 +18096,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 135,
+          "position": 136,
           "athleteCode": "37618",
           "name": "Priscila Kempf",
           "categoryCode": "BTFD",
@@ -18096,7 +18107,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "36680",
           "name": "Paola Varella",
           "categoryCode": "BTFD",
@@ -18107,7 +18118,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "38096",
           "name": "Andressa Uhdre",
           "categoryCode": "BTFD",
@@ -18118,7 +18129,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "41232",
           "name": "Camile Neves",
           "categoryCode": "BTFD",
@@ -18129,18 +18140,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
-          "athleteCode": "42237",
-          "name": "Carla Prado",
-          "categoryCode": "BTFD",
-          "sourcePosition": 132,
-          "points": 824,
-          "stateProjectionMax": 824,
-          "stateTop2Guaranteed": false,
-          "stateFinalsGuaranteed": false
-        },
-        {
-          "position": 136,
+          "position": 137,
           "athleteCode": "46301",
           "name": "Fabieli Campos",
           "categoryCode": "BTFD",
@@ -18151,7 +18151,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "46412",
           "name": "Izabella Araujo",
           "categoryCode": "BTFD",
@@ -18162,7 +18162,7 @@
           "stateFinalsGuaranteed": false
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "53010",
           "name": "Ana Novotny",
           "categoryCode": "BTFD",
@@ -20090,7 +20090,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 14090,
+      "durationMs": 2957,
       "attempts": 1,
       "athleteCount": 199,
       "athletes": [
@@ -22298,7 +22298,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 5238,
+      "durationMs": 1528,
       "attempts": 1,
       "athleteCount": 93,
       "athletes": [
@@ -23340,7 +23340,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 3537,
+      "durationMs": 1951,
       "attempts": 1,
       "athleteCount": 182,
       "athletes": [
@@ -25361,7 +25361,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 21810,
+      "durationMs": 3287,
       "attempts": 1,
       "athleteCount": 358,
       "athletes": [
@@ -29318,7 +29318,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 26787,
+      "durationMs": 2438,
       "attempts": 1,
       "athleteCount": 264,
       "athletes": [
@@ -29425,7 +29425,7 @@
           "position": 10,
           "athleteCode": "44509",
           "name": "Maycon Marianowski",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 10,
           "points": 5720,
           "stateProjectionMax": 5720,
@@ -29436,7 +29436,7 @@
           "position": 10,
           "athleteCode": "45402",
           "name": "Douglas Anschau",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 10,
           "points": 5720,
           "stateProjectionMax": 5720,
@@ -29502,7 +29502,7 @@
           "position": 17,
           "athleteCode": "46303",
           "name": "Rodrigo Menon",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 19,
           "points": 4328,
           "stateProjectionMax": 4328,
@@ -29546,7 +29546,7 @@
           "position": 21,
           "athleteCode": "45582",
           "name": "Raul Pinheiro",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 23,
           "points": 4006,
           "stateProjectionMax": 4006,
@@ -29810,7 +29810,7 @@
           "position": 45,
           "athleteCode": "48053",
           "name": "Felipe Monteiro",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 45,
           "points": 2430,
           "stateProjectionMax": 2430,
@@ -31493,7 +31493,7 @@
           "position": 193,
           "athleteCode": "48121",
           "name": "Yuri Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 137,
           "points": 504,
           "stateProjectionMax": 504,
@@ -32241,7 +32241,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 14346,
+      "durationMs": 2344,
       "attempts": 1,
       "athleteCount": 131,
       "athletes": [
@@ -32304,7 +32304,7 @@
           "position": 6,
           "athleteCode": "40396",
           "name": "Matheus Martini",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 6,
           "points": 5876,
           "stateProjectionMax": 5876,
@@ -32414,7 +32414,7 @@
           "position": 16,
           "athleteCode": "50859",
           "name": "Fabio Costa",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 18,
           "points": 3224,
           "stateProjectionMax": 3224,
@@ -32502,7 +32502,7 @@
           "position": 24,
           "athleteCode": "51325",
           "name": "Edmar Junior",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 26,
           "points": 2720,
           "stateProjectionMax": 2720,
@@ -33701,7 +33701,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1366,
+      "durationMs": 1687,
       "attempts": 1,
       "athleteCount": 111,
       "athletes": [
@@ -34608,7 +34608,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 6376,
+      "durationMs": 1194,
       "attempts": 1,
       "athleteCount": 58,
       "athletes": [
@@ -34848,7 +34848,7 @@
           "position": 30,
           "athleteCode": "41717",
           "name": "Eliane Bertogna",
-          "categoryCode": "BTFC",
+          "categoryCode": "BTFD",
           "sourcePosition": 30,
           "points": 1470
         },
@@ -35091,7 +35091,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 5949,
+      "durationMs": 1193,
       "attempts": 1,
       "athleteCount": 41,
       "athletes": [
@@ -35438,7 +35438,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 7703,
+      "durationMs": 1517,
       "attempts": 1,
       "athleteCount": 89,
       "athletes": [
@@ -36169,7 +36169,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 7389,
+      "durationMs": 1837,
       "attempts": 1,
       "athleteCount": 81,
       "athletes": [
@@ -36836,7 +36836,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 599,
+      "durationMs": 1175,
       "attempts": 1,
       "athleteCount": 33,
       "athletes": [
@@ -37119,7 +37119,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 3015,
+      "durationMs": 857,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -37338,7 +37338,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 6994,
+      "durationMs": 1038,
       "attempts": 1,
       "athleteCount": 45,
       "athletes": [
@@ -37370,7 +37370,7 @@
           "position": 4,
           "athleteCode": "40152",
           "name": "Ana Correa",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 4,
           "points": 7165
         },
@@ -37717,7 +37717,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 3567,
+      "durationMs": 1025,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -37928,7 +37928,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 1682,
+      "durationMs": 847,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -38043,7 +38043,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 2388,
+      "durationMs": 1025,
       "attempts": 1,
       "athleteCount": 30,
       "athletes": [
@@ -38302,7 +38302,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1137,
+      "durationMs": 1020,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -38593,7 +38593,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1079,
+      "durationMs": 1207,
       "attempts": 1,
       "athleteCount": 58,
       "athletes": [
@@ -39076,7 +39076,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1326,
+      "durationMs": 1864,
       "attempts": 1,
       "athleteCount": 85,
       "athletes": [
@@ -39775,7 +39775,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 7491,
+      "durationMs": 2991,
       "attempts": 1,
       "athleteCount": 226,
       "athletes": [
@@ -41602,9 +41602,9 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 2060,
+      "durationMs": 2682,
       "attempts": 1,
-      "athleteCount": 220,
+      "athleteCount": 221,
       "athletes": [
         {
           "position": 1,
@@ -41626,7 +41626,7 @@
           "position": 3,
           "athleteCode": "47006",
           "name": "Emilly Alves",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 3,
           "points": 12250
         },
@@ -41634,7 +41634,7 @@
           "position": 4,
           "athleteCode": "40152",
           "name": "Ana Correa",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 4,
           "points": 10672
         },
@@ -42178,7 +42178,7 @@
           "position": 72,
           "athleteCode": "42970",
           "name": "Camila Fabri",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 112,
           "points": 1650
         },
@@ -42552,6 +42552,14 @@
         },
         {
           "position": 117,
+          "athleteCode": "41717",
+          "name": "Eliane Bertogna",
+          "categoryCode": "BTFD",
+          "sourcePosition": 156,
+          "points": 720
+        },
+        {
+          "position": 117,
           "athleteCode": "42243",
           "name": "Elismara Piornedo",
           "categoryCode": "BTFD",
@@ -42575,7 +42583,7 @@
           "points": 720
         },
         {
-          "position": 122,
+          "position": 123,
           "athleteCode": "52350",
           "name": "Mariana Czerwonka",
           "categoryCode": "BTFD",
@@ -42583,7 +42591,7 @@
           "points": 712
         },
         {
-          "position": 123,
+          "position": 124,
           "athleteCode": "43852",
           "name": "Danielle Requena",
           "categoryCode": "BTFD",
@@ -42591,7 +42599,7 @@
           "points": 701
         },
         {
-          "position": 124,
+          "position": 125,
           "athleteCode": "32745",
           "name": "Gabriela Giaccio",
           "categoryCode": "BTFD",
@@ -42599,7 +42607,7 @@
           "points": 670
         },
         {
-          "position": 124,
+          "position": 125,
           "athleteCode": "40135",
           "name": "Cecilia Arruda",
           "categoryCode": "BTFD",
@@ -42607,7 +42615,7 @@
           "points": 670
         },
         {
-          "position": 124,
+          "position": 125,
           "athleteCode": "43612",
           "name": "Janice Martinek",
           "categoryCode": "BTFD",
@@ -42615,7 +42623,7 @@
           "points": 670
         },
         {
-          "position": 124,
+          "position": 125,
           "athleteCode": "46268",
           "name": "Sandra Mendonça",
           "categoryCode": "BTFD",
@@ -42623,7 +42631,7 @@
           "points": 670
         },
         {
-          "position": 124,
+          "position": 125,
           "athleteCode": "46371",
           "name": "Vanessa Teixeira",
           "categoryCode": "BTFD",
@@ -42631,7 +42639,7 @@
           "points": 670
         },
         {
-          "position": 129,
+          "position": 130,
           "athleteCode": "49606",
           "name": "Rafaela Brittes",
           "categoryCode": "BTFD",
@@ -42639,7 +42647,7 @@
           "points": 650
         },
         {
-          "position": 130,
+          "position": 131,
           "athleteCode": "42300",
           "name": "Grazielly Vriesman",
           "categoryCode": "BTFD",
@@ -42647,7 +42655,7 @@
           "points": 624
         },
         {
-          "position": 130,
+          "position": 131,
           "athleteCode": "52724",
           "name": "Valentina Teixeira",
           "categoryCode": "BTFD",
@@ -42655,7 +42663,7 @@
           "points": 624
         },
         {
-          "position": 132,
+          "position": 133,
           "athleteCode": "52634",
           "name": "Lavinia Nascimento",
           "categoryCode": "BTFD",
@@ -42663,7 +42671,7 @@
           "points": 618
         },
         {
-          "position": 133,
+          "position": 134,
           "athleteCode": "51167",
           "name": "Ketlyn Scheffel",
           "categoryCode": "BTFD",
@@ -42671,7 +42679,7 @@
           "points": 614
         },
         {
-          "position": 134,
+          "position": 135,
           "athleteCode": "39534",
           "name": "Leila Caetano",
           "categoryCode": "BTFD",
@@ -42679,7 +42687,7 @@
           "points": 611
         },
         {
-          "position": 135,
+          "position": 136,
           "athleteCode": "52230",
           "name": "Maria Faisst",
           "categoryCode": "BTFD",
@@ -42687,7 +42695,7 @@
           "points": 587
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "39907",
           "name": "Kellen Ribeiro",
           "categoryCode": "BTFD",
@@ -42695,7 +42703,7 @@
           "points": 576
         },
         {
-          "position": 136,
+          "position": 137,
           "athleteCode": "50318",
           "name": "Franciele Bobato",
           "categoryCode": "BTFD",
@@ -42703,7 +42711,7 @@
           "points": 576
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "39554",
           "name": "Felícita Sade",
           "categoryCode": "BTFD",
@@ -42711,7 +42719,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "42927",
           "name": "Cecília Nogueira",
           "categoryCode": "BTFD",
@@ -42719,7 +42727,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "43266",
           "name": "Claudia Camargo",
           "categoryCode": "BTFD",
@@ -42727,7 +42735,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "43569",
           "name": "Sirlei Aguiar",
           "categoryCode": "BTFD",
@@ -42735,7 +42743,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "44574",
           "name": "Patricia Andrade",
           "categoryCode": "BTFD",
@@ -42743,7 +42751,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "45787",
           "name": "Letícia Broetto",
           "categoryCode": "BTFD",
@@ -42751,7 +42759,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "47398",
           "name": "Rafaela Kosop",
           "categoryCode": "BTFD",
@@ -42759,7 +42767,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "47753",
           "name": "Manuela Mello",
           "categoryCode": "BTFD",
@@ -42767,7 +42775,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "47883",
           "name": "Fabiana Guadanhim",
           "categoryCode": "BTFD",
@@ -42775,7 +42783,7 @@
           "points": 567
         },
         {
-          "position": 138,
+          "position": 139,
           "athleteCode": "50287",
           "name": "Julia Mendes",
           "categoryCode": "BTFD",
@@ -42783,7 +42791,7 @@
           "points": 567
         },
         {
-          "position": 148,
+          "position": 149,
           "athleteCode": "49357",
           "name": "Marianna Romanowski",
           "categoryCode": "BTFD",
@@ -42791,7 +42799,7 @@
           "points": 562
         },
         {
-          "position": 149,
+          "position": 150,
           "athleteCode": "33456",
           "name": "Bianca Leone",
           "categoryCode": "BTFD",
@@ -42799,7 +42807,7 @@
           "points": 528
         },
         {
-          "position": 150,
+          "position": 151,
           "athleteCode": "43840",
           "name": "Magna Ribeiro",
           "categoryCode": "BTFD",
@@ -42807,7 +42815,7 @@
           "points": 519
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "45750",
           "name": "Alice Deldotto",
           "categoryCode": "BTFD",
@@ -42815,7 +42823,7 @@
           "points": 504
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "46885",
           "name": "Giovana Sordi",
           "categoryCode": "BTFD",
@@ -42823,7 +42831,7 @@
           "points": 504
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "47246",
           "name": "Valentina Bertol",
           "categoryCode": "BTFD",
@@ -42831,7 +42839,7 @@
           "points": 504
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "47758",
           "name": "Laura Longhi",
           "categoryCode": "BTFD",
@@ -42839,7 +42847,7 @@
           "points": 504
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "49913",
           "name": "Eduarda Natucci",
           "categoryCode": "BTFD",
@@ -42847,7 +42855,7 @@
           "points": 504
         },
         {
-          "position": 151,
+          "position": 152,
           "athleteCode": "52710",
           "name": "Alana Koskodai",
           "categoryCode": "BTFD",
@@ -42855,7 +42863,7 @@
           "points": 504
         },
         {
-          "position": 157,
+          "position": 158,
           "athleteCode": "5460",
           "name": "Fabiola Magalhães",
           "categoryCode": "BTFD",
@@ -42863,7 +42871,7 @@
           "points": 486
         },
         {
-          "position": 157,
+          "position": 158,
           "athleteCode": "34483",
           "name": "Andrelize Machado",
           "categoryCode": "BTFD",
@@ -42871,7 +42879,7 @@
           "points": 486
         },
         {
-          "position": 159,
+          "position": 160,
           "athleteCode": "46490",
           "name": "Larissa Petrarchi",
           "categoryCode": "BTFD",
@@ -42879,7 +42887,7 @@
           "points": 479
         },
         {
-          "position": 159,
+          "position": 160,
           "athleteCode": "51652",
           "name": "Eduarda Hoshina",
           "categoryCode": "BTFD",
@@ -42887,7 +42895,7 @@
           "points": 479
         },
         {
-          "position": 161,
+          "position": 162,
           "athleteCode": "33510",
           "name": "Evelyn Arruda",
           "categoryCode": "BTFD",
@@ -42895,7 +42903,7 @@
           "points": 468
         },
         {
-          "position": 161,
+          "position": 162,
           "athleteCode": "34270",
           "name": "Luciane Grajauskas",
           "categoryCode": "BTFD",
@@ -42903,7 +42911,7 @@
           "points": 468
         },
         {
-          "position": 163,
+          "position": 164,
           "athleteCode": "39060",
           "name": "Gilmara Coronado",
           "categoryCode": "BTFD",
@@ -42911,7 +42919,7 @@
           "points": 448
         },
         {
-          "position": 163,
+          "position": 164,
           "athleteCode": "47100",
           "name": "Julia Bonfanti",
           "categoryCode": "BTFD",
@@ -42919,7 +42927,7 @@
           "points": 448
         },
         {
-          "position": 165,
+          "position": 166,
           "athleteCode": "34219",
           "name": "Leidiana Brancher",
           "categoryCode": "BTFD",
@@ -42927,7 +42935,7 @@
           "points": 446
         },
         {
-          "position": 166,
+          "position": 167,
           "athleteCode": "34175",
           "name": "Roberta Guimaraes",
           "categoryCode": "BTFD",
@@ -42935,7 +42943,7 @@
           "points": 443
         },
         {
-          "position": 166,
+          "position": 167,
           "athleteCode": "34816",
           "name": "Debora Dellazari",
           "categoryCode": "BTFD",
@@ -42943,7 +42951,7 @@
           "points": 443
         },
         {
-          "position": 166,
+          "position": 167,
           "athleteCode": "41402",
           "name": "Caroline Staine",
           "categoryCode": "BTFD",
@@ -42951,7 +42959,7 @@
           "points": 443
         },
         {
-          "position": 169,
+          "position": 170,
           "athleteCode": "56152",
           "name": "Rafaela Moro",
           "categoryCode": "BTFD",
@@ -42959,7 +42967,7 @@
           "points": 436
         },
         {
-          "position": 170,
+          "position": 171,
           "athleteCode": "33429",
           "name": "Suzana Sperancetta",
           "categoryCode": "BTFD",
@@ -42967,7 +42975,7 @@
           "points": 432
         },
         {
-          "position": 170,
+          "position": 171,
           "athleteCode": "44536",
           "name": "Fernanda Moreschi",
           "categoryCode": "BTFD",
@@ -42975,7 +42983,7 @@
           "points": 432
         },
         {
-          "position": 172,
+          "position": 173,
           "athleteCode": "45007",
           "name": "Erica Silva",
           "categoryCode": "BTFD",
@@ -42983,7 +42991,7 @@
           "points": 403
         },
         {
-          "position": 173,
+          "position": 174,
           "athleteCode": "34106",
           "name": "Karina Novakovich",
           "categoryCode": "BTFD",
@@ -42991,7 +42999,7 @@
           "points": 396
         },
         {
-          "position": 173,
+          "position": 174,
           "athleteCode": "44754",
           "name": "Karen Avansi",
           "categoryCode": "BTFD",
@@ -42999,7 +43007,7 @@
           "points": 396
         },
         {
-          "position": 173,
+          "position": 174,
           "athleteCode": "52499",
           "name": "Aline Henz",
           "categoryCode": "BTFD",
@@ -43007,7 +43015,7 @@
           "points": 396
         },
         {
-          "position": 176,
+          "position": 177,
           "athleteCode": "41758",
           "name": "Dana Wolf",
           "categoryCode": "BTFD",
@@ -43015,7 +43023,7 @@
           "points": 360
         },
         {
-          "position": 177,
+          "position": 178,
           "athleteCode": "54624",
           "name": "Wanessa Rigolon",
           "categoryCode": "BTFD",
@@ -43023,7 +43031,7 @@
           "points": 293
         },
         {
-          "position": 178,
+          "position": 179,
           "athleteCode": "36699",
           "name": "Laura Ceccatto",
           "categoryCode": "BTFD",
@@ -43031,7 +43039,7 @@
           "points": 291
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "50247",
           "name": "Ana Rauber",
           "categoryCode": "BTFD",
@@ -43039,7 +43047,7 @@
           "points": 277
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "51013",
           "name": "Ivanete Oliveira",
           "categoryCode": "BTFD",
@@ -43047,7 +43055,7 @@
           "points": 277
         },
         {
-          "position": 179,
+          "position": 180,
           "athleteCode": "52216",
           "name": "Emanueli Rodrigues",
           "categoryCode": "BTFD",
@@ -43055,7 +43063,7 @@
           "points": 277
         },
         {
-          "position": 182,
+          "position": 183,
           "athleteCode": "37277",
           "name": "Thabata Enzo",
           "categoryCode": "BTFD",
@@ -43063,7 +43071,7 @@
           "points": 256
         },
         {
-          "position": 183,
+          "position": 184,
           "athleteCode": "43398",
           "name": "Tatiana Stadler",
           "categoryCode": "BTFD",
@@ -43071,7 +43079,7 @@
           "points": 240
         },
         {
-          "position": 184,
+          "position": 185,
           "athleteCode": "45594",
           "name": "Clariana Maranha",
           "categoryCode": "BTFD",
@@ -43079,7 +43087,7 @@
           "points": 233
         },
         {
-          "position": 185,
+          "position": 186,
           "athleteCode": "30877",
           "name": "Tainã Pompeu",
           "categoryCode": "BTFD",
@@ -43087,7 +43095,7 @@
           "points": 203
         },
         {
-          "position": 185,
+          "position": 186,
           "athleteCode": "40267",
           "name": "Danielle Assis",
           "categoryCode": "BTFD",
@@ -43095,7 +43103,7 @@
           "points": 203
         },
         {
-          "position": 187,
+          "position": 188,
           "athleteCode": "45396",
           "name": "Juliana Andretta",
           "categoryCode": "BTFD",
@@ -43103,7 +43111,7 @@
           "points": 180
         },
         {
-          "position": 187,
+          "position": 188,
           "athleteCode": "45901",
           "name": "Gisele Marcondes",
           "categoryCode": "BTFD",
@@ -43111,7 +43119,7 @@
           "points": 180
         },
         {
-          "position": 189,
+          "position": 190,
           "athleteCode": "47425",
           "name": "Natalia Santos",
           "categoryCode": "BTFD",
@@ -43119,7 +43127,7 @@
           "points": 173
         },
         {
-          "position": 190,
+          "position": 191,
           "athleteCode": "36724",
           "name": "Luiza Camargo",
           "categoryCode": "BTFD",
@@ -43127,7 +43135,7 @@
           "points": 166
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "38593",
           "name": "Michelle Botelho",
           "categoryCode": "BTFD",
@@ -43135,7 +43143,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "40900",
           "name": "Ariane Atibaia",
           "categoryCode": "BTFD",
@@ -43143,7 +43151,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "42869",
           "name": "Gabriela Estivalet",
           "categoryCode": "BTFD",
@@ -43151,7 +43159,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "45528",
           "name": "Sara Vidal",
           "categoryCode": "BTFD",
@@ -43159,7 +43167,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "47373",
           "name": "Milena Caetano",
           "categoryCode": "BTFD",
@@ -43167,7 +43175,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "48012",
           "name": "Maria Kelm",
           "categoryCode": "BTFD",
@@ -43175,7 +43183,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "50635",
           "name": "Júlia Wenningkamp",
           "categoryCode": "BTFD",
@@ -43183,7 +43191,7 @@
           "points": 150
         },
         {
-          "position": 191,
+          "position": 192,
           "athleteCode": "52679",
           "name": "Ana Walber",
           "categoryCode": "BTFD",
@@ -43191,7 +43199,7 @@
           "points": 150
         },
         {
-          "position": 199,
+          "position": 200,
           "athleteCode": "47027",
           "name": "Pietra Pietrovicz",
           "categoryCode": "BTFD",
@@ -43199,7 +43207,7 @@
           "points": 120
         },
         {
-          "position": 199,
+          "position": 200,
           "athleteCode": "52708",
           "name": "Anna Jubanski",
           "categoryCode": "BTFD",
@@ -43207,7 +43215,7 @@
           "points": 120
         },
         {
-          "position": 201,
+          "position": 202,
           "athleteCode": "41382",
           "name": "Talita Pacholek",
           "categoryCode": "BTFD",
@@ -43215,7 +43223,7 @@
           "points": 110
         },
         {
-          "position": 201,
+          "position": 202,
           "athleteCode": "44150",
           "name": "Fabiana Zapzalka",
           "categoryCode": "BTFD",
@@ -43223,7 +43231,7 @@
           "points": 110
         },
         {
-          "position": 203,
+          "position": 204,
           "athleteCode": "40004",
           "name": "Betina Ferreira",
           "categoryCode": "BTFD",
@@ -43231,7 +43239,7 @@
           "points": 98
         },
         {
-          "position": 204,
+          "position": 205,
           "athleteCode": "39159",
           "name": "Giovana Galvan",
           "categoryCode": "BTFD",
@@ -43239,7 +43247,7 @@
           "points": 90
         },
         {
-          "position": 204,
+          "position": 205,
           "athleteCode": "44581",
           "name": "Luiza Villa",
           "categoryCode": "BTFD",
@@ -43247,7 +43255,7 @@
           "points": 90
         },
         {
-          "position": 204,
+          "position": 205,
           "athleteCode": "47075",
           "name": "Dayane Silva",
           "categoryCode": "BTFD",
@@ -43255,7 +43263,7 @@
           "points": 90
         },
         {
-          "position": 204,
+          "position": 205,
           "athleteCode": "51407",
           "name": "Claudia Santos",
           "categoryCode": "BTFD",
@@ -43263,7 +43271,7 @@
           "points": 90
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "32655",
           "name": "Nicole Toninello",
           "categoryCode": "BTFD",
@@ -43271,7 +43279,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "35013",
           "name": "Glaucia Leite",
           "categoryCode": "BTFD",
@@ -43279,7 +43287,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "37797",
           "name": "Luiza Toninello",
           "categoryCode": "BTFD",
@@ -43287,7 +43295,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "39580",
           "name": "Karen Lorusso",
           "categoryCode": "BTFD",
@@ -43295,7 +43303,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "40745",
           "name": "Claudenice Segantini",
           "categoryCode": "BTFD",
@@ -43303,7 +43311,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "41167",
           "name": "Joelly Alessi",
           "categoryCode": "BTFD",
@@ -43311,7 +43319,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "42947",
           "name": "Andreia Fanti",
           "categoryCode": "BTFD",
@@ -43319,7 +43327,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "42969",
           "name": "Elaine Domingues",
           "categoryCode": "BTFD",
@@ -43327,7 +43335,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "43884",
           "name": "Marili Schischoff",
           "categoryCode": "BTFD",
@@ -43335,7 +43343,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "46586",
           "name": "Vanessa Azevedo",
           "categoryCode": "BTFD",
@@ -43343,7 +43351,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "46809",
           "name": "Gislene Almeida",
           "categoryCode": "BTFD",
@@ -43351,7 +43359,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "49949",
           "name": "Amanda Krul",
           "categoryCode": "BTFD",
@@ -43359,7 +43367,7 @@
           "points": 83
         },
         {
-          "position": 208,
+          "position": 209,
           "athleteCode": "52430",
           "name": "Lara Santos",
           "categoryCode": "BTFD",
@@ -43381,7 +43389,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 9479,
+      "durationMs": 2162,
       "attempts": 1,
       "athleteCount": 177,
       "athletes": [
@@ -43749,7 +43757,7 @@
           "position": 46,
           "athleteCode": "54776",
           "name": "Silvia Schneider",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 62,
           "points": 2692
         },
@@ -44093,7 +44101,7 @@
           "position": 88,
           "athleteCode": "47770",
           "name": "Vanessa Unrein",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 117,
           "points": 1155
         },
@@ -44816,7 +44824,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1409,
+      "durationMs": 1351,
       "attempts": 1,
       "athleteCount": 52,
       "athletes": [
@@ -45251,7 +45259,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1719,
+      "durationMs": 1991,
       "attempts": 1,
       "athleteCount": 114,
       "athletes": [
@@ -46182,7 +46190,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 2620,
+      "durationMs": 2525,
       "attempts": 1,
       "athleteCount": 203,
       "athletes": [
@@ -46284,27 +46292,27 @@
         },
         {
           "position": 13,
-          "athleteCode": "41428",
-          "name": "Henrique Possas",
-          "categoryCode": "BTMC",
-          "sourcePosition": 20,
-          "points": 8149
-        },
-        {
-          "position": 14,
-          "athleteCode": "34192",
-          "name": "Vinicius Ferro",
-          "categoryCode": "BTMC",
-          "sourcePosition": 21,
-          "points": 7832
-        },
-        {
-          "position": 15,
           "athleteCode": "28584",
           "name": "Pedro Poli",
           "categoryCode": "BTMC",
+          "sourcePosition": 18,
+          "points": 8488
+        },
+        {
+          "position": 14,
+          "athleteCode": "41428",
+          "name": "Henrique Possas",
+          "categoryCode": "BTMC",
+          "sourcePosition": 21,
+          "points": 8149
+        },
+        {
+          "position": 15,
+          "athleteCode": "34192",
+          "name": "Vinicius Ferro",
+          "categoryCode": "BTMC",
           "sourcePosition": 22,
-          "points": 7729
+          "points": 7832
         },
         {
           "position": 16,
@@ -47825,7 +47833,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 5098,
+      "durationMs": 2833,
       "attempts": 1,
       "athleteCount": 186,
       "athletes": [
@@ -47849,7 +47857,7 @@
           "position": 3,
           "athleteCode": "44509",
           "name": "Maycon Marianowski",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 4,
           "points": 12094
         },
@@ -47857,7 +47865,7 @@
           "position": 4,
           "athleteCode": "45402",
           "name": "Douglas Anschau",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 5,
           "points": 11579
         },
@@ -47953,7 +47961,7 @@
           "position": 16,
           "athleteCode": "48053",
           "name": "Felipe Monteiro",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 23,
           "points": 6561
         },
@@ -48049,7 +48057,7 @@
           "position": 28,
           "athleteCode": "48121",
           "name": "Yuri Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 40,
           "points": 4731
         },
@@ -49332,7 +49340,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 3466,
+      "durationMs": 2577,
       "attempts": 1,
       "athleteCount": 97,
       "athletes": [
@@ -49348,7 +49356,7 @@
           "position": 2,
           "athleteCode": "50859",
           "name": "Fabio Costa",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 2,
           "points": 15716
         },
@@ -50127,7 +50135,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1413,
+      "durationMs": 1325,
       "attempts": 1,
       "athleteCount": 52,
       "athletes": [
@@ -50562,7 +50570,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 1419,
+      "durationMs": 1176,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -50626,7 +50634,7 @@
           "position": 6,
           "athleteCode": "41717",
           "name": "Eliane Bertogna",
-          "categoryCode": "BTFC",
+          "categoryCode": "BTFD",
           "sourcePosition": 6,
           "points": 2100
         },
@@ -50701,7 +50709,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 886,
+      "durationMs": 999,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -50784,7 +50792,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1088,
+      "durationMs": 1276,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -51107,7 +51115,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1041,
+      "durationMs": 1028,
       "attempts": 1,
       "athleteCount": 21,
       "athletes": [
@@ -51294,7 +51302,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 2115,
+      "durationMs": 1058,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -51377,7 +51385,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 1339,
+      "durationMs": 877,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -51516,7 +51524,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 3332,
+      "durationMs": 965,
       "attempts": 1,
       "athleteCount": 19,
       "athletes": [
@@ -51687,7 +51695,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 5074,
+      "durationMs": 892,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -51882,7 +51890,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 1770,
+      "durationMs": 1089,
       "attempts": 1,
       "athleteCount": 10,
       "athletes": [
@@ -51981,7 +51989,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1307,
+      "durationMs": 1071,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -52104,7 +52112,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1462,
+      "durationMs": 887,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -52267,7 +52275,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 2080,
+      "durationMs": 1064,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -52350,7 +52358,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 734,
+      "durationMs": 1032,
       "attempts": 1,
       "athleteCount": 41,
       "athletes": [
@@ -52697,7 +52705,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 4811,
+      "durationMs": 1402,
       "attempts": 1,
       "athleteCount": 81,
       "athletes": [
@@ -53364,7 +53372,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 2591,
+      "durationMs": 1712,
       "attempts": 1,
       "athleteCount": 74,
       "athletes": [
@@ -53396,7 +53404,7 @@
           "position": 4,
           "athleteCode": "44896",
           "name": "Anna Antonelli",
-          "categoryCode": "BTFD",
+          "categoryCode": "BTFC",
           "sourcePosition": 4,
           "points": 12085
         },
@@ -53975,7 +53983,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 2544,
+      "durationMs": 1567,
       "attempts": 1,
       "athleteCount": 73,
       "athletes": [
@@ -54151,7 +54159,7 @@
           "position": 22,
           "athleteCode": "47770",
           "name": "Vanessa Unrein",
-          "categoryCode": "BTFE",
+          "categoryCode": "BTFD",
           "sourcePosition": 24,
           "points": 3364
         },
@@ -54578,7 +54586,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 2590,
+      "durationMs": 1022,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -54789,7 +54797,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 2596,
+      "durationMs": 1353,
       "attempts": 1,
       "athleteCount": 49,
       "athletes": [
@@ -55200,7 +55208,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 3689,
+      "durationMs": 1638,
       "attempts": 1,
       "athleteCount": 94,
       "athletes": [
@@ -55971,7 +55979,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 955,
+      "durationMs": 1448,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -55995,7 +56003,7 @@
           "position": 3,
           "athleteCode": "46303",
           "name": "Rodrigo Menon",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 3,
           "points": 11218
         },
@@ -56011,7 +56019,7 @@
           "position": 5,
           "athleteCode": "45582",
           "name": "Raul Pinheiro",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 5,
           "points": 10806
         },
@@ -56526,7 +56534,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 838,
+      "durationMs": 1374,
       "attempts": 1,
       "athleteCount": 53,
       "athletes": [
@@ -56534,7 +56542,7 @@
           "position": 1,
           "athleteCode": "40396",
           "name": "Matheus Martini",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 1,
           "points": 13691
         },
@@ -56542,7 +56550,7 @@
           "position": 2,
           "athleteCode": "51325",
           "name": "Edmar Junior",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 2,
           "points": 11675
         },
@@ -56969,7 +56977,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 760,
+      "durationMs": 1351,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -57260,7 +57268,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 736,
+      "durationMs": 1349,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -57495,7 +57503,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 591,
+      "durationMs": 1264,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -57650,7 +57658,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1204,
+      "durationMs": 1426,
       "attempts": 1,
       "athleteCount": 37,
       "athletes": [
@@ -57965,7 +57973,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1833,
+      "durationMs": 1597,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -58288,7 +58296,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 554,
+      "durationMs": 1302,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -58443,7 +58451,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 920,
+      "durationMs": 853,
       "attempts": 1,
       "athleteCount": 21,
       "athletes": [
@@ -58630,7 +58638,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 777,
+      "durationMs": 1095,
       "attempts": 1,
       "athleteCount": 29,
       "athletes": [
@@ -58881,7 +58889,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 712,
+      "durationMs": 1152,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -59092,7 +59100,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 695,
+      "durationMs": 1240,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -59255,7 +59263,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 776,
+      "durationMs": 1282,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -59474,7 +59482,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 806,
+      "durationMs": 1154,
       "attempts": 1,
       "athleteCount": 28,
       "athletes": [
@@ -59717,7 +59725,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1671,
+      "durationMs": 1828,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -59936,7 +59944,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 673,
+      "durationMs": 1514,
       "attempts": 1,
       "athleteCount": 40,
       "athletes": [
@@ -60275,7 +60283,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 765,
+      "durationMs": 1942,
       "attempts": 1,
       "athleteCount": 93,
       "athletes": [
@@ -61038,9 +61046,9 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 773,
+      "durationMs": 1654,
       "attempts": 1,
-      "athleteCount": 58,
+      "athleteCount": 57,
       "athletes": [
         {
           "position": 1,
@@ -61324,14 +61332,6 @@
         },
         {
           "position": 34,
-          "athleteCode": "42237",
-          "name": "Carla Prado",
-          "categoryCode": "BTFD",
-          "sourcePosition": 44,
-          "points": 824
-        },
-        {
-          "position": 34,
           "athleteCode": "53010",
           "name": "Ana Novotny",
           "categoryCode": "BTFD",
@@ -61339,7 +61339,7 @@
           "points": 824
         },
         {
-          "position": 38,
+          "position": 37,
           "athleteCode": "35746",
           "name": "Thaís Pereira",
           "categoryCode": "BTFD",
@@ -61347,7 +61347,7 @@
           "points": 735
         },
         {
-          "position": 38,
+          "position": 37,
           "athleteCode": "45818",
           "name": "Isabella Almeida",
           "categoryCode": "BTFD",
@@ -61355,7 +61355,7 @@
           "points": 735
         },
         {
-          "position": 38,
+          "position": 37,
           "athleteCode": "46952",
           "name": "Ana Morimitsu",
           "categoryCode": "BTFD",
@@ -61363,7 +61363,7 @@
           "points": 735
         },
         {
-          "position": 41,
+          "position": 40,
           "athleteCode": "48012",
           "name": "Maria Kelm",
           "categoryCode": "BTFD",
@@ -61371,7 +61371,7 @@
           "points": 720
         },
         {
-          "position": 41,
+          "position": 40,
           "athleteCode": "50635",
           "name": "Júlia Wenningkamp",
           "categoryCode": "BTFD",
@@ -61379,7 +61379,7 @@
           "points": 720
         },
         {
-          "position": 43,
+          "position": 42,
           "athleteCode": "48441",
           "name": "Janaína Nunes",
           "categoryCode": "BTFD",
@@ -61387,7 +61387,7 @@
           "points": 653
         },
         {
-          "position": 44,
+          "position": 43,
           "athleteCode": "44960",
           "name": "Melissa Santos",
           "categoryCode": "BTFD",
@@ -61395,7 +61395,7 @@
           "points": 576
         },
         {
-          "position": 45,
+          "position": 44,
           "athleteCode": "37618",
           "name": "Priscila Kempf",
           "categoryCode": "BTFD",
@@ -61403,7 +61403,7 @@
           "points": 372
         },
         {
-          "position": 46,
+          "position": 45,
           "athleteCode": "31963",
           "name": "Beatriz Ajita",
           "categoryCode": "BTFD",
@@ -61411,7 +61411,7 @@
           "points": 360
         },
         {
-          "position": 46,
+          "position": 45,
           "athleteCode": "49013",
           "name": "Rafaela Mendes",
           "categoryCode": "BTFD",
@@ -61419,7 +61419,7 @@
           "points": 360
         },
         {
-          "position": 48,
+          "position": 47,
           "athleteCode": "49621",
           "name": "Carolina Pagani",
           "categoryCode": "BTFD",
@@ -61427,7 +61427,7 @@
           "points": 213
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "48870",
           "name": "Beatriz Pozzo",
           "categoryCode": "BTFD",
@@ -61435,7 +61435,7 @@
           "points": 150
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "50634",
           "name": "Emanuelle Brixner",
           "categoryCode": "BTFD",
@@ -61443,7 +61443,7 @@
           "points": 150
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "50941",
           "name": "Vanessa Brixner",
           "categoryCode": "BTFD",
@@ -61451,7 +61451,7 @@
           "points": 150
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "52820",
           "name": "Louise Gehlen",
           "categoryCode": "BTFD",
@@ -61459,7 +61459,7 @@
           "points": 150
         },
         {
-          "position": 49,
+          "position": 48,
           "athleteCode": "53755",
           "name": "Bruna Hurmann",
           "categoryCode": "BTFD",
@@ -61467,7 +61467,7 @@
           "points": 150
         },
         {
-          "position": 54,
+          "position": 53,
           "athleteCode": "46398",
           "name": "Danielle Salle",
           "categoryCode": "BTFD",
@@ -61475,7 +61475,7 @@
           "points": 138
         },
         {
-          "position": 55,
+          "position": 54,
           "athleteCode": "38076",
           "name": "Simone Parra",
           "categoryCode": "BTFD",
@@ -61483,7 +61483,7 @@
           "points": 120
         },
         {
-          "position": 55,
+          "position": 54,
           "athleteCode": "42402",
           "name": "Thays Burin",
           "categoryCode": "BTFD",
@@ -61491,7 +61491,7 @@
           "points": 120
         },
         {
-          "position": 55,
+          "position": 54,
           "athleteCode": "53196",
           "name": "Lorena Scapin",
           "categoryCode": "BTFD",
@@ -61499,7 +61499,7 @@
           "points": 120
         },
         {
-          "position": 58,
+          "position": 57,
           "athleteCode": "56277",
           "name": "Ana Cabral",
           "categoryCode": "BTFD",
@@ -61521,7 +61521,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 469,
+      "durationMs": 1245,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -61684,7 +61684,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 580,
+      "durationMs": 1052,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -61903,7 +61903,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 878,
+      "durationMs": 1947,
       "attempts": 1,
       "athleteCount": 48,
       "athletes": [
@@ -62306,7 +62306,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 830,
+      "durationMs": 2246,
       "attempts": 1,
       "athleteCount": 88,
       "athletes": [
@@ -63029,7 +63029,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 2160,
+      "durationMs": 1488,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -63352,7 +63352,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 836,
+      "durationMs": 1537,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -63587,7 +63587,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 795,
+      "durationMs": 977,
       "attempts": 1,
       "athleteCount": 20,
       "athletes": [
@@ -63766,7 +63766,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 851,
+      "durationMs": 1064,
       "attempts": 1,
       "athleteCount": 23,
       "athletes": [
@@ -63969,7 +63969,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 828,
+      "durationMs": 988,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -64084,7 +64084,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1222,
+      "durationMs": 1479,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -64303,7 +64303,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 672,
+      "durationMs": 1185,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -64426,7 +64426,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 858,
+      "durationMs": 1124,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -64581,7 +64581,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 637,
+      "durationMs": 907,
       "attempts": 1,
       "athleteCount": 16,
       "athletes": [
@@ -64728,7 +64728,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 715,
+      "durationMs": 1123,
       "attempts": 1,
       "athleteCount": 26,
       "athletes": [
@@ -64955,7 +64955,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 711,
+      "durationMs": 1123,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -65110,7 +65110,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 675,
+      "durationMs": 937,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -65233,7 +65233,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 958,
+      "durationMs": 1047,
       "attempts": 1,
       "athleteCount": 33,
       "athletes": [
@@ -65516,7 +65516,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 760,
+      "durationMs": 1123,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -65815,7 +65815,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 721,
+      "durationMs": 1146,
       "attempts": 1,
       "athleteCount": 14,
       "athletes": [
@@ -65946,7 +65946,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 769,
+      "durationMs": 1364,
       "attempts": 1,
       "athleteCount": 28,
       "athletes": [
@@ -66189,7 +66189,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 746,
+      "durationMs": 1775,
       "attempts": 1,
       "athleteCount": 52,
       "athletes": [
@@ -66624,7 +66624,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 596,
+      "durationMs": 1348,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -66843,7 +66843,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 630,
+      "durationMs": 1160,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -66958,7 +66958,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 976,
+      "durationMs": 5523,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -67097,7 +67097,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 838,
+      "durationMs": 5711,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -67316,7 +67316,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1192,
+      "durationMs": 6293,
       "attempts": 1,
       "athleteCount": 73,
       "athletes": [
@@ -67919,7 +67919,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 859,
+      "durationMs": 3320,
       "attempts": 1,
       "athleteCount": 19,
       "athletes": [
@@ -68090,7 +68090,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 660,
+      "durationMs": 1510,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -68210,7 +68210,7 @@
           "position": 15,
           "athleteCode": "51724",
           "name": "Giovani Vasques",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 10,
           "points": 75
         }
@@ -68229,7 +68229,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1589,
+      "durationMs": 1057,
       "attempts": 1,
       "athleteCount": 36,
       "athletes": [
@@ -68536,7 +68536,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 697,
+      "durationMs": 1052,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [
@@ -68568,7 +68568,7 @@
           "position": 4,
           "athleteCode": "41717",
           "name": "Eliane Bertogna",
-          "categoryCode": "BTFC",
+          "categoryCode": "BTFD",
           "sourcePosition": 4,
           "points": 12577
         },
@@ -68811,7 +68811,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 617,
+      "durationMs": 884,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -68934,7 +68934,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 751,
+      "durationMs": 1348,
       "attempts": 1,
       "athleteCount": 46,
       "athletes": [
@@ -69321,7 +69321,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 681,
+      "durationMs": 1215,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -69620,7 +69620,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 525,
+      "durationMs": 907,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -69743,7 +69743,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 658,
+      "durationMs": 968,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -69882,7 +69882,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1213,
+      "durationMs": 1196,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -70077,7 +70077,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 711,
+      "durationMs": 1163,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -70288,7 +70288,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 703,
+      "durationMs": 906,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -70371,7 +70371,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 670,
+      "durationMs": 879,
       "attempts": 1,
       "athleteCount": 20,
       "athletes": [
@@ -70550,7 +70550,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 653,
+      "durationMs": 1071,
       "attempts": 1,
       "athleteCount": 29,
       "athletes": [
@@ -70801,7 +70801,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 437,
+      "durationMs": 923,
       "attempts": 1,
       "athleteCount": 7,
       "athletes": [
@@ -70876,7 +70876,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 636,
+      "durationMs": 1593,
       "attempts": 1,
       "athleteCount": 57,
       "athletes": [
@@ -71351,7 +71351,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1379,
+      "durationMs": 1702,
       "attempts": 1,
       "athleteCount": 87,
       "athletes": [
@@ -72066,9 +72066,9 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 1508,
+      "durationMs": 1892,
       "attempts": 1,
-      "athleteCount": 91,
+      "athleteCount": 92,
       "athletes": [
         {
           "position": 1,
@@ -72176,6 +72176,14 @@
         },
         {
           "position": 14,
+          "athleteCode": "41717",
+          "name": "Eliane Bertogna",
+          "categoryCode": "BTFD",
+          "sourcePosition": 14,
+          "points": 3075
+        },
+        {
+          "position": 15,
           "athleteCode": "54695",
           "name": "Claudineia Fulber",
           "categoryCode": "BTFD",
@@ -72183,7 +72191,7 @@
           "points": 3000
         },
         {
-          "position": 14,
+          "position": 15,
           "athleteCode": "54697",
           "name": "Blanca Vázquez",
           "categoryCode": "BTFD",
@@ -72191,7 +72199,7 @@
           "points": 3000
         },
         {
-          "position": 16,
+          "position": 17,
           "athleteCode": "45122",
           "name": "Débora Dreves",
           "categoryCode": "BTFD",
@@ -72199,7 +72207,7 @@
           "points": 2619
         },
         {
-          "position": 17,
+          "position": 18,
           "athleteCode": "52908",
           "name": "Jessica Alves",
           "categoryCode": "BTFD",
@@ -72207,7 +72215,7 @@
           "points": 2187
         },
         {
-          "position": 18,
+          "position": 19,
           "athleteCode": "43647",
           "name": "Rafaela Ruza",
           "categoryCode": "BTFD",
@@ -72215,7 +72223,7 @@
           "points": 2180
         },
         {
-          "position": 19,
+          "position": 20,
           "athleteCode": "45056",
           "name": "Simone Luz",
           "categoryCode": "BTFD",
@@ -72223,7 +72231,7 @@
           "points": 2083
         },
         {
-          "position": 20,
+          "position": 21,
           "athleteCode": "51981",
           "name": "Yasmin Andrade",
           "categoryCode": "BTFD",
@@ -72231,7 +72239,7 @@
           "points": 1994
         },
         {
-          "position": 21,
+          "position": 22,
           "athleteCode": "44473",
           "name": "Luciana Moraes",
           "categoryCode": "BTFD",
@@ -72239,7 +72247,7 @@
           "points": 1963
         },
         {
-          "position": 22,
+          "position": 23,
           "athleteCode": "47987",
           "name": "Denise Luciane",
           "categoryCode": "BTFD",
@@ -72247,7 +72255,7 @@
           "points": 1863
         },
         {
-          "position": 23,
+          "position": 24,
           "athleteCode": "49987",
           "name": "Marcia Donadel",
           "categoryCode": "BTFD",
@@ -72255,7 +72263,7 @@
           "points": 1844
         },
         {
-          "position": 24,
+          "position": 25,
           "athleteCode": "48870",
           "name": "Beatriz Pozzo",
           "categoryCode": "BTFD",
@@ -72263,7 +72271,7 @@
           "points": 1717
         },
         {
-          "position": 25,
+          "position": 26,
           "athleteCode": "37707",
           "name": "Estefane Konrath",
           "categoryCode": "BTFD",
@@ -72271,7 +72279,7 @@
           "points": 1622
         },
         {
-          "position": 26,
+          "position": 27,
           "athleteCode": "46779",
           "name": "Giovana Fidler",
           "categoryCode": "BTFD",
@@ -72279,7 +72287,7 @@
           "points": 1617
         },
         {
-          "position": 27,
+          "position": 28,
           "athleteCode": "53094",
           "name": "Ariadne Lange",
           "categoryCode": "BTFD",
@@ -72287,7 +72295,7 @@
           "points": 1593
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "38083",
           "name": "Alana Silva",
           "categoryCode": "BTFD",
@@ -72295,7 +72303,7 @@
           "points": 1500
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "46011",
           "name": "Angela Schreiner",
           "categoryCode": "BTFD",
@@ -72303,7 +72311,7 @@
           "points": 1500
         },
         {
-          "position": 28,
+          "position": 29,
           "athleteCode": "50612",
           "name": "Rocío Riquelme",
           "categoryCode": "BTFD",
@@ -72311,7 +72319,7 @@
           "points": 1500
         },
         {
-          "position": 31,
+          "position": 32,
           "athleteCode": "47368",
           "name": "Sara Schwingel",
           "categoryCode": "BTFD",
@@ -72319,7 +72327,7 @@
           "points": 1470
         },
         {
-          "position": 31,
+          "position": 32,
           "athleteCode": "52179",
           "name": "Natali Bampi",
           "categoryCode": "BTFD",
@@ -72327,7 +72335,7 @@
           "points": 1470
         },
         {
-          "position": 33,
+          "position": 34,
           "athleteCode": "38173",
           "name": "Luana Oliveira",
           "categoryCode": "BTFD",
@@ -72335,7 +72343,7 @@
           "points": 1423
         },
         {
-          "position": 34,
+          "position": 35,
           "athleteCode": "55796",
           "name": "Lívia Cardoso",
           "categoryCode": "BTFD",
@@ -72343,7 +72351,7 @@
           "points": 1395
         },
         {
-          "position": 35,
+          "position": 36,
           "athleteCode": "43074",
           "name": "Karina Babinski",
           "categoryCode": "BTFD",
@@ -72351,7 +72359,7 @@
           "points": 1348
         },
         {
-          "position": 35,
+          "position": 36,
           "athleteCode": "46428",
           "name": "Pâmela Postingher",
           "categoryCode": "BTFD",
@@ -72359,7 +72367,7 @@
           "points": 1348
         },
         {
-          "position": 35,
+          "position": 36,
           "athleteCode": "52794",
           "name": "Magdalyn Ossak",
           "categoryCode": "BTFD",
@@ -72367,7 +72375,7 @@
           "points": 1348
         },
         {
-          "position": 35,
+          "position": 36,
           "athleteCode": "52803",
           "name": "Marina Stipp",
           "categoryCode": "BTFD",
@@ -72375,7 +72383,7 @@
           "points": 1348
         },
         {
-          "position": 39,
+          "position": 40,
           "athleteCode": "49319",
           "name": "Ane Santos",
           "categoryCode": "BTFD",
@@ -72383,7 +72391,7 @@
           "points": 1271
         },
         {
-          "position": 40,
+          "position": 41,
           "athleteCode": "45379",
           "name": "Loiva Refatti",
           "categoryCode": "BTFD",
@@ -72391,7 +72399,7 @@
           "points": 1250
         },
         {
-          "position": 41,
+          "position": 42,
           "athleteCode": "48019",
           "name": "Laura Bottega",
           "categoryCode": "BTFD",
@@ -72399,7 +72407,7 @@
           "points": 1157
         },
         {
-          "position": 42,
+          "position": 43,
           "athleteCode": "45269",
           "name": "Luiza Cristo",
           "categoryCode": "BTFD",
@@ -72407,7 +72415,7 @@
           "points": 1153
         },
         {
-          "position": 43,
+          "position": 44,
           "athleteCode": "45088",
           "name": "Beatriz Palinski",
           "categoryCode": "BTFD",
@@ -72415,7 +72423,7 @@
           "points": 1116
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "37716",
           "name": "Júlia Bortolon",
           "categoryCode": "BTFD",
@@ -72423,7 +72431,7 @@
           "points": 1050
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "45925",
           "name": "Margarete Santos",
           "categoryCode": "BTFD",
@@ -72431,7 +72439,7 @@
           "points": 1050
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "48606",
           "name": "Laís Saruhashi",
           "categoryCode": "BTFD",
@@ -72439,7 +72447,7 @@
           "points": 1050
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "52747",
           "name": "Gisele Araújo",
           "categoryCode": "BTFD",
@@ -72447,7 +72455,7 @@
           "points": 1050
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "53798",
           "name": "Alanis Kohler",
           "categoryCode": "BTFD",
@@ -72455,7 +72463,7 @@
           "points": 1050
         },
         {
-          "position": 44,
+          "position": 45,
           "athleteCode": "55915",
           "name": "Rayssa Hubler",
           "categoryCode": "BTFD",
@@ -72463,7 +72471,7 @@
           "points": 1050
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "40683",
           "name": "Heloisa Chagas",
           "categoryCode": "BTFD",
@@ -72471,7 +72479,7 @@
           "points": 944
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "47658",
           "name": "Sandra Batista",
           "categoryCode": "BTFD",
@@ -72479,7 +72487,7 @@
           "points": 944
         },
         {
-          "position": 50,
+          "position": 51,
           "athleteCode": "51716",
           "name": "Ana Mendes",
           "categoryCode": "BTFD",
@@ -72487,7 +72495,7 @@
           "points": 944
         },
         {
-          "position": 53,
+          "position": 54,
           "athleteCode": "49197",
           "name": "Cristiane Henz",
           "categoryCode": "BTFD",
@@ -72495,7 +72503,7 @@
           "points": 927
         },
         {
-          "position": 54,
+          "position": 55,
           "athleteCode": "31012",
           "name": "Thais Schenato",
           "categoryCode": "BTFD",
@@ -72503,7 +72511,7 @@
           "points": 919
         },
         {
-          "position": 55,
+          "position": 56,
           "athleteCode": "46314",
           "name": "Maria Kleinschmitt",
           "categoryCode": "BTFD",
@@ -72511,7 +72519,7 @@
           "points": 835
         },
         {
-          "position": 56,
+          "position": 57,
           "athleteCode": "34526",
           "name": "Claodete Toniazzo",
           "categoryCode": "BTFD",
@@ -72519,7 +72527,7 @@
           "points": 831
         },
         {
-          "position": 57,
+          "position": 58,
           "athleteCode": "31008",
           "name": "Jaqueline Turoni",
           "categoryCode": "BTFD",
@@ -72527,7 +72535,7 @@
           "points": 756
         },
         {
-          "position": 57,
+          "position": 58,
           "athleteCode": "43187",
           "name": "Mariza Wilnes",
           "categoryCode": "BTFD",
@@ -72535,7 +72543,7 @@
           "points": 756
         },
         {
-          "position": 57,
+          "position": 58,
           "athleteCode": "53726",
           "name": "Isabela Bersch",
           "categoryCode": "BTFD",
@@ -72543,7 +72551,7 @@
           "points": 756
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "33923",
           "name": "Yesica Gritzenco",
           "categoryCode": "BTFD",
@@ -72551,7 +72559,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "34113",
           "name": "Camila Melhorança",
           "categoryCode": "BTFD",
@@ -72559,7 +72567,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "40285",
           "name": "Vanessa Oliveira",
           "categoryCode": "BTFD",
@@ -72567,7 +72575,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "44784",
           "name": "Ana Kaefer",
           "categoryCode": "BTFD",
@@ -72575,7 +72583,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "45924",
           "name": "Jessica Maidana",
           "categoryCode": "BTFD",
@@ -72583,7 +72591,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "46469",
           "name": "Ana Fernandes",
           "categoryCode": "BTFD",
@@ -72591,7 +72599,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "47216",
           "name": "Gabriela Savegnago",
           "categoryCode": "BTFD",
@@ -72599,7 +72607,7 @@
           "points": 735
         },
         {
-          "position": 60,
+          "position": 61,
           "athleteCode": "48017",
           "name": "Luciana Dourado",
           "categoryCode": "BTFD",
@@ -72607,7 +72615,7 @@
           "points": 735
         },
         {
-          "position": 68,
+          "position": 69,
           "athleteCode": "52913",
           "name": "Caroline Spies",
           "categoryCode": "BTFD",
@@ -72615,7 +72623,7 @@
           "points": 687
         },
         {
-          "position": 69,
+          "position": 70,
           "athleteCode": "39296",
           "name": "Lara Luz",
           "categoryCode": "BTFD",
@@ -72623,7 +72631,7 @@
           "points": 660
         },
         {
-          "position": 70,
+          "position": 71,
           "athleteCode": "23744",
           "name": "Luisa Miranda",
           "categoryCode": "BTFD",
@@ -72631,7 +72639,7 @@
           "points": 590
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "31349",
           "name": "Marcia Johann",
           "categoryCode": "BTFD",
@@ -72639,7 +72647,7 @@
           "points": 515
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "35560",
           "name": "Graziela Cas",
           "categoryCode": "BTFD",
@@ -72647,7 +72655,7 @@
           "points": 515
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "43304",
           "name": "Danieli Rigo",
           "categoryCode": "BTFD",
@@ -72655,7 +72663,7 @@
           "points": 515
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "45964",
           "name": "Maria Souza",
           "categoryCode": "BTFD",
@@ -72663,7 +72671,7 @@
           "points": 515
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "47758",
           "name": "Laura Longhi",
           "categoryCode": "BTFD",
@@ -72671,7 +72679,7 @@
           "points": 515
         },
         {
-          "position": 71,
+          "position": 72,
           "athleteCode": "55699",
           "name": "Bruna Dolci",
           "categoryCode": "BTFD",
@@ -72679,7 +72687,7 @@
           "points": 515
         },
         {
-          "position": 77,
+          "position": 78,
           "athleteCode": "31724",
           "name": "Hilda Hattori",
           "categoryCode": "BTFD",
@@ -72687,7 +72695,7 @@
           "points": 360
         },
         {
-          "position": 78,
+          "position": 79,
           "athleteCode": "50941",
           "name": "Vanessa Brixner",
           "categoryCode": "BTFD",
@@ -72695,7 +72703,7 @@
           "points": 213
         },
         {
-          "position": 78,
+          "position": 79,
           "athleteCode": "53755",
           "name": "Bruna Hurmann",
           "categoryCode": "BTFD",
@@ -72703,7 +72711,7 @@
           "points": 213
         },
         {
-          "position": 80,
+          "position": 81,
           "athleteCode": "52820",
           "name": "Louise Gehlen",
           "categoryCode": "BTFD",
@@ -72711,7 +72719,7 @@
           "points": 150
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "38279",
           "name": "Debora Domiciano",
           "categoryCode": "BTFD",
@@ -72719,7 +72727,7 @@
           "points": 138
         },
         {
-          "position": 81,
+          "position": 82,
           "athleteCode": "51710",
           "name": "Gabriela Prado",
           "categoryCode": "BTFD",
@@ -72727,7 +72735,7 @@
           "points": 138
         },
         {
-          "position": 83,
+          "position": 84,
           "athleteCode": "55674",
           "name": "Tatiana Zanda",
           "categoryCode": "BTFD",
@@ -72735,7 +72743,7 @@
           "points": 110
         },
         {
-          "position": 84,
+          "position": 85,
           "athleteCode": "34805",
           "name": "Debora Peres",
           "categoryCode": "BTFD",
@@ -72743,7 +72751,7 @@
           "points": 100
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "38043",
           "name": "Monica Ferreira",
           "categoryCode": "BTFD",
@@ -72751,7 +72759,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "39205",
           "name": "Michele Chaves",
           "categoryCode": "BTFD",
@@ -72759,7 +72767,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "41822",
           "name": "Lucimeri Colossi",
           "categoryCode": "BTFD",
@@ -72767,7 +72775,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "47453",
           "name": "Isadora Paludo",
           "categoryCode": "BTFD",
@@ -72775,7 +72783,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "49153",
           "name": "Luani Wiederkehr",
           "categoryCode": "BTFD",
@@ -72783,7 +72791,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "52480",
           "name": "Jacielle Santos",
           "categoryCode": "BTFD",
@@ -72791,7 +72799,7 @@
           "points": 75
         },
         {
-          "position": 85,
+          "position": 86,
           "athleteCode": "56310",
           "name": "Thainá Arndt",
           "categoryCode": "BTFD",
@@ -72813,7 +72821,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 805,
+      "durationMs": 1573,
       "attempts": 1,
       "athleteCount": 53,
       "athletes": [
@@ -73256,7 +73264,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1113,
+      "durationMs": 1255,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [
@@ -73531,7 +73539,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1244,
+      "durationMs": 1486,
       "attempts": 1,
       "athleteCount": 51,
       "athletes": [
@@ -73958,7 +73966,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1681,
+      "durationMs": 1986,
       "attempts": 1,
       "athleteCount": 118,
       "athletes": [
@@ -74921,7 +74929,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1579,
+      "durationMs": 1605,
       "attempts": 1,
       "athleteCount": 55,
       "athletes": [
@@ -75380,7 +75388,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1245,
+      "durationMs": 1505,
       "attempts": 1,
       "athleteCount": 43,
       "athletes": [
@@ -75743,7 +75751,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 570,
+      "durationMs": 1365,
       "attempts": 1,
       "athleteCount": 54,
       "athletes": [
@@ -76194,7 +76202,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 444,
+      "durationMs": 964,
       "attempts": 1,
       "athleteCount": 11,
       "athletes": [
@@ -76258,7 +76266,7 @@
           "position": 7,
           "athleteCode": "41717",
           "name": "Eliane Bertogna",
-          "categoryCode": "BTFC",
+          "categoryCode": "BTFD",
           "sourcePosition": 7,
           "points": 2750
         },
@@ -76301,7 +76309,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 488,
+      "durationMs": 888,
       "attempts": 1,
       "athleteCount": 10,
       "athletes": [
@@ -76400,7 +76408,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 554,
+      "durationMs": 1014,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -76635,7 +76643,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1758,
+      "durationMs": 1037,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -76846,7 +76854,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 2778,
+      "durationMs": 1030,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -76969,7 +76977,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 1126,
+      "durationMs": 872,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -77084,7 +77092,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1216,
+      "durationMs": 1784,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -77383,7 +77391,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 984,
+      "durationMs": 1416,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -77578,7 +77586,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 674,
+      "durationMs": 1152,
       "attempts": 1,
       "athleteCount": 14,
       "athletes": [
@@ -77709,7 +77717,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 506,
+      "durationMs": 1180,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -77920,7 +77928,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 501,
+      "durationMs": 1017,
       "attempts": 1,
       "athleteCount": 26,
       "athletes": [
@@ -78147,7 +78155,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 554,
+      "durationMs": 692,
       "attempts": 1,
       "athleteCount": 0,
       "athletes": []
@@ -78165,7 +78173,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 639,
+      "durationMs": 1039,
       "attempts": 1,
       "athleteCount": 30,
       "athletes": [
@@ -78424,7 +78432,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 2389,
+      "durationMs": 1571,
       "attempts": 1,
       "athleteCount": 101,
       "athletes": [
@@ -79251,7 +79259,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 1737,
+      "durationMs": 2088,
       "attempts": 1,
       "athleteCount": 105,
       "athletes": [
@@ -80110,7 +80118,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 1697,
+      "durationMs": 1551,
       "attempts": 1,
       "athleteCount": 49,
       "athletes": [
@@ -80521,7 +80529,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1502,
+      "durationMs": 1084,
       "attempts": 1,
       "athleteCount": 23,
       "athletes": [
@@ -80724,7 +80732,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1015,
+      "durationMs": 1520,
       "attempts": 1,
       "athleteCount": 43,
       "athletes": [
@@ -81087,7 +81095,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1217,
+      "durationMs": 1663,
       "attempts": 1,
       "athleteCount": 90,
       "athletes": [
@@ -81826,7 +81834,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1361,
+      "durationMs": 1519,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -82381,7 +82389,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1065,
+      "durationMs": 1179,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [

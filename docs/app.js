@@ -58,6 +58,11 @@ const els = {
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
+  adminSummaryTab: document.querySelector("#adminSummaryTab"),
+  adminSummaryView: document.querySelector("#adminSummaryView"),
+  adminSummaryGrid: document.querySelector("#adminSummaryGrid"),
+  regionalConfirmedTotal: document.querySelector("#regionalConfirmedTotal"),
+  finalsConfirmedTotal: document.querySelector("#finalsConfirmedTotal"),
   emptyState: document.querySelector("#emptyState"),
 };
 
@@ -429,6 +434,7 @@ async function loginAdmin(email, password) {
 function logoutAdmin() {
   state.admin.session = null;
   localStorage.removeItem(ADMIN_SESSION_KEY);
+  if (state.activeView === "admin-summary") state.activeView = "regionals";
   render();
 }
 
@@ -456,10 +462,15 @@ function isAdminActive() {
 }
 
 function renderAdminStatus(message = "") {
+  const adminActive = isAdminActive();
   document.body.classList.toggle("is-admin", isAdminActive());
-  els.adminToggle.textContent = isAdminActive() ? "Sair" : "Entrar";
-  els.adminStatus.hidden = !isAdminActive() && !message;
-  els.adminStatus.textContent = message || (isAdminActive() ? "Admin ativo" : "");
+  els.adminToggle.textContent = adminActive ? "Sair" : "Entrar";
+  els.adminStatus.hidden = !adminActive && !message;
+  els.adminStatus.textContent = message || (adminActive ? "Admin ativo" : "");
+  els.adminSummaryTab.hidden = !adminActive;
+  els.adminSummaryView.hidden = !adminActive;
+  els.viewTabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === state.activeView));
+  els.viewPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === state.activeView));
 }
 
 function categoryConfirmations() {
@@ -1469,7 +1480,78 @@ function renderFinalsView() {
   els.finalsGrid.replaceChildren(...groupedSummarySections(cardsByGroup));
 }
 
+function validFinalsCodesForCategory(key) {
+  const stateRanking = stateRankingForCategory(key);
+  const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
+  const regionalReleases = releasesForCategory(key);
+  const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
+  const validCodes = new Set(
+    stateFinalsAthletes(stateRanking, stateReleaseCodes).map(athleteIdentity),
+  );
+  regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
+    validCodes.add(athleteIdentity(entry.athlete));
+  });
+  return validCodes;
+}
+
+function confirmedCountsForCategory(key) {
+  const regional = Object.keys(state.remoteConfirmations[key] || {}).length;
+  const validFinalsCodes = validFinalsCodesForCategory(key);
+  const finals = Object.keys(state.remoteFinalsConfirmations[key] || {})
+    .filter((code) => validFinalsCodes.has(String(code)))
+    .length;
+  return { regional, finals };
+}
+
+function adminSummaryCategoryRow(category) {
+  const counts = confirmedCountsForCategory(categoryKey(category));
+  const row = document.createElement("div");
+  row.className = "admin-summary-row";
+  row.innerHTML = `
+    <span class="admin-summary-category">${categoryLabel(category)}</span>
+    <span class="admin-count admin-count-regional"><strong>${counts.regional}</strong><small>Finals Regional</small></span>
+    <span class="admin-count admin-count-finals"><strong>${counts.finals}</strong><small>Finals Copa</small></span>
+  `;
+  row.dataset.regional = String(counts.regional);
+  row.dataset.finals = String(counts.finals);
+  return row;
+}
+
+function renderAdminSummary() {
+  if (!isAdminActive()) return;
+  const categoriesByGroup = new Map();
+  allCategories().forEach((category) => {
+    if (!categoriesByGroup.has(category.categoryGroup)) categoriesByGroup.set(category.categoryGroup, []);
+    categoriesByGroup.get(category.categoryGroup).push(category);
+  });
+
+  let regionalTotal = 0;
+  let finalsTotal = 0;
+  const sections = ["Subs", "Idades", "Tecnicas"]
+    .filter((group) => categoriesByGroup.has(group))
+    .map((group) => {
+      const rows = categoriesByGroup.get(group).map(adminSummaryCategoryRow);
+      rows.forEach((row) => {
+        regionalTotal += Number(row.dataset.regional);
+        finalsTotal += Number(row.dataset.finals);
+      });
+      const section = document.createElement("section");
+      section.className = "admin-summary-group";
+      const body = document.createElement("div");
+      body.className = "admin-summary-list";
+      body.replaceChildren(...rows);
+      section.innerHTML = `<h3>${groupLabel(group)}</h3>`;
+      section.append(body);
+      return section;
+    });
+
+  els.regionalConfirmedTotal.textContent = String(regionalTotal);
+  els.finalsConfirmedTotal.textContent = String(finalsTotal);
+  els.adminSummaryGrid.replaceChildren(...sections);
+}
+
 function setActiveView(view) {
+  if (view === "admin-summary" && !isAdminActive()) return;
   state.activeView = view;
   els.viewTabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === view));
   els.viewPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === view));
@@ -1529,6 +1611,7 @@ function render() {
   els.emptyState.hidden = true;
   renderFederationView();
   renderFinalsView();
+  renderAdminSummary();
   renderAdminStatus();
 }
 

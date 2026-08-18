@@ -1267,6 +1267,113 @@ input:focus {
   background: var(--confirmed);
 }
 
+.admin-summary-title {
+  align-items: flex-end;
+}
+
+.admin-summary-totals {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-summary-totals span {
+  display: grid;
+  min-width: 132px;
+  gap: 2px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  background: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.admin-summary-totals strong {
+  color: var(--text);
+  font-size: 24px;
+  line-height: 1;
+}
+
+.admin-summary-totals span:first-child {
+  border-color: var(--confirmed-line);
+  background: var(--confirmed);
+}
+
+.admin-summary-totals span:last-child {
+  border-color: var(--finals-confirmed-line);
+  background: var(--finals-confirmed);
+}
+
+.admin-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.admin-summary-group {
+  min-width: 0;
+  border-right: 1px solid var(--line);
+}
+
+.admin-summary-group:last-child {
+  border-right: 0;
+}
+
+.admin-summary-group > h3 {
+  margin: 0;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-soft);
+  font-size: 15px;
+}
+
+.admin-summary-list {
+  display: grid;
+}
+
+.admin-summary-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 78px 78px;
+  gap: 8px;
+  min-height: 48px;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.admin-summary-category {
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.admin-count {
+  display: grid;
+  justify-items: end;
+  gap: 1px;
+}
+
+.admin-count strong {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.admin-count small {
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.admin-count-regional strong {
+  color: var(--confirmed-strong);
+}
+
+.admin-count-finals strong {
+  color: var(--finals-confirmed-strong);
+}
+
 .circuit-layout {
   display: grid;
   gap: 18px;
@@ -1401,5 +1508,23 @@ input:focus {
 
   #federationGrid {
     grid-template-columns: 1fr;
+  }
+
+  .admin-summary-totals {
+    width: 100%;
+  }
+
+  .admin-summary-totals span {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .admin-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-summary-group {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
 }

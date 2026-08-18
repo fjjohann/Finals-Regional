@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rankings Beach Tennis 2026</title>
-    <link rel="stylesheet" href="styles.css?v=20260817-1435">
+    <link rel="stylesheet" href="styles.css?v=20260818-0900">
     <script src="admin-config.js?v=20260714-1400"></script>
   </head>
   <body>
@@ -43,6 +43,7 @@
     <main class="layout">
       <nav class="view-tabs" aria-label="Painéis">
         <button class="view-tab is-active" type="button" data-view="regionals">Finals Regional</button>
+        <button class="view-tab admin-only-tab" id="adminSummaryTab" type="button" data-view="admin-summary" hidden>Inscritos</button>
         <button class="view-tab" type="button" data-view="finals">Finals Copa</button>
         <button class="view-tab" type="button" data-view="federation">Copa das Federações</button>
         <button class="view-tab" type="button" data-view="circuit">O Circuito</button>
@@ -121,6 +122,20 @@
         <div id="finalsGrid" class="summary-category-grid"></div>
       </section>
 
+      <section class="comparison-section view-panel admin-summary-view" id="adminSummaryView" data-view-panel="admin-summary" aria-label="Inscritos confirmados" hidden>
+        <div class="section-title admin-summary-title">
+          <div>
+            <p>Área administrativa</p>
+            <h2>Inscritos confirmados</h2>
+          </div>
+          <div class="admin-summary-totals" aria-label="Totais de inscritos">
+            <span><strong id="regionalConfirmedTotal">0</strong> Finals Regional</span>
+            <span><strong id="finalsConfirmedTotal">0</strong> Finals Copa</span>
+          </div>
+        </div>
+        <div id="adminSummaryGrid" class="admin-summary-grid"></div>
+      </section>
+
       <section class="comparison-section view-panel" id="circuitView" data-view-panel="circuit" aria-label="O Circuito">
         <div class="section-title">
           <div>
@@ -178,6 +193,6 @@
       <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
     </footer>
 
-    <script src="app.js?v=20260817-1435"></script>
+    <script src="app.js?v=20260818-0900"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rankings Beach Tennis 2026</title>
-    <link rel="stylesheet" href="styles.css?v=20260818-1015">
+    <link rel="stylesheet" href="styles.css?v=20260818-1530">
     <script src="admin-config.js?v=20260714-1400"></script>
   </head>
   <body>
@@ -36,6 +36,23 @@
         <div class="admin-actions">
           <button class="secondary-button" id="adminCancel" type="button">Cancelar</button>
           <button class="primary-button" type="submit">Entrar</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="admin-dialog" id="wildCardDialog">
+      <form class="admin-login wildcard-form" id="wildCardForm" method="dialog">
+        <p class="wildcard-eyebrow">Finals Copa</p>
+        <h2>Adicionar Wild Card</h2>
+        <p id="wildCardCategory" class="wildcard-category"></p>
+        <label>
+          Código do atleta
+          <input id="wildCardCode" name="athleteCode" type="text" inputmode="numeric" autocomplete="off" required>
+        </label>
+        <p id="wildCardMessage" class="admin-message" role="status"></p>
+        <div class="admin-actions">
+          <button class="secondary-button" id="wildCardCancel" type="button">Cancelar</button>
+          <button class="primary-button" type="submit">Adicionar</button>
         </div>
       </form>
     </dialog>
@@ -193,6 +210,6 @@
       <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
     </footer>
 
-    <script src="app.js?v=20260818-1015"></script>
+    <script src="app.js?v=20260818-1530"></script>
   </body>
 </html>

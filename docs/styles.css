@@ -19,6 +19,9 @@
   --finals-confirmed: #f3efff;
   --finals-confirmed-line: #a78bfa;
   --finals-confirmed-strong: #6d28d9;
+  --wildcard: #fff7ed;
+  --wildcard-line: #fdba74;
+  --wildcard-strong: #9a3412;
   --state: #f4f6f8;
   --state-line: #b8c0cc;
   --federation: #ede9fe;
@@ -171,6 +174,23 @@ h1 {
   font-size: 24px;
 }
 
+.wildcard-eyebrow,
+.wildcard-category {
+  margin: 0;
+}
+
+.wildcard-eyebrow {
+  color: var(--wildcard-strong);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.wildcard-category {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .admin-login label {
   display: grid;
   gap: 6px;
@@ -197,6 +217,10 @@ h1 {
   margin: 0;
   color: var(--danger);
   font-size: 13px;
+}
+
+.admin-message.is-success {
+  color: var(--accent-strong);
 }
 
 .admin-actions {
@@ -1205,6 +1229,28 @@ input:focus {
   font-size: 18px;
 }
 
+.summary-category-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-wildcard-button {
+  min-width: 38px;
+  height: 26px;
+  border: 1px solid var(--wildcard-line);
+  border-radius: 5px;
+  background: var(--wildcard);
+  color: var(--wildcard-strong);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.add-wildcard-button:hover {
+  border-color: var(--wildcard-strong);
+}
+
 .summary-list {
   display: grid;
 }
@@ -1230,6 +1276,49 @@ input:focus {
 .summary-athlete-row.is-finals-confirmed {
   background: var(--finals-confirmed);
   border-bottom-color: var(--finals-confirmed-line);
+}
+
+.summary-wildcard {
+  background: var(--wildcard);
+  border-bottom-color: var(--wildcard-line);
+}
+
+.wildcard-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 22px;
+  border: 1px solid var(--wildcard-line);
+  border-radius: 4px;
+  color: var(--wildcard-strong);
+  background: #fff;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.wildcard-badge {
+  justify-self: end;
+  color: var(--wildcard-strong);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.remove-wildcard-button {
+  justify-self: end;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--release-line);
+  border-radius: 4px;
+  color: var(--release-strong);
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.remove-wildcard-button:hover {
+  background: var(--release);
 }
 
 .finals-confirmed-badge {

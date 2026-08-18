@@ -48,6 +48,6 @@ with check (
 insert into public.panel_state (id, payload)
 values (
   'global',
-  '{"confirmations": {}, "releases": {}, "stateReleases": {}, "finalsConfirmations": {}}'::jsonb
+  '{"confirmations": {}, "releases": {}, "stateReleases": {}, "finalsConfirmations": {}, "wildCards": {}}'::jsonb
 )
 on conflict (id) do nothing;

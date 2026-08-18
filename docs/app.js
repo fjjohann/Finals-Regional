@@ -18,10 +18,12 @@ const state = {
   releases: {},
   stateReleases: {},
   finalsConfirmations: {},
+  wildCards: {},
   remoteConfirmations: {},
   remoteReleases: {},
   remoteStateReleases: {},
   remoteFinalsConfirmations: {},
+  remoteWildCards: {},
   remoteStateSignature: "",
   simulationConfirmations: loadConfirmations(),
   simulationReleases: loadReleases(),
@@ -35,6 +37,7 @@ const state = {
 
 let persistTimer = null;
 let remoteRefreshTimer = null;
+let wildCardTargetCategory = "";
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
   adminStatus: document.querySelector("#adminStatus"),
@@ -63,6 +66,12 @@ const els = {
   adminSummaryGrid: document.querySelector("#adminSummaryGrid"),
   regionalConfirmedTotal: document.querySelector("#regionalConfirmedTotal"),
   finalsConfirmedTotal: document.querySelector("#finalsConfirmedTotal"),
+  wildCardDialog: document.querySelector("#wildCardDialog"),
+  wildCardForm: document.querySelector("#wildCardForm"),
+  wildCardCategory: document.querySelector("#wildCardCategory"),
+  wildCardCode: document.querySelector("#wildCardCode"),
+  wildCardMessage: document.querySelector("#wildCardMessage"),
+  wildCardCancel: document.querySelector("#wildCardCancel"),
   emptyState: document.querySelector("#emptyState"),
 };
 
@@ -200,12 +209,17 @@ function saveFinalsConfirmations() {
   schedulePersistRemoteState();
 }
 
+function saveWildCards() {
+  schedulePersistRemoteState();
+}
+
 function remotePayload() {
   return {
     confirmations: state.remoteConfirmations,
     releases: state.remoteReleases,
     stateReleases: state.remoteStateReleases,
     finalsConfirmations: state.remoteFinalsConfirmations,
+    wildCards: state.remoteWildCards,
     updatedAt: new Date().toISOString(),
   };
 }
@@ -216,6 +230,7 @@ function normalizeRemotePayload(payload) {
     releases: payload?.releases && typeof payload.releases === "object" ? payload.releases : {},
     stateReleases: payload?.stateReleases && typeof payload.stateReleases === "object" ? payload.stateReleases : {},
     finalsConfirmations: payload?.finalsConfirmations && typeof payload.finalsConfirmations === "object" ? payload.finalsConfirmations : {},
+    wildCards: payload?.wildCards && typeof payload.wildCards === "object" ? payload.wildCards : {},
   };
 }
 
@@ -228,6 +243,7 @@ function applyRemotePayload(payload) {
   state.remoteReleases = normalized.releases;
   state.remoteStateReleases = normalized.stateReleases;
   state.remoteFinalsConfirmations = normalized.finalsConfirmations;
+  state.remoteWildCards = normalized.wildCards;
   syncEffectiveDecisionState();
   return changed;
 }
@@ -260,6 +276,7 @@ function syncEffectiveDecisionState() {
     state.releases = state.remoteReleases;
     state.stateReleases = state.remoteStateReleases;
     state.finalsConfirmations = state.remoteFinalsConfirmations;
+    state.wildCards = state.remoteWildCards;
     return;
   }
 
@@ -298,6 +315,7 @@ function syncEffectiveDecisionState() {
   state.releases = releases;
   state.stateReleases = stateReleases;
   state.finalsConfirmations = state.remoteFinalsConfirmations;
+  state.wildCards = state.remoteWildCards;
 }
 
 function activeConfirmationsForCategory(key) {
@@ -314,6 +332,10 @@ function activeStateReleasesForCategory(key) {
 
 function finalsConfirmationsForCategory(key) {
   return ensureCategory(state.remoteFinalsConfirmations, key);
+}
+
+function wildCardsForCategory(key) {
+  return ensureCategory(state.remoteWildCards, key);
 }
 
 function activeRegionalReleases(regionalId) {
@@ -587,6 +609,84 @@ function toggleFinalsConfirmation(category, athleteCode) {
     confirmations[code] = true;
   }
   saveFinalsConfirmations();
+  render();
+}
+
+function athleteForWildCard(category, athleteCode) {
+  const code = String(athleteCode).trim();
+  const rankings = [
+    stateRankingForCategory(category),
+    ...rankingsForCategory(category),
+  ].filter(Boolean);
+  for (const ranking of rankings) {
+    const athlete = ranking.athletes.find((item) => athleteIdentity(item) === code);
+    if (athlete) return athlete;
+  }
+  return null;
+}
+
+function showWildCardDialog(category) {
+  if (!isAdminActive()) return;
+  const ranking = stateRankingForCategory(category) || rankingsForCategory(category)[0];
+  wildCardTargetCategory = category;
+  els.wildCardCategory.textContent = ranking ? categoryLabel(ranking) : category;
+  els.wildCardCode.value = "";
+  els.wildCardMessage.textContent = "";
+  if (typeof els.wildCardDialog.showModal === "function") {
+    els.wildCardDialog.showModal();
+  } else {
+    els.wildCardDialog.setAttribute("open", "");
+  }
+  els.wildCardCode.focus();
+}
+
+function hideWildCardDialog() {
+  if (typeof els.wildCardDialog.close === "function") {
+    els.wildCardDialog.close();
+  } else {
+    els.wildCardDialog.removeAttribute("open");
+  }
+}
+
+function previewWildCardAthlete() {
+  const code = els.wildCardCode.value.trim();
+  els.wildCardMessage.classList.remove("is-success");
+  if (!code) {
+    els.wildCardMessage.textContent = "";
+    return;
+  }
+  const athlete = athleteForWildCard(wildCardTargetCategory, code);
+  if (!athlete) {
+    els.wildCardMessage.textContent = "Atleta não encontrado nesta categoria.";
+    return;
+  }
+  els.wildCardMessage.textContent = `Atleta: ${athlete.name}`;
+  els.wildCardMessage.classList.add("is-success");
+}
+
+function addWildCard(category, athleteCode) {
+  const code = String(athleteCode).trim();
+  const athlete = athleteForWildCard(category, code);
+  if (!athlete) throw new Error("Atleta não encontrado nos rankings desta categoria.");
+  if (validFinalsCodesForCategory(category).has(code)) {
+    throw new Error("Este atleta já está classificado para o Finals Copa.");
+  }
+  const wildCards = wildCardsForCategory(category);
+  if (wildCards[code]) throw new Error("Este atleta já está incluído como Wild Card.");
+  wildCards[code] = {
+    athleteCode: code,
+    name: athlete.name,
+    position: athlete.position,
+    points: athlete.points,
+  };
+  saveWildCards();
+  render();
+}
+
+function removeWildCard(category, athleteCode) {
+  if (!isAdminActive()) return;
+  delete wildCardsForCategory(category)[String(athleteCode)];
+  saveWildCards();
   render();
 }
 
@@ -1277,7 +1377,7 @@ function regionalFinalsEntriesForCategory(key, stateCodes = new Set(), releases 
     });
 }
 
-function summaryCategoryCard(category, rows, emptyText) {
+function summaryCategoryCard(category, rows, emptyText, options = {}) {
   const card = document.createElement("article");
   card.className = "summary-category-card";
   const body = document.createElement("div");
@@ -1298,11 +1398,32 @@ function summaryCategoryCard(category, rows, emptyText) {
         <p>${category.categoryGroup}</p>
         <h3>${categoryLabel(category)}</h3>
       </div>
-      <strong>${rows.length}</strong>
+      <div class="summary-category-actions">
+        <strong>${rows.length}</strong>
+        ${options.allowWildCard && isAdminActive() ? `
+          <button class="add-wildcard-button" type="button" data-category-key="${categoryKey(category)}" title="Adicionar atleta por Wild Card">+ WC</button>
+        ` : ""}
+      </div>
     </header>
   `;
   card.append(body);
   return card;
+}
+
+function wildCardSummaryRow(entry, category) {
+  const row = document.createElement("div");
+  row.className = "summary-athlete-row summary-wildcard";
+  row.innerHTML = `
+    <span class="wildcard-mark" title="Wild Card">WC</span>
+    <span class="athlete-main">
+      <span class="athlete-name">${entry.name}</span>
+      <span class="athlete-code">Wild Card · Cod. ${entry.athleteCode}</span>
+    </span>
+    ${isAdminActive() ? `
+      <button class="remove-wildcard-button" type="button" data-category-key="${category}" data-athlete-code="${entry.athleteCode}" title="Remover Wild Card">×</button>
+    ` : `<span class="wildcard-badge">Inscrito</span>`}
+  `;
+  return row;
 }
 
 function groupLabel(group) {
@@ -1455,8 +1576,12 @@ function renderFinalsView() {
     const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
     const regionalReleases = releasesForCategory(key);
     const finalsConfirmations = finalsConfirmationsForCategory(key);
+    const wildCards = wildCardsForCategory(key);
+    const wildCardCodes = new Set(Object.keys(wildCards));
     const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
-    const rows = stateFinalsAthletes(stateRanking, stateReleaseCodes).map((athlete) =>
+    const rows = stateFinalsAthletes(stateRanking, stateReleaseCodes)
+      .filter((athlete) => !wildCardCodes.has(athleteIdentity(athlete)))
+      .map((athlete) =>
       summaryAthleteRow(
         athlete,
         "Finals Copa - via Estadual",
@@ -1466,6 +1591,7 @@ function renderFinalsView() {
       ),
     );
     regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
+      if (wildCardCodes.has(athleteIdentity(entry.athlete))) return;
       rows.push(
         summaryAthleteRow(
           entry.athlete,
@@ -1476,7 +1602,10 @@ function renderFinalsView() {
         ),
       );
     });
-    const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.");
+    Object.values(wildCards)
+      .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
+      .forEach((entry) => rows.push(wildCardSummaryRow(entry, key)));
+    const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", { allowWildCard: true });
     card.dataset.count = String(rows.length);
     if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
     cardsByGroup.get(category.categoryGroup).push(card);
@@ -1501,10 +1630,13 @@ function validFinalsCodesForCategory(key) {
 function confirmedCountsForCategory(key) {
   const regional = Object.keys(state.remoteConfirmations[key] || {}).length;
   const validFinalsCodes = validFinalsCodesForCategory(key);
-  const finals = Object.keys(state.remoteFinalsConfirmations[key] || {})
-    .filter((code) => validFinalsCodes.has(String(code)))
-    .length;
-  return { regional, finals };
+  const finalsCodes = new Set(
+    Object.keys(state.remoteFinalsConfirmations[key] || {})
+      .filter((code) => validFinalsCodes.has(String(code)))
+      .map(String),
+  );
+  Object.keys(state.remoteWildCards[key] || {}).forEach((code) => finalsCodes.add(String(code)));
+  return { regional, finals: finalsCodes.size };
 }
 
 function adminSummaryCategoryRow(category) {
@@ -1650,6 +1782,18 @@ function bindEvents() {
   });
 
   els.adminCancel.addEventListener("click", hideAdminDialog);
+  els.wildCardCancel.addEventListener("click", hideWildCardDialog);
+  els.wildCardCode.addEventListener("input", previewWildCardAthlete);
+
+  els.wildCardForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    try {
+      addWildCard(wildCardTargetCategory, els.wildCardCode.value);
+      hideWildCardDialog();
+    } catch (error) {
+      els.wildCardMessage.textContent = error.message;
+    }
+  });
 
   els.adminLoginForm.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -1689,6 +1833,21 @@ function bindEvents() {
   });
 
   document.addEventListener("click", (event) => {
+    const addWildCardButton = event.target.closest(".add-wildcard-button");
+    if (addWildCardButton) {
+      showWildCardDialog(addWildCardButton.dataset.categoryKey);
+      return;
+    }
+
+    const removeWildCardButton = event.target.closest(".remove-wildcard-button");
+    if (removeWildCardButton) {
+      removeWildCard(
+        removeWildCardButton.dataset.categoryKey,
+        removeWildCardButton.dataset.athleteCode,
+      );
+      return;
+    }
+
     const finalsConfirmButton = event.target.closest(".finals-confirm-button");
     if (!finalsConfirmButton || finalsConfirmButton.disabled) return;
     toggleFinalsConfirmation(

@@ -947,6 +947,9 @@ function athleteRow(
   const releasedLabel = isReleasedElsewhere
     ? `<span class="released-badge" title="Confirmado na regional ${confirmedRegional}">Confirmado ${confirmedRegional}</span>`
     : "";
+  const regionalConfirmedLabel = isConfirmedHere
+    ? `<span class="regional-confirmed-badge">Inscrição Finals Regional confirmada</span>`
+    : "";
   const stateLabel = stateLabelText
     ? `<span class="state-badge" title="Atleta já classificado pelo ranking estadual">${stateLabelText}</span>`
     : "";
@@ -1030,6 +1033,7 @@ function athleteRow(
       </span>
       ${tieLabel}
       ${releasedLabel}
+      ${regionalConfirmedLabel}
       ${stateLabel}
       ${regionalFinalsLabel}
       ${finalsConfirmedLabel}

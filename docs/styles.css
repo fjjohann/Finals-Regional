@@ -1245,6 +1245,19 @@ input:focus {
   white-space: nowrap;
 }
 
+.regional-confirmed-badge {
+  width: fit-content;
+  border: 1px solid var(--confirmed-line);
+  border-radius: 4px;
+  padding: 1px 4px;
+  color: var(--confirmed-strong);
+  background: #fff;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
 .summary-federation {
   background: var(--federation);
   border-bottom-color: var(--federation-line);

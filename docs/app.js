@@ -971,8 +971,8 @@ function duplicateQualifiedRegionals(
   );
 }
 
-function filteredAthletes(ranking) {
-  return ranking.athletes;
+function filteredAthletes(ranking, stateCodes = new Set()) {
+  return ranking.athletes.filter((athlete) => !isStateQualified(athlete, stateCodes));
 }
 
 function qualifiedCodesForRanking(
@@ -1157,7 +1157,7 @@ function regionalPanel(
 ) {
   const panel = document.createElement("article");
   panel.className = "regional-panel";
-  const athletes = filteredAthletes(ranking);
+  const athletes = filteredAthletes(ranking, stateCodes);
   const qualified = qualifiedForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes).length;
   const qualifiedCodes = qualifiedCodesForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes);
   const tiedCutoffCodes = tiedCutoffCodesForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes);
@@ -1187,7 +1187,7 @@ function regionalPanel(
     <header class="regional-panel-header">
       <div>
         <h3><a href="${sourceUrl}" target="_blank" rel="noreferrer" aria-label="Abrir fonte ${ranking.regionalLabel}">${ranking.regionalLabel}</a></h3>
-        <p>${ranking.athleteCount} atletas · ${qualified} classificados</p>
+        <p>${athletes.length} atletas · ${qualified} classificados</p>
       </div>
     </header>
   `;
@@ -1196,7 +1196,7 @@ function regionalPanel(
   if (rows.length === 0) {
     const empty = document.createElement("div");
     empty.className = "regional-empty";
-    empty.textContent = "Sem atletas para a busca.";
+    empty.textContent = "Sem atletas disponíveis.";
     body.append(empty);
   }
 

@@ -1402,23 +1402,17 @@ input:focus {
   background: var(--confirmed);
 }
 
-.admin-summary-totals span:last-child {
-  border-color: var(--finals-confirmed-line);
-  background: var(--finals-confirmed);
-}
-
 .admin-summary-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 14px;
 }
 
 .admin-summary-group {
   min-width: 0;
-  border-right: 1px solid var(--line);
-}
-
-.admin-summary-group:last-child {
-  border-right: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .admin-summary-group > h3 {
@@ -1429,51 +1423,61 @@ input:focus {
   font-size: 15px;
 }
 
-.admin-summary-list {
-  display: grid;
+.admin-summary-table-wrap {
+  overflow-x: auto;
 }
 
-.admin-summary-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 78px 78px;
-  gap: 8px;
-  min-height: 48px;
-  align-items: center;
+.admin-summary-table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.admin-summary-table th,
+.admin-summary-table td {
+  height: 40px;
   padding: 6px 10px;
+  border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-}
-
-.admin-summary-category {
-  min-width: 0;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.admin-count {
-  display: grid;
-  justify-items: end;
-  gap: 1px;
-}
-
-.admin-count strong {
-  font-size: 18px;
-  line-height: 1;
-}
-
-.admin-count small {
-  color: var(--muted);
-  font-size: 8px;
-  font-weight: 500;
+  text-align: center;
   white-space: nowrap;
 }
 
-.admin-count-regional strong {
-  color: var(--confirmed-strong);
+.admin-summary-table th:first-child {
+  width: 190px;
+  text-align: left;
 }
 
-.admin-count-finals strong {
-  color: var(--finals-confirmed-strong);
+.admin-summary-table th:last-child,
+.admin-summary-table td:last-child {
+  border-right: 0;
+}
+
+.admin-summary-table tbody tr:last-child th,
+.admin-summary-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.admin-summary-table thead th {
+  height: 34px;
+  color: var(--muted);
+  background: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.admin-summary-category {
+  font-size: 12px;
+  font-weight: 700;
+  background: #fff;
+}
+
+.admin-count {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--confirmed-strong);
 }
 
 .circuit-layout {
@@ -1622,11 +1626,6 @@ input:focus {
   }
 
   .admin-summary-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .admin-summary-group {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
+    padding: 10px;
   }
 }

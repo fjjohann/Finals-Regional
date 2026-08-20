@@ -1,4 +1,5 @@
 const QUALIFIED_LIMIT = 12;
+const REGIONAL_IDS = ["41", "42", "43", "44", "45", "46"];
 const SIMULATION_STORAGE_KEY = "finalsRegional.simulation.confirmations.v1";
 const SIMULATION_RELEASE_STORAGE_KEY = "finalsRegional.simulation.releases.v1";
 const SIMULATION_STATE_RELEASE_STORAGE_KEY = "finalsRegional.simulation.stateReleases.v1";
@@ -65,7 +66,6 @@ const els = {
   adminSummaryView: document.querySelector("#adminSummaryView"),
   adminSummaryGrid: document.querySelector("#adminSummaryGrid"),
   regionalConfirmedTotal: document.querySelector("#regionalConfirmedTotal"),
-  finalsConfirmedTotal: document.querySelector("#finalsConfirmedTotal"),
   wildCardDialog: document.querySelector("#wildCardDialog"),
   wildCardForm: document.querySelector("#wildCardForm"),
   wildCardCategory: document.querySelector("#wildCardCategory"),
@@ -1627,30 +1627,62 @@ function validFinalsCodesForCategory(key) {
   return validCodes;
 }
 
-function confirmedCountsForCategory(key) {
-  const regional = Object.keys(state.remoteConfirmations[key] || {}).length;
-  const validFinalsCodes = validFinalsCodesForCategory(key);
-  const finalsCodes = new Set(
-    Object.keys(state.remoteFinalsConfirmations[key] || {})
-      .filter((code) => validFinalsCodes.has(String(code)))
-      .map(String),
-  );
-  Object.keys(state.remoteWildCards[key] || {}).forEach((code) => finalsCodes.add(String(code)));
-  return { regional, finals: finalsCodes.size };
+function regionalConfirmedCountsForCategory(key) {
+  const counts = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
+  Object.values(state.remoteConfirmations[key] || {}).forEach((regionalId) => {
+    const id = String(regionalId);
+    if (Object.hasOwn(counts, id)) counts[id] += 1;
+  });
+  return counts;
 }
 
-function adminSummaryCategoryRow(category) {
-  const counts = confirmedCountsForCategory(categoryKey(category));
-  const row = document.createElement("div");
+function adminSummaryCategoryRow(category, counts) {
+  const row = document.createElement("tr");
   row.className = "admin-summary-row";
   row.innerHTML = `
-    <span class="admin-summary-category">${categoryLabel(category)}</span>
-    <span class="admin-count admin-count-regional"><strong>${counts.regional}</strong><small>Finals Regional</small></span>
-    <span class="admin-count admin-count-finals"><strong>${counts.finals}</strong><small>Finals Copa</small></span>
+    <th class="admin-summary-category" scope="row">${category.gender} ${category.categoryLabel}</th>
+    ${REGIONAL_IDS.map((regionalId) => `<td class="admin-count">${counts[regionalId]}</td>`).join("")}
   `;
-  row.dataset.regional = String(counts.regional);
-  row.dataset.finals = String(counts.finals);
   return row;
+}
+
+function adminCategoryOrder(a, b) {
+  const labelDiff = a.categoryLabel.localeCompare(b.categoryLabel, "pt-BR", { numeric: true });
+  if (labelDiff !== 0) return labelDiff;
+  return a.gender === b.gender ? 0 : a.gender === "Feminina" ? -1 : 1;
+}
+
+function adminSummaryGroup(group, categories) {
+  const section = document.createElement("section");
+  section.className = "admin-summary-group";
+  const rows = categories
+    .sort(adminCategoryOrder)
+    .map((category) => {
+      const counts = regionalConfirmedCountsForCategory(categoryKey(category));
+      return {
+        row: adminSummaryCategoryRow(category, counts),
+        total: REGIONAL_IDS.reduce((sum, regionalId) => sum + counts[regionalId], 0),
+      };
+    });
+  section.innerHTML = `
+    <h3>${groupLabel(group)}</h3>
+    <div class="admin-summary-table-wrap">
+      <table class="admin-summary-table">
+        <thead>
+          <tr>
+            <th scope="col">Categoria</th>
+            ${REGIONAL_IDS.map((regionalId) => `<th scope="col">Regional ${regionalId}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  `;
+  section.querySelector("tbody").replaceChildren(...rows.map(({ row }) => row));
+  return {
+    section,
+    total: rows.reduce((sum, item) => sum + item.total, 0),
+  };
 }
 
 function renderAdminSummary() {
@@ -1661,29 +1693,12 @@ function renderAdminSummary() {
     categoriesByGroup.get(category.categoryGroup).push(category);
   });
 
-  let regionalTotal = 0;
-  let finalsTotal = 0;
-  const sections = ["Subs", "Idades", "Tecnicas"]
+  const groups = ["Tecnicas", "Idades", "Subs"]
     .filter((group) => categoriesByGroup.has(group))
-    .map((group) => {
-      const rows = categoriesByGroup.get(group).map(adminSummaryCategoryRow);
-      rows.forEach((row) => {
-        regionalTotal += Number(row.dataset.regional);
-        finalsTotal += Number(row.dataset.finals);
-      });
-      const section = document.createElement("section");
-      section.className = "admin-summary-group";
-      const body = document.createElement("div");
-      body.className = "admin-summary-list";
-      body.replaceChildren(...rows);
-      section.innerHTML = `<h3>${groupLabel(group)}</h3>`;
-      section.append(body);
-      return section;
-    });
+    .map((group) => adminSummaryGroup(group, categoriesByGroup.get(group)));
 
-  els.regionalConfirmedTotal.textContent = String(regionalTotal);
-  els.finalsConfirmedTotal.textContent = String(finalsTotal);
-  els.adminSummaryGrid.replaceChildren(...sections);
+  els.regionalConfirmedTotal.textContent = String(groups.reduce((sum, group) => sum + group.total, 0));
+  els.adminSummaryGrid.replaceChildren(...groups.map(({ section }) => section));
 }
 
 function setActiveView(view) {

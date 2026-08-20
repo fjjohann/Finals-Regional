@@ -131,14 +131,24 @@ function isAgeCategory(category) {
   return ["Subs", "Idades"].includes(category?.categoryGroup);
 }
 
-function isConfirmedInAnotherAgeCategory(athleteCode, currentCategoryKey) {
-  if (!isAgeCategory(categoryForKey(currentCategoryKey))) return false;
+function confirmationInAnotherAgeCategory(athleteCode, currentCategoryKey) {
+  if (!isAgeCategory(categoryForKey(currentCategoryKey))) return null;
   const code = String(athleteCode);
-  return Object.entries(state.confirmations).some(([key, confirmations]) =>
+  const entry = Object.entries(state.confirmations).find(([key, confirmations]) =>
     key !== currentCategoryKey &&
     isAgeCategory(categoryForKey(key)) &&
     Boolean(confirmations?.[code]),
   );
+  if (!entry) return null;
+  const [key, confirmations] = entry;
+  return {
+    category: categoryForKey(key),
+    regionalId: confirmations[code],
+  };
+}
+
+function isConfirmedInAnotherAgeCategory(athleteCode, currentCategoryKey) {
+  return Boolean(confirmationInAnotherAgeCategory(athleteCode, currentCategoryKey));
 }
 
 function removeOtherAgeConfirmations(confirmationsByCategory, currentCategoryKey, athleteCode) {
@@ -1006,11 +1016,7 @@ function duplicateQualifiedRegionals(
 }
 
 function filteredAthletes(ranking, stateCodes = new Set()) {
-  return ranking.athletes.filter(
-    (athlete) =>
-      !isStateQualified(athlete, stateCodes) &&
-      !isConfirmedInAnotherAgeCategory(athleteIdentity(athlete), categoryKey(ranking)),
-  );
+  return ranking.athletes.filter((athlete) => !isStateQualified(athlete, stateCodes));
 }
 
 function qualifiedCodesForRanking(
@@ -1040,6 +1046,8 @@ function athleteRow(
   const row = document.createElement("div");
   const identity = athleteIdentity(athlete);
   const confirmedRegional = confirmations[identity];
+  const otherAgeConfirmation = confirmationInAnotherAgeCategory(identity, categoryKey(ranking));
+  const isConfirmedInOtherAgeCategory = Boolean(otherAgeConfirmation);
   const isAlreadyStateQualified = isStateQualified(athlete, stateCodes);
   const regionalFinalsSource = regionalFinalsRegionals.get(identity) || [];
   const isAlreadyRegionalFinalsQualified = !isAlreadyStateQualified && regionalFinalsCodes.has(identity);
@@ -1059,17 +1067,19 @@ function athleteRow(
   const canConfirm =
     !isAlreadyStateQualified &&
     !isAlreadyRegionalFinalsQualified &&
+    !isConfirmedInOtherAgeCategory &&
     !isReleasedManually &&
     (isQualified || isConfirmedHere);
   const canRelease =
     !isAlreadyStateQualified &&
+    !isConfirmedInOtherAgeCategory &&
     (isQualified || isConfirmedHere || isReleasedManually || isAlreadyRegionalFinalsQualified);
   row.className = [
     "athlete-row",
     isQualified ? "is-qualified" : "",
     isTiedCutoff ? "is-tied-cutoff" : "",
     isConfirmedHere ? "is-confirmed" : "",
-    isReleasedElsewhere ? "is-released" : "",
+    isReleasedElsewhere || isConfirmedInOtherAgeCategory ? "is-released" : "",
     isAlreadyStateQualified ? "is-state-qualified" : "",
     isRegionalFinalsHere ? "is-regional-finals-qualified" : "",
     isRegionalFinalsHere && isFinalsConfirmed ? "is-finals-confirmed" : "",
@@ -1084,6 +1094,9 @@ function athleteRow(
     : "";
   const releasedLabel = isReleasedElsewhere
     ? `<span class="released-badge" title="Confirmado na regional ${confirmedRegional}">Confirmado ${confirmedRegional}</span>`
+    : "";
+  const otherAgeCategoryLabel = isConfirmedInOtherAgeCategory
+    ? `<span class="released-badge" title="Inscrição confirmada na Regional ${otherAgeConfirmation.regionalId}">Inscrito ${otherAgeConfirmation.category.gender} ${otherAgeConfirmation.category.categoryLabel}</span>`
     : "";
   const regionalConfirmedLabel = isConfirmedHere
     ? `<span class="regional-confirmed-badge">Inscrição Finals Regional confirmada</span>`
@@ -1100,7 +1113,7 @@ function athleteRow(
   const manualReleaseLabel = isReleasedManually
     ? `<span class="manual-release-badge" title="Vaga liberada manualmente nesta categoria">Vaga liberada</span>`
     : "";
-  const showControls = isAdminActive() || !isOfficialDecisionForAthlete(identity);
+  const showControls = !isConfirmedInOtherAgeCategory && (isAdminActive() || !isOfficialDecisionForAthlete(identity));
   const controls = !showControls
     ? ""
     : isAlreadyStateQualified
@@ -1171,6 +1184,7 @@ function athleteRow(
       </span>
       ${tieLabel}
       ${releasedLabel}
+      ${otherAgeCategoryLabel}
       ${regionalConfirmedLabel}
       ${stateLabel}
       ${regionalFinalsLabel}

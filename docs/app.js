@@ -1,9 +1,6 @@
 const QUALIFIED_LIMIT = 12;
 const MAX_VISIBLE_ATHLETES = 30;
 const REGIONAL_IDS = ["41", "42", "43", "44", "45", "46"];
-const SIMULATION_STORAGE_KEY = "finalsRegional.simulation.confirmations.v1";
-const SIMULATION_RELEASE_STORAGE_KEY = "finalsRegional.simulation.releases.v1";
-const SIMULATION_STATE_RELEASE_STORAGE_KEY = "finalsRegional.simulation.stateReleases.v1";
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
 const REMOTE_STATE_ID = "global";
 const REMOTE_REFRESH_INTERVAL_MS = 8000;
@@ -27,9 +24,6 @@ const state = {
   remoteFinalsConfirmations: {},
   remoteWildCards: {},
   remoteStateSignature: "",
-  simulationConfirmations: loadConfirmations(),
-  simulationReleases: loadReleases(),
-  simulationStateReleases: loadStateReleases(),
   admin: {
     configured: hasRemoteAdminConfig,
     session: loadAdminSession(),
@@ -183,30 +177,6 @@ function stateRankingForCategory(key) {
   return state.rankings.find((item) => categoryKey(item) === key && item.rankingScope === "state");
 }
 
-function loadConfirmations() {
-  try {
-    return JSON.parse(localStorage.getItem(SIMULATION_STORAGE_KEY) || "{}");
-  } catch {
-    return {};
-  }
-}
-
-function loadReleases() {
-  try {
-    return JSON.parse(localStorage.getItem(SIMULATION_RELEASE_STORAGE_KEY) || "{}");
-  } catch {
-    return {};
-  }
-}
-
-function loadStateReleases() {
-  try {
-    return JSON.parse(localStorage.getItem(SIMULATION_STATE_RELEASE_STORAGE_KEY) || "{}");
-  } catch {
-    return {};
-  }
-}
-
 function loadAdminSession() {
   try {
     const session = JSON.parse(localStorage.getItem(ADMIN_SESSION_KEY) || "null");
@@ -222,27 +192,15 @@ function loadAdminSession() {
 }
 
 function saveConfirmations() {
-  if (isAdminActive()) {
-    schedulePersistRemoteState();
-  } else {
-    localStorage.setItem(SIMULATION_STORAGE_KEY, JSON.stringify(state.simulationConfirmations));
-  }
+  schedulePersistRemoteState();
 }
 
 function saveReleases() {
-  if (isAdminActive()) {
-    schedulePersistRemoteState();
-  } else {
-    localStorage.setItem(SIMULATION_RELEASE_STORAGE_KEY, JSON.stringify(state.simulationReleases));
-  }
+  schedulePersistRemoteState();
 }
 
 function saveStateReleases() {
-  if (isAdminActive()) {
-    schedulePersistRemoteState();
-  } else {
-    localStorage.setItem(SIMULATION_STATE_RELEASE_STORAGE_KEY, JSON.stringify(state.simulationStateReleases));
-  }
+  schedulePersistRemoteState();
 }
 
 function saveFinalsConfirmations() {
@@ -288,86 +246,29 @@ function applyRemotePayload(payload) {
   return changed;
 }
 
-function cloneDecisionMap(value) {
-  return JSON.parse(JSON.stringify(value || {}));
-}
-
 function ensureCategory(root, key) {
   if (!root[key]) root[key] = {};
   return root[key];
 }
 
-function removeRegionalReleaseForAthlete(releases, key, code) {
-  Object.values(releases[key] || {}).forEach((regionalMap) => {
-    if (regionalMap) delete regionalMap[code];
-  });
-}
-
-function eachRemoteReleaseCode(key, callback) {
-  Object.entries(state.remoteReleases[key] || {}).forEach(([regionalId, regionalMap]) => {
-    Object.keys(regionalMap || {}).forEach((code) => callback(code, regionalId));
-  });
-  Object.keys(state.remoteStateReleases[key] || {}).forEach((code) => callback(code, "state"));
-}
-
 function syncEffectiveDecisionState() {
-  if (isAdminActive()) {
-    state.confirmations = state.remoteConfirmations;
-    state.releases = state.remoteReleases;
-    state.stateReleases = state.remoteStateReleases;
-    state.finalsConfirmations = state.remoteFinalsConfirmations;
-    state.wildCards = state.remoteWildCards;
-    return;
-  }
-
-  const confirmations = cloneDecisionMap(state.simulationConfirmations);
-  const releases = cloneDecisionMap(state.simulationReleases);
-  const stateReleases = cloneDecisionMap(state.simulationStateReleases);
-  const keys = new Set([
-    ...Object.keys(state.remoteConfirmations),
-    ...Object.keys(state.remoteReleases),
-    ...Object.keys(state.remoteStateReleases),
-  ]);
-
-  keys.forEach((key) => {
-    ensureCategory(confirmations, key);
-    ensureCategory(releases, key);
-    ensureCategory(stateReleases, key);
-
-    eachRemoteReleaseCode(key, (code, regionalId) => {
-      delete confirmations[key][code];
-      if (regionalId === "state") {
-        stateReleases[key][code] = true;
-      } else {
-        if (!releases[key][regionalId]) releases[key][regionalId] = {};
-        releases[key][regionalId][code] = true;
-      }
-    });
-
-    Object.entries(state.remoteConfirmations[key] || {}).forEach(([code, regionalId]) => {
-      delete stateReleases[key][code];
-      removeRegionalReleaseForAthlete(releases, key, code);
-      confirmations[key][code] = regionalId;
-    });
-  });
-
-  state.confirmations = confirmations;
-  state.releases = releases;
-  state.stateReleases = stateReleases;
+  state.confirmations = state.remoteConfirmations;
+  state.releases = state.remoteReleases;
+  state.stateReleases = state.remoteStateReleases;
   state.finalsConfirmations = state.remoteFinalsConfirmations;
   state.wildCards = state.remoteWildCards;
 }
 
 function activeConfirmationsForCategory(key) {
-  return ensureCategory(isAdminActive() ? state.remoteConfirmations : state.simulationConfirmations, key);
+  return ensureCategory(state.remoteConfirmations, key);
 }
 
 function activeReleasesForCategory(key) {
-  return ensureCategory(isAdminActive() ? state.remoteReleases : state.simulationReleases, key);
+  return ensureCategory(state.remoteReleases, key);
 }
 
 function activeStateReleasesForCategory(key) {
-  return ensureCategory(isAdminActive() ? state.remoteStateReleases : state.simulationStateReleases, key);
+  return ensureCategory(state.remoteStateReleases, key);
 }
 
 function finalsConfirmationsForCategory(key) {
@@ -382,14 +283,6 @@ function activeRegionalReleases(regionalId) {
   const releases = activeReleasesForCategory(state.selectedCategory);
   if (!releases[regionalId]) releases[regionalId] = {};
   return releases[regionalId];
-}
-
-function isOfficialDecisionForAthlete(athleteCode, key = state.selectedCategory) {
-  const code = String(athleteCode);
-  if (state.remoteConfirmations[key]?.[code]) return true;
-  if (state.remoteStateReleases[key]?.[code]) return true;
-  if (state.remoteFinalsConfirmations[key]?.[code]) return true;
-  return Object.values(state.remoteReleases[key] || {}).some((regionalMap) => Boolean(regionalMap?.[code]));
 }
 
 function remoteUrl(path) {
@@ -731,10 +624,12 @@ function removeWildCard(category, athleteCode) {
 }
 
 function toggleStateRelease(athleteCode) {
+  if (!isAdminActive()) return;
   setCategoryWideRelease(athleteCode, !isReleasedAcrossCategory(athleteCode));
 }
 
 function toggleConfirmation(regionalId, athleteCode) {
+  if (!isAdminActive()) return;
   const confirmations = activeConfirmationsForCategory(state.selectedCategory);
   const releases = activeRegionalReleases(regionalId);
   const code = String(athleteCode);
@@ -743,10 +638,7 @@ function toggleConfirmation(regionalId, athleteCode) {
   if (currentRegional === regionalId) {
     delete confirmations[code];
   } else {
-    const confirmationsByCategory = isAdminActive()
-      ? state.remoteConfirmations
-      : state.simulationConfirmations;
-    removeOtherAgeConfirmations(confirmationsByCategory, state.selectedCategory, code);
+    removeOtherAgeConfirmations(state.remoteConfirmations, state.selectedCategory, code);
     delete releases[code];
     confirmations[code] = regionalId;
   }
@@ -757,6 +649,7 @@ function toggleConfirmation(regionalId, athleteCode) {
 }
 
 function toggleRelease(regionalId, athleteCode) {
+  if (!isAdminActive()) return;
   setCategoryWideRelease(athleteCode, !isReleasedAcrossCategory(athleteCode));
 }
 
@@ -1134,7 +1027,7 @@ function athleteRow(
   const manualReleaseLabel = isReleasedManually
     ? `<span class="manual-release-badge" title="Vaga liberada manualmente nesta categoria">Vaga liberada</span>`
     : "";
-  const showControls = !isConfirmedInOtherAgeCategory && (isAdminActive() || !isOfficialDecisionForAthlete(identity));
+  const showControls = !isConfirmedInOtherAgeCategory && isAdminActive();
   const controls = !showControls
     ? ""
     : isAlreadyStateQualified
@@ -1304,7 +1197,7 @@ function stateAthleteRow(athlete, stateCodes, federationCodes, releaseCodes, fin
   const releasedLabel = isReleased
     ? `<span class="manual-release-badge" title="Vaga liberada no ranking estadual">Vaga liberada</span>`
     : "";
-  const showControls = isAdminActive() || !isOfficialDecisionForAthlete(identity);
+  const showControls = isAdminActive();
   const controls = showControls
     ? `
       <button

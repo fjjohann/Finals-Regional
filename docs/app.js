@@ -1,4 +1,5 @@
 const QUALIFIED_LIMIT = 12;
+const MAX_VISIBLE_ATHLETES = 30;
 const REGIONAL_IDS = ["41", "42", "43", "44", "45", "46"];
 const SIMULATION_STORAGE_KEY = "finalsRegional.simulation.confirmations.v1";
 const SIMULATION_RELEASE_STORAGE_KEY = "finalsRegional.simulation.releases.v1";
@@ -1229,7 +1230,7 @@ function regionalPanel(
 ) {
   const panel = document.createElement("article");
   panel.className = "regional-panel";
-  const athletes = filteredAthletes(ranking, stateCodes);
+  const athletes = filteredAthletes(ranking, stateCodes).slice(0, MAX_VISIBLE_ATHLETES);
   const qualified = qualifiedForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes).length;
   const qualifiedCodes = qualifiedCodesForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes);
   const tiedCutoffCodes = tiedCutoffCodesForRanking(ranking, confirmations, releases, stateCodes, regionalFinalsCodes);
@@ -1369,9 +1370,10 @@ function statePanel(stateRanking, releaseCodes = new Set(), finalsConfirmations 
   const qualified = stateQualifiedAthletes(stateRanking, releaseCodes);
   const stateCodes = stateQualifiedCodes(stateRanking, releaseCodes);
   const federationCodes = stateFederationCodes(stateRanking, releaseCodes);
+  const visibleAthletes = stateRanking.athletes.slice(0, MAX_VISIBLE_ATHLETES);
   const body = document.createElement("div");
   body.className = "regional-list";
-  body.replaceChildren(...stateRanking.athletes.map((athlete) => stateAthleteRow(
+  body.replaceChildren(...visibleAthletes.map((athlete) => stateAthleteRow(
     athlete,
     stateCodes,
     federationCodes,
@@ -1384,7 +1386,7 @@ function statePanel(stateRanking, releaseCodes = new Set(), finalsConfirmations 
     <header class="regional-panel-header">
       <div>
         <h3><a href="${stateRanking.url}" target="_blank" rel="noreferrer" aria-label="Abrir fonte Estadual">Estadual</a></h3>
-        <p>${stateRanking.athleteCount} atletas · ${qualified.length} classificados</p>
+        <p>${visibleAthletes.length} atletas · ${qualified.length} classificados</p>
       </div>
     </header>
   `;
@@ -1454,9 +1456,10 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
   card.className = "summary-category-card";
   const body = document.createElement("div");
   body.className = "summary-list";
+  const visibleRows = rows.slice(0, MAX_VISIBLE_ATHLETES);
 
-  if (rows.length) {
-    body.replaceChildren(...rows);
+  if (visibleRows.length) {
+    body.replaceChildren(...visibleRows);
   } else {
     const empty = document.createElement("div");
     empty.className = "regional-empty";
@@ -1471,7 +1474,7 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
         <h3>${categoryLabel(category)}</h3>
       </div>
       <div class="summary-category-actions">
-        <strong>${rows.length}</strong>
+        <strong>${visibleRows.length}</strong>
         ${options.allowWildCard && isAdminActive() ? `
           <button class="add-wildcard-button" type="button" data-category-key="${categoryKey(category)}" title="Adicionar atleta por Wild Card">+ WC</button>
         ` : ""}
@@ -1678,7 +1681,7 @@ function renderFinalsView() {
       .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
       .forEach((entry) => rows.push(wildCardSummaryRow(entry, key)));
     const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", { allowWildCard: true });
-    card.dataset.count = String(rows.length);
+    card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
     if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
     cardsByGroup.get(category.categoryGroup).push(card);
   });

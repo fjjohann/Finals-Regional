@@ -1655,10 +1655,14 @@ function adminCategoryOrder(a, b) {
 function adminSummaryGroup(group, categories) {
   const section = document.createElement("section");
   section.className = "admin-summary-group";
+  const regionalTotals = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
   const rows = categories
     .sort(adminCategoryOrder)
     .map((category) => {
       const counts = regionalConfirmedCountsForCategory(categoryKey(category));
+      REGIONAL_IDS.forEach((regionalId) => {
+        regionalTotals[regionalId] += counts[regionalId];
+      });
       return {
         row: adminSummaryCategoryRow(category, counts),
         total: REGIONAL_IDS.reduce((sum, regionalId) => sum + counts[regionalId], 0),
@@ -1681,8 +1685,41 @@ function adminSummaryGroup(group, categories) {
   section.querySelector("tbody").replaceChildren(...rows.map(({ row }) => row));
   return {
     section,
+    regionalTotals,
     total: rows.reduce((sum, item) => sum + item.total, 0),
   };
+}
+
+function adminSummaryTotalsRow(groups) {
+  const totals = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
+  groups.forEach((group) => {
+    REGIONAL_IDS.forEach((regionalId) => {
+      totals[regionalId] += group.regionalTotals[regionalId];
+    });
+  });
+
+  const section = document.createElement("section");
+  section.className = "admin-summary-group admin-summary-total-group";
+  section.innerHTML = `
+    <h3>Total do torneio por regional</h3>
+    <div class="admin-summary-table-wrap">
+      <table class="admin-summary-table">
+        <thead>
+          <tr>
+            <th scope="col">Total</th>
+            ${REGIONAL_IDS.map((regionalId) => `<th scope="col">Regional ${regionalId}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="admin-summary-total-row">
+            <th scope="row">Todas as categorias</th>
+            ${REGIONAL_IDS.map((regionalId) => `<td>${totals[regionalId]}</td>`).join("")}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+  return section;
 }
 
 function renderAdminSummary() {
@@ -1698,7 +1735,10 @@ function renderAdminSummary() {
     .map((group) => adminSummaryGroup(group, categoriesByGroup.get(group)));
 
   els.regionalConfirmedTotal.textContent = String(groups.reduce((sum, group) => sum + group.total, 0));
-  els.adminSummaryGrid.replaceChildren(...groups.map(({ section }) => section));
+  els.adminSummaryGrid.replaceChildren(
+    ...groups.map(({ section }) => section),
+    adminSummaryTotalsRow(groups),
+  );
 }
 
 function setActiveView(view) {

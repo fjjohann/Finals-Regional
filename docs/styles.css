@@ -1480,6 +1480,23 @@ input:focus {
   color: var(--confirmed-strong);
 }
 
+.admin-summary-total-group {
+  border-color: var(--confirmed-line);
+}
+
+.admin-summary-total-group > h3,
+.admin-summary-total-row th,
+.admin-summary-total-row td {
+  background: var(--confirmed);
+}
+
+.admin-summary-total-row th,
+.admin-summary-total-row td {
+  color: var(--confirmed-strong);
+  font-size: 17px;
+  font-weight: 800;
+}
+
 .circuit-layout {
   display: grid;
   gap: 18px;

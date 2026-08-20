@@ -39,6 +39,7 @@ const state = {
 let persistTimer = null;
 let remoteRefreshTimer = null;
 let wildCardTargetCategory = "";
+let federationQualifiedCodesAcrossCategories = new Set();
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
   adminStatus: document.querySelector("#adminStatus"),
@@ -865,6 +866,7 @@ function regionalFinalsAthletes(ranking, stateCodes = new Set(), releases = {}) 
   const candidates = ranking.athletes.filter(
     (athlete) =>
       !isStateQualified(athlete, stateCodes) &&
+      !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
       !isManuallyReleased(athlete, ranking, releases),
   );
   return athletesByListLimit(candidates, 2);
@@ -899,6 +901,19 @@ function stateQualifiedCodes(stateRanking, releaseCodes = new Set()) {
 
 function stateFederationCodes(stateRanking, releaseCodes = new Set()) {
   return new Set(stateFederationAthletes(stateRanking, releaseCodes).map(athleteIdentity));
+}
+
+function federationCodesForAllCategories() {
+  const codes = new Set();
+  allCategories().forEach((category) => {
+    const key = categoryKey(category);
+    const stateRanking = stateRankingForCategory(key);
+    const releaseCodes = new Set(Object.keys(state.stateReleases[key] || {}));
+    stateFederationAthletes(stateRanking, releaseCodes).forEach((athlete) => {
+      codes.add(athleteIdentity(athlete));
+    });
+  });
+  return codes;
 }
 
 function hasVisibleFederationGuarantee(stateRanking, releaseCodes = new Set()) {
@@ -942,6 +957,7 @@ function activeCandidatesForRanking(
   return ranking.athletes.filter(
     (athlete) =>
       !isStateQualified(athlete, stateCodes) &&
+      !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
       !isRegionalFinalsQualified(athlete, regionalFinalsCodes) &&
       !isConfirmedInAnotherAgeCategory(athleteIdentity(athlete), categoryKey(ranking)) &&
       !isConfirmedElsewhere(athlete, ranking, confirmations) &&
@@ -1016,7 +1032,11 @@ function duplicateQualifiedRegionals(
 }
 
 function filteredAthletes(ranking, stateCodes = new Set()) {
-  return ranking.athletes.filter((athlete) => !isStateQualified(athlete, stateCodes));
+  return ranking.athletes.filter(
+    (athlete) =>
+      !isStateQualified(athlete, stateCodes) &&
+      !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)),
+  );
 }
 
 function qualifiedCodesForRanking(
@@ -1804,6 +1824,7 @@ function setActiveView(view) {
 
 function render() {
   syncEffectiveDecisionState();
+  federationQualifiedCodesAcrossCategories = federationCodesForAllCategories();
   const rankings = selectedRankings();
   const stateRanking = selectedStateRanking();
   const stateReleaseCodes = new Set(Object.keys(selectedStateReleases()));

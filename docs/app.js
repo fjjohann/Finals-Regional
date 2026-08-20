@@ -123,6 +123,34 @@ function categoryKey(ranking) {
   return ranking.categoryKey;
 }
 
+function categoryForKey(key) {
+  return state.rankings.find((ranking) => categoryKey(ranking) === key);
+}
+
+function isAgeCategory(category) {
+  return ["Subs", "Idades"].includes(category?.categoryGroup);
+}
+
+function isConfirmedInAnotherAgeCategory(athleteCode, currentCategoryKey) {
+  if (!isAgeCategory(categoryForKey(currentCategoryKey))) return false;
+  const code = String(athleteCode);
+  return Object.entries(state.confirmations).some(([key, confirmations]) =>
+    key !== currentCategoryKey &&
+    isAgeCategory(categoryForKey(key)) &&
+    Boolean(confirmations?.[code]),
+  );
+}
+
+function removeOtherAgeConfirmations(confirmationsByCategory, currentCategoryKey, athleteCode) {
+  if (!isAgeCategory(categoryForKey(currentCategoryKey))) return;
+  const code = String(athleteCode);
+  Object.entries(confirmationsByCategory).forEach(([key, confirmations]) => {
+    if (key !== currentCategoryKey && isAgeCategory(categoryForKey(key))) {
+      delete confirmations?.[code];
+    }
+  });
+}
+
 function allCategories() {
   return uniqueBy(state.rankings, categoryKey)
     .sort((a, b) => {
@@ -697,13 +725,18 @@ function toggleStateRelease(athleteCode) {
 function toggleConfirmation(regionalId, athleteCode) {
   const confirmations = activeConfirmationsForCategory(state.selectedCategory);
   const releases = activeRegionalReleases(regionalId);
-  const currentRegional = confirmations[athleteCode];
+  const code = String(athleteCode);
+  const currentRegional = confirmations[code];
 
   if (currentRegional === regionalId) {
-    delete confirmations[athleteCode];
+    delete confirmations[code];
   } else {
-    delete releases[athleteCode];
-    confirmations[athleteCode] = regionalId;
+    const confirmationsByCategory = isAdminActive()
+      ? state.remoteConfirmations
+      : state.simulationConfirmations;
+    removeOtherAgeConfirmations(confirmationsByCategory, state.selectedCategory, code);
+    delete releases[code];
+    confirmations[code] = regionalId;
   }
 
   saveConfirmations();
@@ -900,6 +933,7 @@ function activeCandidatesForRanking(
     (athlete) =>
       !isStateQualified(athlete, stateCodes) &&
       !isRegionalFinalsQualified(athlete, regionalFinalsCodes) &&
+      !isConfirmedInAnotherAgeCategory(athleteIdentity(athlete), categoryKey(ranking)) &&
       !isConfirmedElsewhere(athlete, ranking, confirmations) &&
       !isManuallyReleased(athlete, ranking, releases),
   );
@@ -972,7 +1006,11 @@ function duplicateQualifiedRegionals(
 }
 
 function filteredAthletes(ranking, stateCodes = new Set()) {
-  return ranking.athletes.filter((athlete) => !isStateQualified(athlete, stateCodes));
+  return ranking.athletes.filter(
+    (athlete) =>
+      !isStateQualified(athlete, stateCodes) &&
+      !isConfirmedInAnotherAgeCategory(athleteIdentity(athlete), categoryKey(ranking)),
+  );
 }
 
 function qualifiedCodesForRanking(

@@ -1074,6 +1074,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFC"
     },
+    "45700|BTMD": {
+      "athleteCode": "45700",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
+      "currentCategory": "BTMD"
+    },
     "45715|BTFC": {
       "athleteCode": "45715",
       "changeDate": null,
@@ -1204,6 +1210,12 @@
       "athleteCode": "46398",
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
+      "currentCategory": "BTFD"
+    },
+    "46410|BTFD": {
+      "athleteCode": "46410",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
       "currentCategory": "BTFD"
     },
     "46412|BTFD": {
@@ -2046,6 +2058,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMD"
     },
+    "51805|BTFD": {
+      "athleteCode": "51805",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
+      "currentCategory": "BTFD"
+    },
     "51840|BTMD": {
       "athleteCode": "51840",
       "changeDate": null,
@@ -2086,6 +2104,12 @@
       "athleteCode": "52210",
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
+      "currentCategory": "BTFD"
+    },
+    "52267|BTFD": {
+      "athleteCode": "52267",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
       "currentCategory": "BTFD"
     },
     "52269|BTMC": {
@@ -2279,6 +2303,18 @@
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFC"
+    },
+    "54567|BTMD": {
+      "athleteCode": "54567",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
+      "currentCategory": "BTMD"
+    },
+    "54727|BTFD": {
+      "athleteCode": "54727",
+      "changeDate": "2026-08-22",
+      "checkedAt": "2026-08-23T09:34:24.601275+00:00",
+      "currentCategory": "BTFD"
     },
     "54776|BTFD": {
       "athleteCode": "54776",

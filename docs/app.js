@@ -291,6 +291,8 @@ function remoteUrl(path) {
 
 async function remoteRequest(path, options = {}) {
   const token = options.authenticated ? state.admin.session?.access_token : SUPABASE_PUBLIC_KEY;
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 8000);
   const headers = {
     apikey: SUPABASE_PUBLIC_KEY,
     Authorization: `Bearer ${token || SUPABASE_PUBLIC_KEY}`,
@@ -298,10 +300,16 @@ async function remoteRequest(path, options = {}) {
     ...(options.headers || {}),
   };
 
-  const response = await fetch(remoteUrl(path), {
-    ...options,
-    headers,
-  });
+  let response;
+  try {
+    response = await fetch(remoteUrl(path), {
+      ...options,
+      headers,
+      signal: options.signal || controller.signal,
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
 
   if (!response.ok) {
     const message = await response.text();
@@ -1893,12 +1901,14 @@ async function boot() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     state.rankings = state.data.rankings || [];
-    await loadRemoteState();
     fillFilters();
     bindEvents();
     render();
     startRemoteStateRefresh();
     renderAdminStatus();
+    loadRemoteState().then((changed) => {
+      if (changed) render();
+    });
   } catch (error) {
     els.updatedAt.textContent = "Falha ao carregar dados";
     els.updatedAt.classList.add("error");

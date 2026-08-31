@@ -571,6 +571,23 @@ input:focus {
   text-decoration: none;
 }
 
+.add-regional-wildcard-button {
+  flex: 0 0 auto;
+  min-width: 38px;
+  height: 26px;
+  border: 1px solid var(--confirmed-line);
+  border-radius: 5px;
+  color: var(--confirmed-strong);
+  background: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.add-regional-wildcard-button:hover {
+  background: var(--confirmed);
+}
+
 .regional-list {
   display: grid;
 }
@@ -602,6 +619,47 @@ input:focus {
 .athlete-row.is-confirmed {
   background: var(--confirmed);
   border-bottom-color: var(--confirmed-line);
+}
+
+.regional-wildcard-mark,
+.regional-wildcard-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--confirmed-line);
+  border-radius: 4px;
+  color: var(--confirmed-strong);
+  background: #fff;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.regional-wildcard-mark {
+  width: 28px;
+  height: 20px;
+}
+
+.regional-wildcard-inline {
+  margin-right: 3px;
+  padding: 1px 3px;
+}
+
+.remove-regional-wildcard-button {
+  justify-self: end;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--release-line);
+  border-radius: 4px;
+  color: var(--release-strong);
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.remove-regional-wildcard-button:hover {
+  background: var(--release);
 }
 
 .athlete-row.is-regional-finals-qualified {

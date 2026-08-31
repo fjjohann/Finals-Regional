@@ -1602,9 +1602,27 @@ function validFinalsCodesForCategory(key) {
 
 function regionalConfirmedCountsForCategory(key) {
   const counts = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
-  Object.values(state.remoteConfirmations[key] || {}).forEach((regionalId) => {
+  const rankings = rankingsForCategory(key);
+  const rankingByRegional = new Map(rankings.map((ranking) => [String(ranking.regionalId), ranking]));
+  const stateRanking = stateRankingForCategory(key);
+  const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
+  const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
+  const releases = releasesForCategory(key);
+  const regionalFinalsCodes = regionalFinalsCodesForRankings(rankings, stateCodes, releases);
+
+  Object.entries(state.remoteConfirmations[key] || {}).forEach(([athleteCode, regionalId]) => {
     const id = String(regionalId);
-    if (counts[id] !== undefined) counts[id] += 1;
+    const ranking = rankingByRegional.get(id);
+    const athlete = ranking?.athletes.find((item) => athleteIdentity(item) === String(athleteCode));
+    if (
+      athlete &&
+      !isStateQualified(athlete, stateCodes) &&
+      !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
+      !isRegionalFinalsQualified(athlete, regionalFinalsCodes) &&
+      !isManuallyReleased(athlete, ranking, releases)
+    ) {
+      counts[id] += 1;
+    }
   });
   return counts;
 }

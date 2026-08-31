@@ -1486,6 +1486,12 @@ input:focus {
   box-shadow: inset 0 0 0 1px #e89268;
 }
 
+.admin-count.is-complete-registration {
+  color: #226144;
+  background: #e2f2e9;
+  box-shadow: inset 0 0 0 1px #91c5a9;
+}
+
 .admin-summary-total-group {
   border-color: var(--confirmed-line);
 }

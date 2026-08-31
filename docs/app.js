@@ -1602,6 +1602,7 @@ function validFinalsCodesForCategory(key) {
 
 function regionalConfirmedCountsForCategory(key) {
   const counts = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
+  const complete = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, false]));
   const rankings = rankingsForCategory(key);
   const rankingByRegional = new Map(rankings.map((ranking) => [String(ranking.regionalId), ranking]));
   const stateRanking = stateRankingForCategory(key);
@@ -1624,17 +1625,34 @@ function regionalConfirmedCountsForCategory(key) {
       counts[id] += 1;
     }
   });
-  return counts;
+
+  rankings.forEach((ranking) => {
+    const regionalId = String(ranking.regionalId);
+    const hasAvailableQualifiedAthlete = qualifiedForRanking(
+      ranking,
+      state.remoteConfirmations[key] || {},
+      releases,
+      stateCodes,
+      regionalFinalsCodes,
+    ).some((athlete) => String(state.remoteConfirmations[key]?.[athleteIdentity(athlete)]) !== regionalId);
+    complete[regionalId] = counts[regionalId] >= QUALIFIED_LIMIT ||
+      (counts[regionalId] >= 6 && !hasAvailableQualifiedAthlete);
+  });
+
+  return { counts, complete };
 }
 
-function adminSummaryCategoryRow(category, counts) {
+function adminSummaryCategoryRow(category, counts, complete) {
   const row = document.createElement("tr");
   row.className = "admin-summary-row";
   row.innerHTML = `
     <th class="admin-summary-category" scope="row">${category.gender} ${category.categoryLabel}</th>
     ${REGIONAL_IDS.map((regionalId) => {
       const isLow = counts[regionalId] < 6;
-      return `<td class="admin-count${isLow ? " is-low-registration" : ""}"${isLow ? ' title="Menos de 6 inscritos"' : ""}>${counts[regionalId]}</td>`;
+      const isComplete = complete[regionalId];
+      const statusClass = isLow ? " is-low-registration" : isComplete ? " is-complete-registration" : "";
+      const title = isLow ? "Menos de 6 inscritos" : isComplete ? "Inscrições completas" : "";
+      return `<td class="admin-count${statusClass}"${title ? ` title="${title}"` : ""}>${counts[regionalId]}</td>`;
     }).join("")}
   `;
   return row;
@@ -1653,12 +1671,12 @@ function adminSummaryGroup(group, categories) {
   const rows = categories
     .sort(adminCategoryOrder)
     .map((category) => {
-      const counts = regionalConfirmedCountsForCategory(categoryKey(category));
+      const { counts, complete } = regionalConfirmedCountsForCategory(categoryKey(category));
       REGIONAL_IDS.forEach((regionalId) => {
         regionalTotals[regionalId] += counts[regionalId];
       });
       return {
-        row: adminSummaryCategoryRow(category, counts),
+        row: adminSummaryCategoryRow(category, counts, complete),
         total: REGIONAL_IDS.reduce((sum, regionalId) => sum + counts[regionalId], 0),
       };
     });

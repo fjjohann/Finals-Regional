@@ -66,6 +66,8 @@ const els = {
   wildCardForm: document.querySelector("#wildCardForm"),
   wildCardCategory: document.querySelector("#wildCardCategory"),
   wildCardCode: document.querySelector("#wildCardCode"),
+  wildCardNameField: document.querySelector("#wildCardNameField"),
+  wildCardName: document.querySelector("#wildCardName"),
   wildCardMessage: document.querySelector("#wildCardMessage"),
   wildCardCancel: document.querySelector("#wildCardCancel"),
   emptyState: document.querySelector("#emptyState"),
@@ -78,6 +80,12 @@ function uniqueBy(items, keyFn) {
     if (!map.has(key)) map.set(key, item);
   });
   return Array.from(map.values());
+}
+
+function escapeHtml(value) {
+  const element = document.createElement("span");
+  element.textContent = String(value ?? "");
+  return element.innerHTML;
 }
 
 function option(value, label) {
@@ -560,6 +568,10 @@ function athleteForWildCard(category, athleteCode) {
     const athlete = ranking.athletes.find((item) => athleteIdentity(item) === code);
     if (athlete) return athlete;
   }
+  for (const ranking of state.rankings) {
+    const athlete = ranking.athletes.find((item) => athleteIdentity(item) === code);
+    if (athlete) return athlete;
+  }
   return null;
 }
 
@@ -569,6 +581,9 @@ function showWildCardDialog(category) {
   wildCardTargetCategory = category;
   els.wildCardCategory.textContent = ranking ? categoryLabel(ranking) : category;
   els.wildCardCode.value = "";
+  els.wildCardName.value = "";
+  els.wildCardName.required = false;
+  els.wildCardNameField.hidden = true;
   els.wildCardMessage.textContent = "";
   if (typeof els.wildCardDialog.showModal === "function") {
     els.wildCardDialog.showModal();
@@ -590,22 +605,30 @@ function previewWildCardAthlete() {
   const code = els.wildCardCode.value.trim();
   els.wildCardMessage.classList.remove("is-success");
   if (!code) {
+    els.wildCardName.required = false;
+    els.wildCardNameField.hidden = true;
     els.wildCardMessage.textContent = "";
     return;
   }
   const athlete = athleteForWildCard(wildCardTargetCategory, code);
   if (!athlete) {
-    els.wildCardMessage.textContent = "Atleta não encontrado nesta categoria.";
+    els.wildCardNameField.hidden = false;
+    els.wildCardName.required = true;
+    els.wildCardMessage.textContent = "Código não encontrado. Informe o nome para adicionar manualmente.";
     return;
   }
+  els.wildCardName.value = "";
+  els.wildCardName.required = false;
+  els.wildCardNameField.hidden = true;
   els.wildCardMessage.textContent = `Atleta: ${athlete.name}`;
   els.wildCardMessage.classList.add("is-success");
 }
 
-function addWildCard(category, athleteCode) {
+function addWildCard(category, athleteCode, athleteName = "") {
   const code = String(athleteCode).trim();
   const athlete = athleteForWildCard(category, code);
-  if (!athlete) throw new Error("Atleta não encontrado nos rankings desta categoria.");
+  const manualName = String(athleteName).trim();
+  if (!athlete && !manualName) throw new Error("Informe o nome do atleta para continuar.");
   if (validFinalsCodesForCategory(category).has(code)) {
     throw new Error("Este atleta já está classificado para o Finals Copa.");
   }
@@ -613,9 +636,9 @@ function addWildCard(category, athleteCode) {
   if (wildCards[code]) throw new Error("Este atleta já está incluído como Wild Card.");
   wildCards[code] = {
     athleteCode: code,
-    name: athlete.name,
-    position: athlete.position,
-    points: athlete.points,
+    name: athlete?.name || manualName,
+    position: athlete?.position || 0,
+    points: athlete?.points || 0,
   };
   saveWildCards();
   render();
@@ -1389,8 +1412,8 @@ function wildCardSummaryRow(entry, category) {
   row.innerHTML = `
     <span class="wildcard-mark" title="Wild Card">WC</span>
     <span class="athlete-main">
-      <span class="athlete-name">${entry.name}</span>
-      <span class="athlete-code">Wild Card · Cod. ${entry.athleteCode}</span>
+      <span class="athlete-name">${escapeHtml(entry.name)}</span>
+      <span class="athlete-code">Wild Card · Cod. ${escapeHtml(entry.athleteCode)}</span>
     </span>
     ${isAdminActive() ? `
       <button class="remove-wildcard-button" type="button" data-category-key="${category}" data-athlete-code="${entry.athleteCode}" title="Remover Wild Card">×</button>
@@ -1854,7 +1877,7 @@ function bindEvents() {
   els.wildCardForm.addEventListener("submit", (event) => {
     event.preventDefault();
     try {
-      addWildCard(wildCardTargetCategory, els.wildCardCode.value);
+      addWildCard(wildCardTargetCategory, els.wildCardCode.value, els.wildCardName.value);
       hideWildCardDialog();
     } catch (error) {
       els.wildCardMessage.textContent = error.message;

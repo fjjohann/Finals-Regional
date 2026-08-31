@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rankings Beach Tennis 2026</title>
-    <link rel="stylesheet" href="styles.css?v=20260819-1815">
+    <link rel="stylesheet" href="styles.css?v=20260831-1830">
     <script src="admin-config.js?v=20260714-1400"></script>
   </head>
   <body>
@@ -60,10 +60,10 @@
     <main class="layout">
       <nav class="view-tabs" aria-label="Painéis">
         <button class="view-tab is-active" type="button" data-view="regionals">Finals Regional</button>
-        <button class="view-tab admin-only-tab" id="adminSummaryTab" type="button" data-view="admin-summary" hidden>Inscritos</button>
         <button class="view-tab" type="button" data-view="finals">Finals Copa</button>
         <button class="view-tab" type="button" data-view="federation">Copa das Federações</button>
         <button class="view-tab" type="button" data-view="circuit">O Circuito</button>
+        <button class="view-tab" id="adminSummaryTab" type="button" data-view="admin-summary">Inscritos</button>
       </nav>
 
       <section class="toolbar" id="regionalToolbar" aria-label="Filtros">
@@ -139,10 +139,10 @@
         <div id="finalsGrid" class="summary-category-grid"></div>
       </section>
 
-      <section class="comparison-section view-panel admin-summary-view" id="adminSummaryView" data-view-panel="admin-summary" aria-label="Inscritos confirmados" hidden>
+      <section class="comparison-section view-panel admin-summary-view" id="adminSummaryView" data-view-panel="admin-summary" aria-label="Inscritos confirmados">
         <div class="section-title admin-summary-title">
           <div>
-            <p>Área administrativa</p>
+            <p>Finals Regional</p>
             <h2>Inscritos confirmados</h2>
           </div>
           <div class="admin-summary-totals" aria-label="Totais de inscritos">
@@ -209,6 +209,6 @@
       <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
     </footer>
 
-    <script src="app.js?v=20260824-2215"></script>
+    <script src="app.js?v=20260831-1830"></script>
   </body>
 </html>

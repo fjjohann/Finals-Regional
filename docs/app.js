@@ -397,7 +397,6 @@ async function loginAdmin(email, password) {
 function logoutAdmin() {
   state.admin.session = null;
   localStorage.removeItem(ADMIN_SESSION_KEY);
-  if (state.activeView === "admin-summary") state.activeView = "regionals";
   render();
 }
 
@@ -430,8 +429,6 @@ function renderAdminStatus(message = "") {
   els.adminToggle.textContent = adminActive ? "Sair" : "Entrar";
   els.adminStatus.hidden = !adminActive && !message;
   els.adminStatus.textContent = message || (adminActive ? "Admin ativo" : "");
-  els.adminSummaryTab.hidden = !adminActive;
-  els.adminSummaryView.hidden = !adminActive;
   els.viewTabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === state.activeView));
   els.viewPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === state.activeView));
 }
@@ -1607,7 +1604,7 @@ function regionalConfirmedCountsForCategory(key) {
   const counts = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
   Object.values(state.remoteConfirmations[key] || {}).forEach((regionalId) => {
     const id = String(regionalId);
-    if (Object.hasOwn(counts, id)) counts[id] += 1;
+    if (counts[id] !== undefined) counts[id] += 1;
   });
   return counts;
 }
@@ -1617,7 +1614,10 @@ function adminSummaryCategoryRow(category, counts) {
   row.className = "admin-summary-row";
   row.innerHTML = `
     <th class="admin-summary-category" scope="row">${category.gender} ${category.categoryLabel}</th>
-    ${REGIONAL_IDS.map((regionalId) => `<td class="admin-count">${counts[regionalId]}</td>`).join("")}
+    ${REGIONAL_IDS.map((regionalId) => {
+      const isLow = counts[regionalId] < 6;
+      return `<td class="admin-count${isLow ? " is-low-registration" : ""}"${isLow ? ' title="Menos de 6 inscritos"' : ""}>${counts[regionalId]}</td>`;
+    }).join("")}
   `;
   return row;
 }
@@ -1699,7 +1699,6 @@ function adminSummaryTotalsRow(groups) {
 }
 
 function renderAdminSummary() {
-  if (!isAdminActive()) return;
   const categoriesByGroup = new Map();
   allCategories().forEach((category) => {
     if (!categoriesByGroup.has(category.categoryGroup)) categoriesByGroup.set(category.categoryGroup, []);
@@ -1718,7 +1717,6 @@ function renderAdminSummary() {
 }
 
 function setActiveView(view) {
-  if (view === "admin-summary" && !isAdminActive()) return;
   state.activeView = view;
   els.viewTabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.view === view));
   els.viewPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === view));

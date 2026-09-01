@@ -1,6 +1,12 @@
 const QUALIFIED_LIMIT = 12;
 const MAX_VISIBLE_ATHLETES = 30;
 const REGIONAL_IDS = ["41", "42", "43", "44", "45", "46"];
+const REGIONAL_CLASSIFICATION_EXCEPTIONS = {
+  "BTMB:291:43": {
+    finalsRegionalConfirmedCode: "34576",
+    finalsCopaReplacementCode: "32729",
+  },
+};
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
 const REMOTE_STATE_ID = "global";
 const REMOTE_REFRESH_INTERVAL_MS = 8000;
@@ -128,6 +134,12 @@ function categoryLabel(ranking) {
 
 function categoryKey(ranking) {
   return ranking.categoryKey;
+}
+
+function regionalClassificationException(ranking) {
+  return REGIONAL_CLASSIFICATION_EXCEPTIONS[
+    `${categoryKey(ranking)}:${String(ranking.regionalId)}`
+  ] || null;
 }
 
 function categoryForKey(key) {
@@ -839,7 +851,19 @@ function regionalFinalsAthletes(ranking, stateCodes = new Set(), releases = {}) 
       !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
       !isManuallyReleased(athlete, ranking, releases),
   );
-  return athletesByListLimit(candidates, 2);
+  const selected = athletesByListLimit(candidates, 2);
+  const exception = regionalClassificationException(ranking);
+  if (!exception || !selected.some((athlete) => athleteIdentity(athlete) === exception.finalsRegionalConfirmedCode)) {
+    return selected;
+  }
+
+  const replacement = candidates.find(
+    (athlete) => athleteIdentity(athlete) === exception.finalsCopaReplacementCode,
+  );
+  if (!replacement) return selected;
+  return selected.map((athlete) =>
+    athleteIdentity(athlete) === exception.finalsRegionalConfirmedCode ? replacement : athlete,
+  );
 }
 
 function regionalFinalsRegionalsByAthlete(rankings, stateCodes = new Set(), releases = {}) {
@@ -1045,7 +1069,11 @@ function athleteRow(
   const isFinalsConfirmed = Boolean(finalsConfirmations[identity]);
   const stateLabelText = stateClassificationLabel(athlete, stateCodes, federationCodes);
   const isReleasedManually = isManuallyReleased(athlete, ranking, releases);
-  const isConfirmedHere = !isAlreadyStateQualified && !isAlreadyRegionalFinalsQualified && confirmedRegional === ranking.regionalId;
+  const classificationException = regionalClassificationException(ranking);
+  const isForcedRegionalConfirmation =
+    classificationException?.finalsRegionalConfirmedCode === identity;
+  const isConfirmedHere = !isAlreadyStateQualified && !isAlreadyRegionalFinalsQualified &&
+    (confirmedRegional === ranking.regionalId || isForcedRegionalConfirmation);
   const isReleasedElsewhere =
     !isAlreadyStateQualified &&
     !isAlreadyRegionalFinalsQualified &&
@@ -1059,6 +1087,7 @@ function athleteRow(
     !isAlreadyRegionalFinalsQualified &&
     !isConfirmedInOtherAgeCategory &&
     !isReleasedManually &&
+    !isForcedRegionalConfirmation &&
     (isQualified || isConfirmedHere);
   const canRelease =
     !isAlreadyStateQualified &&
@@ -1721,6 +1750,16 @@ function regionalConfirmedCountsForCategory(key) {
     ) {
       counts[id] += 1;
     }
+  });
+
+  rankings.forEach((ranking) => {
+    const exception = regionalClassificationException(ranking);
+    if (!exception) return;
+    const regionalId = String(ranking.regionalId);
+    const code = exception.finalsRegionalConfirmedCode;
+    const alreadyCounted = String(state.remoteConfirmations[key]?.[code] || "") === regionalId;
+    const athlete = ranking.athletes.find((item) => athleteIdentity(item) === code);
+    if (athlete && !alreadyCounted) counts[regionalId] += 1;
   });
 
   REGIONAL_IDS.forEach((regionalId) => {

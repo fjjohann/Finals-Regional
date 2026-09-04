@@ -61,6 +61,41 @@
       </form>
     </dialog>
 
+    <dialog class="admin-dialog" id="regionalChampionDialog">
+      <form class="admin-login champion-form" id="regionalChampionForm" method="dialog">
+        <p class="champion-eyebrow">Finals Copa</p>
+        <h2>Incluir campeões do Finals Regional</h2>
+        <p id="regionalChampionCategory" class="wildcard-category"></p>
+        <label>
+          Regional
+          <select id="regionalChampionRegional" required>
+            <option value="">Selecione</option>
+            <option value="41">Regional 41</option>
+            <option value="42">Regional 42</option>
+            <option value="43">Regional 43</option>
+            <option value="44">Regional 44</option>
+            <option value="45">Regional 45</option>
+            <option value="46">Regional 46</option>
+          </select>
+        </label>
+        <fieldset class="champion-athlete-fields">
+          <legend>Primeiro atleta</legend>
+          <label>Código <input id="regionalChampionCode1" type="text" inputmode="numeric" autocomplete="off" required></label>
+          <label>Nome <input id="regionalChampionName1" type="text" autocomplete="off" required></label>
+        </fieldset>
+        <fieldset class="champion-athlete-fields">
+          <legend>Segundo atleta</legend>
+          <label>Código <input id="regionalChampionCode2" type="text" inputmode="numeric" autocomplete="off" required></label>
+          <label>Nome <input id="regionalChampionName2" type="text" autocomplete="off" required></label>
+        </fieldset>
+        <p id="regionalChampionMessage" class="admin-message" role="status"></p>
+        <div class="admin-actions">
+          <button class="secondary-button" id="regionalChampionCancel" type="button">Cancelar</button>
+          <button class="primary-button" type="submit">Incluir dupla</button>
+        </div>
+      </form>
+    </dialog>
+
     <main class="layout">
       <nav class="view-tabs" aria-label="Painéis">
         <button class="view-tab is-active" type="button" data-view="regionals">Finals Regional</button>
@@ -213,6 +248,6 @@
       <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
     </footer>
 
-    <script src="app.js?v=20260901-1330"></script>
+    <script src="app.js?v=20260904-1500"></script>
   </body>
 </html>

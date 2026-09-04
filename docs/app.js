@@ -25,12 +25,14 @@ const state = {
   finalsConfirmations: {},
   wildCards: {},
   regionalWildCards: {},
+  regionalChampions: {},
   remoteConfirmations: {},
   remoteReleases: {},
   remoteStateReleases: {},
   remoteFinalsConfirmations: {},
   remoteWildCards: {},
   remoteRegionalWildCards: {},
+  remoteRegionalChampions: {},
   remoteStateSignature: "",
   admin: {
     configured: hasRemoteAdminConfig,
@@ -43,6 +45,7 @@ let persistTimer = null;
 let remoteRefreshTimer = null;
 let wildCardTargetCategory = "";
 let wildCardTargetRegional = "";
+let regionalChampionTargetCategory = "";
 let federationQualifiedCodesAcrossCategories = new Set();
 const els = {
   updatedAt: document.querySelector("#updatedAt"),
@@ -79,6 +82,16 @@ const els = {
   wildCardName: document.querySelector("#wildCardName"),
   wildCardMessage: document.querySelector("#wildCardMessage"),
   wildCardCancel: document.querySelector("#wildCardCancel"),
+  regionalChampionDialog: document.querySelector("#regionalChampionDialog"),
+  regionalChampionForm: document.querySelector("#regionalChampionForm"),
+  regionalChampionCategory: document.querySelector("#regionalChampionCategory"),
+  regionalChampionRegional: document.querySelector("#regionalChampionRegional"),
+  regionalChampionCode1: document.querySelector("#regionalChampionCode1"),
+  regionalChampionName1: document.querySelector("#regionalChampionName1"),
+  regionalChampionCode2: document.querySelector("#regionalChampionCode2"),
+  regionalChampionName2: document.querySelector("#regionalChampionName2"),
+  regionalChampionMessage: document.querySelector("#regionalChampionMessage"),
+  regionalChampionCancel: document.querySelector("#regionalChampionCancel"),
   emptyState: document.querySelector("#emptyState"),
 };
 
@@ -238,6 +251,10 @@ function saveRegionalWildCards() {
   schedulePersistRemoteState();
 }
 
+function saveRegionalChampions() {
+  schedulePersistRemoteState();
+}
+
 function remotePayload() {
   return {
     confirmations: state.remoteConfirmations,
@@ -246,6 +263,7 @@ function remotePayload() {
     finalsConfirmations: state.remoteFinalsConfirmations,
     wildCards: state.remoteWildCards,
     regionalWildCards: state.remoteRegionalWildCards,
+    regionalChampions: state.remoteRegionalChampions,
     updatedAt: new Date().toISOString(),
   };
 }
@@ -258,6 +276,7 @@ function normalizeRemotePayload(payload) {
     finalsConfirmations: payload?.finalsConfirmations && typeof payload.finalsConfirmations === "object" ? payload.finalsConfirmations : {},
     wildCards: payload?.wildCards && typeof payload.wildCards === "object" ? payload.wildCards : {},
     regionalWildCards: payload?.regionalWildCards && typeof payload.regionalWildCards === "object" ? payload.regionalWildCards : {},
+    regionalChampions: payload?.regionalChampions && typeof payload.regionalChampions === "object" ? payload.regionalChampions : {},
   };
 }
 
@@ -272,6 +291,7 @@ function applyRemotePayload(payload) {
   state.remoteFinalsConfirmations = normalized.finalsConfirmations;
   state.remoteWildCards = normalized.wildCards;
   state.remoteRegionalWildCards = normalized.regionalWildCards;
+  state.remoteRegionalChampions = normalized.regionalChampions;
   syncEffectiveDecisionState();
   return changed;
 }
@@ -288,6 +308,7 @@ function syncEffectiveDecisionState() {
   state.finalsConfirmations = state.remoteFinalsConfirmations;
   state.wildCards = state.remoteWildCards;
   state.regionalWildCards = state.remoteRegionalWildCards;
+  state.regionalChampions = state.remoteRegionalChampions;
 }
 
 function activeConfirmationsForCategory(key) {
@@ -319,6 +340,10 @@ function regionalWildCardsForRanking(key, regionalId) {
   const id = String(regionalId);
   if (!categoryWildCards[id]) categoryWildCards[id] = {};
   return categoryWildCards[id];
+}
+
+function regionalChampionsForCategory(key) {
+  return ensureCategory(state.remoteRegionalChampions, key);
 }
 
 function activeRegionalReleases(regionalId) {
@@ -708,6 +733,65 @@ function removeRegionalWildCard(category, regionalId, athleteCode) {
   if (!isAdminActive()) return;
   delete regionalWildCardsForRanking(category, regionalId)[String(athleteCode)];
   saveRegionalWildCards();
+  render();
+}
+
+function showRegionalChampionDialog(category) {
+  if (!isAdminActive()) return;
+  const ranking = stateRankingForCategory(category) || rankingsForCategory(category)[0];
+  regionalChampionTargetCategory = category;
+  els.regionalChampionCategory.textContent = ranking ? categoryLabel(ranking) : category;
+  els.regionalChampionForm.reset();
+  els.regionalChampionMessage.textContent = "";
+  if (typeof els.regionalChampionDialog.showModal === "function") {
+    els.regionalChampionDialog.showModal();
+  } else {
+    els.regionalChampionDialog.setAttribute("open", "");
+  }
+  els.regionalChampionRegional.focus();
+}
+
+function hideRegionalChampionDialog() {
+  if (typeof els.regionalChampionDialog.close === "function") {
+    els.regionalChampionDialog.close();
+  } else {
+    els.regionalChampionDialog.removeAttribute("open");
+  }
+}
+
+function fillRegionalChampionName(codeInput, nameInput) {
+  const code = codeInput.value.trim();
+  if (!code) return;
+  const athlete = athleteForWildCard(regionalChampionTargetCategory, code);
+  if (athlete) nameInput.value = athlete.name;
+}
+
+function addRegionalChampions(category, regionalId, athletes) {
+  const id = String(regionalId);
+  if (!REGIONAL_IDS.includes(id)) throw new Error("Selecione a regional da dupla campeã.");
+  const normalized = athletes.map((entry) => ({
+    athleteCode: String(entry.athleteCode).trim(),
+    name: String(entry.name).trim(),
+  }));
+  if (normalized.some((entry) => !entry.athleteCode || !entry.name)) {
+    throw new Error("Informe o código e o nome dos dois atletas.");
+  }
+  if (normalized[0].athleteCode === normalized[1].athleteCode) {
+    throw new Error("Informe dois atletas diferentes.");
+  }
+  const champions = regionalChampionsForCategory(category);
+  if (Object.keys(champions[id] || {}).length) {
+    throw new Error(`A Regional ${id} já possui uma dupla campeã cadastrada.`);
+  }
+  champions[id] = Object.fromEntries(normalized.map((entry) => [entry.athleteCode, entry]));
+  saveRegionalChampions();
+  render();
+}
+
+function removeRegionalChampions(category, regionalId) {
+  if (!isAdminActive()) return;
+  delete regionalChampionsForCategory(category)[String(regionalId)];
+  saveRegionalChampions();
   render();
 }
 
@@ -1502,6 +1586,9 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
         ${options.allowWildCard && isAdminActive() ? `
           <button class="add-wildcard-button" type="button" data-category-key="${categoryKey(category)}" title="Adicionar atleta por Wild Card">+ WC</button>
         ` : ""}
+        ${options.allowRegionalChampion && isAdminActive() ? `
+          <button class="add-champion-button" type="button" data-category-key="${categoryKey(category)}" title="Incluir dupla campeã do Finals Regional">+ Campeões</button>
+        ` : ""}
       </div>
     </header>
   `;
@@ -1521,6 +1608,31 @@ function wildCardSummaryRow(entry, category) {
     ${isAdminActive() ? `
       <button class="remove-wildcard-button" type="button" data-category-key="${category}" data-athlete-code="${entry.athleteCode}" title="Remover Wild Card">×</button>
     ` : `<span class="wildcard-badge">Inscrito</span>`}
+  `;
+  return row;
+}
+
+function regionalChampionSummaryRow(entry, category, regionalId, isFinalsConfirmed) {
+  const row = document.createElement("div");
+  row.className = `summary-athlete-row summary-champion${isFinalsConfirmed ? " is-finals-confirmed" : ""}`;
+  row.innerHTML = `
+    <span class="summary-rank-cell">
+      ${isAdminActive() ? `<button
+        class="finals-confirm-button"
+        type="button"
+        data-category-key="${category}"
+        data-athlete-code="${escapeHtml(entry.athleteCode)}"
+        aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
+        title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
+      >✓</button>` : ""}
+      <span class="champion-mark" title="Campeão do Finals Regional">CR</span>
+    </span>
+    <span class="athlete-main">
+      <span class="athlete-name">${escapeHtml(entry.name)}</span>
+      <span class="athlete-code">Campeão Finals Regional ${regionalId} · Cod. ${escapeHtml(entry.athleteCode)}</span>
+      ${isFinalsConfirmed ? `<span class="finals-confirmed-badge">Inscrição confirmada</span>` : ""}
+    </span>
+    ${isAdminActive() ? `<button class="remove-champion-button" type="button" data-category-key="${category}" data-regional-id="${regionalId}" title="Remover dupla campeã da Regional ${regionalId}">×</button>` : "<span></span>"}
   `;
   return row;
 }
@@ -1677,9 +1789,14 @@ function renderFinalsView() {
     const finalsConfirmations = finalsConfirmationsForCategory(key);
     const wildCards = wildCardsForCategory(key);
     const wildCardCodes = new Set(Object.keys(wildCards));
+    const regionalChampions = regionalChampionsForCategory(key);
+    const championCodes = new Set(
+      Object.values(regionalChampions).flatMap((entries) => Object.keys(entries || {})),
+    );
+    const manuallyIncludedCodes = new Set([...wildCardCodes, ...championCodes]);
     const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
     const rows = stateFinalsAthletes(stateRanking, stateReleaseCodes)
-      .filter((athlete) => !wildCardCodes.has(athleteIdentity(athlete)))
+      .filter((athlete) => !manuallyIncludedCodes.has(athleteIdentity(athlete)))
       .map((athlete) =>
       summaryAthleteRow(
         athlete,
@@ -1690,7 +1807,7 @@ function renderFinalsView() {
       ),
     );
     regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
-      if (wildCardCodes.has(athleteIdentity(entry.athlete))) return;
+      if (manuallyIncludedCodes.has(athleteIdentity(entry.athlete))) return;
       rows.push(
         summaryAthleteRow(
           entry.athlete,
@@ -1704,7 +1821,20 @@ function renderFinalsView() {
     Object.values(wildCards)
       .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
       .forEach((entry) => rows.push(wildCardSummaryRow(entry, key)));
-    const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", { allowWildCard: true });
+    REGIONAL_IDS.forEach((regionalId) => {
+      Object.values(regionalChampions[regionalId] || {})
+        .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
+        .forEach((entry) => rows.push(regionalChampionSummaryRow(
+          entry,
+          key,
+          regionalId,
+          Boolean(finalsConfirmations[entry.athleteCode]),
+        )));
+    });
+    const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", {
+      allowWildCard: true,
+      allowRegionalChampion: true,
+    });
     card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
     if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
     cardsByGroup.get(category.categoryGroup).push(card);
@@ -1722,6 +1852,9 @@ function validFinalsCodesForCategory(key) {
   );
   regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
     validCodes.add(athleteIdentity(entry.athlete));
+  });
+  Object.values(regionalChampionsForCategory(key)).forEach((entries) => {
+    Object.keys(entries || {}).forEach((code) => validCodes.add(code));
   });
   return validCodes;
 }
@@ -1992,6 +2125,13 @@ function bindEvents() {
   els.adminCancel.addEventListener("click", hideAdminDialog);
   els.wildCardCancel.addEventListener("click", hideWildCardDialog);
   els.wildCardCode.addEventListener("input", previewWildCardAthlete);
+  els.regionalChampionCancel.addEventListener("click", hideRegionalChampionDialog);
+  els.regionalChampionCode1.addEventListener("input", () => {
+    fillRegionalChampionName(els.regionalChampionCode1, els.regionalChampionName1);
+  });
+  els.regionalChampionCode2.addEventListener("input", () => {
+    fillRegionalChampionName(els.regionalChampionCode2, els.regionalChampionName2);
+  });
 
   els.wildCardForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -2009,6 +2149,23 @@ function bindEvents() {
       hideWildCardDialog();
     } catch (error) {
       els.wildCardMessage.textContent = error.message;
+    }
+  });
+
+  els.regionalChampionForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    try {
+      addRegionalChampions(
+        regionalChampionTargetCategory,
+        els.regionalChampionRegional.value,
+        [
+          { athleteCode: els.regionalChampionCode1.value, name: els.regionalChampionName1.value },
+          { athleteCode: els.regionalChampionCode2.value, name: els.regionalChampionName2.value },
+        ],
+      );
+      hideRegionalChampionDialog();
+    } catch (error) {
+      els.regionalChampionMessage.textContent = error.message;
     }
   });
 
@@ -2050,6 +2207,12 @@ function bindEvents() {
   });
 
   document.addEventListener("click", (event) => {
+    const addChampionButton = event.target.closest(".add-champion-button");
+    if (addChampionButton) {
+      showRegionalChampionDialog(addChampionButton.dataset.categoryKey);
+      return;
+    }
+
     const addRegionalWildCardButton = event.target.closest(".add-regional-wildcard-button");
     if (addRegionalWildCardButton) {
       showWildCardDialog(
@@ -2071,6 +2234,15 @@ function bindEvents() {
         removeRegionalWildCardButton.dataset.categoryKey,
         removeRegionalWildCardButton.dataset.regionalId,
         removeRegionalWildCardButton.dataset.athleteCode,
+      );
+      return;
+    }
+
+    const removeChampionButton = event.target.closest(".remove-champion-button");
+    if (removeChampionButton) {
+      removeRegionalChampions(
+        removeChampionButton.dataset.categoryKey,
+        removeChampionButton.dataset.regionalId,
       );
       return;
     }

@@ -186,6 +186,46 @@ h1 {
   text-transform: uppercase;
 }
 
+.champion-eyebrow {
+  color: #28623f;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.champion-form {
+  width: min(520px, calc(100vw - 32px));
+}
+
+.admin-login select {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  background: #fff;
+  font: inherit;
+  font-size: 15px;
+  padding: 0 11px;
+}
+
+.champion-athlete-fields {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.champion-athlete-fields legend {
+  padding: 0 5px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .wildcard-category {
   color: var(--muted);
   font-size: 13px;
@@ -1309,6 +1349,22 @@ input:focus {
   border-color: var(--wildcard-strong);
 }
 
+.add-champion-button {
+  height: 26px;
+  border: 1px solid #9bc8ac;
+  border-radius: 5px;
+  color: #28623f;
+  background: #edf7f0;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.add-champion-button:hover {
+  border-color: #4d8b65;
+}
+
 .summary-list {
   display: grid;
 }
@@ -1341,6 +1397,25 @@ input:focus {
   border-bottom-color: var(--wildcard-line);
 }
 
+.summary-champion {
+  background: #edf7f0;
+  border-bottom-color: #b8d8c3;
+}
+
+.champion-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 20px;
+  border: 1px solid #9bc8ac;
+  border-radius: 4px;
+  color: #28623f;
+  background: #fff;
+  font-size: 8px;
+  font-weight: 800;
+}
+
 .wildcard-mark {
   display: inline-flex;
   align-items: center;
@@ -1362,7 +1437,8 @@ input:focus {
   font-weight: 700;
 }
 
-.remove-wildcard-button {
+.remove-wildcard-button,
+.remove-champion-button {
   justify-self: end;
   width: 20px;
   height: 20px;
@@ -1375,8 +1451,15 @@ input:focus {
   line-height: 1;
 }
 
-.remove-wildcard-button:hover {
+.remove-wildcard-button:hover,
+.remove-champion-button:hover {
   background: var(--release);
+}
+
+@media (max-width: 520px) {
+  .champion-athlete-fields {
+    grid-template-columns: 1fr;
+  }
 }
 
 .finals-confirmed-badge {

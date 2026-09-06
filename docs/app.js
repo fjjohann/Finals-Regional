@@ -768,7 +768,7 @@ function fillRegionalChampionName(codeInput, nameInput) {
 
 function addRegionalChampions(category, regionalId, athletes) {
   const id = String(regionalId);
-  if (!REGIONAL_IDS.includes(id)) throw new Error("Selecione a regional da dupla campeã.");
+  if (!REGIONAL_IDS.includes(id)) throw new Error("Selecione a regional da dupla classificada.");
   const normalized = athletes.map((entry) => ({
     athleteCode: String(entry.athleteCode).trim(),
     name: String(entry.name).trim(),
@@ -781,7 +781,7 @@ function addRegionalChampions(category, regionalId, athletes) {
   }
   const champions = regionalChampionsForCategory(category);
   if (Object.keys(champions[id] || {}).length) {
-    throw new Error(`A Regional ${id} já possui uma dupla campeã cadastrada.`);
+    throw new Error(`A Regional ${id} já possui uma dupla classificada cadastrada.`);
   }
   champions[id] = Object.fromEntries(normalized.map((entry) => [entry.athleteCode, entry]));
   saveRegionalChampions();
@@ -1587,7 +1587,7 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
           <button class="add-wildcard-button" type="button" data-category-key="${categoryKey(category)}" title="Adicionar atleta por Wild Card">+ WC</button>
         ` : ""}
         ${options.allowRegionalChampion && isAdminActive() ? `
-          <button class="add-champion-button" type="button" data-category-key="${categoryKey(category)}" title="Incluir dupla campeã do Finals Regional">+ Campeões</button>
+          <button class="add-champion-button" type="button" data-category-key="${categoryKey(category)}" title="Incluir classificados do Finals Regional">+ Finals Regional</button>
         ` : ""}
       </div>
     </header>
@@ -1625,14 +1625,14 @@ function regionalChampionSummaryRow(entry, category, regionalId, isFinalsConfirm
         aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
         title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
       >✓</button>` : ""}
-      <span class="champion-mark" title="Campeão do Finals Regional">CR</span>
+      <span class="champion-mark" title="Classificado pelo Finals Regional">FR</span>
     </span>
     <span class="athlete-main">
       <span class="athlete-name">${escapeHtml(entry.name)}</span>
-      <span class="athlete-code">Campeão Finals Regional ${regionalId} · Cod. ${escapeHtml(entry.athleteCode)}</span>
+      <span class="athlete-code">Finals Regional ${regionalId} · Cod. ${escapeHtml(entry.athleteCode)}</span>
       ${isFinalsConfirmed ? `<span class="finals-confirmed-badge">Inscrição confirmada</span>` : ""}
     </span>
-    ${isAdminActive() ? `<button class="remove-champion-button" type="button" data-category-key="${category}" data-regional-id="${regionalId}" title="Remover dupla campeã da Regional ${regionalId}">×</button>` : "<span></span>"}
+    ${isAdminActive() ? `<button class="remove-champion-button" type="button" data-category-key="${category}" data-regional-id="${regionalId}" title="Remover classificados da Regional ${regionalId}">×</button>` : "<span></span>"}
   `;
   return row;
 }

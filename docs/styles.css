@@ -1397,6 +1397,11 @@ input:focus {
   border-bottom-color: var(--wildcard-line);
 }
 
+.summary-wildcard.is-finals-confirmed {
+  background: var(--finals-confirmed);
+  border-bottom-color: var(--finals-confirmed-line);
+}
+
 .summary-champion {
   background: #edf7f0;
   border-bottom-color: #b8d8c3;

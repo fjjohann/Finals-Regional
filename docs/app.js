@@ -724,8 +724,11 @@ function addRegionalWildCard(category, regionalId, athleteCode, athleteName = ""
 
 function removeWildCard(category, athleteCode) {
   if (!isAdminActive()) return;
-  delete wildCardsForCategory(category)[String(athleteCode)];
+  const code = String(athleteCode);
+  delete wildCardsForCategory(category)[code];
+  delete finalsConfirmationsForCategory(category)[code];
   saveWildCards();
+  saveFinalsConfirmations();
   render();
 }
 
@@ -1596,18 +1599,29 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
   return card;
 }
 
-function wildCardSummaryRow(entry, category) {
+function wildCardSummaryRow(entry, category, isFinalsConfirmed) {
   const row = document.createElement("div");
-  row.className = "summary-athlete-row summary-wildcard";
+  row.className = `summary-athlete-row summary-wildcard${isFinalsConfirmed ? " is-finals-confirmed" : ""}`;
   row.innerHTML = `
-    <span class="wildcard-mark" title="Wild Card">WC</span>
+    <span class="summary-rank-cell">
+      ${isAdminActive() ? `<button
+        class="finals-confirm-button"
+        type="button"
+        data-category-key="${category}"
+        data-athlete-code="${escapeHtml(entry.athleteCode)}"
+        aria-pressed="${isFinalsConfirmed ? "true" : "false"}"
+        title="${isFinalsConfirmed ? "Remover confirmação da inscrição no Finals Copa" : "Confirmar inscrição no Finals Copa"}"
+      >✓</button>` : ""}
+      <span class="wildcard-mark" title="Wild Card">WC</span>
+    </span>
     <span class="athlete-main">
       <span class="athlete-name">${escapeHtml(entry.name)}</span>
       <span class="athlete-code">Wild Card · Cod. ${escapeHtml(entry.athleteCode)}</span>
+      ${isFinalsConfirmed ? `<span class="finals-confirmed-badge">Inscrição confirmada</span>` : ""}
     </span>
     ${isAdminActive() ? `
       <button class="remove-wildcard-button" type="button" data-category-key="${category}" data-athlete-code="${entry.athleteCode}" title="Remover Wild Card">×</button>
-    ` : `<span class="wildcard-badge">Inscrito</span>`}
+    ` : "<span></span>"}
   `;
   return row;
 }
@@ -1820,7 +1834,11 @@ function renderFinalsView() {
     });
     Object.values(wildCards)
       .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
-      .forEach((entry) => rows.push(wildCardSummaryRow(entry, key)));
+      .forEach((entry) => rows.push(wildCardSummaryRow(
+        entry,
+        key,
+        Boolean(finalsConfirmations[entry.athleteCode]),
+      )));
     REGIONAL_IDS.forEach((regionalId) => {
       Object.values(regionalChampions[regionalId] || {})
         .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))

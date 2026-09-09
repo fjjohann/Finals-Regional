@@ -576,6 +576,18 @@
       "checkedAt": "2026-09-04T13:23:15.548294+00:00",
       "currentCategory": "BTMC"
     },
+    "42869|BTFC": {
+      "athleteCode": "42869",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
+      "currentCategory": "BTFC"
+    },
+    "42877|BTFD": {
+      "athleteCode": "42877",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
+      "currentCategory": "BTFD"
+    },
     "42878|BTMC": {
       "athleteCode": "42878",
       "changeDate": null,
@@ -1314,6 +1326,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMD"
     },
+    "45814|BTFD": {
+      "athleteCode": "45814",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
+      "currentCategory": "BTFD"
+    },
     "45858|BTMC": {
       "athleteCode": "45858",
       "changeDate": null,
@@ -1577,6 +1595,12 @@
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMD"
+    },
+    "46880|BTFC": {
+      "athleteCode": "46880",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
+      "currentCategory": "BTFC"
     },
     "46928|BTMC": {
       "athleteCode": "46928",
@@ -2484,6 +2508,12 @@
       "checkedAt": "2026-09-07T14:58:17.449191+00:00",
       "currentCategory": "BTMD"
     },
+    "52395|BTMD": {
+      "athleteCode": "52395",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
+      "currentCategory": "BTMD"
+    },
     "52398|BTMC": {
       "athleteCode": "52398",
       "changeDate": null,
@@ -2680,6 +2710,12 @@
       "athleteCode": "53036",
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
+      "currentCategory": "BTMD"
+    },
+    "53289|BTMD": {
+      "athleteCode": "53289",
+      "changeDate": "2026-09-08",
+      "checkedAt": "2026-09-09T13:38:05.541390+00:00",
       "currentCategory": "BTMD"
     },
     "53293|BTFD": {

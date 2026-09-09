@@ -2,6 +2,11 @@ const QUALIFIED_LIMIT = 12;
 const MAX_VISIBLE_ATHLETES = 40;
 const REGIONAL_IDS = ["41", "42", "43", "44", "45", "46"];
 const REGIONAL_CLASSIFICATION_EXCEPTIONS = {
+  "BTMA:290:44": {
+    finalsCopaExcludedCode: "25112",
+    finalsCopaReplacementCode: "5153",
+    finalsCopaReplacementName: "Vinícius Breiter",
+  },
   "BTMB:291:43": {
     finalsRegionalConfirmedCode: "34576",
     finalsCopaReplacementCode: "32729",
@@ -934,8 +939,20 @@ function regionalFinalsAthletes(ranking, stateCodes = new Set(), releases = {}) 
       !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
       !isManuallyReleased(athlete, ranking, releases),
   );
-  const selected = athletesByListLimit(candidates, 2);
+  let selected = athletesByListLimit(candidates, 2);
   const exception = regionalClassificationException(ranking);
+  if (exception?.finalsCopaExcludedCode) {
+    const replacement = candidates.find(
+      (athlete) => athleteIdentity(athlete) === exception.finalsCopaReplacementCode,
+    );
+    if (replacement) {
+      selected = selected.map((athlete) =>
+        athleteIdentity(athlete) === exception.finalsCopaExcludedCode
+          ? { ...replacement, name: exception.finalsCopaReplacementName || replacement.name }
+          : athlete,
+      );
+    }
+  }
   if (!exception || !selected.some((athlete) => athleteIdentity(athlete) === exception.finalsRegionalConfirmedCode)) {
     return selected;
   }

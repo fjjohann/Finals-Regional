@@ -18,7 +18,7 @@ const state = {
   data: null,
   rankings: [],
   selectedCategory: "",
-  activeView: "regionals",
+  activeView: "finals",
   confirmations: {},
   releases: {},
   stateReleases: {},

@@ -98,20 +98,20 @@
 
     <main class="layout">
       <nav class="view-tabs" aria-label="Painéis">
-        <button class="view-tab is-active" type="button" data-view="regionals">Finals Regional</button>
-        <button class="view-tab" type="button" data-view="finals">Finals Copa</button>
+        <button class="view-tab is-active" type="button" data-view="finals">Finals Copa</button>
         <button class="view-tab" type="button" data-view="federation">Copa das Federações</button>
+        <button class="view-tab" type="button" data-view="regionals">Finals Regional</button>
         <button class="view-tab" type="button" data-view="circuit">O Circuito</button>
       </nav>
 
-      <section class="toolbar" id="regionalToolbar" aria-label="Filtros">
+      <section class="toolbar" id="regionalToolbar" aria-label="Filtros" hidden>
         <label>
           <span>Categoria</span>
           <select id="categoryFilter"></select>
         </label>
       </section>
 
-      <section class="comparison-section view-panel is-active" id="regionalsView" data-view-panel="regionals" aria-label="Rankings por regional">
+      <section class="comparison-section view-panel" id="regionalsView" data-view-panel="regionals" aria-label="Rankings por regional">
         <div class="section-title">
           <div>
             <p id="selectedMeta">Selecione uma categoria</p>
@@ -161,7 +161,7 @@
         <div id="federationGrid" class="summary-category-grid"></div>
       </section>
 
-      <section class="comparison-section view-panel" id="finalsView" data-view-panel="finals" aria-label="Finals Copa">
+      <section class="comparison-section view-panel is-active" id="finalsView" data-view-panel="finals" aria-label="Finals Copa">
         <div class="section-title">
           <div>
             <p>Classificados pelo ranking estadual e regional</p>
@@ -234,6 +234,6 @@
       <button id="adminToggle" class="admin-toggle" type="button">Entrar</button>
     </footer>
 
-    <script src="app.js?v=20260909-0900"></script>
+    <script src="app.js?v=20260909-1200"></script>
   </body>
 </html>

@@ -70,10 +70,6 @@ const els = {
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
-  adminSummaryTab: document.querySelector("#adminSummaryTab"),
-  adminSummaryView: document.querySelector("#adminSummaryView"),
-  adminSummaryGrid: document.querySelector("#adminSummaryGrid"),
-  regionalConfirmedTotal: document.querySelector("#regionalConfirmedTotal"),
   wildCardDialog: document.querySelector("#wildCardDialog"),
   wildCardForm: document.querySelector("#wildCardForm"),
   wildCardCategory: document.querySelector("#wildCardCategory"),
@@ -1568,6 +1564,7 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
   const body = document.createElement("div");
   body.className = "summary-list";
   const visibleRows = rows.slice(0, MAX_VISIBLE_ATHLETES);
+  const confirmedCount = visibleRows.filter((row) => row.classList.contains("is-finals-confirmed")).length;
 
   if (visibleRows.length) {
     body.replaceChildren(...visibleRows);
@@ -1585,7 +1582,7 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
         <h3>${categoryLabel(category)}</h3>
       </div>
       <div class="summary-category-actions">
-        <strong>${visibleRows.length}</strong>
+        <strong>${options.showEnrollmentCount ? `${confirmedCount} / ${visibleRows.length}` : visibleRows.length}</strong>
         ${options.allowWildCard && isAdminActive() ? `
           <button class="add-wildcard-button" type="button" data-category-key="${categoryKey(category)}" title="Adicionar atleta por Wild Card">+ WC</button>
         ` : ""}
@@ -1852,6 +1849,7 @@ function renderFinalsView() {
     const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", {
       allowWildCard: true,
       allowRegionalChampion: true,
+      showEnrollmentCount: true,
     });
     card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
     if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
@@ -1875,174 +1873,6 @@ function validFinalsCodesForCategory(key) {
     Object.keys(entries || {}).forEach((code) => validCodes.add(code));
   });
   return validCodes;
-}
-
-function regionalConfirmedCountsForCategory(key) {
-  const counts = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
-  const complete = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, false]));
-  const rankings = rankingsForCategory(key);
-  const rankingByRegional = new Map(rankings.map((ranking) => [String(ranking.regionalId), ranking]));
-  const stateRanking = stateRankingForCategory(key);
-  const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
-  const stateCodes = stateQualifiedCodes(stateRanking, stateReleaseCodes);
-  const releases = releasesForCategory(key);
-  const regionalFinalsCodes = regionalFinalsCodesForRankings(rankings, stateCodes, releases);
-
-  Object.entries(state.remoteConfirmations[key] || {}).forEach(([athleteCode, regionalId]) => {
-    const id = String(regionalId);
-    const ranking = rankingByRegional.get(id);
-    const athlete = ranking?.athletes.find((item) => athleteIdentity(item) === String(athleteCode));
-    if (
-      athlete &&
-      !isStateQualified(athlete, stateCodes) &&
-      !federationQualifiedCodesAcrossCategories.has(athleteIdentity(athlete)) &&
-      !isRegionalFinalsQualified(athlete, regionalFinalsCodes) &&
-      !isManuallyReleased(athlete, ranking, releases)
-    ) {
-      counts[id] += 1;
-    }
-  });
-
-  rankings.forEach((ranking) => {
-    const exception = regionalClassificationException(ranking);
-    if (!exception) return;
-    const regionalId = String(ranking.regionalId);
-    const code = exception.finalsRegionalConfirmedCode;
-    const alreadyCounted = String(state.remoteConfirmations[key]?.[code] || "") === regionalId;
-    const athlete = ranking.athletes.find((item) => athleteIdentity(item) === code);
-    if (athlete && !alreadyCounted) counts[regionalId] += 1;
-  });
-
-  REGIONAL_IDS.forEach((regionalId) => {
-    counts[regionalId] += Object.keys(
-      state.remoteRegionalWildCards[key]?.[regionalId] || {},
-    ).length;
-  });
-
-  rankings.forEach((ranking) => {
-    const regionalId = String(ranking.regionalId);
-    const hasAvailableQualifiedAthlete = qualifiedForRanking(
-      ranking,
-      state.remoteConfirmations[key] || {},
-      releases,
-      stateCodes,
-      regionalFinalsCodes,
-    ).some((athlete) => String(state.remoteConfirmations[key]?.[athleteIdentity(athlete)]) !== regionalId);
-    complete[regionalId] = counts[regionalId] >= QUALIFIED_LIMIT ||
-      (counts[regionalId] >= 6 && !hasAvailableQualifiedAthlete);
-  });
-
-  return { counts, complete };
-}
-
-function adminSummaryCategoryRow(category, counts, complete) {
-  const row = document.createElement("tr");
-  row.className = "admin-summary-row";
-  row.innerHTML = `
-    <th class="admin-summary-category" scope="row">${category.gender} ${category.categoryLabel}</th>
-    ${REGIONAL_IDS.map((regionalId) => {
-      const isLow = counts[regionalId] < 6;
-      const isComplete = complete[regionalId];
-      const statusClass = isLow ? " is-low-registration" : isComplete ? " is-complete-registration" : "";
-      const title = isLow ? "Menos de 6 inscritos" : isComplete ? "Inscrições completas" : "";
-      return `<td class="admin-count${statusClass}"${title ? ` title="${title}"` : ""}>${counts[regionalId]}</td>`;
-    }).join("")}
-  `;
-  return row;
-}
-
-function adminCategoryOrder(a, b) {
-  const labelDiff = a.categoryLabel.localeCompare(b.categoryLabel, "pt-BR", { numeric: true });
-  if (labelDiff !== 0) return labelDiff;
-  return a.gender === b.gender ? 0 : a.gender === "Feminina" ? -1 : 1;
-}
-
-function adminSummaryGroup(group, categories) {
-  const section = document.createElement("section");
-  section.className = "admin-summary-group";
-  const regionalTotals = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
-  const rows = categories
-    .sort(adminCategoryOrder)
-    .map((category) => {
-      const { counts, complete } = regionalConfirmedCountsForCategory(categoryKey(category));
-      REGIONAL_IDS.forEach((regionalId) => {
-        regionalTotals[regionalId] += counts[regionalId];
-      });
-      return {
-        row: adminSummaryCategoryRow(category, counts, complete),
-        total: REGIONAL_IDS.reduce((sum, regionalId) => sum + counts[regionalId], 0),
-      };
-    });
-  section.innerHTML = `
-    <h3>${groupLabel(group)}</h3>
-    <div class="admin-summary-table-wrap">
-      <table class="admin-summary-table">
-        <thead>
-          <tr>
-            <th scope="col">Categoria</th>
-            ${REGIONAL_IDS.map((regionalId) => `<th scope="col">Regional ${regionalId}</th>`).join("")}
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  `;
-  section.querySelector("tbody").replaceChildren(...rows.map(({ row }) => row));
-  return {
-    section,
-    regionalTotals,
-    total: rows.reduce((sum, item) => sum + item.total, 0),
-  };
-}
-
-function adminSummaryTotalsRow(groups) {
-  const totals = Object.fromEntries(REGIONAL_IDS.map((regionalId) => [regionalId, 0]));
-  groups.forEach((group) => {
-    REGIONAL_IDS.forEach((regionalId) => {
-      totals[regionalId] += group.regionalTotals[regionalId];
-    });
-  });
-
-  const section = document.createElement("section");
-  section.className = "admin-summary-group admin-summary-total-group";
-  section.innerHTML = `
-    <h3>Total do torneio por regional</h3>
-    <div class="admin-summary-table-wrap">
-      <table class="admin-summary-table">
-        <thead>
-          <tr>
-            <th scope="col">Total</th>
-            ${REGIONAL_IDS.map((regionalId) => `<th scope="col">Regional ${regionalId}</th>`).join("")}
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="admin-summary-total-row">
-            <th scope="row">Todas as categorias</th>
-            ${REGIONAL_IDS.map((regionalId) => `<td>${totals[regionalId]}</td>`).join("")}
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  `;
-  return section;
-}
-
-function renderAdminSummary() {
-  const categoriesByGroup = new Map();
-  allCategories().forEach((category) => {
-    if (!categoriesByGroup.has(category.categoryGroup)) categoriesByGroup.set(category.categoryGroup, []);
-    categoriesByGroup.get(category.categoryGroup).push(category);
-  });
-
-  const groups = ["Tecnicas", "Idades", "Subs"]
-    .filter((group) => categoriesByGroup.has(group))
-    .map((group) => adminSummaryGroup(group, categoriesByGroup.get(group)));
-
-  els.regionalConfirmedTotal.textContent = String(groups.reduce((sum, group) => sum + group.total, 0));
-  els.adminSummaryGrid.replaceChildren(
-    ...groups.map(({ section }) => section),
-    adminSummaryTotalsRow(groups),
-  );
 }
 
 function setActiveView(view) {
@@ -2106,7 +1936,6 @@ function render() {
   els.emptyState.hidden = true;
   renderFederationView();
   renderFinalsView();
-  renderAdminSummary();
   renderAdminStatus();
 }
 

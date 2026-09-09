@@ -5,7 +5,7 @@ const REGIONAL_CLASSIFICATION_EXCEPTIONS = {
   "BTMA:290:44": {
     finalsCopaExcludedCode: "25112",
     finalsCopaReplacementCode: "5153",
-    finalsCopaReplacementName: "Vinícius Breiter",
+    finalsCopaReplacementName: "Vinicius Brainta",
   },
   "BTMB:291:43": {
     finalsRegionalConfirmedCode: "34576",

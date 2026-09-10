@@ -1281,6 +1281,12 @@ input:focus {
   text-transform: uppercase;
 }
 
+.summary-group-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .summary-group-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -1333,6 +1339,7 @@ input:focus {
   gap: 8px;
 }
 
+.group-collapse-button,
 .category-collapse-button {
   display: inline-flex;
   align-items: center;
@@ -1349,6 +1356,7 @@ input:focus {
   line-height: 1;
 }
 
+.group-collapse-button:hover,
 .category-collapse-button:hover {
   border-color: var(--accent);
   background: var(--surface);

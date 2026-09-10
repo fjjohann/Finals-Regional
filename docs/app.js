@@ -31,6 +31,7 @@ const state = {
   selectedCategory: "",
   activeView: "finals",
   collapsedFinalsCategories: new Set(),
+  collapsedFinalsGroups: new Set(),
   finalsCollapseInitialized: false,
   confirmations: {},
   releases: {},
@@ -1533,10 +1534,8 @@ function statePanel(stateRanking, releaseCodes = new Set(), finalsConfirmations 
 
 function summaryAthleteRow(athlete, meta, tone = "regional", category = "", isFinalsConfirmed = false) {
   const row = document.createElement("div");
-  const isGuaranteedFinalsState = tone === "state" && Boolean(athlete.stateFinalsGuaranteed);
-  row.className = `summary-athlete-row summary-${tone}${isGuaranteedFinalsState ? " is-guaranteed-finals-state" : ""}${isFinalsConfirmed ? " is-finals-confirmed" : ""}`;
+  row.className = `summary-athlete-row summary-${tone}${isFinalsConfirmed ? " is-finals-confirmed" : ""}`;
   row.innerHTML = `
-    ${isGuaranteedFinalsState ? `<span class="guaranteed-finals-state-dot" title="Vaga matematicamente garantida no Finals Copa via Estadual"></span>` : ""}
     <span class="summary-rank-cell">
       ${isAdminActive() ? `<button
         class="finals-confirm-button"
@@ -1692,6 +1691,8 @@ function regionalChampionSummaryRow(entry, category, regionalId, isFinalsConfirm
 }
 
 function groupLabel(group) {
+  if (group === "Tecnicas-Feminina") return "Técnicas Femininas";
+  if (group === "Tecnicas-Masculina") return "Técnicas Masculinas";
   return group === "Tecnicas" ? "Técnicas" : group;
 }
 
@@ -1790,21 +1791,33 @@ function compactSummarySection(title, categories) {
 }
 
 function groupedSummarySections(cardsByGroup) {
-  const groupOrder = ["Subs", "Idades", "Tecnicas"];
+  const groupOrder = ["Subs", "Idades", "Tecnicas-Feminina", "Tecnicas-Masculina"];
   return groupOrder
     .filter((group) => cardsByGroup.has(group))
     .map((group) => {
       const section = document.createElement("section");
-      section.className = "summary-group-section";
+      const isCollapsed = state.collapsedFinalsGroups.has(group);
+      section.className = `summary-group-section${isCollapsed ? " is-collapsed" : ""}`;
+      section.dataset.groupKey = group;
       const cards = cardsByGroup.get(group);
       const total = cards.reduce((sum, card) => sum + Number(card.dataset.count || 0), 0);
       const grid = document.createElement("div");
       grid.className = "summary-group-cards";
+      grid.hidden = isCollapsed;
       grid.replaceChildren(...cards);
       section.innerHTML = `
         <header class="summary-group-header">
           <h3>${groupLabel(group)}</h3>
-          <span>${total} atletas</span>
+          <div class="summary-group-actions">
+            <span>${total} atletas</span>
+            <button
+              class="group-collapse-button"
+              type="button"
+              data-group-key="${group}"
+              aria-expanded="${isCollapsed ? "false" : "true"}"
+              title="${isCollapsed ? "Abrir grupo" : "Recolher grupo"}"
+            ><span aria-hidden="true">${isCollapsed ? "⌄" : "⌃"}</span></button>
+          </div>
         </header>
       `;
       section.append(grid);
@@ -1907,8 +1920,11 @@ function renderFinalsView() {
       collapsible: true,
     });
     card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
-    if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
-    cardsByGroup.get(category.categoryGroup).push(card);
+    const group = category.categoryGroup === "Tecnicas"
+      ? `Tecnicas-${category.gender}`
+      : category.categoryGroup;
+    if (!cardsByGroup.has(group)) cardsByGroup.set(group, []);
+    cardsByGroup.get(group).push(card);
   });
   els.finalsGrid.replaceChildren(...groupedSummarySections(cardsByGroup));
 }
@@ -2111,6 +2127,25 @@ function bindEvents() {
   });
 
   document.addEventListener("click", (event) => {
+    const groupCollapseButton = event.target.closest(".group-collapse-button");
+    if (groupCollapseButton) {
+      const key = groupCollapseButton.dataset.groupKey;
+      const section = groupCollapseButton.closest(".summary-group-section");
+      const grid = section?.querySelector(".summary-group-cards");
+      const shouldCollapse = groupCollapseButton.getAttribute("aria-expanded") === "true";
+      if (shouldCollapse) {
+        state.collapsedFinalsGroups.add(key);
+      } else {
+        state.collapsedFinalsGroups.delete(key);
+      }
+      section?.classList.toggle("is-collapsed", shouldCollapse);
+      if (grid) grid.hidden = shouldCollapse;
+      groupCollapseButton.setAttribute("aria-expanded", shouldCollapse ? "false" : "true");
+      groupCollapseButton.title = shouldCollapse ? "Abrir grupo" : "Recolher grupo";
+      groupCollapseButton.querySelector("span").textContent = shouldCollapse ? "⌄" : "⌃";
+      return;
+    }
+
     const collapseButton = event.target.closest(".category-collapse-button");
     if (collapseButton) {
       const key = collapseButton.dataset.categoryKey;

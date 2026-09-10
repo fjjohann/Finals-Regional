@@ -30,6 +30,8 @@ const state = {
   rankings: [],
   selectedCategory: "",
   activeView: "finals",
+  collapsedFinalsCategories: new Set(),
+  finalsCollapseInitialized: false,
   confirmations: {},
   releases: {},
   stateReleases: {},
@@ -1588,9 +1590,13 @@ function regionalFinalsEntriesForCategory(key, stateCodes = new Set(), releases 
 
 function summaryCategoryCard(category, rows, emptyText, options = {}) {
   const card = document.createElement("article");
-  card.className = "summary-category-card";
+  const key = categoryKey(category);
+  const isCollapsed = options.collapsible && state.collapsedFinalsCategories.has(key);
+  card.className = `summary-category-card${isCollapsed ? " is-collapsed" : ""}`;
+  card.dataset.categoryKey = key;
   const body = document.createElement("div");
   body.className = "summary-list";
+  body.hidden = Boolean(isCollapsed);
   const visibleRows = rows.slice(0, MAX_VISIBLE_ATHLETES);
   const confirmedCount = visibleRows.filter((row) => row.classList.contains("is-finals-confirmed")).length;
 
@@ -1616,6 +1622,15 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
         ` : ""}
         ${options.allowRegionalChampion && isAdminActive() ? `
           <button class="add-champion-button" type="button" data-category-key="${categoryKey(category)}" title="Incluir classificados do Finals Regional">+ Finals Regional</button>
+        ` : ""}
+        ${options.collapsible ? `
+          <button
+            class="category-collapse-button"
+            type="button"
+            data-category-key="${key}"
+            aria-expanded="${isCollapsed ? "false" : "true"}"
+            title="${isCollapsed ? "Abrir lista da categoria" : "Recolher lista da categoria"}"
+          ><span aria-hidden="true">${isCollapsed ? "⌄" : "⌃"}</span></button>
         ` : ""}
       </div>
     </header>
@@ -1820,7 +1835,14 @@ function renderFederationView() {
 
 function renderFinalsView() {
   const cardsByGroup = new Map();
-  allCategories().forEach((category) => {
+  const categories = allCategories();
+  if (!state.finalsCollapseInitialized) {
+    if (window.matchMedia("(max-width: 720px)").matches) {
+      categories.forEach((category) => state.collapsedFinalsCategories.add(categoryKey(category)));
+    }
+    state.finalsCollapseInitialized = true;
+  }
+  categories.forEach((category) => {
     const key = categoryKey(category);
     const stateRanking = stateRankingForCategory(key);
     const stateReleaseCodes = new Set(Object.keys(stateReleasesForCategory(key)));
@@ -1882,6 +1904,7 @@ function renderFinalsView() {
       allowWildCard: true,
       allowRegionalChampion: true,
       showEnrollmentCount: true,
+      collapsible: true,
     });
     card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
     if (!cardsByGroup.has(category.categoryGroup)) cardsByGroup.set(category.categoryGroup, []);
@@ -2088,6 +2111,25 @@ function bindEvents() {
   });
 
   document.addEventListener("click", (event) => {
+    const collapseButton = event.target.closest(".category-collapse-button");
+    if (collapseButton) {
+      const key = collapseButton.dataset.categoryKey;
+      const card = collapseButton.closest(".summary-category-card");
+      const body = card?.querySelector(".summary-list");
+      const shouldCollapse = collapseButton.getAttribute("aria-expanded") === "true";
+      if (shouldCollapse) {
+        state.collapsedFinalsCategories.add(key);
+      } else {
+        state.collapsedFinalsCategories.delete(key);
+      }
+      card?.classList.toggle("is-collapsed", shouldCollapse);
+      if (body) body.hidden = shouldCollapse;
+      collapseButton.setAttribute("aria-expanded", shouldCollapse ? "false" : "true");
+      collapseButton.title = shouldCollapse ? "Abrir lista da categoria" : "Recolher lista da categoria";
+      collapseButton.querySelector("span").textContent = shouldCollapse ? "⌄" : "⌃";
+      return;
+    }
+
     const addChampionButton = event.target.closest(".add-champion-button");
     if (addChampionButton) {
       showRegionalChampionDialog(addChampionButton.dataset.categoryKey);

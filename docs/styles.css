@@ -1333,6 +1333,31 @@ input:focus {
   gap: 8px;
 }
 
+.category-collapse-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  background: #fff;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1;
+}
+
+.category-collapse-button:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+.summary-category-card.is-collapsed .summary-category-header {
+  border-bottom: 0;
+}
+
 .add-wildcard-button {
   min-width: 38px;
   height: 26px;

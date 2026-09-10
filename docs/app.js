@@ -12,6 +12,12 @@ const REGIONAL_CLASSIFICATION_EXCEPTIONS = {
     finalsCopaReplacementCode: "32729",
   },
 };
+const FINALS_COPA_ATHLETE_REPLACEMENTS = {
+  "BTFA:295": {
+    "19183": { athleteCode: "37643", name: "Larah Fogliatto" },
+    "22859": { athleteCode: "33162", name: "Jessica Nascimento" },
+  },
+};
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";
 const REMOTE_STATE_ID = "global";
 const REMOTE_REFRESH_INTERVAL_MS = 8000;
@@ -154,6 +160,11 @@ function regionalClassificationException(ranking) {
   return REGIONAL_CLASSIFICATION_EXCEPTIONS[
     `${categoryKey(ranking)}:${String(ranking.regionalId)}`
   ] || null;
+}
+
+function finalsCopaAthleteReplacement(category, athlete) {
+  const replacement = FINALS_COPA_ATHLETE_REPLACEMENTS[category]?.[athleteIdentity(athlete)];
+  return replacement ? { ...athlete, ...replacement } : athlete;
 }
 
 function categoryForKey(key) {
@@ -1835,14 +1846,15 @@ function renderFinalsView() {
       ),
     );
     regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
-      if (manuallyIncludedCodes.has(athleteIdentity(entry.athlete))) return;
+      const athlete = finalsCopaAthleteReplacement(key, entry.athlete);
+      if (manuallyIncludedCodes.has(athleteIdentity(athlete))) return;
       rows.push(
         summaryAthleteRow(
-          entry.athlete,
+          athlete,
           `Finals Copa - via Regional ${entry.regionals.join(", ")}`,
           "regional-finals",
           key,
-          Boolean(finalsConfirmations[athleteIdentity(entry.athlete)]),
+          Boolean(finalsConfirmations[athleteIdentity(athlete)]),
         ),
       );
     });
@@ -1856,12 +1868,15 @@ function renderFinalsView() {
     REGIONAL_IDS.forEach((regionalId) => {
       Object.values(regionalChampions[regionalId] || {})
         .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"))
-        .forEach((entry) => rows.push(regionalChampionSummaryRow(
-          entry,
-          key,
-          regionalId,
-          Boolean(finalsConfirmations[entry.athleteCode]),
-        )));
+        .forEach((entry) => {
+          const athlete = finalsCopaAthleteReplacement(key, entry);
+          rows.push(regionalChampionSummaryRow(
+            athlete,
+            key,
+            regionalId,
+            Boolean(finalsConfirmations[athlete.athleteCode]),
+          ));
+        });
     });
     const card = summaryCategoryCard(category, rows, "Sem classificados para Finals Copa.", {
       allowWildCard: true,
@@ -1884,10 +1899,12 @@ function validFinalsCodesForCategory(key) {
     stateFinalsAthletes(stateRanking, stateReleaseCodes).map(athleteIdentity),
   );
   regionalFinalsEntriesForCategory(key, stateCodes, regionalReleases).forEach((entry) => {
-    validCodes.add(athleteIdentity(entry.athlete));
+    validCodes.add(athleteIdentity(finalsCopaAthleteReplacement(key, entry.athlete)));
   });
   Object.values(regionalChampionsForCategory(key)).forEach((entries) => {
-    Object.keys(entries || {}).forEach((code) => validCodes.add(code));
+    Object.values(entries || {}).forEach((athlete) => {
+      validCodes.add(athleteIdentity(finalsCopaAthleteReplacement(key, athlete)));
+    });
   });
   return validCodes;
 }

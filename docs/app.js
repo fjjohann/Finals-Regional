@@ -84,6 +84,7 @@ const els = {
   regionalGrid: document.querySelector("#regionalGrid"),
   federationGrid: document.querySelector("#federationGrid"),
   finalsGrid: document.querySelector("#finalsGrid"),
+  finalsTotal: document.querySelector("#finalsTotal"),
   wildCardDialog: document.querySelector("#wildCardDialog"),
   wildCardForm: document.querySelector("#wildCardForm"),
   wildCardCategory: document.querySelector("#wildCardCategory"),
@@ -1598,6 +1599,8 @@ function summaryCategoryCard(category, rows, emptyText, options = {}) {
   body.hidden = Boolean(isCollapsed);
   const visibleRows = rows.slice(0, MAX_VISIBLE_ATHLETES);
   const confirmedCount = visibleRows.filter((row) => row.classList.contains("is-finals-confirmed")).length;
+  card.dataset.count = String(visibleRows.length);
+  card.dataset.confirmedCount = String(confirmedCount);
 
   if (visibleRows.length) {
     body.replaceChildren(...visibleRows);
@@ -1801,6 +1804,9 @@ function groupedSummarySections(cardsByGroup) {
       section.dataset.groupKey = group;
       const cards = cardsByGroup.get(group);
       const total = cards.reduce((sum, card) => sum + Number(card.dataset.count || 0), 0);
+      const confirmed = cards.reduce((sum, card) => sum + Number(card.dataset.confirmedCount || 0), 0);
+      section.dataset.count = String(total);
+      section.dataset.confirmedCount = String(confirmed);
       const grid = document.createElement("div");
       grid.className = "summary-group-cards";
       grid.hidden = isCollapsed;
@@ -1809,7 +1815,7 @@ function groupedSummarySections(cardsByGroup) {
         <header class="summary-group-header">
           <h3>${groupLabel(group)}</h3>
           <div class="summary-group-actions">
-            <span>${total} atletas</span>
+            <span class="summary-group-count" aria-label="${confirmed} inscritos de ${total} atletas">${confirmed} / ${total}</span>
             <button
               class="group-collapse-button"
               type="button"
@@ -1919,14 +1925,18 @@ function renderFinalsView() {
       showEnrollmentCount: true,
       collapsible: true,
     });
-    card.dataset.count = String(Math.min(rows.length, MAX_VISIBLE_ATHLETES));
     const group = category.categoryGroup === "Tecnicas"
       ? `Tecnicas-${category.gender}`
       : category.categoryGroup;
     if (!cardsByGroup.has(group)) cardsByGroup.set(group, []);
     cardsByGroup.get(group).push(card);
   });
-  els.finalsGrid.replaceChildren(...groupedSummarySections(cardsByGroup));
+  const sections = groupedSummarySections(cardsByGroup);
+  const total = sections.reduce((sum, section) => sum + Number(section.dataset.count || 0), 0);
+  const confirmed = sections.reduce((sum, section) => sum + Number(section.dataset.confirmedCount || 0), 0);
+  els.finalsTotal.textContent = `${confirmed} / ${total}`;
+  els.finalsTotal.setAttribute("aria-label", `${confirmed} inscritos de ${total} atletas`);
+  els.finalsGrid.replaceChildren(...sections);
 }
 
 function validFinalsCodesForCategory(key) {

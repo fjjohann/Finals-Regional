@@ -422,6 +422,12 @@ input:focus {
   font-size: 22px;
 }
 
+.finals-total {
+  color: var(--accent-strong);
+  font-size: 18px;
+  white-space: nowrap;
+}
+
 .selected-title-row {
   display: flex;
   flex-direction: column;
@@ -1291,6 +1297,11 @@ input:focus {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 12px;
+}
+
+.summary-group-cards[hidden],
+.summary-list[hidden] {
+  display: none;
 }
 
 .summary-category-card {

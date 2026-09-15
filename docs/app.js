@@ -15,7 +15,7 @@ const REGIONAL_CLASSIFICATION_EXCEPTIONS = {
 const FINALS_COPA_ATHLETE_REPLACEMENTS = {
   "BTFA:295": {
     "19183": { athleteCode: "37643", name: "Larah Fogliatto" },
-    "22859": { athleteCode: "33162", name: "Jessica Nascimento" },
+    "22859": { athleteCode: "31593", name: "Nicoly Siqueira" },
   },
 };
 const ADMIN_SESSION_KEY = "finalsRegional.adminSession.v1";

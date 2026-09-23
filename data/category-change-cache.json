@@ -72,6 +72,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMC"
     },
+    "31655|BTFC": {
+      "athleteCode": "31655",
+      "changeDate": "2026-09-23",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTFC"
+    },
     "31895|BTMC": {
       "athleteCode": "31895",
       "changeDate": null,
@@ -234,11 +240,23 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMC"
     },
+    "38284|BTMD": {
+      "athleteCode": "38284",
+      "changeDate": "2026-09-23",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTMD"
+    },
     "38509|BTFD": {
       "athleteCode": "38509",
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFD"
+    },
+    "38657|BTFC": {
+      "athleteCode": "38657",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTFC"
     },
     "38814|BTFC": {
       "athleteCode": "38814",
@@ -390,6 +408,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFC"
     },
+    "40955|BTFC": {
+      "athleteCode": "40955",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTFC"
+    },
     "40957|BTFC": {
       "athleteCode": "40957",
       "changeDate": null,
@@ -491,6 +515,12 @@
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMC"
+    },
+    "41941|BTFC": {
+      "athleteCode": "41941",
+      "changeDate": "2026-09-23",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTFC"
     },
     "41950|BTMC": {
       "athleteCode": "41950",
@@ -610,6 +640,12 @@
       "athleteCode": "42608",
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
+      "currentCategory": "BTFD"
+    },
+    "42616|BTFD": {
+      "athleteCode": "42616",
+      "changeDate": "2026-09-23",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
       "currentCategory": "BTFD"
     },
     "42706|BTMC": {
@@ -1080,6 +1116,12 @@
       "checkedAt": "2026-09-15T14:16:54.970818+00:00",
       "currentCategory": "BTFC"
     },
+    "44849|BTFC": {
+      "athleteCode": "44849",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTFC"
+    },
     "44853|BTMC": {
       "athleteCode": "44853",
       "changeDate": null,
@@ -1224,6 +1266,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMC"
     },
+    "45290|BTMC": {
+      "athleteCode": "45290",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTMC"
+    },
     "45301|BTFD": {
       "athleteCode": "45301",
       "changeDate": null,
@@ -1241,6 +1289,12 @@
       "changeDate": null,
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTMD"
+    },
+    "45339|BTMC": {
+      "athleteCode": "45339",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTMC"
     },
     "45353|BTMC": {
       "athleteCode": "45353",
@@ -1811,6 +1865,12 @@
       "changeDate": "2026-08-19",
       "checkedAt": "2026-08-19T15:15:15.951715+00:00",
       "currentCategory": "BTFC"
+    },
+    "47295|BTMC": {
+      "athleteCode": "47295",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTMC"
     },
     "47296|BTMD": {
       "athleteCode": "47296",
@@ -2436,6 +2496,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFD"
     },
+    "50687|BTMD": {
+      "athleteCode": "50687",
+      "changeDate": "2026-09-22",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
+      "currentCategory": "BTMD"
+    },
     "50696|BTFD": {
       "athleteCode": "50696",
       "changeDate": null,
@@ -2986,6 +3052,12 @@
       "athleteCode": "53680",
       "changeDate": "2026-08-23",
       "checkedAt": "2026-08-24T09:55:05.682068+00:00",
+      "currentCategory": "BTMD"
+    },
+    "53948|BTMD": {
+      "athleteCode": "53948",
+      "changeDate": "2026-09-23",
+      "checkedAt": "2026-09-23T14:10:58.219321+00:00",
       "currentCategory": "BTMD"
     },
     "53954|BTMC": {

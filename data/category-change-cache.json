@@ -3240,6 +3240,12 @@
       "checkedAt": "2026-08-17T13:47:22.756002+00:00",
       "currentCategory": "BTFD"
     },
+    "51963|BTFD": {
+      "athleteCode": "51963",
+      "changeDate": "2026-10-13",
+      "checkedAt": "2026-10-14T14:26:26.253869+00:00",
+      "currentCategory": "BTFD"
+    },
     "51973|BTFD": {
       "athleteCode": "51973",
       "changeDate": null,
@@ -3635,6 +3641,12 @@
       "changeDate": "2026-09-07",
       "checkedAt": "2026-09-07T14:58:17.449191+00:00",
       "currentCategory": "BTMC"
+    },
+    "54011|BTFD": {
+      "athleteCode": "54011",
+      "changeDate": "2026-10-14",
+      "checkedAt": "2026-10-14T14:26:26.253869+00:00",
+      "currentCategory": "BTFD"
     },
     "54050|BTMD": {
       "athleteCode": "54050",

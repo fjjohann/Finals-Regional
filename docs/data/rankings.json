@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:08:39.271009+00:00",
+  "generatedAt": "2026-10-19T16:22:35.627998+00:00",
   "year": 2026,
   "source": "Federação Paranaense de Tênis",
   "sourceUrl": "https://fpt.com.br/Ranking/BeachTennis",
@@ -19,7 +19,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 2385,
+      "durationMs": 2599,
       "attempts": 1,
       "athleteCount": 141,
       "athletes": [
@@ -1589,7 +1589,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 4300,
+      "durationMs": 1882,
       "attempts": 1,
       "athleteCount": 85,
       "athletes": [
@@ -2543,7 +2543,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 1366,
+      "durationMs": 1456,
       "attempts": 1,
       "athleteCount": 53,
       "athletes": [
@@ -3145,7 +3145,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 2267,
+      "durationMs": 2723,
       "attempts": 1,
       "athleteCount": 132,
       "athletes": [
@@ -4616,7 +4616,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 2446,
+      "durationMs": 1831,
       "attempts": 1,
       "athleteCount": 106,
       "athletes": [
@@ -5801,7 +5801,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 1508,
+      "durationMs": 1394,
       "attempts": 1,
       "athleteCount": 48,
       "athletes": [
@@ -6348,7 +6348,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 1796,
+      "durationMs": 1568,
       "attempts": 1,
       "athleteCount": 45,
       "athletes": [
@@ -6862,7 +6862,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 2027,
+      "durationMs": 1822,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -7618,7 +7618,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 1788,
+      "durationMs": 1552,
       "attempts": 1,
       "athleteCount": 46,
       "athletes": [
@@ -8143,7 +8143,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 1654,
+      "durationMs": 1407,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -8536,7 +8536,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1939,
+      "durationMs": 1622,
       "attempts": 1,
       "athleteCount": 59,
       "athletes": [
@@ -8819,7 +8819,7 @@
           "position": 26,
           "athleteCode": "51971",
           "name": "Davi Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 26,
           "points": 2100,
           "stateProjectionMax": 2100,
@@ -9204,7 +9204,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1751,
+      "durationMs": 1717,
       "attempts": 1,
       "athleteCount": 68,
       "athletes": [
@@ -9971,7 +9971,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1689,
+      "durationMs": 1622,
       "attempts": 1,
       "athleteCount": 67,
       "athletes": [
@@ -10727,7 +10727,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 2354,
+      "durationMs": 2618,
       "attempts": 1,
       "athleteCount": 145,
       "athletes": [
@@ -12341,7 +12341,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 4068,
+      "durationMs": 2879,
       "attempts": 1,
       "athleteCount": 327,
       "athletes": [
@@ -15957,7 +15957,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 2956,
+      "durationMs": 3393,
       "attempts": 1,
       "athleteCount": 316,
       "athletes": [
@@ -19452,7 +19452,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 3308,
+      "durationMs": 2561,
       "attempts": 1,
       "athleteCount": 200,
       "athletes": [
@@ -21671,7 +21671,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 2074,
+      "durationMs": 1423,
       "attempts": 1,
       "athleteCount": 92,
       "athletes": [
@@ -22702,7 +22702,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 2345,
+      "durationMs": 1987,
       "attempts": 1,
       "athleteCount": 166,
       "athletes": [
@@ -24547,7 +24547,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 3062,
+      "durationMs": 3030,
       "attempts": 1,
       "athleteCount": 315,
       "athletes": [
@@ -28031,7 +28031,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 3251,
+      "durationMs": 4027,
       "attempts": 1,
       "athleteCount": 268,
       "athletes": [
@@ -30646,7 +30646,7 @@
           "position": 223,
           "athleteCode": "51971",
           "name": "Davi Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 150,
           "points": 150,
           "stateProjectionMax": 150,
@@ -30998,7 +30998,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-estadual/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 2180,
+      "durationMs": 2159,
       "attempts": 1,
       "athleteCount": 129,
       "athletes": [
@@ -31028,7 +31028,7 @@
           "position": 3,
           "athleteCode": "45731",
           "name": "Jefferson Albuquerque",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 3,
           "points": 6350,
           "stateProjectionMax": 6350,
@@ -32436,7 +32436,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1734,
+      "durationMs": 1752,
       "attempts": 1,
       "athleteCount": 111,
       "athletes": [
@@ -33343,7 +33343,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 1611,
+      "durationMs": 1247,
       "attempts": 1,
       "athleteCount": 58,
       "athletes": [
@@ -33826,7 +33826,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 1165,
+      "durationMs": 1072,
       "attempts": 1,
       "athleteCount": 41,
       "athletes": [
@@ -34173,7 +34173,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1877,
+      "durationMs": 1417,
       "attempts": 1,
       "athleteCount": 89,
       "athletes": [
@@ -34904,7 +34904,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1614,
+      "durationMs": 1415,
       "attempts": 1,
       "athleteCount": 81,
       "athletes": [
@@ -35571,7 +35571,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 1225,
+      "durationMs": 1069,
       "attempts": 1,
       "athleteCount": 33,
       "athletes": [
@@ -35854,7 +35854,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 1136,
+      "durationMs": 1176,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -36073,7 +36073,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1330,
+      "durationMs": 1393,
       "attempts": 1,
       "athleteCount": 45,
       "athletes": [
@@ -36452,7 +36452,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 1329,
+      "durationMs": 1075,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -36663,7 +36663,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 951,
+      "durationMs": 1023,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -36778,7 +36778,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1144,
+      "durationMs": 1209,
       "attempts": 1,
       "athleteCount": 30,
       "athletes": [
@@ -36810,7 +36810,7 @@
           "position": 4,
           "athleteCode": "51971",
           "name": "Davi Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 4,
           "points": 5010
         },
@@ -37037,7 +37037,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1180,
+      "durationMs": 1061,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -37328,7 +37328,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1342,
+      "durationMs": 1404,
       "attempts": 1,
       "athleteCount": 58,
       "athletes": [
@@ -37811,7 +37811,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1739,
+      "durationMs": 1737,
       "attempts": 1,
       "athleteCount": 79,
       "athletes": [
@@ -38462,7 +38462,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 2263,
+      "durationMs": 2078,
       "attempts": 1,
       "athleteCount": 209,
       "athletes": [
@@ -40153,7 +40153,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 2788,
+      "durationMs": 2108,
       "attempts": 1,
       "athleteCount": 222,
       "athletes": [
@@ -41948,7 +41948,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 2386,
+      "durationMs": 2349,
       "attempts": 1,
       "athleteCount": 178,
       "athletes": [
@@ -43391,7 +43391,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1491,
+      "durationMs": 1236,
       "attempts": 1,
       "athleteCount": 51,
       "athletes": [
@@ -43818,7 +43818,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 2084,
+      "durationMs": 1606,
       "attempts": 1,
       "athleteCount": 106,
       "athletes": [
@@ -44685,7 +44685,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 2349,
+      "durationMs": 1892,
       "attempts": 1,
       "athleteCount": 188,
       "athletes": [
@@ -46208,7 +46208,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 2665,
+      "durationMs": 2027,
       "attempts": 1,
       "athleteCount": 187,
       "athletes": [
@@ -46688,7 +46688,7 @@
           "position": 60,
           "athleteCode": "51971",
           "name": "Davi Silva",
-          "categoryCode": "BTMD",
+          "categoryCode": "BTMC",
           "sourcePosition": 90,
           "points": 2229
         },
@@ -47723,7 +47723,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-41/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 2096,
+      "durationMs": 1943,
       "attempts": 1,
       "athleteCount": 97,
       "athletes": [
@@ -48518,7 +48518,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1335,
+      "durationMs": 1456,
       "attempts": 1,
       "athleteCount": 52,
       "athletes": [
@@ -48953,7 +48953,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 964,
+      "durationMs": 926,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -49092,7 +49092,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 951,
+      "durationMs": 1005,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -49175,7 +49175,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1156,
+      "durationMs": 1245,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -49498,7 +49498,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 972,
+      "durationMs": 1109,
       "attempts": 1,
       "athleteCount": 21,
       "athletes": [
@@ -49685,7 +49685,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 960,
+      "durationMs": 906,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -49768,7 +49768,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 958,
+      "durationMs": 947,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -49907,7 +49907,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1024,
+      "durationMs": 1019,
       "attempts": 1,
       "athleteCount": 19,
       "athletes": [
@@ -50078,7 +50078,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 1012,
+      "durationMs": 1188,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -50273,7 +50273,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 958,
+      "durationMs": 886,
       "attempts": 1,
       "athleteCount": 10,
       "athletes": [
@@ -50372,7 +50372,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 952,
+      "durationMs": 900,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -50495,7 +50495,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 960,
+      "durationMs": 911,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -50658,7 +50658,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1133,
+      "durationMs": 881,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -50741,7 +50741,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1155,
+      "durationMs": 1345,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -51064,7 +51064,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1728,
+      "durationMs": 1628,
       "attempts": 1,
       "athleteCount": 66,
       "athletes": [
@@ -51611,7 +51611,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 1564,
+      "durationMs": 1677,
       "attempts": 1,
       "athleteCount": 74,
       "athletes": [
@@ -52222,7 +52222,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 1567,
+      "durationMs": 1992,
       "attempts": 1,
       "athleteCount": 75,
       "athletes": [
@@ -52841,7 +52841,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 964,
+      "durationMs": 1086,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -53052,7 +53052,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1364,
+      "durationMs": 1273,
       "attempts": 1,
       "athleteCount": 40,
       "athletes": [
@@ -53391,7 +53391,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1630,
+      "durationMs": 1922,
       "attempts": 1,
       "athleteCount": 73,
       "athletes": [
@@ -53994,7 +53994,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1555,
+      "durationMs": 1704,
       "attempts": 1,
       "athleteCount": 68,
       "athletes": [
@@ -54557,7 +54557,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-42/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1518,
+      "durationMs": 1283,
       "attempts": 1,
       "athleteCount": 52,
       "athletes": [
@@ -54992,7 +54992,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1235,
+      "durationMs": 1099,
       "attempts": 1,
       "athleteCount": 34,
       "athletes": [
@@ -55283,7 +55283,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 1231,
+      "durationMs": 1230,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -55518,7 +55518,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 967,
+      "durationMs": 1024,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -55673,7 +55673,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1145,
+      "durationMs": 1346,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -55996,7 +55996,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1161,
+      "durationMs": 1190,
       "attempts": 1,
       "athleteCount": 39,
       "athletes": [
@@ -56327,7 +56327,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 964,
+      "durationMs": 1069,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -56482,7 +56482,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 961,
+      "durationMs": 1053,
       "attempts": 1,
       "athleteCount": 21,
       "athletes": [
@@ -56669,7 +56669,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1165,
+      "durationMs": 1080,
       "attempts": 1,
       "athleteCount": 29,
       "athletes": [
@@ -56920,7 +56920,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 1436,
+      "durationMs": 1061,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -57131,7 +57131,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 1411,
+      "durationMs": 931,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -57294,7 +57294,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1319,
+      "durationMs": 1076,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -57513,7 +57513,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1165,
+      "durationMs": 1094,
       "attempts": 1,
       "athleteCount": 28,
       "athletes": [
@@ -57756,7 +57756,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 1147,
+      "durationMs": 1230,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -57975,7 +57975,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1165,
+      "durationMs": 1269,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -58298,7 +58298,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1919,
+      "durationMs": 2256,
       "attempts": 1,
       "athleteCount": 84,
       "athletes": [
@@ -58989,7 +58989,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 1566,
+      "durationMs": 1756,
       "attempts": 1,
       "athleteCount": 56,
       "athletes": [
@@ -59456,7 +59456,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 1166,
+      "durationMs": 1276,
       "attempts": 1,
       "athleteCount": 18,
       "athletes": [
@@ -59619,7 +59619,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1138,
+      "durationMs": 1059,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -59838,7 +59838,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1526,
+      "durationMs": 1404,
       "attempts": 1,
       "athleteCount": 47,
       "athletes": [
@@ -60233,7 +60233,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 2136,
+      "durationMs": 1936,
       "attempts": 1,
       "athleteCount": 76,
       "athletes": [
@@ -60860,7 +60860,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1381,
+      "durationMs": 1415,
       "attempts": 1,
       "athleteCount": 38,
       "athletes": [
@@ -61183,7 +61183,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-43/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1156,
+      "durationMs": 1310,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -61418,7 +61418,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 962,
+      "durationMs": 958,
       "attempts": 1,
       "athleteCount": 20,
       "athletes": [
@@ -61597,7 +61597,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 977,
+      "durationMs": 1123,
       "attempts": 1,
       "athleteCount": 23,
       "athletes": [
@@ -61800,7 +61800,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 966,
+      "durationMs": 894,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -61915,7 +61915,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1145,
+      "durationMs": 1069,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -62134,7 +62134,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 967,
+      "durationMs": 966,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -62257,7 +62257,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 956,
+      "durationMs": 977,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -62412,7 +62412,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 959,
+      "durationMs": 880,
       "attempts": 1,
       "athleteCount": 16,
       "athletes": [
@@ -62559,7 +62559,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1153,
+      "durationMs": 1096,
       "attempts": 1,
       "athleteCount": 26,
       "athletes": [
@@ -62786,7 +62786,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 952,
+      "durationMs": 931,
       "attempts": 1,
       "athleteCount": 17,
       "athletes": [
@@ -62941,7 +62941,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 957,
+      "durationMs": 915,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -63064,7 +63064,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1150,
+      "durationMs": 1113,
       "attempts": 1,
       "athleteCount": 33,
       "athletes": [
@@ -63347,7 +63347,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1161,
+      "durationMs": 1275,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -63646,7 +63646,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 956,
+      "durationMs": 940,
       "attempts": 1,
       "athleteCount": 14,
       "athletes": [
@@ -63777,7 +63777,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1157,
+      "durationMs": 1089,
       "attempts": 1,
       "athleteCount": 26,
       "athletes": [
@@ -64004,7 +64004,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1551,
+      "durationMs": 1337,
       "attempts": 1,
       "athleteCount": 46,
       "athletes": [
@@ -64391,7 +64391,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 986,
+      "durationMs": 1235,
       "attempts": 1,
       "athleteCount": 25,
       "athletes": [
@@ -64610,7 +64610,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 987,
+      "durationMs": 1060,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -64725,7 +64725,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 959,
+      "durationMs": 947,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -64864,7 +64864,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1148,
+      "durationMs": 1104,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -65075,7 +65075,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1581,
+      "durationMs": 1630,
       "attempts": 1,
       "athleteCount": 61,
       "athletes": [
@@ -65582,7 +65582,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1157,
+      "durationMs": 956,
       "attempts": 1,
       "athleteCount": 20,
       "athletes": [
@@ -65761,7 +65761,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-44/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 975,
+      "durationMs": 943,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -65900,7 +65900,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1151,
+      "durationMs": 1140,
       "attempts": 1,
       "athleteCount": 36,
       "athletes": [
@@ -66207,7 +66207,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 1319,
+      "durationMs": 1082,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [
@@ -66605,7 +66605,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1328,
+      "durationMs": 1412,
       "attempts": 1,
       "athleteCount": 46,
       "athletes": [
@@ -66992,7 +66992,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1164,
+      "durationMs": 1187,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -67414,7 +67414,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 974,
+      "durationMs": 929,
       "attempts": 1,
       "athleteCount": 15,
       "athletes": [
@@ -67553,7 +67553,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 976,
+      "durationMs": 1085,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -67748,7 +67748,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 973,
+      "durationMs": 1095,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -67959,7 +67959,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 952,
+      "durationMs": 944,
       "attempts": 1,
       "athleteCount": 8,
       "athletes": [
@@ -68042,7 +68042,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 962,
+      "durationMs": 927,
       "attempts": 1,
       "athleteCount": 20,
       "athletes": [
@@ -68221,7 +68221,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1143,
+      "durationMs": 1065,
       "attempts": 1,
       "athleteCount": 29,
       "athletes": [
@@ -68472,7 +68472,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 952,
+      "durationMs": 976,
       "attempts": 1,
       "athleteCount": 7,
       "athletes": [
@@ -68547,7 +68547,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1350,
+      "durationMs": 1742,
       "attempts": 1,
       "athleteCount": 49,
       "athletes": [
@@ -68958,7 +68958,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1759,
+      "durationMs": 1671,
       "attempts": 1,
       "athleteCount": 76,
       "athletes": [
@@ -69585,7 +69585,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 1793,
+      "durationMs": 2180,
       "attempts": 1,
       "athleteCount": 92,
       "athletes": [
@@ -70340,7 +70340,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 1611,
+      "durationMs": 1298,
       "attempts": 1,
       "athleteCount": 53,
       "athletes": [
@@ -70783,7 +70783,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1154,
+      "durationMs": 1218,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [
@@ -71058,7 +71058,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1352,
+      "durationMs": 1455,
       "attempts": 1,
       "athleteCount": 48,
       "athletes": [
@@ -71461,7 +71461,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 2139,
+      "durationMs": 1987,
       "attempts": 1,
       "athleteCount": 102,
       "athletes": [
@@ -72296,7 +72296,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1553,
+      "durationMs": 1607,
       "attempts": 1,
       "athleteCount": 55,
       "athletes": [
@@ -72755,7 +72755,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-45/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1361,
+      "durationMs": 1298,
       "attempts": 1,
       "athleteCount": 43,
       "athletes": [
@@ -73118,7 +73118,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF40/367",
       "status": "ok",
       "error": null,
-      "durationMs": 1562,
+      "durationMs": 1453,
       "attempts": 1,
       "athleteCount": 54,
       "athletes": [
@@ -73569,7 +73569,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF50/359",
       "status": "ok",
       "error": null,
-      "durationMs": 967,
+      "durationMs": 900,
       "attempts": 1,
       "athleteCount": 11,
       "athletes": [
@@ -73676,7 +73676,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTF60/384",
       "status": "ok",
       "error": null,
-      "durationMs": 948,
+      "durationMs": 952,
       "attempts": 1,
       "athleteCount": 10,
       "athletes": [
@@ -73775,7 +73775,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM40/366",
       "status": "ok",
       "error": null,
-      "durationMs": 1149,
+      "durationMs": 1111,
       "attempts": 1,
       "athleteCount": 27,
       "athletes": [
@@ -74010,7 +74010,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM50/323",
       "status": "ok",
       "error": null,
-      "durationMs": 1174,
+      "durationMs": 1171,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -74221,7 +74221,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTM60/385",
       "status": "ok",
       "error": null,
-      "durationMs": 959,
+      "durationMs": 942,
       "attempts": 1,
       "athleteCount": 13,
       "athletes": [
@@ -74344,7 +74344,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB12F/406",
       "status": "ok",
       "error": null,
-      "durationMs": 950,
+      "durationMs": 894,
       "attempts": 1,
       "athleteCount": 12,
       "athletes": [
@@ -74459,7 +74459,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB14F/389",
       "status": "ok",
       "error": null,
-      "durationMs": 1153,
+      "durationMs": 1237,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -74758,7 +74758,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB16F/409",
       "status": "ok",
       "error": null,
-      "durationMs": 959,
+      "durationMs": 1059,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -74953,7 +74953,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB12M/407",
       "status": "ok",
       "error": null,
-      "durationMs": 953,
+      "durationMs": 888,
       "attempts": 1,
       "athleteCount": 14,
       "athletes": [
@@ -75084,7 +75084,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB14M/388",
       "status": "ok",
       "error": null,
-      "durationMs": 1135,
+      "durationMs": 887,
       "attempts": 1,
       "athleteCount": 24,
       "athletes": [
@@ -75295,7 +75295,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTSUB16M/408",
       "status": "ok",
       "error": null,
-      "durationMs": 1146,
+      "durationMs": 1070,
       "attempts": 1,
       "athleteCount": 26,
       "athletes": [
@@ -75522,7 +75522,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFA/295",
       "status": "ok",
       "error": null,
-      "durationMs": 760,
+      "durationMs": 742,
       "attempts": 1,
       "athleteCount": 0,
       "athletes": []
@@ -75540,7 +75540,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFB/296",
       "status": "ok",
       "error": null,
-      "durationMs": 1163,
+      "durationMs": 1262,
       "attempts": 1,
       "athleteCount": 22,
       "athletes": [
@@ -75735,7 +75735,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFC/297",
       "status": "ok",
       "error": null,
-      "durationMs": 1888,
+      "durationMs": 1797,
       "attempts": 1,
       "athleteCount": 78,
       "athletes": [
@@ -76378,7 +76378,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFD/353",
       "status": "ok",
       "error": null,
-      "durationMs": 2172,
+      "durationMs": 2213,
       "attempts": 1,
       "athleteCount": 105,
       "athletes": [
@@ -77237,7 +77237,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTFE/377",
       "status": "ok",
       "error": null,
-      "durationMs": 1562,
+      "durationMs": 1800,
       "attempts": 1,
       "athleteCount": 49,
       "athletes": [
@@ -77648,7 +77648,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMA/290",
       "status": "ok",
       "error": null,
-      "durationMs": 1154,
+      "durationMs": 914,
       "attempts": 1,
       "athleteCount": 23,
       "athletes": [
@@ -77851,7 +77851,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMB/291",
       "status": "ok",
       "error": null,
-      "durationMs": 1558,
+      "durationMs": 1255,
       "attempts": 1,
       "athleteCount": 35,
       "athletes": [
@@ -78150,7 +78150,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMC/292",
       "status": "ok",
       "error": null,
-      "durationMs": 1613,
+      "durationMs": 1981,
       "attempts": 1,
       "athleteCount": 74,
       "athletes": [
@@ -78761,7 +78761,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTMD/351",
       "status": "ok",
       "error": null,
-      "durationMs": 1589,
+      "durationMs": 2218,
       "attempts": 1,
       "athleteCount": 69,
       "athletes": [
@@ -79332,7 +79332,7 @@
       "url": "https://fpt.com.br/Ranking/BeachTennis/2026/bt-regiao-46/BTME/378",
       "status": "ok",
       "error": null,
-      "durationMs": 1189,
+      "durationMs": 1490,
       "attempts": 1,
       "athleteCount": 32,
       "athletes": [
@@ -79340,7 +79340,7 @@
           "position": 1,
           "athleteCode": "45731",
           "name": "Jefferson Albuquerque",
-          "categoryCode": "BTME",
+          "categoryCode": "BTMD",
           "sourcePosition": 1,
           "points": 16055
         },
